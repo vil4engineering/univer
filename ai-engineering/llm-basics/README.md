@@ -66,7 +66,7 @@ This is why decoding is sequential and why small changes in sampling settings ca
 
 ## Training (high-level loop)
 
-Training (обучение) means adjusting trainable **parameters / weights** to reduce error on next-token prediction.
+Training means adjusting trainable **parameters / weights** to reduce error on next-token prediction.
 
 Conceptual pretraining loop:
 
@@ -74,14 +74,14 @@ Conceptual pretraining loop:
 2. Feed a prefix as input.
 3. Predict the next token.
 4. Compare with the **target token** from the original text.
-5. Compute **loss** (ошибка / функция потерь).
+5. Compute **loss**.
 6. Update parameters to reduce loss.
 7. Repeat at massive scale.
 
 Example (simplified):
 
-- Training text: `Мама мыла раму`
-- Input: `Мама мыла`
+- Training text: `The cat sat on the mat`
+- Input: `The cat sat`
 - Target token: comes from the same original text continuation (no human labels per step).
 
 The model does not explicitly store rules like “you cannot wash electricity”. Instead, training updates parameters so that, in similar contexts, unlikely continuations get lower probability.
@@ -106,7 +106,7 @@ A normal chat is **inference**, not training.
 
 Why it can look like “memory” anyway:
 
-- The model is conditioned on the **context window** (контекстное окно): conversation history tokens are part of the input, so they influence next-token probabilities.
+- The model is conditioned on the **context window**: conversation history tokens are part of the input, so they influence next-token probabilities.
 - See [03 · Context Window](../context-window/README.md) for the precise constraints and truncation/summarization strategies.
 
 ## Weights, parameters, and “7B”
@@ -114,11 +114,11 @@ Why it can look like “memory” anyway:
 - **Parameter / weight:** a learned numeric value used inside the model’s computations (most are floating-point numbers; precise structure depends on architecture).
 - **“7B parameters”:** roughly seven billion learned numbers. More parameters often allow higher capacity, but do not guarantee correctness, and come with memory/latency costs.
 
-Key intuition: you cannot point at one parameter and say “this is the engine fact”. LLM behavior is a **distributed representation** (распределённое представление): many parameters interact to shape token probabilities.
+Key intuition: you cannot point at one parameter and say “this is the engine fact”. LLM behavior is a **distributed representation**: many parameters interact to shape token probabilities.
 
 ## GPU and parallel computation (short)
 
-Training relies on large-scale **linear algebra** (линейная алгебра), especially matrix multiplications, which are highly parallel.
+Training relies on large-scale **linear algebra**, especially matrix multiplications, which are highly parallel.
 
 - **GPUs** are useful because they can execute many parallel numeric operations efficiently.
 - Superficial similarity to crypto mining: both benefit from parallel hardware.
