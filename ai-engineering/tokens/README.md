@@ -32,13 +32,27 @@
 
 | Term | Detail |
 |------|--------|
-| **Token** | Integer ID mapping to a subword piece in model vocabulary |
+| **Token** | A piece of text (subword fragment) produced by a tokenizer; not necessarily a word |
+| **Token ID** | Integer index into the tokenizer’s vocabulary for a token |
+| **Tokenizer** | The mapping layer from text to token IDs (model-specific) |
 | **Vocabulary** | Fixed set of tokens model was trained on (e.g. 32k–128k) |
 | **BPE** | Byte Pair Encoding — iterative merge of frequent pairs |
 | **Prefill tokens** | All prompt tokens processed before first output token |
 | **Completion tokens** | Generated output tokens (autoregressive) |
 | **Token budget** | Planned allocation: system + tools + history + user + reserved output |
 | **Special tokens** | BOS, EOS, padding — model-specific |
+
+**Conceptual pipeline:**
+
+```text
+String → Tokenizer → [Token ID]
+```
+
+Notes:
+
+- A **Token ID** is an integer index in a specific tokenizer vocabulary. It is **not a hash** and has no semantic meaning by itself.
+- The same text fragment can map to **different Token IDs** in different tokenizers/models.
+- A “word” can be one token or multiple tokens depending on the tokenizer and language.
 
 **Rough sizing (English, varies by model):**
 
