@@ -1,6 +1,6 @@
 # Faculty of AI Engineering
 
-Maturity spine (not a tech checklist): Foundations → Model Integration → Structured Outputs → Tool Calling → Evaluations → Reliable Systems → Agents.
+Maturity spine (не tech checklist): Foundations → Model Integration → Structured Outputs → Tool Calling → Evaluations → Reliable Systems → Agents.
 
 | Topic | Library |
 |-------|---------|

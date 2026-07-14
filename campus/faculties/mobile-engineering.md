@@ -2,7 +2,7 @@
 
 | Area | Library |
 |------|---------|
-| Swift (all) | [swift/](../../swift/) |
+| Swift (все) | [swift/](../../swift/) |
 | Concurrency | [swift/concurrency](../../swift/concurrency/) |
 | iOS SDK | [ios-sdk/](../../ios-sdk/) |
 | Networking | [data-and-network/networking](../../data-and-network/networking/) |

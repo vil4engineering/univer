@@ -44,6 +44,6 @@
   - [Paths (spec)](/05_PATHS.md)
 
 - **Warehouse & projects**
-  - [Library catalog (all topics)](/campus/library/)
+  - [Library catalog (все топики)](/campus/library/)
   - [Staged projects](/projects/)
   - [Projects map](/campus/projects-map.md)

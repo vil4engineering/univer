@@ -1,117 +1,117 @@
 # 03 · Curriculum
 
 **Project:** Engineering University  
-**Status:** Phase 1 governance (revised — Leadership faculty + lesson contract)  
+**Status:** governance (Leadership faculty + lesson contract)  
 **Related:** [02_PHILOSOPHY.md](02_PHILOSOPHY.md) · [04_STRUCTURE.md](04_STRUCTURE.md) · [05_PATHS.md](05_PATHS.md)
 
-## Curriculum is not a directory tree
+## Curriculum — это не дерево папок
 
-Students study a **program**.
+Студент учит **программу**.
 
-They do not study `swift/`, `ios-sdk/`, or any Git folder as the unit of learning.
+Он не учит `swift/`, `ios-sdk/` или любую Git-папку как единицу обучения.
 
-Existing folders may host materials for topics. Mapping from curriculum units to files is a storage concern — see [04_STRUCTURE.md](04_STRUCTURE.md).
+Существующие папки могут хранить материалы тем. Связка «curriculum unit → файл» — вопрос storage; см. [04_STRUCTURE.md](04_STRUCTURE.md).
 
 ## Faculties
 
-| Faculty | Purpose |
-|---------|---------|
-| Faculty of Computer Science | Fundamentals, algorithms, mathematics, problem solving |
-| Faculty of Software Engineering | Architecture patterns, quality systems, delivery mechanics |
-| Faculty of Mobile Engineering | Apple platforms, Swift, UI, device and OS constraints |
-| Faculty of AI Engineering | Reliable AI systems by maturity |
-| Faculty of Product Engineering | Shipping judgment, product constraints, coherent delivery |
+| Faculty | Назначение |
+|---------|------------|
+| Faculty of Computer Science | Fundamentals, algorithms, математика, problem solving |
+| Faculty of Software Engineering | Architecture patterns, quality systems, delivery |
+| Faculty of Mobile Engineering | Apple platforms, Swift, UI, device/OS constraints |
+| Faculty of AI Engineering | Надёжные AI-системы по maturity |
+| Faculty of Product Engineering | Shipping judgment, product constraints, согласованная delivery |
 | Faculty of Engineering Leadership | Ownership, decisions, teams, incidents, mentoring, strategy |
-| Faculty of Career Development | Interview craft and growth habits — not ownership of the `career` repository |
+| Faculty of Career Development | Interview craft и привычки роста — не владение репозиторием `career` |
 
-Faculties own **subjects**. Subjects appear in **semesters** and **paths**.
+Faculties владеют **subjects**. Subjects появляются в **semesters** и **paths**.
 
-### Faculty role boundaries
+### Границы ролей faculties
 
-| Faculty | Owns | Does not own |
-|---------|------|--------------|
-| Engineering Leadership | How an engineer leads systems, people, and decisions | Private career facts, salary, recruiter strategy |
-| Product Engineering | Product/shipping trade-offs in the codebase and roadmap | org politics as a primary subject |
-| Career Development | Answer depth, interview narration, pressure craft | The external `career` repository |
-| Software / Mobile | Technical mechanisms and platform craft | Leadership as a substitute for deep technique |
+| Faculty | Owns | Не owns |
+|---------|------|---------|
+| Engineering Leadership | Как инженер ведёт systems, people и decisions | Private career facts, salary, recruiter strategy |
+| Product Engineering | Product/shipping trade-offs в codebase и roadmap | org politics как основной subject |
+| Career Development | Answer depth, interview narration, pressure craft | Внешний репозиторий `career` |
+| Software / Mobile | Technical mechanisms и platform craft | Leadership как замена глубокой технике |
 
 ## Faculty of Engineering Leadership
 
-Primary long-term faculty for Student A (Senior → Senior+/Lead).  
-Also durable for Student B years later — these skills are rarely taught systematically.
+Основной long-term faculty для Student A (Senior → Senior+/Lead).  
+Позже полезен и Student B — эти skills редко преподают системно.
 
-Canonical subject list (Charter):
+Канонический список subjects (Charter):
 
 | # | Subject | Core question |
 |---|---------|---------------|
-| 01 | Technical Ownership | Who is accountable when quality, delivery, or failure hits production? |
-| 02 | Architecture | How do we structure systems for change without worshiping patterns? |
-| 03 | Decision Making | How do we choose under constraints and defend the choice? |
-| 04 | Engineering Standards | What do we require of every change — and why? |
-| 05 | Code Review | How do reviews protect the system and the culture? |
-| 06 | Mentoring | How do we raise the team bar without creating dependency? |
-| 07 | Cross-functional Communication | How do we make trade-offs clear across roles? |
-| 08 | Product Engineering | How do engineering choices serve product outcomes? |
-| 09 | Career Story | How do we narrate real impact without inventing folklore? |
-| 10 | Interview Engineering | How do we demonstrate Senior+/Lead thinking under pressure? |
+| 01 | Technical Ownership | Кто accountable, когда quality, delivery или failure бьют production? |
+| 02 | Architecture | Как структурировать systems for change без культа patterns? |
+| 03 | Decision Making | Как выбирать под constraints и защищать выбор? |
+| 04 | Engineering Standards | Что требуем от каждого change — и почему? |
+| 05 | Code Review | Как reviews защищают system и culture? |
+| 06 | Mentoring | Как поднимать планку команды без зависимости от ментора? |
+| 07 | Cross-functional Communication | Как ясно объяснять trade-offs между ролями? |
+| 08 | Product Engineering | Как engineering choices служат product outcomes? |
+| 09 | Career Story | Как рассказывать real impact без фольклора? |
+| 10 | Interview Engineering | Как показать Senior+/Lead thinking under pressure? |
 
-Subject 08 overlaps Product Engineering faculty on purpose: Leadership treats product judgment as a leadership competency; Product Engineering faculty goes deeper into shipping mechanics.
+Subject 08 специально пересекается с Product Engineering: Leadership считает product judgment leadership-компетенцией; Product Engineering faculty глубже в shipping mechanics.
 
-Subjects 09–10 connect to Career Development craft without absorbing the external `career` repository. Private facts stay outside; university lessons stay teachable and honest.
+Subjects 09–10 связываются с Career Development craft, не поглощая внешний `career`. Private facts снаружи; university lessons — обобщённые и teachable.
 
-Related depths that appear inside these subjects when needed: incident response (Ownership / Standards), technical strategy (Decision Making / Architecture).
+Смежные глубины внутри subjects по необходимости: incident response (Ownership / Standards), technical strategy (Decision Making / Architecture).
 
-## Senior+/Lead lesson contract
+## Lesson contract · Senior+/Lead
 
-Used for Path Alpha lessons and Leadership subjects.
+Для Path Alpha и Leadership subjects.
 
-**Goal:** systematically close the gap between a strong Senior and a Senior+/Lead.  
-**Not the goal:** teach isolated technologies or interview trivia.
+**Goal:** системно закрыть разрыв strong Senior → Senior+/Lead.  
+**Не goal:** учить изолированные technologies или interview trivia.
 
-Optimize for engineering reasoning, decision-making, and real-world ownership.
+Оптимизируем engineering reasoning, decision-making и real-world ownership.
 
-### Honesty rule
+### Правило честности
 
-- Do not assume experience the student never claimed.
-- Never invent or exaggerate project stories.
-- Connect to career evidence only when it exists; otherwise say so explicitly.
-- Private facts stay in the external `career` repository — university lessons stay generalized and teachable.
+- Не предполагать опыт, который студент не заявлял.
+- Не выдумывать и не раздувать project stories.
+- Связывать с career evidence только когда оно есть; иначе говорить явно.
+- Private facts — во внешнем `career`; university lessons остаются generalized и teachable.
 
-### Three mandatory questions (every topic)
+### Три обязательных вопроса (каждый topic)
 
-1. What problem does it solve?
-2. Why would an engineering organization choose it?
-3. What trade-offs does it introduce?
+1. Какую проблему это решает?
+2. Почему engineering organization выбрала бы это?
+3. Какие trade-offs это вводит?
 
-Technology is never studied in isolation. Everything connects to engineering decisions.
+Technology никогда не изучается в изоляции. Всё связано с engineering decisions.
 
-### Lesson shape (one competency per lesson)
+### Форма урока (одна competency = один lesson)
 
 | Section | Intent |
 |---------|--------|
-| 1. Mental model | First principles — why it exists (not APIs/syntax) |
-| 2. Decision framework | How experienced engineers choose (why / why not) |
-| 3. Alternatives | Pros, cons, scale, maintenance, team, onboarding, testing, business impact |
-| 4. Interview perspective | Typical questions; Junior → Middle → Senior → Lead distinctions |
-| 5. Real-world ownership | How the decision changes for Senior / Tech Lead / Staff / Architect |
-| 6. Connect to experience | Only confirmed experience; gaps stated honestly |
-| 7. Interview answer | Concise natural answer + why it is strong |
-| 8. Deep dive | Follow-up challenges until mastery — do not advance early |
+| 1. Mental model | First principles — почему существует (не APIs/syntax) |
+| 2. Decision framework | Как опытные engineers выбирают (why / why not) |
+| 3. Alternatives | Pros/cons, scale, maintenance, team, onboarding, testing, business impact |
+| 4. Interview perspective | Типичные вопросы; Junior → Middle → Senior → Lead |
+| 5. Real-world ownership | Как решение меняется для Senior / Tech Lead / Staff / Architect |
+| 6. Connect to experience | Только подтверждённый опыт; gaps — честно |
+| 7. Interview answer | Короткий natural answer + почему он сильный |
+| 8. Deep dive | Follow-up до mastery — не продвигаться раньше времени |
 
-Mastery gate: the coach (human or agent) must be convinced the competency is understood before the next lesson.
+Mastery gate: coach (человек или agent) убеждён, что competency понята, до следующего lesson.
 
-### Anti-patterns for lessons
+### Anti-patterns уроков
 
-- "Because it is best"
-- Memorized cheat sheets
-- API tours without a decision
-- Optimizing to "pass interviews" instead of becoming the engineer who naturally passes them
+- «Because it is best»
+- Зазубренные cheat sheets
+- API tours без decision
+- Оптимизация «сдать interviews» вместо того, чтобы стать инженером, который проходит их naturally
 
-Prefer **why** over bare **how**.
+Предпочитаем **why** голому **how**.
 
 ## Competency roadmap (cross-faculty)
 
-Eventually cover (mapped later to subjects and paths):
+Со временем покрыть (позже маппинг на subjects и paths):
 
 **Leadership / judgment**
 
@@ -124,7 +124,7 @@ Eventually cover (mapped later to subjects and paths):
 - Decision Making
 - System Thinking
 - Product Engineering
-- Career Growth (leadership sense)
+- Career Growth (в смысле leadership)
 
 **Systems / craft**
 
@@ -147,9 +147,9 @@ Eventually cover (mapped later to subjects and paths):
 - Security
 - Performance
 
-Technologies appear as **decision cases** inside competencies — not as a folder checklist.
+Technologies появляются как **decision cases** внутри competencies — не как checklist папок.
 
-## Program shape
+## Форма программы
 
 ```text
 Curriculum
@@ -161,85 +161,85 @@ Curriculum
 └── Projects
 ```
 
-Semesters are ordered learning blocks.  
-Topics are subject units inside faculties.  
-Labs are one-question experiments.  
-Projects are larger constructions (including, later, the Living Application).
+Semesters — упорядоченные блоки обучения.  
+Topics — единицы subjects внутри faculties.  
+Labs — эксперименты на один вопрос.  
+Projects — крупные конструкции (позже — Living Application).
 
-## Subject template (storage / completeness)
+## Шаблон subject (storage / completeness)
 
-Every subject should eventually declare:
+Каждый subject со временем объявляет:
 
 | Field | Intent |
 |-------|--------|
-| Problem | What real difficulty motivates this subject? |
-| Need | What capability is missing without it? |
-| Concept | Mental model and vocabulary |
-| Implementation | What is built |
-| Laboratory | One engineering question |
-| Reflection | What was learned; what failed |
+| Problem | Какая реальная трудность мотивирует subject? |
+| Need | Какой capability не хватает без него? |
+| Concept | Mental model и vocabulary |
+| Implementation | Что строится |
+| Laboratory | Один engineering вопрос |
+| Reflection | Что выучено; что failed |
 | Completeness gates | Explain · Demonstrate · Test · Reuse |
 | Interview Readiness | Questions, trade-offs, pitfalls, depth tiers |
-| Teaching note | How Student A/B can teach this |
+| Teaching note | Как Student A/B могут это преподать |
 
-For Senior+/Lead lessons, use the **lesson contract** sections above in addition to this template.
+Для Senior+/Lead lessons поверх шаблона — **lesson contract** выше.
 
-A subject may be incomplete. It must not pretend to be complete.
+Subject может быть incomplete. Он не должен притворяться complete.
 
-## Semester model (initial sketch)
+## Модель semesters (черновик)
 
-Exact semester contents will be revised as lessons start. Direction only.
+Точное наполнение пересмотрим по мере уроков. Сейчас — направление.
 
 ### Semester 1 — Foundations of thinking
 
-- Problem solving habits
-- Computer science entry
-- Basic programming craft
-- Small verified programs
-- First reflections and simple interview questions
+- Привычки problem solving
+- Вход в computer science
+- Базовый programming craft
+- Маленькие verified programs
+- Первые reflections и простые interview questions
 
-Primary audience: Student B; Student A reviews gaps.
+Primary audience: Student B; Student A закрывает gaps.
 
 ### Semester 2 — Building correct software
 
-- Types, structure, and clarity
-- Testing as a habit
-- Debugging and feedback loops
-- First software-engineering subjects
+- Types, structure, clarity
+- Testing как привычка
+- Debugging и feedback loops
+- Первые software-engineering subjects
 
 ### Semester 3 — Systems on a device
 
 - Mobile constraints
-- UI and state
-- Data and networking problems as needs
-- Architecture as response to scale of problem — not fashion
+- UI и state
+- Data и networking как потребности
+- Architecture как ответ на scale проблемы — не fashion
 
 ### Semester 4 — Ownership and hard quality
 
-- Technical ownership and decision making (Leadership 01–03)
-- Concurrency, reliability, performance as design forces
-- Interview Readiness intensifies for Student A
+- Technical ownership и decision making (Leadership 01–03)
+- Concurrency, reliability, performance как design forces
+- Interview Readiness усиливается для Student A
 
 ### Semester 5 — AI as engineering
 
-Follow the AI maturity spine (below), not a vendor checklist.
+По AI maturity spine (ниже), не по vendor checklist.
 
 ### Semester 6+ — Leadership depth + integration
 
 - Mentoring, incidents, review culture, strategy (Leadership 05–10)
 - Cross-faculty problems
-- Project work toward Living Application criteria
-- Teaching loops between students
+- Project work к критериям Living Application
+- Teaching loops между студентами
 
-Semesters can be re-sliced later. The rule remains: **harder real problems over time**.
+Semesters можно резать иначе. Правило неизменно: **со временем — более жёсткие реальные проблемы**.
 
 ## Faculty of AI Engineering — maturity spine
 
-Do not organize this faculty primarily as:
+Не организовывать faculty в первую очередь как:
 
 Tokens → Tools → Agents → …
 
-Organize growth as engineering maturity:
+Рост — как engineering maturity:
 
 ```text
 AI Foundations
@@ -251,37 +251,37 @@ AI Foundations
   → Agent Systems
 ```
 
-Technology names (embeddings, RAG, MCP, Foundation Models, etc.) appear **inside** these stages when a problem requires them.
+Имена technologies (embeddings, RAG, MCP, Foundation Models, …) появляются **внутри** стадий, когда проблема их требует.
 
 ## Interview Program (embedded)
 
-There is no separate "interview-only university."
+Отдельного «только-interview университета» нет.
 
-Interview Readiness is a required closing stage of each subject and of each Senior+/Lead lesson (sections 4, 7, 8).
+Interview Readiness — обязательный closing stage каждого subject и каждого Senior+/Lead lesson (sections 4, 7, 8).
 
 ```text
 Subject / Lesson
-  → Lab (when applicable)
+  → Lab (когда применимо)
   → Reflection
   → Interview Readiness
-  → Deep dive until mastery
+  → Deep dive до mastery
 ```
 
-Faculty of Career Development curates cross-cutting interview craft without absorbing the external career repository.
+Faculty of Career Development курирует cross-cutting interview craft, не поглощая внешний career repository.
 
-## Source materials (current repository)
+## Исходные материалы (текущий репозиторий)
 
-Today’s topic folders and playgrounds are **candidate materials** for faculties and labs. They are not the curriculum map.
+Сегодняшние topic folders и playgrounds — **кандидаты** материалов для faculties и labs. Это не карта curriculum.
 
-Promotion rules (later phases):
+Правила promotion (позже):
 
-- Strong explain + demo material → Topic candidate
-- One clear question + experiment → Lab candidate
-- Overlapping offline/sync/deeplink writeups → Merge candidates at curriculum level first
-- Explain-only AI pages → Incomplete until labs/projects close Completeness gates
-- Existing architecture / concurrency / testing topics → feed Path Alpha decision cases
+- Strong explain + demo → Topic candidate
+- Один ясный вопрос + experiment → Lab candidate
+- Пересекающиеся offline/sync/deeplink writeups → merge на уровне curriculum сначала
+- Explain-only AI pages → incomplete, пока labs/projects не закроют Completeness gates
+- Существующие architecture / concurrency / testing topics → decision cases для Path Alpha
 
-## What Phase 1 does not do
+## Что этот документ не делает
 
-This document does not migrate folders into Semester directories.  
-It defines how the university thinks about learning so later migration has a north star.
+Не мигрирует папки в Semester directories.  
+Задаёт, как университет думает об обучении, чтобы у поздней миграции был north star.

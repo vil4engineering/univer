@@ -1,6 +1,6 @@
 # Faculty of Product Engineering
 
-Shipping judgment and product-shaped system design.
+Shipping judgment и product-shaped system design.
 
 | Area | Library |
 |------|---------|

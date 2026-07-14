@@ -28,7 +28,7 @@ Home
      └─ Governance (Charter …)
 ```
 
-Encyclopedia-style long Library sections in the sidebar are **forbidden** in 0.1 (Order already removed them; keep it that way).
+- Auto-TOC в сайдбаре (`subMaxLevel`) — **выкл** в 0.1 (`subMaxLevel: 0`); заголовки страницы не дублируются в nav
 
 ## Sidebar contract (0.1)
 

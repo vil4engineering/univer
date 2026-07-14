@@ -1,8 +1,8 @@
 # Faculty of Career Development
 
-Interview craft and growth habits inside the university.
+Interview craft и привычки роста внутри университета.
 
-**Does not own** the private [`career`](https://github.com/vil4max/career) repository.
+**Не owns** private-репозиторий [`career`](https://github.com/vil4max/career).
 
 | Resource | Link |
 |----------|------|
