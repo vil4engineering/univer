@@ -1,2 +1,0 @@
-# English-only audit — 98 files scanned, 0 with issues
-

@@ -246,10 +246,10 @@ Playgrounds and labs live **inside** the university. See [campus/labs/](campus/l
 
 ## Languages
 
-- **Russian** — primary for building mental models (speed).  
-- **English** — mandatory terms, Apple docs, WWDC, Swift Evolution, and **English for Interview** blocks.  
+- **Russian** — primary prose for mental models (campus voice for v0.1).  
+- **English** — mandatory terms, APIs, Apple docs, WWDC, Swift Evolution, and optional **English for Interview** blocks.  
 
-English is woven into topics — not a separate course.
+Do **not** ship dual EN+RU mirrored pages or an EN-only encyclopedia voice. Details: [campus/LANGUAGE.md](campus/LANGUAGE.md).
 
 ---
 

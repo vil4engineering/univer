@@ -57,17 +57,15 @@ Library folders remain for search and depth.
 
 ## Storage map (current reality)
 
-Phase 1 does **not** reorganize the repository.
-
-Today, materials still live in the historical layout (examples only):
+Phase **Order** keeps warehouse paths in place. Materials still live in the historical layout:
 
 - `fundamentals/`, `swift/`, `ios-sdk/`, `architecture/`, …
 - `ai-engineering/`
 - co-located playgrounds
-- Docsify `index.html`, `_sidebar.md`
-- tooling under `scripts/`
+- Docsify `index.html`, thin `_sidebar.md` (Campus-first)
+- catalog SoT under `scripts/topic_tree.py`
 
-These paths remain valid storage until a later migration plan is approved.
+Physical migration waits for **Design → Ship 0.1**.
 
 ### Future physical layout (proposal only — not executed)
 
@@ -138,12 +136,17 @@ It should stop presenting the Git tree as the primary table of contents when cur
 
 ## Migration policy
 
-1. Governance first (this phase)
-2. Revision gate
-3. Curriculum index without moving files
-4. Lab registry without moving files
-5. Planned moves in small batches
-6. No deletes without archive decision
+1. Governance first — Done  
+2. System specs (progress, modes, metamodel) — Done  
+3. **Order** — Done · [REVISION_CHECKLIST](campus/REVISION_CHECKLIST.md)  
+4. **Design 0.1** — Done · [LAYOUT_0.1](campus/LAYOUT_0.1.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md)  
+5. **Ship 0.1** — Done · [SHIP_0.1_CHECKLIST](campus/SHIP_0.1_CHECKLIST.md) · **no mass-move**  
+6. Later moves only via new Design revision + small batches  
+7. No deletes of learning content without archive decision  
+
+### Future physical layout (still proposal — not 0.1)
+
+The tree below is **not** executed. 0.1 keeps warehouse roots at repo top level.
 
 ## What not to optimize for
 

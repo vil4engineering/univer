@@ -2,18 +2,17 @@
 
 **Project:** Engineering University  
 **Working name:** Engineering University (may change; the idea must not)  
-**Phase:** 1b — System specs locked (bootcamp OS) · lessons not started  
+**Phase:** **0.1 shipped** · Study unlocked (Path Alpha Stage 1)  
 **Date:** 2026-07-14
 
 ## Current state
 
-Campus structure + **operating system specs** are in-repo:
+University **0.1** is live as Docsify Campus-first OS:
 
-- Metamodel / graph types · Progress & Evidence · Full-time vs maintenance modes  
-- Reference Worlds · Code contract (Sandbox / Lab / Core) · Onion passport  
-- Path Alpha bootcamp spine  
-
-**Next human step:** review site → start Stage 1 study with write-back into `campus/paths/alpha.md`.
+- Order + Design specs ([LAYOUT_0.1](campus/LAYOUT_0.1.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md))  
+- No mass-move; warehouse paths stable  
+- Language: RU-primary + EN terms  
+- **Study unlocked** — start Path Alpha Stage 1 with Evidence write-back  
 
 Living Core World product still undecided; staged projects remain candidates.
 
@@ -29,12 +28,14 @@ Living Core World product still undecided; staged projects remain candidates.
 | Core World product-first (undecided app) | Binding |
 | Sandbox ≠ Core quality bars | Binding |
 | Two goals (A structured mastery + B entry) | Binding |
-| Campus indexes over mass file moves | Binding |
+| No mass-move in 0.1 ([LAYOUT_0.1](campus/LAYOUT_0.1.md)) | Binding |
 | Curriculum independent of directory tree | Binding |
 | Faculty of Engineering Leadership | Binding |
 | Path Alpha lesson contract | Binding |
 | Honesty about experience | Binding |
-| Living Application | **Intentionally undecided** |
+| Language: RU-primary + EN terms | Binding |
+| Docsify shell through 0.1 (leave = v0.2 trigger) | Binding |
+| Living Application | Intentionally undecided |
 | career / ios-hunter / pitstop-ios | Independent |
 | Word "knowledge base" | Retired |
 
@@ -44,29 +45,31 @@ Living Core World product still undecided; staged projects remain candidates.
 |-------|--------|
 | 0 Audit | Done |
 | 1 Governance + campus structure | Done |
-| 1b System specs (progress, modes, metamodel, code contract) | **Done (this push)** |
-| First study Stage 1 MVVM/modularity | Next |
+| 1b System specs | Done |
+| 1c Order | Done |
+| 2 Design (LAYOUT_0.1 + DISPLAY_0.1) | Done |
+| 3 Ship University 0.1 | **Done** |
+| 4 Study (Path Alpha Stage 1 + Evidence) | **Unlocked — next human work** |
 | Core World product choice | Later |
 | Interview Mode daily | After Evidence habits |
+| v0.2 (leave Docsify if needed) | Later |
 
-## Explicit non-goals
+## Explicit non-goals (still)
 
-- No mass folder migration to start lessons  
+- No mass folder migration without new Design revision  
 - No Living App by defaulting to a staged project  
-- No lessons without write-back protocol  
+- No reintroducing bilingual / EN-only lint  
+- No bulk RU translate of all Library pages in one shot  
 
 ## Governance index
 
 | Doc | Purpose |
 |-----|---------|
-| [campus/](campus/) | OS: paths, progress, modes, metamodel, contracts |
-| [campus/PROGRESS.md](campus/PROGRESS.md) | Evidence / status / heat |
-| [campus/OPERATING_MODES.md](campus/OPERATING_MODES.md) | Full-time vs maintenance |
-| [campus/METAMODEL.md](campus/METAMODEL.md) | Graph node/edge types |
-| [campus/CODE_CONTRACT.md](campus/CODE_CONTRACT.md) | Sandbox / Lab / Core |
-| [campus/REFERENCE_WORLDS.md](campus/REFERENCE_WORLDS.md) | Football Universe etc. |
+| [campus/SHIP_0.1_CHECKLIST.md](campus/SHIP_0.1_CHECKLIST.md) | 0.1 ship gate |
+| [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md) | Storage map |
+| [campus/DISPLAY_0.1.md](campus/DISPLAY_0.1.md) | Student IA |
+| [campus/LANGUAGE.md](campus/LANGUAGE.md) | RU-primary + EN terms |
+| [campus/REVISION_CHECKLIST.md](campus/REVISION_CHECKLIST.md) | Order gate (historical) |
+| [campus/paths/alpha.md](campus/paths/alpha.md) | Study entry |
+| [campus/PROGRESS.md](campus/PROGRESS.md) | Evidence vocabulary |
 | [01_CHARTER.md](01_CHARTER.md) | Constitution |
-| [02_PHILOSOPHY.md](02_PHILOSOPHY.md) | How learning works |
-| [03_CURRICULUM.md](03_CURRICULUM.md) | Faculties, lesson contract |
-| [04_STRUCTURE.md](04_STRUCTURE.md) | Campus vs Library |
-| [05_PATHS.md](05_PATHS.md) | Path rules |

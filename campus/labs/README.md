@@ -16,20 +16,18 @@ Status: **index of existing artifacts**. Physical paths unchanged.
 
 Details: [projects-map.md](../projects-map.md).
 
-## B. Playground labs (Library co-located)
+## B. Playground labs (first-class ids)
 
-| Area | Examples (open in Xcode) |
-|------|---------------------------|
-| Concurrency | `swift/concurrency/*.playground` |
-| Architecture | `architecture/**/*.playground` |
-| Networking / storage | `data-and-network/**/*.playground` |
-| Swift syntax / ARC | `swift/syntax`, `swift/memory-arc` |
-| Algorithms | `algorithms/structures/Jeff*.playground`, CodeKata |
-| Testing | `quality/testing/testing.playground` |
-| AI | `ai-engineering/mcp/ai_tooling_mcp.playground` |
-| System design | `system-design/mobile`, `feature-flags` playgrounds |
+| Lab id | Path | Linked topics |
+|--------|------|---------------|
+| `lab-pg-concurrency-primer` | `swift/concurrency/SwiftConcurrencyPrimer.playground` | Concurrency |
+| `lab-pg-structured-concurrency` | `swift/concurrency/StructuredConcurrencyLab.playground` | Concurrency |
+| `lab-pg-architecture-patterns` | `architecture/patterns/architecture_patterns.playground` | MVVM → TCA |
+| `lab-pg-modularization` | `architecture/modularization/modularization_spm_tuist_xcodegen.playground` | Modularization |
+| `lab-pg-networking` | `data-and-network/networking/networking.playground` | Networking |
+| `lab-pg-testing` | `quality/testing/testing.playground` | Testing |
 
-Full filesystem list grows over time; add **lab id** rows here when a playground becomes a first-class experiment.
+Other co-located playgrounds remain warehouse artifacts until promoted with a `lab-pg-*` id here.
 
 ## Completeness
 

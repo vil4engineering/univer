@@ -1,0 +1,28 @@
+# Language
+
+**Binding for Engineering University v0.1+.** Aligns with [01_CHARTER.md](../01_CHARTER.md) § Languages.
+
+## Policy
+
+| Layer | Language |
+|-------|----------|
+| Explanations, mental models, campus prose | **Russian** (RU-primary) |
+| Terms, API names, identifiers, Apple/WWDC vocabulary | **English as-is** (`Task`, `flow`, `MVVM` — not calques) |
+| Interview English | Optional dedicated blocks for spoken answers — not a full page twin |
+
+## Not this university
+
+- Dual EN+RU mirrored pages / `<details class="lang-ru">` bilingual format
+- EN-only encyclopedia as the product voice
+- Translating every technical term into Russian
+
+## Warehouse debt
+
+Legacy Library READMEs are often English-first. That is **inventory debt**, not the target.
+
+- New campus / path / faculty pages: RU-primary + EN terms from day one
+- Library topics: rewrite toward RU-primary when touched on a Path (progressive), not a bulk translate in Order phase
+
+## Tooling
+
+Bilingual / EN-only linters and migrate scripts are removed. Do not reintroduce them.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Full knowledge base tree. Every topic gets a folder; sidebar lists all."""
+"""Library warehouse catalog — source of truth for topic inventory (not Docsify sidebar)."""
 
 TOPIC_TREE = {
     "fundamentals": {
@@ -20,6 +20,7 @@ TOPIC_TREE = {
             "types-generics": "Types & Generics",
             "memory-arc": "Memory & ARC",
             "concurrency": "Concurrency",
+            "async-defer": "Async cleanup with defer",
             "metaprogramming": "Metaprogramming",
         },
     },
@@ -130,7 +131,7 @@ TOPIC_TREE = {
 
 STUB_TEMPLATE = """# {title}
 
-> **Status:** draft — content pending
+> **Status:** draft — content pending · language debt until Path rewrite (RU-primary)
 
 ## In 30 seconds
 

@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+
+# Machine-local agent files (do not commit)
+AGENTS.md
+.cursor/
+**/AGENTS.md
