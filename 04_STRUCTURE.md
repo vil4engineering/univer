@@ -19,41 +19,39 @@ Confusing these maps recreates a folder-shaped "encyclopedia" and undoes the uni
 
 ```text
 Engineering University
-├── Governance
-│   ├── PROJECT_STATUS
-│   ├── Charter
-│   ├── Philosophy
-│   ├── Curriculum
-│   ├── Structure
-│   └── Paths
-├── Faculties
-│   ├── Computer Science
-│   ├── Software Engineering
-│   ├── Mobile Engineering
-│   ├── AI Engineering
-│   ├── Product Engineering
-│   └── Career Development
-├── Curriculum program
-│   ├── Semesters
-│   ├── Subjects / Topics
-│   ├── Laboratories
-│   └── Projects
-├── Living Application   ← undecided
-└── Archive              ← inactive historical material
+├── Governance (root 01–05, PROJECT_STATUS)
+├── campus/                 ← student-facing academic map (indexes)
+│   ├── paths/
+│   ├── faculties/
+│   ├── labs/               ← registry (points at playgrounds + projects)
+│   ├── library/            ← map to legacy topic folders
+│   ├── TOPIC_TEMPLATE.md
+│   ├── LINKING.md
+│   └── SESSION_PROTOCOL.md
+├── Faculties (conceptual)
+├── Library (storage)       ← fundamentals/, swift/, … (existing)
+├── projects/               ← staged Xcode/SPM intakes
+├── Living Application      ← undecided
+├── Knowledge Graph         ← via LINKING + future registry
+├── Assessment / Portfolio  ← future
+└── Docsify site            ← sidebar: Campus first, Library second
 ```
 
-Students navigate **semesters, subjects, labs, projects**.  
-They do not navigate storage folders as the primary UX of learning.
+Students navigate **campus → paths/faculties/labs**.  
+Library folders remain for search and depth.
 
 ## Conceptual areas (roles)
 
 | Area | Role |
 |------|------|
-| Governance | Mission, rules, phase control |
+| Governance | Mission, rules, phase control — Charter is the constitution |
 | Curriculum | Program of study (faculties, semesters, subjects) |
-| Laboratories | One-question experiments |
-| Projects | Larger constructions; future Living Application home |
 | Paths | Student-specific routes through the same university |
+| Laboratories | One-question experiments (inside the university) |
+| Projects | Larger constructions; future Living Application home |
+| Knowledge Graph | Links between problems, decisions, labs, and reuse (future) |
+| Assessment | Mastery / progress against Completeness and lesson gates (future) |
+| Engineering Portfolio | Evidence of demonstrated, tested, reused work (future) |
 | Reference | Glossary, stable facts, curated external links |
 | Archive | Historically useful, no longer active |
 

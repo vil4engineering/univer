@@ -2,106 +2,78 @@
 
 **Project:** Engineering University  
 **Working name:** Engineering University (may change; the idea must not)  
-**Phase:** 1 — University Governance (+ staged project intake)  
-**Date:** 2026-07-13
+**Phase:** 1 — Campus structure published (lessons not started)  
+**Date:** 2026-07-14
 
 ## Current state
 
-**GitHub repository:** [`vil4max/ios-university`](https://github.com/vil4max/ios-university)
+**GitHub repository:** [`vil4max/ios-university`](https://github.com/vil4max/ios-university)  
+**Site:** [https://vil4max.github.io/ios-university/](https://vil4max.github.io/ios-university/)
 
-Phase 0 (repository audit) is complete and accepted with corrections.
+### Ready to see after push
 
-This repository is being redefined from a topic encyclopedia into a long-term **Engineering University**: a place where engineering is learned, verified, practiced, taught, and preserved through progressively harder real problems.
+| Layer | Location |
+|-------|----------|
+| Constitution | `01_CHARTER.md` … `05_PATHS.md` |
+| Campus map | [`campus/`](campus/) |
+| Paths | [`campus/paths/`](campus/paths/) |
+| Faculties → Library links | [`campus/faculties/`](campus/faculties/) |
+| Lab registry | [`campus/labs/`](campus/labs/) |
+| Projects ↔ Xcode map | [`campus/projects-map.md`](campus/projects-map.md) |
+| Onion template | [`campus/TOPIC_TEMPLATE.md`](campus/TOPIC_TEMPLATE.md) |
+| Linking / session protocol | `campus/LINKING.md`, `SESSION_PROTOCOL.md` |
+| Docsify IA | `_sidebar.md` — Campus first, Library second |
+| Legacy topics | unchanged folders (warehouse) |
 
-Physical topic folders and the Docsify presentation shell still exist. They are **storage and presentation**, not the curriculum.
+### Goals (locked)
 
-### Staged projects intake (2026-07-13)
+1. Student A — structure knowledge, fill gaps, one place to search; grow Senior+/Lead decision quality  
+2. Student B — interest + practice entry (family beginner)  
+Public repo OK; public growth is not the product goal.
 
-Five former standalone repositories now live under `projects/` as **separate projects** (not yet integrated):
+### Staged projects
 
-- `projects/ai-lab-ios`
-- `projects/flip-english`
-- `projects/groundhog-day-ios`
-- `projects/netsession-lab`
-- `projects/unit-tests-lab`
+Under `projects/` — see campus projects map. Living Application still undecided.
 
-Their GitHub remotes and local clones are retired after intake.  
-Integration into one campus project is a **later** step. Living Application remains undecided.
-
-## Binding decisions (locked for Phase 1)
+## Binding decisions
 
 | Decision | Status |
 |----------|--------|
 | Completeness Principle | Binding |
-| Problem-first learning | Binding |
-| Two students (experienced engineer + son) | Binding |
-| Faculties as academic organization | Binding |
+| Decisions over dogma | Binding |
+| Onion topics + whole-picture history when earned | Binding |
+| Two goals (A structured mastery + B entry) | Binding |
+| Campus indexes over mass file moves | Binding |
 | Curriculum independent of directory tree | Binding |
-| Interview Readiness as part of every subject | Binding |
+| Faculty of Engineering Leadership | Binding |
+| Path Alpha lesson contract | Binding |
+| Honesty about experience | Binding |
 | Living Application | **Intentionally undecided** |
-| career / ios-hunter / pitstop-ios | Independent — cite only, never own |
-| Word "knowledge base" | Retired in university governance |
-
-## Living Application
-
-**Not chosen.**
-
-Do not treat `ai-lab-ios`, PitStop, or any existing product as the campus application by default.
-
-Selection criteria (educational value first):
-
-1. Can evolve for many years
-2. Demonstrates engineering concepts inside one coherent system
-3. Stays simple enough to teach
-4. Can absorb mature laboratories when appropriate
-5. Does not become product-for-product’s-sake
+| career / ios-hunter / pitstop-ios | Independent |
+| Word "knowledge base" | Retired |
 
 ## Phase map
 
-| Phase | Name | Status |
-|-------|------|--------|
-| 0 | Repository audit | Done |
-| 1 | University governance | **In progress** |
-| — | Governance revision gate | Pending after Phase 1 docs |
-| 2 | Curriculum materialization | Not started |
-| 3 | Laboratories | Not started |
-| 4 | Living application selection & start | Not started |
-| 5 | AI Engineering track (maturity spine) | Not started |
-| 6 | Interview program embedded in subjects | Not started |
-| 7 | Continuous evolution | Not started |
+| Phase | Status |
+|-------|--------|
+| 0 Audit | Done |
+| 1 Governance + campus structure | **Publishing** |
+| First study (Architecture MVVM/modularity whole picture) | After push review |
+| 2–7 Curriculum materialization, Living App, … | Later |
 
-## Phase 1 deliverables
+## Explicit non-goals
 
-Create only:
-
-- `PROJECT_STATUS.md` (this file)
-- `01_CHARTER.md`
-- `02_PHILOSOPHY.md`
-- `03_CURRICULUM.md`
-- `04_STRUCTURE.md`
-- `05_PATHS.md`
-
-Then **stop**.
-
-## Explicit non-goals for Phase 1
-
-- No mass file moves
-- No deletion of topics or playgrounds
-- No Living Application implementation
-- No absorption of sibling product or career repositories
-- No README/site rebrand until governance revision passes
-
-## Next action after Phase 1
-
-Human + agent revision of the six governance documents.  
-Only after that revision: begin migration design (still not mass moves without a plan).
+- No mass folder migration to start lessons  
+- No Living App by defaulting to a staged project  
+- No lessons without write-back protocol  
 
 ## Governance index
 
 | Doc | Purpose |
 |-----|---------|
-| [01_CHARTER.md](01_CHARTER.md) | Mission, students, anti-goals, boundaries |
-| [02_PHILOSOPHY.md](02_PHILOSOPHY.md) | How engineers are formed |
-| [03_CURRICULUM.md](03_CURRICULUM.md) | Faculties, semesters, subject shape |
-| [04_STRUCTURE.md](04_STRUCTURE.md) | Conceptual vs physical layout |
-| [05_PATHS.md](05_PATHS.md) | Student routes through the university |
+| [campus/](campus/) | Student-facing structure |
+| [01_CHARTER.md](01_CHARTER.md) | Constitution |
+| [02_PHILOSOPHY.md](02_PHILOSOPHY.md) | How learning works |
+| [03_CURRICULUM.md](03_CURRICULUM.md) | Faculties, lesson contract |
+| [04_STRUCTURE.md](04_STRUCTURE.md) | Campus vs Library |
+| [05_PATHS.md](05_PATHS.md) | Path rules |

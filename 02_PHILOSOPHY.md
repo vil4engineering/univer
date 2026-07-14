@@ -4,12 +4,20 @@
 **Status:** Phase 1 governance  
 **Related:** [01_CHARTER.md](01_CHARTER.md) · [03_CURRICULUM.md](03_CURRICULUM.md)
 
+## Distinguishing principle (Charter)
+
+**Teach how to make engineering decisions — not what to think.**
+
+Detail and constitution: [01_CHARTER.md](01_CHARTER.md).
+
+This principle sits above framework preferences. Dogma (“always use X”) without problem, constraints, alternatives, and evidence is refused.
+
 ## Core thesis
 
 **Engineering is learned through progressively solving harder real problems.**
 
 The center of gravity is not the structure of stored topics.  
-The center of gravity is the **structure of forming an engineer**.
+The center of gravity is the **structure of forming an engineer** who can decide under uncertainty.
 
 ## Completeness Principle
 
@@ -108,6 +116,34 @@ Every subject should make explicit:
 4. When should it be used?
 5. What trade-offs exist?
 
+## Organizational decision questions
+
+For Senior+/Lead lessons, every topic must also answer:
+
+1. What problem does it solve?
+2. Why would an engineering organization choose it?
+3. What trade-offs does it introduce?
+
+Never answer with "because it is best." Everything has trade-offs.
+
+## Become the engineer, do not fake the interview
+
+Do not optimize for passing interviews.  
+Optimize for becoming the engineer who naturally passes interviews.
+
+Prefer **why** over bare **how**.
+
+Close the gap between strong Senior and Senior+/Lead through reasoning, decision-making, and ownership — not trivia.
+
+## Honesty about experience
+
+Lessons may connect to the student's real work only when evidence exists.
+
+- Do not invent stories.
+- Do not assume unclaimed experience.
+- If coverage is missing, say so explicitly.
+- Private career presentation remains outside this repository (`career`).
+
 ## Architecture first
 
 Teach systems and judgment.  
@@ -156,5 +192,8 @@ Progress is measured by harder problems solved well — not by folders visited.
 - Practice without reflection
 - Demos without a question
 - Interview answers without mental models
+- "Because it is best" without trade-offs
+- Invented or exaggerated experience stories
+- Advancing Path Alpha lessons before mastery
 - AI usage without evaluation and reliability thinking
 - Reorganizing files as a substitute for educational design
