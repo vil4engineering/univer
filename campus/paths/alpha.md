@@ -1,29 +1,40 @@
 # Path Alpha — Senior → Senior+/Lead
 
-Goal: decision quality under uncertainty. Lesson contract: [03_CURRICULUM.md](../../03_CURRICULUM.md).
+Goal: decision quality; interviews as side effect.  
+Modes: [OPERATING_MODES.md](../OPERATING_MODES.md) · Tracking: [PROGRESS.md](../PROGRESS.md).
 
-## Queue
+## Bootcamp spine (competency order)
 
-| Order | Competency | Library / campus hooks | Status |
-|-------|------------|------------------------|--------|
-| A0 | Setup | This campus map | Done |
-| A1 | Architecture: why MVVM & modularity (whole picture) | [patterns](../../architecture/patterns/) · [modularization](../../architecture/modularization/) · labs below | **Next study** |
-| A2 | Technical Ownership | Leadership 01 | Queued |
-| A3 | Decision Making | Leadership 03 · every topic | Ongoing |
-| A4 | Engineering Standards / Code Review | Leadership 04–05 · [git](../../fundamentals/git/) | Queued |
-| … | Leadership 06–10 | [faculty](../faculties/engineering-leadership.md) | Queued |
-| craft | Concurrency, testing, networking… as **decision cases** | Library | As needed |
+Prefer Interview Heat ★★★★★ early. Whole-picture / onion always.
 
-## Labs hooked for A1
+| Stage | Focus | Library hooks |
+|-------|--------|----------------|
+| 0 | Campus OS online | this folder |
+| 1 | Architecture: why MVVM & modularity | [patterns](../../architecture/patterns/) · [modularization](../../architecture/modularization/) |
+| 2 | Technical Ownership | Leadership 01 |
+| 3 | Core Swift runtime mind | memory-arc, types, protocols, concurrency primers |
+| 4 | Concurrency deep | [swift/concurrency](../../swift/concurrency/) |
+| 5 | SwiftUI fundamentals as system | [ios-sdk/swiftui](../../ios-sdk/swiftui/) |
+| 6 | UIKit as living legacy+modern | [ios-sdk/uikit](../../ios-sdk/uikit/) |
+| 7 | Networking whole picture | [data-and-network/networking](../../data-and-network/networking/) · `lab-netsession` |
+| 8 | Testing / quality | [quality/testing](../../quality/testing/) |
+| 9 | Performance / Instruments | [quality/performance](../../quality/performance/) · debug |
+| 10 | Leadership 04–10 | [faculty](../faculties/engineering-leadership.md) |
+| 11 | AI maturity spine | [ai-engineering](../../ai-engineering/) |
+| ∞ | WWDC / Evolution deltas | update topics + Evidence |
 
-- [architecture_patterns.playground](../../architecture/patterns/architecture_patterns.playground)
-- [modularization playground](../../architecture/modularization/modularization_spm_tuist_xcodegen.playground)
-- [navigation playground](../../architecture/navigation/navigation_coordinators_deeplinks.playground)
+Daily template inside a stage: pulse → deep onion → practice → review → mock.
+
+## Labs for stage 1
+
+- `architecture/patterns/architecture_patterns.playground`
+- `architecture/modularization/…playground`
+- `architecture/navigation/…playground`
 
 ## Progress log
 
-| Date | Competency | Write-back |
-|------|------------|------------|
-| — | — | Lessons not started |
+| Date | Topic | Status | Confidence | Evidence summary |
+|------|-------|--------|------------|------------------|
+| — | — | — | — | Lessons not started |
 
-Mastery gate: do not advance without write-back ([SESSION_PROTOCOL.md](../SESSION_PROTOCOL.md)).
+Mastery gate before advancing: Evidence + mock, not “feels done”.

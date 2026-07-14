@@ -2,7 +2,12 @@
 
 - **Campus**
   - [Campus home](/campus/)
+  - [Metamodel (graph)](/campus/METAMODEL.md)
+  - [Progress / Evidence](/campus/PROGRESS.md)
+  - [Operating modes](/campus/OPERATING_MODES.md)
   - [Topic template (onion)](/campus/TOPIC_TEMPLATE.md)
+  - [Reference worlds](/campus/REFERENCE_WORLDS.md)
+  - [Code contract](/campus/CODE_CONTRACT.md)
   - [Linking model](/campus/LINKING.md)
   - [Session protocol](/campus/SESSION_PROTOCOL.md)
   - [Lab registry](/campus/labs/)

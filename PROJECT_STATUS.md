@@ -2,38 +2,20 @@
 
 **Project:** Engineering University  
 **Working name:** Engineering University (may change; the idea must not)  
-**Phase:** 1 — Campus structure published (lessons not started)  
+**Phase:** 1b — System specs locked (bootcamp OS) · lessons not started  
 **Date:** 2026-07-14
 
 ## Current state
 
-**GitHub repository:** [`vil4max/ios-university`](https://github.com/vil4max/ios-university)  
-**Site:** [https://vil4max.github.io/ios-university/](https://vil4max.github.io/ios-university/)
+Campus structure + **operating system specs** are in-repo:
 
-### Ready to see after push
+- Metamodel / graph types · Progress & Evidence · Full-time vs maintenance modes  
+- Reference Worlds · Code contract (Sandbox / Lab / Core) · Onion passport  
+- Path Alpha bootcamp spine  
 
-| Layer | Location |
-|-------|----------|
-| Constitution | `01_CHARTER.md` … `05_PATHS.md` |
-| Campus map | [`campus/`](campus/) |
-| Paths | [`campus/paths/`](campus/paths/) |
-| Faculties → Library links | [`campus/faculties/`](campus/faculties/) |
-| Lab registry | [`campus/labs/`](campus/labs/) |
-| Projects ↔ Xcode map | [`campus/projects-map.md`](campus/projects-map.md) |
-| Onion template | [`campus/TOPIC_TEMPLATE.md`](campus/TOPIC_TEMPLATE.md) |
-| Linking / session protocol | `campus/LINKING.md`, `SESSION_PROTOCOL.md` |
-| Docsify IA | `_sidebar.md` — Campus first, Library second |
-| Legacy topics | unchanged folders (warehouse) |
+**Next human step:** review site → start Stage 1 study with write-back into `campus/paths/alpha.md`.
 
-### Goals (locked)
-
-1. Student A — structure knowledge, fill gaps, one place to search; grow Senior+/Lead decision quality  
-2. Student B — interest + practice entry (family beginner)  
-Public repo OK; public growth is not the product goal.
-
-### Staged projects
-
-Under `projects/` — see campus projects map. Living Application still undecided.
+Living Core World product still undecided; staged projects remain candidates.
 
 ## Binding decisions
 
@@ -42,6 +24,10 @@ Under `projects/` — see campus projects map. Living Application still undecide
 | Completeness Principle | Binding |
 | Decisions over dogma | Binding |
 | Onion topics + whole-picture history when earned | Binding |
+| Progress = Evidence (not vibes) | Binding |
+| Full-time bootcamp → later morning/evening | Binding |
+| Core World product-first (undecided app) | Binding |
+| Sandbox ≠ Core quality bars | Binding |
 | Two goals (A structured mastery + B entry) | Binding |
 | Campus indexes over mass file moves | Binding |
 | Curriculum independent of directory tree | Binding |
@@ -57,9 +43,11 @@ Under `projects/` — see campus projects map. Living Application still undecide
 | Phase | Status |
 |-------|--------|
 | 0 Audit | Done |
-| 1 Governance + campus structure | **Publishing** |
-| First study (Architecture MVVM/modularity whole picture) | After push review |
-| 2–7 Curriculum materialization, Living App, … | Later |
+| 1 Governance + campus structure | Done |
+| 1b System specs (progress, modes, metamodel, code contract) | **Done (this push)** |
+| First study Stage 1 MVVM/modularity | Next |
+| Core World product choice | Later |
+| Interview Mode daily | After Evidence habits |
 
 ## Explicit non-goals
 
@@ -71,7 +59,12 @@ Under `projects/` — see campus projects map. Living Application still undecide
 
 | Doc | Purpose |
 |-----|---------|
-| [campus/](campus/) | Student-facing structure |
+| [campus/](campus/) | OS: paths, progress, modes, metamodel, contracts |
+| [campus/PROGRESS.md](campus/PROGRESS.md) | Evidence / status / heat |
+| [campus/OPERATING_MODES.md](campus/OPERATING_MODES.md) | Full-time vs maintenance |
+| [campus/METAMODEL.md](campus/METAMODEL.md) | Graph node/edge types |
+| [campus/CODE_CONTRACT.md](campus/CODE_CONTRACT.md) | Sandbox / Lab / Core |
+| [campus/REFERENCE_WORLDS.md](campus/REFERENCE_WORLDS.md) | Football Universe etc. |
 | [01_CHARTER.md](01_CHARTER.md) | Constitution |
 | [02_PHILOSOPHY.md](02_PHILOSOPHY.md) | How learning works |
 | [03_CURRICULUM.md](03_CURRICULUM.md) | Faculties, lesson contract |

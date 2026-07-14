@@ -77,18 +77,34 @@ Eventually the same material should be readable by both at different onion layer
 
 ### Topic depth (onion)
 
-Every major topic is a **layered whole picture**, not only an API surface:
+Every major topic is a **multi-layer node**, not only an API surface:
 
-| Layer | Content |
-|-------|---------|
-| Surface | How to use it today |
-| Why / before | Problem people solved; what existed earlier |
-| Origin | History, people, links, diagrams — **when it earns its place** |
-| Experiment | Lab: “what happens if…?” |
+| Layer | Intent |
+|-------|--------|
+| 0 | What is it? (one minute) |
+| 1 | On fingers / life analogy |
+| 2 | Engineer practice |
+| 3 | Under the hood |
+| 4 | Sources / runtime / SIL when needed |
+| 5 | Research (WWDC, Evolution, papers) |
 
-Example: URLSession is dull as method lists; interesting as a chapter in the story of the internet and Apple’s networking stack.
+You may stop at any layer. Layers 0–2 are the default obligation; 3+ only where they earn their place.
 
-History is not mandatory ornament. Use it when it reveals the whole picture.
+History is not ornament and not the goal. **History exists only to explain the technology.**
+
+### North-star gate
+
+Before adding material, ask:
+
+> Does this help someone better understand the engineering world?
+
+If no — it does not enter the university, even if it is entertaining.
+
+### We study problems, not APIs
+
+APIs change. Problems remain.
+
+Every topic should show: problem → earlier solutions → today’s solution → where the industry is moving (including toward AI systems when relevant) — without fortune-telling.
 
 ---
 
@@ -194,111 +210,119 @@ Faculties, including **Faculty of Engineering Leadership**, map competencies int
 
 ---
 
-## Living Laboratory
+## Living product + laboratory spaces
 
-The university aims for **one continuously evolving application**.
+The university needs **live code**, not only Markdown.
 
-That application exists to **validate** engineering knowledge — not to ship a product for its own sake.
+### Core World (product)
 
-Every important concept should eventually appear inside it when mature enough:
+One continuously evolving application that is interesting to open even without studying.
 
-Concurrency · Observation · Persistence · Networking · Architecture · Performance · Testing · Security · …
+Rule: **technology appears because it improves the product**, not to demo an API.
 
-The concrete app remains **intentionally undecided** until educational criteria are met. Staged projects under `projects/` are parking-lot candidates or teaching cases — not automatic winners. See [PROJECT_STATUS.md](PROJECT_STATUS.md).
+Still **intentionally undecided** which app — a living reference world (e.g. Football Universe / companion-style) beats a demo zoo. Staged `projects/` are candidates. PitStop stays separate; ideas may flow both ways. See [campus/REFERENCE_WORLDS.md](campus/REFERENCE_WORLDS.md) and [campus/CODE_CONTRACT.md](campus/CODE_CONTRACT.md).
+
+### Spaces
+
+| Space | Role | Quality bar |
+|-------|------|-------------|
+| Core World | Ships, runs on device | Production-style |
+| Laboratory modules | Extend the world for a lesson | Clean + linked to a topic |
+| Sandbox / Evolution | Compare APIs, break rules; may be outside target | Compiles + teaches |
+
+### Never teach the tool before the problem
+
+Swagger, Figma, Jira, Instruments appear when a mission needs them.
 
 ---
 
 ## Laboratories
 
-Every important topic should contain **experiments**.
+Every important topic should contain **experiments** (“What happens if…?”).
 
-Not tutorials. Experiments.
+Playgrounds and labs live **inside** the university. See [campus/labs/](campus/labs/).
 
-Students are encouraged to answer:
+---
 
-> “What happens if…?”
+## Languages
 
-Playgrounds and labs belong **inside** the university as part of learning — not forever as orphan repos beside it.
+- **Russian** — primary for building mental models (speed).  
+- **English** — mandatory terms, Apple docs, WWDC, Swift Evolution, and **English for Interview** blocks.  
+
+English is woven into topics — not a separate course.
+
+---
+
+## GitHub and GitHub Pages
+
+| Surface | Role |
+|---------|------|
+| GitHub repo | Source of truth |
+| GitHub Pages | First product UI (schemes, diagrams, code, practice) |
+
+Git, PRs, reviews, and CI are curriculum. See [campus/CODE_CONTRACT.md](campus/CODE_CONTRACT.md).
+
+---
+
+## Progress is measurable
+
+Reading an article is at most **Learning**.
+
+States: `Not started` → `Learning` → `Practicing` → `Interview ready` → `Mastered`.
+
+**Mastered** requires Evidence (explain, interview, code, under-the-hood, task). Confidence 1–5. Interview Heat prioritizes offer-critical topics.
+
+Rhythms: full-time bootcamp while job-seeking; later short morning + evening maintenance (no heavy night overload). Specs: [campus/OPERATING_MODES.md](campus/OPERATING_MODES.md), [campus/PROGRESS.md](campus/PROGRESS.md).
+
+Interview Mode is a consequence of competence.
 
 ---
 
 ## Engineering Stories
 
-Knowledge without experience is incomplete.
-
-Every competency should connect to real work **whenever confirmed evidence exists**.
-
-No fictional stories.  
-No exaggerated claims.  
-If coverage is missing, say so.
-
-Confirmed project evidence lives in the private career system of record; university lessons cite it carefully without treating the `career` repository as owned content.
-
----
-
-## Interview Engineering
-
-Interview preparation is a **consequence of competence**.
-
-The university does not optimize for memorized answers.
-
-It optimizes for genuine understanding.
-
-If understanding is deep enough, interview answers become natural.
-
----
-
-## Progress
-
-Progress is measured by competencies.
-
-Not pages read.  
-Not videos watched.  
-Not hours spent.
-
-The only meaningful metric:
-
-> “What engineering decisions can I confidently make today that I could not make yesterday?”
-
-Assessment, Knowledge Graph, and Engineering Portfolio make that progress visible over time — see [04_STRUCTURE.md](04_STRUCTURE.md).
+Connect to confirmed work when evidence exists. Never invent. Private facts stay in `career`.
 
 ---
 
 ## External boundaries
 
-Structure and governance first. Absorb nothing by accident.
-
-These stay independent; the university may cite them:
-
 | Repository | Role |
 |------------|------|
-| career | Professional presentation / career SOT |
+| career | Career presentation / SOT |
 | ios-hunter | Career tooling |
-| pitstop-ios | Product (frozen) |
+| pitstop-ios | Real product (inspire, do not merge) |
+
+University is the learning center. Research starts here; products may spin out.
+
+---
+
+## Anti-goals (hard)
+
+- No Wikipedia / science museum  
+- No duplicating Apple docs  
+- Prefer depth over shallow coverage  
+- History only to explain *why*  
+- No Foo/Bar when a Reference World works  
+- No topic without a practice path  
+- No “finished forever” — evolve with WWDC / Swift / industry  
 
 ---
 
 ## Naming
 
-Use **Engineering University**.
-
-Do not describe this project as a “knowledge base.”
+Use **Engineering University**. Do not call it a knowledge base.
 
 ---
 
 ## Long-term Goal
 
-Engineering University should become a complete **engineering operating system** for continuous professional growth — not only interview prep, not only iOS.
+A living map of the engineering world — iOS as deepest specialization — that Student B can enter from zero and Student A can use to structure gaps, stay current, and pass Senior interviews as a side effect of understanding.
 
-Student A grows decision quality under uncertainty.  
-Student B grows from first principles into the same way of deciding — at a depth they can hold.
+If in five years we want to restart from Layer 0 ourselves, the architecture was right.
 
 ---
 
-## Success
+## Success / Failure
 
-The university succeeds when graduates (including its two students) make better engineering decisions under uncertainty — and can explain, demonstrate, test, reuse, and teach why.
-
-## Failure
-
-The university fails if it becomes a searchable pile of notes, a video checklist, or a folder of demos — even if every file looks complete.
+**Success:** better decisions under uncertainty; explain · demonstrate · test · reuse · teach; Evidence; living Core World.  
+**Failure:** note pile, demo zoo, API checklist, or entertaining encyclopedia without decisions.

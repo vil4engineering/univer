@@ -1,74 +1,78 @@
 # Topic template (onion)
 
-Use this shape for every major competency topic.
-
-IDs and paths may live under Library folders today; the **shape** is academic, not the Git folder name.
+Stable id + passport. Content may live under Library paths; shape is academic.
 
 ---
 
 ## Header
 
-- **Topic id:** (stable slug, e.g. `arch-mvvm`)
-- **Faculty:** 
-- **Competency:** 
-- **Audience depth:** A surface / A deep / B entry
-- **Completeness:** Explain · Demonstrate · Test · Reuse (mark each)
+- **Topic id:**
+- **Faculty / Path heat:**
+- **Status:** `not_started` | `learning` | `practicing` | `interview_ready` | `mastered`
+- **Confidence:** /5
+- **Interview Heat:** ★…
+- **Audience:** A deep / A surface / B entry
 
 ---
 
-## 1. Surface
+## Passport
 
-What do you use today? Minimal working vocabulary. No dogma.
+1. What is it?  
+2. Problem it solves  
+3. Why the problem appeared  
+4. What came before  
+5. Why that was not enough  
+6. Modern approach  
+7. Where next (evidence-based industry vector, including AI when relevant)  
+8. Where used  
 
-## 2. Problem
+---
 
-What hurt before this existed?
+## Layers
 
-## 3. Why organizations choose it
+### Layer 0 — One minute
+### Layer 1 — Analogy / life
+### Layer 2 — Practice level
+### Layer 3 — Under the hood (optional)
+### Layer 4 — Sources / runtime (optional)
+### Layer 5 — Research (optional)
 
-When does an engineering org adopt this? When does it refuse?
+Default obligation: 0–2. Deeper layers only when earned.
 
-## 4. Trade-offs
+---
 
-Cost, complexity, onboarding, testing, team scale, product impact.
+## Visual & practice (Pages-ready)
 
-## 5. Alternatives
+- Scheme / diagram  
+- Life analogy image or story  
+- Code (prefer Reference World / Core World)  
+- Experiment (“what if…”)  
+- Self-check questions (**answers forged in chat/mocks**, then written back)  
+- Official links  
 
-Competing approaches and honest comparison.
+---
 
-## 6. Whole picture / Origin (when it earns its place)
+## English for Interview
 
-History, people, prior art, links, diagrams.
+**RU:** …  
+**EN:** …
 
-Skip if there is no meaningful story (tiny syntax notes can point to a parent topic).
+Key terms: …
 
-Example standard: do not document URLSession as method soup; place it in the story of the internet and Apple networking when teaching networking.
+---
 
-## 7. Mental model
+## Evidence
 
-First principles. Decisions under uncertainty.
+- [ ] Explained  
+- [ ] Mock answers  
+- [ ] Code  
+- [ ] Under-the-hood (agreed layer)  
+- [ ] Exercise  
 
-## 8. Laboratory
+## Open questions
 
-One experiment: “What happens if…?”  
-Link: Lab id → path → Xcode/playground target (see [labs/README.md](labs/README.md)).
+(Unresolved — for conversation)
 
-## 9. Real project / Living App
+## Next
 
-Where this appears in a coherent app (when Living App exists).
-
-## 10. Interview readiness
-
-Junior → Middle → Senior → Lead distinctions. Natural answer, not memorized.
-
-## 11. Teaching note
-
-How Student A explains this to Student B (or the reverse).
-
-## 12. Graph links
-
-- Related topics:
-- Depends on:
-- Used by:
-- Labs:
-- Projects:
+Prerequisites · follow-ups · WWDC · Evolution · Lab ids · World entities
