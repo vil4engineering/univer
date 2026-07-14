@@ -1,0 +1,52 @@
+name: AIWorkspace
+options:
+  bundleIdPrefix: com.aiworkspace
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+
+packages: {}
+
+targets:
+  AIWorkspace:
+    type: application
+    platform: iOS
+    sources:
+      - path: AIWorkspace
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aiworkspace.app
+        INFOPLIST_FILE: AIWorkspace/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_PREVIEWS: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies: []
+
+  AIWorkspaceTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AIWorkspaceTests
+    dependencies:
+      - target: AIWorkspace
+
+schemes:
+  AIWorkspace:
+    build:
+      targets:
+        AIWorkspace: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - AIWorkspaceTests

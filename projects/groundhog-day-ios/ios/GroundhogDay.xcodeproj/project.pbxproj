@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7D7FF065FEB45EC142B118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E2AB1DEE19BAAAEF09B368 /* Assets.xcassets */; };
+		75CBF11ABD489042A6FD894E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F83D90CC7DF44013A98ADF /* LaunchScreen.storyboard */; };
+		7C4E1A9B2D8F6035E1A4B7C2 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D6C1E9A4B7053D2E6F8A1 /* AppLog.swift */; };
+		A1B2C3D4E5F60718293A4B5C6 /* DayClockDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B6C /* DayClockDisplay.swift */; };
+		A1C2D3E4F5061728394A5B60 /* DailyLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B61 /* DailyLines.swift */; };
+		A1C2D3E4F5061728394A5B62 /* DailyLineSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B63 /* DailyLineSelection.swift */; };
+		A1C2D3E4F5061728394A5B64 /* DayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B65 /* DayCardView.swift */; };
+		A1C2D3E4F5061728394A5B66 /* DayCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B67 /* DayCardRenderer.swift */; };
+		A1C2D3E4F5061728394A5B69 /* ShareCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5061728394A5B6A /* ShareCompletion.swift */; };
+		A1C2D3E4F5061728394A5B6B /* ShareDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F3A4B5061728394A5B6D /* ShareDiagnostics.swift */; };
+		A1C2D3E4F5061728394A5B68 /* DailyLineSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2E3F4051627384950A1B4 /* DailyLineSelectionTests.swift */; };
+		A1D2E3F4051627384950A1B2 /* DayNumberCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6E /* DayNumberCalculator.swift */; };
+		B1C2D3E4F5061728394A5B6D /* DayClockDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2E3F4051627384950A1B3 /* DayClockDisplayTests.swift */; };
+		B2C3D4E5F60718293A4B5C6F /* DayNumberCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F60718293A4B5C6D70 /* DayNumberCalculatorTests.swift */; };
+		C3D4E5F60718293A4B5C6D71 /* DiaryIdentityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F60718293A4B5C6D7E92 /* DiaryIdentityTests.swift */; };
+		CFA438135B6306B826775685 /* FlipClockTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18135931E580CE36F58189D /* FlipClockTheme.swift */; };
+		D4E5F60718293A4B5C6D7E8F /* BlurredHeroBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F60718293A4B5C6D7E /* BlurredHeroBackground.swift */; };
+		D4E5F60718293A4B5C6D7E90 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F60718293A4B5C6D7E8F91 /* DiaryView.swift */; };
+		D4E5F60718293A4B5C6D7E91 /* DiaryIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60718293A4B5C6D7E8F901 /* DiaryIdentity.swift */; };
+		DD7C5AEDA055C451A6DE4575 /* GroundhogDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813F9A34EB9D4FCBBFA6218 /* GroundhogDayApp.swift */; };
+		F60718293A4B5C6D7E8F902 /* FlipDigitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927BA4DB2828BD2FBB620AEF /* FlipDigitView.swift */; };
+		F8A9B0C1D2E3F40516273849 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9A0B1C2D3E4F506172839 /* ActivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76E2D1DC7F97A30DBADC4CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776A8977049B3B1003C54D76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CFCF34C3EA30DD4F27236C;
+			remoteInfo = GroundhogDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F83D90CC7DF44013A98ADF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F8D6C1E9A4B7053D2E6F8A1 /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		409B51081B115FFF8B4C249B /* GroundhogDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroundhogDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4813F9A34EB9D4FCBBFA6218 /* GroundhogDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundhogDayApp.swift; sourceTree = "<group>"; };
+		53E2AB1DEE19BAAAEF09B368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927BA4DB2828BD2FBB620AEF /* FlipDigitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipDigitView.swift; sourceTree = "<group>"; };
+		AE090760F65FA53F11C1FA01 /* GroundhogDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundhogDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26D1BC10930B9DDCEEB9738 /* GroundhogDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GroundhogDay.entitlements; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B6C /* DayClockDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayClockDisplay.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B61 /* DailyLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLines.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B63 /* DailyLineSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLineSelection.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B65 /* DayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCardView.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B67 /* DayCardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCardRenderer.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5061728394A5B6A /* ShareCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCompletion.swift; sourceTree = "<group>"; };
+		D1E2F3A4B5061728394A5B6D /* ShareDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDiagnostics.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6E /* DayNumberCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNumberCalculator.swift; sourceTree = "<group>"; };
+		C1D2E3F4051627384950A1B3 /* DayClockDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayClockDisplayTests.swift; sourceTree = "<group>"; };
+		C1D2E3F4051627384950A1B4 /* DailyLineSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLineSelectionTests.swift; sourceTree = "<group>"; };
+		C3D4E5F60718293A4B5C6D70 /* DayNumberCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNumberCalculatorTests.swift; sourceTree = "<group>"; };
+		C3D4E5F60718293A4B5C6D7E /* BlurredHeroBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredHeroBackground.swift; sourceTree = "<group>"; };
+		D4E5F60718293A4B5C6D7E92 /* DiaryIdentityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryIdentityTests.swift; sourceTree = "<group>"; };
+		E18135931E580CE36F58189D /* FlipClockTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTheme.swift; sourceTree = "<group>"; };
+		E5F60718293A4B5C6D7E8F91 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		E8F9A0B1C2D3E4F506172839 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		F60718293A4B5C6D7E8F901 /* DiaryIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryIdentity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		095715DDF151AE480EC584A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2C3D4E5F60718293A4B5C6E /* DayNumberCalculator.swift */,
+				B1C2D3E4F5061728394A5B6C /* DayClockDisplay.swift */,
+				B1C2D3E4F5061728394A5B61 /* DailyLines.swift */,
+				B1C2D3E4F5061728394A5B63 /* DailyLineSelection.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0A1B2C3D4E5F60718293A4B5 /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				B1C2D3E4F5061728394A5B65 /* DayCardView.swift */,
+				B1C2D3E4F5061728394A5B67 /* DayCardRenderer.swift */,
+				B1C2D3E4F5061728394A5B6A /* ShareCompletion.swift */,
+				D1E2F3A4B5061728394A5B6D /* ShareDiagnostics.swift */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		257C308F8D9A1AED29991426 /* GroundhogDay */ = {
+			isa = PBXGroup;
+			children = (
+				B26D1BC10930B9DDCEEB9738 /* GroundhogDay.entitlements */,
+				4813F9A34EB9D4FCBBFA6218 /* GroundhogDayApp.swift */,
+				E5F60718293A4B5C6D7E8F91 /* DiaryView.swift */,
+				E8F9A0B1C2D3E4F506172839 /* ActivityView.swift */,
+				F60718293A4B5C6D7E8F901 /* DiaryIdentity.swift */,
+				AEDE1487181C5C04483ED425 /* Config */,
+				8659172D4821493F558259D4 /* Resources */,
+				095715DDF151AE480EC584A8 /* Services */,
+				0A1B2C3D4E5F60718293A4B5 /* Sharing */,
+				5FCCE7D195E25FDF5C42AC17 /* Theme */,
+			);
+			path = GroundhogDay;
+			sourceTree = "<group>";
+		};
+		4115D41AE1DBBF346D31CEF1 = {
+			isa = PBXGroup;
+			children = (
+				257C308F8D9A1AED29991426 /* GroundhogDay */,
+				D861BF98F8EF00A999DF1303 /* GroundhogDayTests */,
+				B9CEBF8B0BE1EC37166C355D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FCCE7D195E25FDF5C42AC17 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E18135931E580CE36F58189D /* FlipClockTheme.swift */,
+				C3D4E5F60718293A4B5C6D7E /* BlurredHeroBackground.swift */,
+				927BA4DB2828BD2FBB620AEF /* FlipDigitView.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8659172D4821493F558259D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53E2AB1DEE19BAAAEF09B368 /* Assets.xcassets */,
+				13F83D90CC7DF44013A98ADF /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AEDE1487181C5C04483ED425 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D6C1E9A4B7053D2E6F8A1 /* AppLog.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B9CEBF8B0BE1EC37166C355D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409B51081B115FFF8B4C249B /* GroundhogDay.app */,
+				AE090760F65FA53F11C1FA01 /* GroundhogDayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D861BF98F8EF00A999DF1303 /* GroundhogDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4E5F60718293A4B5C6D70 /* DayNumberCalculatorTests.swift */,
+				C1D2E3F4051627384950A1B3 /* DayClockDisplayTests.swift */,
+				C1D2E3F4051627384950A1B4 /* DailyLineSelectionTests.swift */,
+				D4E5F60718293A4B5C6D7E92 /* DiaryIdentityTests.swift */,
+			);
+			path = GroundhogDayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CFCF34C3EA30DD4F27236C /* GroundhogDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A660F54A351E989A6C6F96 /* Build configuration list for PBXNativeTarget "GroundhogDay" */;
+			buildPhases = (
+				2464A42726E98CB8921164AE /* Sources */,
+				D5CCC493FDC0E39BBF745C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroundhogDay;
+			packageProductDependencies = (
+			);
+			productName = GroundhogDay;
+			productReference = 409B51081B115FFF8B4C249B /* GroundhogDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4FE46B9C492E84B4C2369A /* GroundhogDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A109BA3200B4326DFF9EA4 /* Build configuration list for PBXNativeTarget "GroundhogDayTests" */;
+			buildPhases = (
+				E660DCA2007B4AD56E6F9ECC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1601DE84AA540863BBE49B4 /* PBXTargetDependency */,
+			);
+			name = GroundhogDayTests;
+			packageProductDependencies = (
+			);
+			productName = GroundhogDayTests;
+			productReference = AE090760F65FA53F11C1FA01 /* GroundhogDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776A8977049B3B1003C54D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = C32DC6DA82EC7C2F1C10EBF3 /* Build configuration list for PBXProject "GroundhogDay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ru,
+				uk,
+			);
+			mainGroup = 4115D41AE1DBBF346D31CEF1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9CEBF8B0BE1EC37166C355D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CFCF34C3EA30DD4F27236C /* GroundhogDay */,
+				AC4FE46B9C492E84B4C2369A /* GroundhogDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5CCC493FDC0E39BBF745C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D7FF065FEB45EC142B118 /* Assets.xcassets in Resources */,
+				75CBF11ABD489042A6FD894E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2464A42726E98CB8921164AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4E1A9B2D8F6035E1A4B7C2 /* AppLog.swift in Sources */,
+				A1D2E3F4051627384950A1B2 /* DayNumberCalculator.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C6 /* DayClockDisplay.swift in Sources */,
+				A1C2D3E4F5061728394A5B60 /* DailyLines.swift in Sources */,
+				A1C2D3E4F5061728394A5B62 /* DailyLineSelection.swift in Sources */,
+				A1C2D3E4F5061728394A5B64 /* DayCardView.swift in Sources */,
+				A1C2D3E4F5061728394A5B66 /* DayCardRenderer.swift in Sources */,
+				A1C2D3E4F5061728394A5B69 /* ShareCompletion.swift in Sources */,
+				A1C2D3E4F5061728394A5B6B /* ShareDiagnostics.swift in Sources */,
+				D4E5F60718293A4B5C6D7E90 /* DiaryView.swift in Sources */,
+				F8A9B0C1D2E3F40516273849 /* ActivityView.swift in Sources */,
+				D4E5F60718293A4B5C6D7E91 /* DiaryIdentity.swift in Sources */,
+				CFA438135B6306B826775685 /* FlipClockTheme.swift in Sources */,
+				D4E5F60718293A4B5C6D7E8F /* BlurredHeroBackground.swift in Sources */,
+				F60718293A4B5C6D7E8F902 /* FlipDigitView.swift in Sources */,
+				DD7C5AEDA055C451A6DE4575 /* GroundhogDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E660DCA2007B4AD56E6F9ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C3D4E5F60718293A4B5C6F /* DayNumberCalculatorTests.swift in Sources */,
+				B1C2D3E4F5061728394A5B6D /* DayClockDisplayTests.swift in Sources */,
+				A1C2D3E4F5061728394A5B68 /* DailyLineSelectionTests.swift in Sources */,
+				C3D4E5F60718293A4B5C6D71 /* DiaryIdentityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1601DE84AA540863BBE49B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CFCF34C3EA30DD4F27236C /* GroundhogDay */;
+			targetProxy = 76E2D1DC7F97A30DBADC4CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		120046F7324B5354361699BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.groundhogday.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundhogDay.app/GroundhogDay";
+			};
+			name = Debug;
+		};
+		16746EF6A570EBE0892BF0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BTHRDS7254;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundhog Day";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82CDA27EA83E8C32E4BABE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroundhogDay/GroundhogDay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundhog Day";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Reminders about your countdown event at 6:00 and when it arrives.";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.groundhogday;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9B57E60D05C477D28989C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BTHRDS7254;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundhog Day";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E8BD1774F03956C5648D76CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GroundhogDay/GroundhogDay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Groundhog Day";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Reminders about your countdown event at 6:00 and when it arrives.";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.groundhogday;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16D142A20ECF0C99F3F2647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vil4max.groundhogday.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundhogDay.app/GroundhogDay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A660F54A351E989A6C6F96 /* Build configuration list for PBXNativeTarget "GroundhogDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BD1774F03956C5648D76CA /* Debug */,
+				82CDA27EA83E8C32E4BABE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1A109BA3200B4326DFF9EA4 /* Build configuration list for PBXNativeTarget "GroundhogDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120046F7324B5354361699BB /* Debug */,
+				F16D142A20ECF0C99F3F2647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C32DC6DA82EC7C2F1C10EBF3 /* Build configuration list for PBXProject "GroundhogDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16746EF6A570EBE0892BF0A7 /* Debug */,
+				DF9B57E60D05C477D28989C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776A8977049B3B1003C54D76 /* Project object */;
+}

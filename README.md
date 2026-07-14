@@ -1,11 +1,19 @@
-# iOS Bento
+# Engineering University
 
-A bento box of iOS knowledge — Swift, SDK, architecture, system design, networking, **AI Engineering**. Each topic is a compartment you can open, skim, and close.
+Long-term engineering learning campus — curriculum, labs, and verified practice (iOS and beyond).
 
-Use the **sidebar** or **search** to pick a box.
+**Site:** [https://vil4max.github.io/ios-university/](https://vil4max.github.io/ios-university/)  
+**Repo:** [vil4max/ios-university](https://github.com/vil4max/ios-university)
 
-**New:** curated **[AI Engineering](ai-engineering/)** track (14 topics) — LLM fundamentals through Foundation Models, agents, MCP, and evals on Apple platforms.
+## Governance
 
-Every topic has a **30-second summary**, **Apple documentation links**, **Focus vs Defer**, **key concepts**, **exercises**, **WWDC / external references**, and **Q&A cards** in English.
+Start with the Phase 1 docs at the repo root:
 
-For **senior+ interviews**, start with [Interview answer depth](/reference/curated/notes/interview-answer-depth.md) — how to tier the same answer from Candidate to Staff+.
+- `PROJECT_STATUS.md` — current phase and binding decisions
+- `01_CHARTER.md` — purpose and boundaries
+- `02_PHILOSOPHY.md` — how learning works here
+- `03_CURRICULUM.md` — faculties and subjects
+- `04_STRUCTURE.md` — storage vs curriculum
+- `05_PATHS.md` — learner paths
+
+Topic folders and Docsify remain the presentation shell. Staged projects live under `projects/`.
