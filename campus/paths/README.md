@@ -1,12 +1,12 @@
 # Paths
 
-University **0.1** — Study unlocked. Start with your path index and write Evidence into its Progress log.
+Engineering University **v2**. Study **paused** until [V2_CHECKLIST](../V2_CHECKLIST.md) ratified.
 
 | Path | Audience | Index |
 |------|----------|--------|
-| Alpha | Student A — Senior → Senior+/Lead | [alpha.md](alpha.md) ← default study entry |
+| Alpha | Student A — Software Engineer (Mobile foundation + dual AI) | [alpha.md](alpha.md) |
 | Beta | Student B — foundations | [beta.md](beta.md) |
-| Gamma | AI-native engineer | [gamma.md](gamma.md) |
-| Epsilon | Teaching loop | see [05_PATHS.md](../../05_PATHS.md) |
+| Gamma | AI tool + AI technology competence | [gamma.md](gamma.md) |
+| Epsilon | Teaching loop | [05_PATHS.md](../../05_PATHS.md) |
 
-Display contract: [DISPLAY_0.1.md](../DISPLAY_0.1.md). Full path rules: [05_PATHS.md](../../05_PATHS.md).
+Coach: [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md). Rules: [05_PATHS.md](../../05_PATHS.md).

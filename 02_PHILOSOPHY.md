@@ -1,199 +1,121 @@
-# 02 · Philosophy
+# 02 · Philosophy (v2)
 
 **Project:** Engineering University  
-**Status:** Phase 1 governance  
+**Status:** **v2**  
 **Related:** [01_CHARTER.md](01_CHARTER.md) · [03_CURRICULUM.md](03_CURRICULUM.md)
 
-## Distinguishing principle (Charter)
+## Distinguishing principle
 
-**Teach how to make engineering decisions — not what to think.**
+**Учим how to make engineering decisions — не what to think.**
 
-Detail and constitution: [01_CHARTER.md](01_CHARTER.md).
+Конституция: [01_CHARTER.md](01_CHARTER.md).
 
-This principle sits above framework preferences. Dogma (“always use X”) without problem, constraints, alternatives, and evidence is refused.
+Dogma («always use X») без problem, constraints, alternatives и Evidence — refused.
 
 ## Core thesis
 
 **Engineering is learned through progressively solving harder real problems.**
 
-The center of gravity is not the structure of stored topics.  
-The center of gravity is the **structure of forming an engineer** who can decide under uncertainty.
+Center of gravity — не дерево папок, а **формирование Software Engineer**, который decide under uncertainty. Mobile — foundation; AI — tool + discipline.
 
-## Completeness Principle
+## Educational pyramid
 
-**Knowledge is only considered complete when it can be explained, demonstrated, tested, and reused.**
+```text
+Teach ▲ Reuse ▲ Practice ▲ Demonstrate ▲ Explain ▲ Understand
+```
 
 | Gate | Meaning |
 |------|---------|
-| Explained | Can be taught simply; mental model is clear |
-| Demonstrated | Exists as working software or a lab artifact |
-| Tested | Behavior is verified; failure modes are known |
-| Reused | Returns in later problems, labs, projects, or teaching |
+| Understand | Mental model есть |
+| Explain | Можно объяснить просто (Level 1–2) |
+| Demonstrate | Working software / lab artifact |
+| Practice | Exercises, mocks, ownership scenarios |
+| Reuse | Возвращается в later problems / Skills / teaching |
+| Teach | Student A/B может преподать слой дальше |
 
-Reading alone never graduates a unit.
+Reading / watching / note-collecting **не** graduate unit.
 
 ## Problem-first loop
 
-Prefer this sequence:
-
 ```text
-Problem
-  → Need
-  → Concept
-  → Implementation
-  → Reflection
+Problem → Need → Concept → Implementation → Reflection
 ```
 
-Reject this as the primary spine:
+Reject as primary spine:
 
 ```text
-Folder
-  → API
-  → Syntax
-  → More folders
+Folder → API → Syntax → More folders
 ```
 
-Example: do not "study Concurrency because it sits under Swift."  
-Study Concurrency because a real problem needs safe concurrent work, cancellation, isolation, or structured lifetime — then implement, test, and reflect.
+## Knowledge pipeline
 
-## Learning pipeline (subject lifecycle)
-
-Every subject moves through stages. Immature subjects may stop mid-pipeline if the stage is declared honestly.
+Знание не копируется руками «как попало». Prefer generator loop:
 
 ```text
-Concept
-  → Understanding
-  → Visualization
-  → Practice
-  → Laboratory
-  → Reflection
-  → Real Project (when appropriate)
-  → Interview Readiness
-  → Teaching
+Source (Book | YouTube | WWDC | Paper | Repo | Docs | RFC | Swift Evolution)
+  → Skill (deepdive)
+  → University Article
+  → Diagram
+  → Lab
+  → Exercises
+  → Quiz
 ```
 
-### Interview Readiness
+Skills registry: [campus/skills/](campus/skills/).  
+Human/agent coach: [campus/ASSISTANT_MANUAL.md](campus/ASSISTANT_MANUAL.md).
 
-Interview preparation is not a side track bolted onto the university.
+## Levels 1–3
 
-**Every subject ends with Interview Readiness:** questions, trade-offs, production pitfalls, and explainability at Candidate → Senior → Staff+ depth where relevant.
+| Level | Intent |
+|-------|--------|
+| 1 | Intuition для Student B |
+| 2 | Professional engineer view |
+| 3 | Deep Dive (implementation, trade-offs, history) |
 
-Understanding first. Never memorization.
+Onion layers (0–5) из 0.1 остаются опциональной глубиной *внутри* Level 3. См. [TOPIC_TEMPLATE.md](campus/TOPIC_TEMPLATE.md).
 
-### Teaching
+## Dual AI learning
 
-Teaching another student (especially A ↔ B) is part of completion, not an optional extra.
+1. **Assisted** — Cursor, agents, prompts, review/ADR/docs automation, Agent Skills, Career OS workflows.  
+2. **Technology** — ML/NNs/Transformers/embeddings/tokenization/inference/training/RAG/agents/MCP/eval/safety…
 
-## Laboratories
+Понимание > hype. Оба track обязательны для современного SE.
 
-A laboratory answers **one** engineering question.
+## Engineering Skills
 
-It should teach, demonstrate, experiment, measure, and document.
+Knowledge недостаточно. Workflows должны быть reusable и **agent-executable**.
 
-Laboratories are not production products. Mature lab outcomes may later integrate into the Living Application — if and when a Living Application is chosen.
+Каждый Skill: inputs · procedure · outputs · куда write-back (article / path log / Evidence).
 
-## Living Application (philosophy)
+## Career loop
 
-One long-lived application is desirable so concepts meet inside a coherent system.
+University адаптируется к market через Career OS (private), не через ручной хаос:
 
-It must be chosen for educational value:
+Market → Career OS → Skill Gap → Learning Plan → University → Practice → Portfolio → Career OS.
 
-- multi-year evolution
-- conceptual demonstration
-- teachable simplicity
-- capacity to absorb labs
-- resistance to product vanity
+Публичный craft ≠ private facts. [CAREER_INTEGRATION.md](campus/CAREER_INTEGRATION.md).
 
-Until those criteria are met by a deliberate decision, the Living Application remains undecided. Existing apps are not automatic winners.
+## Evidence over vibes
 
-## Mental models first
+Status / confidence / Interview Heat / Progress log — [PROGRESS.md](campus/PROGRESS.md).  
+Session write-back — [SESSION_PROTOCOL.md](campus/SESSION_PROTOCOL.md).
 
-Every subject should make explicit:
+Mastered ≠ «прочитал».
 
-1. What problem exists?
-2. Why this solution exists?
-3. What alternatives exist?
-4. When should it be used?
-5. What trade-offs exist?
+## Labs
 
-## Organizational decision questions
-
-For Senior+/Lead lessons, every topic must also answer:
-
-1. What problem does it solve?
-2. Why would an engineering organization choose it?
-3. What trade-offs does it introduce?
-
-Never answer with "because it is best." Everything has trade-offs.
-
-## Become the engineer, do not fake the interview
-
-Do not optimize for passing interviews.  
-Optimize for becoming the engineer who naturally passes interviews.
-
-Prefer **why** over bare **how**.
-
-Close the gap between strong Senior and Senior+/Lead through reasoning, decision-making, and ownership — not trivia.
-
-## Honesty about experience
-
-Lessons may connect to the student's real work only when evidence exists.
-
-- Do not invent stories.
-- Do not assume unclaimed experience.
-- If coverage is missing, say so explicitly.
-- Private career presentation remains outside this repository (`career`).
-
-## Architecture first
-
-Teach systems and judgment.  
-APIs are instruments — not the curriculum.
-
-## AI philosophy
-
-AI accelerates learning and building.
-
-AI must not replace understanding, judgment, or verification.
-
-The goal is:
-
-```text
-Engineer + AI
-```
-
-Not:
-
-```text
-AI replacing engineering
-```
-
-The AI faculty grows by **engineering maturity**, not by collecting trendy acronyms.
-
-## Dual audience without dual systems
-
-Student A and Student B share faculties, principles, and completeness gates.
-
-They differ in **path, pace, and problem difficulty** — not in educational philosophy.
-
-## Progressive difficulty
-
-Difficulty should rise on purpose:
-
-- simpler problems with clear feedback
-- then ambiguity, constraints, and trade-offs
-- then systems that combine multiple faculties
-- then teaching and interview-grade explanation under pressure
-
-Progress is measured by harder problems solved well — not by folders visited.
+Один evolving engineering application предпочтительнее десятков demo zoo.  
+Sandbox ≠ Lab ≠ Core quality bars — [CODE_CONTRACT.md](campus/CODE_CONTRACT.md).
 
 ## What we refuse
 
-- Knowledge without practice
-- Practice without reflection
-- Demos without a question
-- Interview answers without mental models
-- "Because it is best" without trade-offs
-- Invented or exaggerated experience stories
-- Advancing Path Alpha lessons before mastery
-- AI usage without evaluation and reliability thinking
-- Reorganizing files as a substitute for educational design
+- Passive-first tourism  
+- Memorized cheat sheets as goal  
+- Invented career stories  
+- Passive «summary please» без practice  
+- Treating AI as magic or as the whole identity  
+
+## Operating modes
+
+Full-time bootcamp vs maintenance — [OPERATING_MODES.md](campus/OPERATING_MODES.md).  
+v2 Study resumes только после ratification (см. Status).

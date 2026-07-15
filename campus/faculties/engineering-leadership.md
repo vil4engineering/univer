@@ -1,18 +1,18 @@
 # Faculty of Engineering Leadership
 
-Judgment важнее APIs. Subjects из Charter:
+Judgment over APIs. Subjects 01–10 — см. [03_CURRICULUM.md](../../03_CURRICULUM.md).
 
 | # | Subject | Status | Notes |
 |---|---------|--------|-------|
-| 01 | Technical Ownership | В очереди (Alpha: после architecture или первым) | |
-| 02 | Architecture | Можно изучать через Library | [patterns](../../architecture/patterns/) · [modularization](../../architecture/modularization/) |
+| 01 | Technical Ownership | Queued (Study paused for v2) | |
+| 02 | Architecture | Library ready | [patterns](../../architecture/patterns/) · [modularization](../../architecture/modularization/) |
 | 03 | Decision Making | Cross-cutting | С каждым topic |
-| 04 | Engineering Standards | В очереди | |
-| 05 | Code Review | Частично в Library | [git](../../fundamentals/git/) |
-| 06 | Mentoring | В очереди | |
-| 07 | Cross-functional Communication | В очереди | |
-| 08 | Product Engineering | Overlap | [system-design](../../system-design/mobile/) |
-| 09 | Career Story | Только честная narration | Private facts → репо `career` |
+| 04 | Engineering Standards | Queued | |
+| 05 | Code Review | Partial Library | [git](../../fundamentals/git/) |
+| 06 | Mentoring | Queued | |
+| 07 | Cross-functional Communication | Queued | |
+| 08 | Product Engineering | Overlap | [product-engineering.md](product-engineering.md) |
+| 09 | Career Story | Honest narration only | Private → `career` |
 | 10 | Interview Engineering | | [answer depth](../../reference/curated/notes/interview-answer-depth.md) |
 
-Форма урока: [TOPIC_TEMPLATE.md](../TOPIC_TEMPLATE.md) + Alpha contract в [Curriculum](../../03_CURRICULUM.md).
+Lesson shape: [TOPIC_TEMPLATE.md](../TOPIC_TEMPLATE.md) + contract in Curriculum.

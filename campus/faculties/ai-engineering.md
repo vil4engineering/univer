@@ -1,9 +1,8 @@
-# Faculty of AI Engineering
+# → AI faculties (v2)
 
-Maturity spine (не tech checklist): Foundations → Model Integration → Structured Outputs → Tool Calling → Evaluations → Reliable Systems → Agents.
+Единый faculty «AI Engineering» разделён на два track:
 
-| Topic | Library |
-|-------|---------|
-| Roadmap | [ai-engineering/roadmap](../../ai-engineering/roadmap/) |
-| Track index | [ai-engineering/](../../ai-engineering/) |
-| Lab candidate | [projects/ai-lab-ios](../../projects/ai-lab-ios/) |
+1. [AI-assisted Software Engineering](ai-assisted.md) — tool  
+2. [AI Technology](ai-technology.md) — how it works  
+
+Warehouse `ai-engineering/` остаётся storage.

@@ -1,7 +1,20 @@
-# Path Gamma — AI-Native Engineer
+# Path Gamma — AI dual competence
 
-Maturity spine: [ai-engineering faculty](../faculties/ai-engineering.md) · [roadmap](../../ai-engineering/roadmap/).
+**Goal:** Engineer + AI as **tool** and as **technology**. Not AI instead of engineer.
 
-Project candidate: [projects/ai-lab-ios](../../projects/ai-lab-ios/).
+Study paused with university v2 until [V2_CHECKLIST](../V2_CHECKLIST.md) unlocks Study.
 
-Status: materials rich; Completeness gates mostly open (explain-heavy).
+## Strands
+
+| Track | Faculty | Spine hint |
+|-------|---------|------------|
+| 1 Assisted | [ai-assisted](../faculties/ai-assisted.md) | Workflows · Skills · review/ADR/docs automation |
+| 2 Technology | [ai-technology](../faculties/ai-technology.md) | Foundations → integration → RAG/agents → eval/safety |
+
+Interleave with Path Alpha. Use deepdive Skills from [skills/catalog.md](../skills/catalog.md).
+
+## Progress log
+
+| Date | Topic | Status | Confidence | Evidence |
+|------|-------|--------|------------|----------|
+| — | — | — | — | Study paused |

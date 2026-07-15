@@ -1,15 +1,21 @@
-# Path Beta — Foundations
+# Path Beta — Foundations (Student B)
 
-Audience: Student B (beginner). Same decision principles; lighter depth; practice first.
+**Goal:** think and build gradually. Default **Level 1**.
 
-## Spine (initial)
+Study paused until [V2_CHECKLIST](../V2_CHECKLIST.md) unlocks Study for the university (Beta can start when Parent unlocks).
 
-| Step | Focus | Library hooks |
-|------|-------|---------------|
-| B1 | What is this digital world? | [computer-science](../../fundamentals/computer-science/) · origin stories later |
-| B2 | Problem solving & algorithms | [algorithms/structures](../../algorithms/structures/) · CodeKata |
-| B3 | Small programs & craft | [swift/syntax](../../swift/syntax/) |
-| B4 | Tools with history (e.g. Git) | [fundamentals/git](../../fundamentals/git/) — onion, not only commands |
-| B5 | Tiny labs | See [labs](../labs/README.md) |
+| Step | Focus | Hooks |
+|------|--------|-------|
+| 1 | Simple real problems | Tiny labs / playgrounds |
+| 2 | CS / algorithms intuition | [computer-science](../faculties/computer-science.md) |
+| 3 | Programming craft | Level 1 topics |
+| 4 | Teaching-back with Student A | Completeness Teach gate |
+| 5 | Curiosity: computers + gentle AI Level 1 | [ai-technology](../faculties/ai-technology.md) Level 1 only |
 
-Progress log: empty until Beta sessions start.
+Coach: ask for Level 1 in [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md).
+
+## Progress log
+
+| Date | Topic | Status | Confidence | Evidence |
+|------|-------|--------|------------|----------|
+| — | — | — | — | Study paused |

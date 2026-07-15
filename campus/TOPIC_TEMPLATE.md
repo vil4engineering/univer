@@ -1,17 +1,18 @@
-# Topic template (onion)
+# Topic template (v2)
 
-Stable id + passport. Content may live under Library paths; shape is academic.
+Stable id + passport. Storage path may be Library; shape is academic.
 
 ---
 
 ## Header
 
 - **Topic id:**
-- **Faculty / Path heat:**
+- **Faculty:**
+- **Path heat:**
 - **Status:** `not_started` | `learning` | `practicing` | `interview_ready` | `mastered`
 - **Confidence:** /5
 - **Interview Heat:** ★…
-- **Audience:** A deep / A surface / B entry
+- **Levels present:** 1 / 2 / 3
 
 ---
 
@@ -23,41 +24,51 @@ Stable id + passport. Content may live under Library paths; shape is academic.
 4. What came before  
 5. Why that was not enough  
 6. Modern approach  
-7. Where next (evidence-based industry vector, including AI when relevant)  
+7. Where next (incl. AI when relevant)  
 8. Where used  
 
 ---
 
-## Layers
+## Levels
 
-### Layer 0 — One minute
-### Layer 1 — Analogy / life
-### Layer 2 — Practice level
-### Layer 3 — Under the hood (optional)
-### Layer 4 — Sources / runtime (optional)
-### Layer 5 — Research (optional)
+### Level 1 — Student B
+Intuition · analogies · visuals · tiny practice.
 
-Default obligation: 0–2. Deeper layers only when earned.
+### Level 2 — Engineer
+Professional explanation · examples · default decisions.
+
+### Level 3 — Deep Dive
+Implementation · trade-offs · history · research / runtime (optional onion 3–5).
+
+Default study obligation: Level 2 (+ Level 1 if teaching Student B). Level 3 when earned.
 
 ---
 
-## Visual & practice (Pages-ready)
+## Completeness
 
-- Scheme / diagram  
-- Life analogy image or story  
-- Code (prefer Reference World / Core World)  
+- [ ] Understand  
+- [ ] Explain  
+- [ ] Demonstrate  
+- [ ] Practice  
+- [ ] Reuse  
+- [ ] Teach (when applicable)
+
+---
+
+## Visual & practice
+
+- Diagram  
+- Code (Reference World / lab)  
 - Experiment (“what if…”)  
-- Self-check questions (**answers forged in chat/mocks**, then written back)  
+- Self-check / quiz  
 - Official links  
 
 ---
 
-## English for Interview
+## English for Interview (optional block)
 
-**RU:** …  
-**EN:** …
-
-Key terms: …
+Key terms: …  
+Spoken answer sketch (EN): …
 
 ---
 
@@ -65,14 +76,16 @@ Key terms: …
 
 - [ ] Explained  
 - [ ] Mock answers  
-- [ ] Code  
-- [ ] Under-the-hood (agreed layer)  
+- [ ] Code / lab  
+- [ ] Level 3 (if agreed)  
 - [ ] Exercise  
+
+## Skills used
+
+(e.g. `wwdc-deepdive`, `architecture-review`)
 
 ## Open questions
 
-(Unresolved — for conversation)
-
 ## Next
 
-Prerequisites · follow-ups · WWDC · Evolution · Lab ids · World entities
+Prerequisites · follow-ups · Lab ids · related Skills
