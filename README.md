@@ -1,5 +1,9 @@
 # Engineering University
 
+<p align="center">
+  <img src="assets/engineering-university-logo.jpg" alt="Engineering University logo" width="192" height="192">
+</p>
+
 > Building engineers, not collecting knowledge.
 
 **v2:** Software Engineering at the center · Mobile as foundation faculty · AI as **tool** and **technology**.
