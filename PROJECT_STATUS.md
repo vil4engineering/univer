@@ -36,7 +36,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | No mass-move without Design revision | Binding |
 | Docsify shell for now | Binding |
 | Living Application | Intentionally undecided |
-| career / ios-hunter / pitstop-ios | Independent |
+| career / ios-hunter / `Engineering-University/pitstop-ios` | Independent |
 | Word "knowledge base" | Retired |
 | Study during v2 ratification | **Paused** |
 
