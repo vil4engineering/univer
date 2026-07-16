@@ -2,7 +2,7 @@
 
 Как развивать **Engineering University** как продукт, а не как набор репозиториев.
 
-Связано: [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) · [faculties/](faculties/) · org [.github](https://github.com/vil4engineering/.github) · [Discussions](https://github.com/vil4engineering/engineering-university/discussions) · [Project](https://github.com/orgs/vil4engineering/projects/1)
+Связано: [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) · [faculties/](faculties/) · org [.github](https://github.com/vil4engineering/.github) · [Discussions](https://github.com/vil4engineering/univer/discussions) · [Project](https://github.com/orgs/vil4engineering/projects/1)
 
 ## North star
 
@@ -24,7 +24,7 @@ Engineering University
 | Слой | Состояние |
 |------|-----------|
 | Org profile · logo · mission README | Done |
-| Portal Pages | [vil4engineering.github.io/engineering-university](https://vil4engineering.github.io/engineering-university/) |
+| Portal Pages | [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) |
 | Curriculum spine | `campus/` + [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) |
 | Default community files | org `.github` (CONTRIBUTING · CoC · SECURITY · templates) |
 | Living labs | `pitstop-ios` · `regional-check` |
@@ -56,7 +56,7 @@ Engineering University
 
 | Repo | Роль |
 |------|------|
-| `engineering-university` | Campus · curriculum · portal |
+| `univer` | Curriculum · campus · portal |
 | `.github` | Org standards · profile |
 | `pitstop-ios` | Living lab |
 | `regional-check` | Living lab |

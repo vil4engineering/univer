@@ -10,7 +10,7 @@
 North star shifted:
 
 - Center = **Software Engineering** (not framework tourism branded as “iOS university”)  
-- Home = org **vil4engineering** · flagship repo `engineering-university` · site `vil4engineering.github.io/engineering-university/`  
+- Home = org **vil4engineering** · flagship repo `univer` · site `vil4engineering.github.io/univer/`  
 - Mobile Systems = strongest commercial faculty  
 - AI = **two tracks** (Assisted · Technology)  
 - Skill Factory + Career OS hybrid contract  

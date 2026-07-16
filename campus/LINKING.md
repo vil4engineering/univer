@@ -26,9 +26,9 @@ Competency / Topic (onion page)
 ## GitHub
 
 - Org: `vil4engineering`
-- Repo: `vil4engineering/engineering-university`
-- Site: Docsify via GitHub Pages (`https://vil4engineering.github.io/engineering-university/`)
-- Campus URLs: `/campus/…` (inside the university site)
+- Repo: `vil4engineering/univer`
+- Site: Docsify via GitHub Pages (`https://vil4engineering.github.io/univer/`)
+- Campus URLs: `/campus/…` (inside the curriculum site)
 - Library URLs: `/swift/concurrency/`, `/architecture/patterns/`, …
 
 ## Xcode / SPM (today)

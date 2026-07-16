@@ -1,7 +1,7 @@
 # Engineering University
 
 <p align="center">
-  <img src="assets/engineering-university-logo.jpg" alt="Engineering University logo" width="192" height="192">
+  <img src="assets/logo.jpg" alt="Engineering University logo" width="192" height="192">
 </p>
 
 Engineering University is a long-term engineering initiative created to help two generations become professional engineers.
@@ -14,8 +14,8 @@ The organization serves two audiences:
 - a future engineer learning from first principles through curiosity, experiments, and real projects.
 
 **Org:** [vil4engineering](https://github.com/vil4engineering)  
-**Repo:** [vil4engineering/engineering-university](https://github.com/vil4engineering/engineering-university)  
-**Site:** [https://vil4engineering.github.io/engineering-university/](https://vil4engineering.github.io/engineering-university/)
+**Repo:** [vil4engineering/univer](https://github.com/vil4engineering/univer)  
+**Site:** [https://vil4engineering.github.io/univer/](https://vil4engineering.github.io/univer/)
 
 ## Core Principles
 
