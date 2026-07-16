@@ -9,7 +9,8 @@
 
 North star shifted:
 
-- Center = **Software Engineering** (not “iOS university”)  
+- Center = **Software Engineering** (not framework tourism branded as “iOS university”)  
+- Home = org **Engineering-University** · site `engineering-university.github.io`  
 - Mobile Systems = strongest commercial faculty  
 - AI = **two tracks** (Assisted · Technology)  
 - Skill Factory + Career OS hybrid contract  

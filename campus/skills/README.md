@@ -17,7 +17,7 @@ Knowledge недостаточно. Skill превращает source или з�
 
 ## How to run (v2)
 
-1. Open chat in `ios-university` workspace.  
+1. Open chat in Engineering University workspace (`Engineering-University.github.io`).  
 2. Name the Skill id from [catalog.md](catalog.md).  
 3. Give inputs.  
 4. Require Completeness-friendly outputs (Explain / Demonstrate / Practice / Quiz).  

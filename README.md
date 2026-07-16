@@ -4,8 +4,9 @@
 
 **v2:** Software Engineering at the center · Mobile as foundation faculty · AI as **tool** and **technology**.
 
-**Site:** [https://vil4max.github.io/ios-university/](https://vil4max.github.io/ios-university/)  
-**Repo:** [vil4max/ios-university](https://github.com/vil4max/ios-university)
+**Site:** [https://engineering-university.github.io/](https://engineering-university.github.io/)  
+**Org:** [Engineering-University](https://github.com/Engineering-University)  
+**Repo:** [Engineering-University/Engineering-University.github.io](https://github.com/Engineering-University/Engineering-University.github.io)
 
 ## Enter
 

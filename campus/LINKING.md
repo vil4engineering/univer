@@ -25,8 +25,9 @@ Competency / Topic (onion page)
 
 ## GitHub
 
-- Repo: `vil4max/ios-university`
-- Site: Docsify via GitHub Pages (`/ios-university/`)
+- Org: `Engineering-University`
+- Repo: `Engineering-University/Engineering-University.github.io`
+- Site: Docsify via GitHub Pages (`https://engineering-university.github.io/`)
 - Campus URLs: `/campus/…`
 - Library URLs: `/swift/concurrency/`, `/architecture/patterns/`, …
 

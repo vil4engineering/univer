@@ -32,4 +32,4 @@ Market
 
 ## Assistant rule
 
-Repo learning assistant must refuse to publish private career material into `ios-university`. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).
+Repo learning assistant must refuse to publish private career material into `Engineering-University`. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).
