@@ -2,6 +2,7 @@
 
 **Goal:** SE breadth + Mobile depth + dual AI + Leadership judgment.  
 Interviews — side effect.  
+**Curriculum spine (modules / weeks):** [ROADMAP_SENIOR.md](../ROADMAP_SENIOR.md).  
 Modes: [OPERATING_MODES.md](../OPERATING_MODES.md) · Tracking: [PROGRESS.md](../PROGRESS.md).  
 Coach: [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md).
 
