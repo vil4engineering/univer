@@ -80,7 +80,7 @@ pulse → onion / Levels → practice → review / mock → write-back Evidence
 |------|------|
 | `Engineering-University/Engineering-University.github.io` | Public living university — curriculum, Skills, Evidence craft |
 | `career` | Private Career OS / facts / CRM |
-| `Engineering-University/pitstop-ios` / `ios-hunter` | Independent products — cite, don't absorb |
+| `Engineering-University/pitstop-ios` · `regional-check` / `ios-hunter` | Independent products — cite, don't absorb |
 
 Помощник в этом workspace по умолчанию пишет только в university (и local gitignored agent files).
 
