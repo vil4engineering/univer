@@ -1,6 +1,6 @@
 # Мануал: репо-помощник (Campus Assistant)
 
-Как пользоваться **Cursor agent** внутри репозитория `Engineering-University.github.io` (org [Engineering-University](https://github.com/Engineering-University)) в нашей вселенной Engineering University **v2**.
+Как пользоваться **Cursor agent** внутри репозитория `vil4engineering/engineering-university` (org [vil4engineering](https://github.com/vil4engineering)) в нашей вселенной Engineering University **v2**.
 
 Это не общий ChatGPT-howto. Помощник — **campus coach / Skill runner** в контексте Charter, Paths и Evidence.
 
@@ -78,9 +78,9 @@ pulse → onion / Levels → practice → review / mock → write-back Evidence
 
 | Repo | Роль |
 |------|------|
-| `Engineering-University/Engineering-University.github.io` | Public living university — curriculum, Skills, Evidence craft |
+| `vil4engineering/engineering-university` | Public living university — curriculum, Skills, Evidence craft |
 | `career` | Private Career OS / facts / CRM |
-| `Engineering-University/pitstop-ios` · `regional-check` / `ios-hunter` | Independent products — cite, don't absorb |
+| `vil4engineering/pitstop-ios` · `regional-check` / `ios-hunter` | Independent products — cite, don't absorb |
 
 Помощник в этом workspace по умолчанию пишет только в university (и local gitignored agent files).
 

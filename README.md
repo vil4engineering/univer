@@ -13,9 +13,9 @@ The organization serves two audiences:
 - an experienced software engineer continuously growing toward software architecture, AI engineering, and technical leadership;
 - a future engineer learning from first principles through curiosity, experiments, and real projects.
 
-**Site:** [https://engineering-university.github.io/](https://engineering-university.github.io/)  
-**Org:** [Engineering-University](https://github.com/Engineering-University)  
-**Repo:** [Engineering-University/Engineering-University.github.io](https://github.com/Engineering-University/Engineering-University.github.io)
+**Org:** [vil4engineering](https://github.com/vil4engineering)  
+**Repo:** [vil4engineering/engineering-university](https://github.com/vil4engineering/engineering-university)  
+**Site:** [https://vil4engineering.github.io/engineering-university/](https://vil4engineering.github.io/engineering-university/)
 
 ## Core Principles
 
