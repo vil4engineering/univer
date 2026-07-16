@@ -4,6 +4,8 @@
   - [Campus home](/campus/)
   - [Assistant manual](/campus/ASSISTANT_MANUAL.md)
   - [V2 checklist](/campus/V2_CHECKLIST.md)
+  - [Org product (10–20 y)](/campus/ORG_PRODUCT.md)
+  - [Senior roadmap](/campus/ROADMAP_SENIOR.md)
   - [Skill Factory](/campus/skills/)
   - [Skills catalog](/campus/skills/catalog.md)
   - [Career integration](/campus/CAREER_INTEGRATION.md)

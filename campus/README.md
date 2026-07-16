@@ -13,6 +13,7 @@ Library = warehouse. `campus/` = navigate · track · Skills · learn.
 | Charter v2 | [../01_CHARTER.md](../01_CHARTER.md) |
 | Path Alpha (paused) | [paths/alpha.md](paths/alpha.md) |
 | Senior roadmap (3–4 mo) | [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) |
+| Org product (10–20 y) | [ORG_PRODUCT.md](ORG_PRODUCT.md) |
 | Skill Factory | [skills/](skills/) |
 | Career OS hybrid | [CAREER_INTEGRATION.md](CAREER_INTEGRATION.md) |
 | Faculties | [faculties/](faculties/) |
