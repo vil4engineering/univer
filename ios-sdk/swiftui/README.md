@@ -15,10 +15,13 @@ SwiftUI is **declarative UI**: views are values, state drives body recomputation
 - [List](https://developer.apple.com/documentation/swiftui/list) — dynamic rows, sections, edit mode; note [swiftui-list-dynamic-data.md](notes/swiftui-list-dynamic-data.md)
 - [View.task](https://developer.apple.com/documentation/swiftui/view/task(priority:_:)) — async load tied to view lifetime; note [swiftui-data-loading-task.md](notes/swiftui-data-loading-task.md)
 - [TimelineView](https://developer.apple.com/documentation/swiftui/timelineview) — time-driven UI refresh; note [timeline-view-swiftui.md](notes/timeline-view-swiftui.md)
+- [View](https://developer.apple.com/documentation/swiftui/view) / [ViewBuilder](https://developer.apple.com/documentation/swiftui/viewbuilder) — protocol, `some View`, result builder; note [swiftui-what-is-view.md](notes/swiftui-what-is-view.md)
 
 ## SwiftUI components — quick map
 
 **Infographic:** [`assets/swiftui-components-overview.png`](assets/swiftui-components-overview.png) — five blocks: Layout, Navigation, Lists, Text/Media, Input.
+
+**Mental model:** [`assets/swiftui-what-is-view.jpg`](assets/swiftui-what-is-view.jpg) — `View` protocol, `some View`, `@ViewBuilder`; note [swiftui-what-is-view.md](notes/swiftui-what-is-view.md)
 
 | Area | Building blocks | Go deeper in this repo |
 |------|-----------------|------------------------|
@@ -56,6 +59,7 @@ SwiftUI is **declarative UI**: views are values, state drives body recomputation
 
 ### Recent notes
 
+- `notes/swiftui-what-is-view.md` — `View` as PAT, `some View`, `@ViewBuilder` / `_ConditionalContent`; infographic [`assets/swiftui-what-is-view.jpg`](assets/swiftui-what-is-view.jpg)
 - `notes/timeline-view-swiftui.md` — `TimelineView`, schedules, `cadence`, vs `Timer`; playground [TimelineViewDemo.playground](TimelineViewDemo.playground)
 - `notes/swiftui-data-loading-task.md` — `.task` vs `.onAppear`, `LoadState`, cooperative cancel, `.refreshable`
 - `notes/swiftui-list-dynamic-data.md` — `List`, sections, swipe, edit mode, empty state, stable `id`
