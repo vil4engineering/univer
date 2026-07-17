@@ -27,7 +27,7 @@ Engineering University
 | Portal Pages | [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) |
 | Curriculum spine | `campus/` + [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) |
 | Default community files | org `.github` (CONTRIBUTING · CoC · SECURITY · templates) |
-| Living labs | `pitstop-ios` · `regional-check` |
+| Living labs | `pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` |
 | Org Project | [Engineering University #1](https://github.com/orgs/vil4engineering/projects/1) |
 | Discussions (hub) | Enabled on site repo |
 | Labels · milestones (hub) | Seeded |
@@ -60,7 +60,8 @@ Engineering University
 | `.github` | Org standards · profile |
 | `pitstop-ios` | Living lab |
 | `regional-check` | Living lab |
-| (+1 позже) | Только когда направление реально живёт |
+| `room-scanner-ios` | Living lab (ARKit / RealityKit) |
+| `visionkit-lab-ios` | Living lab (VisionKit) |
 
 ## Definition of progress
 

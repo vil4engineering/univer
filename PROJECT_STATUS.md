@@ -36,7 +36,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | No mass-move without Design revision | Binding |
 | Docsify shell for now | Binding |
 | Living Application | Intentionally undecided |
-| career / ios-hunter / `pitstop-ios` · `regional-check` (org) | Independent |
+| career / ios-hunter / `pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` (org) | Independent |
 | Word "knowledge base" | Retired |
 | Study during v2 ratification | **Paused** |
 

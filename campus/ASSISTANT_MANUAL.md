@@ -80,7 +80,7 @@ pulse → onion / Levels → practice → review / mock → write-back Evidence
 |------|------|
 | `vil4engineering/univer` | Public living curriculum — Skills, Evidence craft |
 | `career` | Private Career OS / facts / CRM |
-| `vil4engineering/pitstop-ios` · `regional-check` / `ios-hunter` | Independent products — cite, don't absorb |
+| `vil4engineering/pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` / `ios-hunter` | Independent products — cite, don't absorb |
 
 Помощник в этом workspace по умолчанию пишет только в university (и local gitignored agent files).
 
