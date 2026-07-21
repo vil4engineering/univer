@@ -7,6 +7,8 @@ ML · Neural Networks · Transformers · Attention · Embeddings · Tokenization
 | Resource | Library hooks |
 |----------|----------------|
 | Roadmap / track pages | [ai-engineering/](../../ai-engineering/) |
+| AI Dictionary | [ai-engineering/dictionary/](../../ai-engineering/dictionary/) |
+| Glossary portal | [glossary/](../../glossary/) (iOS/Swift + link to Dictionary) |
 | Lab candidate | [projects/ai-lab-ios](../../projects/ai-lab-ios/) |
 | Sister track (tools) | [ai-assisted.md](ai-assisted.md) |
 

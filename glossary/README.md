@@ -1,16 +1,29 @@
 # Glossary
 
-Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html): terms and short definitions.
+Engineering University terminology hub — short definitions for quick recall before interviews, reviews, and AI product work.
+
+## Domains
+
+| Domain | What | Where |
+|--------|------|--------|
+| **iOS / Swift** | Platform, concurrency, architecture, tooling | [#ios-swift](#ios-swift) below |
+| **AI Engineering** | LLM, RAG, agents, evals, infra (page per term) | [AI Dictionary](../ai-engineering/dictionary/) |
+
+Канон по домену: полные AI-карточки живут в Dictionary, не дублируются здесь. iOS-якоря `#glossary-*` сохраняются для входящих ссылок.
 
 ## Theme
 
 ### Q1
 - **Question:** What should this folder contain?
-- **Answer:** An extensible glossary (or digests from topics I–X) for quick recall before interviews or reviews.
+- **Answer:** A multi-domain glossary portal: iOS/Swift digests here, AI Engineering terms in the [AI Dictionary](../ai-engineering/dictionary/).
 
 ---
 
-## Glossary of key terms
+## iOS / Swift
+
+<a id="ios-swift"></a>
+
+Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html): terms and short definitions.
 
 ### Memory and data model
 
@@ -215,7 +228,7 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **Instruments** — Xcode profiler suite: CPU, memory, network, energy, SwiftUI; find bottlenecks and leaks.
 
 <a id="glossary-mcp"></a>
-**MCP** — *Model Context Protocol* — open protocol connecting AI assistants to external tools and data.
+**MCP** — *Model Context Protocol* — open protocol connecting AI assistants to external tools and data. Full card: [AI Dictionary · MCP](../ai-engineering/dictionary/terms/mcp.md).
 
 <a id="glossary-unit-test"></a>
 **Unit test** — isolated logic (models, services) with mocks/stubs; no manual UI.

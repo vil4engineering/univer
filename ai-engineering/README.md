@@ -4,6 +4,8 @@ Curated track for **LLM systems on Apple platforms** — from tokens and context
 
 **Start with the visual [Roadmap](roadmap/)** — industry stack, skill levels, 12-month plan, and what to skip.
 
+**Terms:** living [AI Dictionary](dictionary/) (page per term) — also linked from the [Glossary portal](../glossary/).
+
 | # | Topic | Focus |
 |---|--------|--------|
 | 01 | [LLM Basics](llm-basics/) | ML vs LLM, transformers, on-device vs cloud |

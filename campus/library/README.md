@@ -85,6 +85,7 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 
 ## AI Engineering
 
+- [AI Dictionary](../../ai-engineering/dictionary/) — `ai-engineering/dictionary/`
 - [Roadmap](../../ai-engineering/roadmap/) — `ai-engineering/roadmap/`
 - [01 · LLM Basics](../../ai-engineering/llm-basics/) — `ai-engineering/llm-basics/`
 - [02 · Tokens](../../ai-engineering/tokens/) — `ai-engineering/tokens/`

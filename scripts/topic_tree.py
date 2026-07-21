@@ -97,6 +97,7 @@ TOPIC_TREE = {
     "ai-engineering": {
         "title": "AI Engineering",
         "topics": {
+            "dictionary": "AI Dictionary",
             "roadmap": "Roadmap",
             "llm-basics": "01 · LLM Basics",
             "tokens": "02 · Tokens",
