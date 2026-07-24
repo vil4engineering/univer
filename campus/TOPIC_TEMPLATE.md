@@ -66,9 +66,11 @@ Rules:
 </details>
 ```
 
-### 3. Engineering Metadata (collapsible — Author Mode)
+### 3. Engineering Metadata (Author only — bottom of page)
 
-Internal project fields. Default **collapsed**. Prefer linking `DESIGN.md` rather than dumping the whole contract.
+Put under `<details><summary>For contributors</summary>` at the **end** of the chapter — never in Path tables, never above the lesson body.
+
+Do not show DESIGN / review ids / topic id in Student Path UI.
 
 ```markdown
 <details>
