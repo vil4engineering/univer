@@ -46,7 +46,8 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 | **Лабораторная** | Try yourself | Lab / playground / `projects/` link |
 | **Конспект** | Plain readable takeaways — **text only, no links inside**. Student re-reads the idea without a wiki of blue underlines. | After practice / before pointers |
 | **Упомянуто в главе** | **All** topic pointers live here (and optional первоисточники) — not sprinkled through the body | Related · Next |
-| **Что читать дальше** | May merge into Упомянуто; same rule: links only in the footer block | References · Next |
+| **Что читать дальше** | May merge into Упомянуто; same rule: links only in the footer block | References |
+| **Дальше** | **Next chapter only** — not Path Beta/Alpha, faculty, or «часть курса» | Student footer |
 
 Aligns with ROADMAP lesson spine (Problem → … → References) without a second encyclopedia.
 
