@@ -103,3 +103,19 @@ Trigger phrases (any close variant counts — including RU-layout typos like `ш
 python3 scripts/check_library_sync.py
 python3 scripts/write_library_map.py
 ```
+
+## Cursor Cloud specific instructions
+
+The product is a **Docsify** static site (RU-primary curriculum). There is no build step and no package manager: markdown is rendered client-side, and Docsify + its plugins load from the **jsDelivr CDN**, so rendering requires network egress to `cdn.jsdelivr.net`. The Python catalog tooling under `scripts/` uses only the standard library — nothing to `pip install`.
+
+**Run the site locally (non-obvious):** the committed `index.html` sets `basePath: '/univer/'`. Serving the repo root directly at a server root therefore shows a blank page (markdown requests 404 under `/univer/`). Serve so the repo is reachable under a `/univer/` path, e.g.:
+
+```bash
+mkdir -p /tmp/docsify-root && ln -sfn "$PWD" /tmp/docsify-root/univer
+python3 -m http.server 3000 --directory /tmp/docsify-root
+# open http://localhost:3000/univer/
+```
+
+`docsify serve` (docsify-cli) is the upstream dev tool but is not required and global npm install may fail on permissions; the stdlib server above is sufficient and gives the same client-side routing/search.
+
+**Tooling gotchas:** `scripts/check_library_sync.py` currently reports `FAILED` on `main` (pre-existing disk/`TOPIC_TREE` drift, e.g. `ai-engineering/materials`, `swift/what-is-swift`) — not caused by env setup. `scripts/resources_index.py` and `scripts/write_library_map.py` **regenerate tracked files** (`reference/curated/README.md`, `campus/library/README.md`) when run, so `git checkout --` them if you only meant to check, not to commit. Fixing content/IA/`TOPIC_TREE` is Owner-gated (see identity gate above).
