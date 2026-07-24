@@ -28,11 +28,12 @@ This is not a role. For the Reviewer operating mode see [../roles/reviewer.md](.
 
 ## Chapter pedagogy bar
 
-For full chapters after Phase B, also run [../checklists/chapter-review.md](../checklists/chapter-review.md) (Four gates + ten criteria) and file under [`reviews/`](../../reviews/).
+For full chapters, score against [review-criteria.md](review-criteria.md) via [../checklists/chapter-review.md](../checklists/chapter-review.md) and file under [`reviews/`](../../reviews/). Lifecycle: [content-lifecycle.md](content-lifecycle.md).
 
 ## Related
 
 - [../roles/reviewer.md](../roles/reviewer.md)
+- [review-criteria.md](review-criteria.md)
 - [../checklists/topic.md](../checklists/topic.md)
 - [../checklists/chapter-review.md](../checklists/chapter-review.md)
 - [writing.md](writing.md)

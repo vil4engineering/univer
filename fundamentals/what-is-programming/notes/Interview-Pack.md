@@ -44,8 +44,8 @@ Projection of [`../README.md`](../README.md). Short answers only.
 
 ---
 
-## Q6 — Engineer vs «просто пишет код»
+## Q6 — От задачи к программе / Engineer
 
-**Short:** Engineer держит задачу, ограничения и жизнь системы во времени. Код — один шаг цикла.
+**Short:** Код — узкий шаг. Engineer держит задачу → алгоритм → программу → жизнь системы. Clarifying questions — до Swift.
 
 **Follow-up:** Clarifying questions до первой строки?

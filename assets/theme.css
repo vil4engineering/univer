@@ -421,3 +421,37 @@ html[data-theme="dark"] #theme-toggle .icon-sun {
 html[data-theme="dark"] .markdown-section details {
   background: rgba(255, 255, 255, 0.04);
 }
+
+.markdown-section .eu-axiom {
+  margin: 1rem 0 1.25rem;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid var(--gh-accent, #007aff);
+  border-radius: 0 8px 8px 0;
+  background: var(--gh-canvas-subtle);
+}
+
+.markdown-section .eu-axiom-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gh-fg-muted);
+  font-weight: 700;
+}
+
+.markdown-section .eu-axiom p {
+  margin: 0.35rem 0 0;
+}
+
+.markdown-section .eu-level-gate {
+  margin: 1rem 0 1.25rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px dashed var(--gh-border);
+  border-radius: 8px;
+  color: var(--gh-fg-muted);
+  font-size: 0.95rem;
+}
+
+html[data-theme="dark"] .markdown-section .eu-axiom {
+  background: rgba(255, 255, 255, 0.04);
+}

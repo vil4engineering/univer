@@ -5,24 +5,29 @@
 Не ищи стиль по Charter / TOPIC_TEMPLATE / philosophy по отдельности в начале работы - открой **этот файл**, затем один prompt.
 
 ```text
-.ai/workflows/chapter-fill.md     ← ты здесь (процесс)
+.ai/workflows/chapter-fill.md     ← ты здесь (playbook)
+.ai/principles/teaching-model.md  ← why we teach (platform SoT)
+.ai/principles/review-criteria.md ← how we score chapters
+.ai/principles/content-lifecycle.md ← SDLC: idea → Evidence
 .ai/prompts/design-chapter.md     ← Phase A: только ДИЗАЙН страницы
 .ai/prompts/write-chapter.md      ← Phase B: текст по утверждённому DESIGN
 .ai/checklists/chapter-design.md  ← приёмка дизайна до написания
 .ai/checklists/topic.md           ← SoT / template приёмка
-.ai/checklists/chapter-review.md  ← педагогика: 4 gates + 10 критериев
-reviews/                          ← журнал ревью (как code review для глав)
+.ai/checklists/chapter-review.md  ← paste shape → review-criteria
+reviews/                          ← журнал ревью (глава = продукт)
 ```
 
 Принципы (SoT, не копировать вручную в каждую главу):
 
 | Документ | Зачем |
 |----------|--------|
+| [teaching-model.md](../principles/teaching-model.md) | **platform SoT** — why chapters exist this way |
+| [review-criteria.md](../principles/review-criteria.md) | **official score bar** |
+| [content-lifecycle.md](../principles/content-lifecycle.md) | **content SDLC** · chapter = product |
 | [content-philosophy.md](../principles/content-philosophy.md) | идеи > технологии; история; рефлексия |
-| [teaching-model.md](../principles/teaching-model.md) | one chapter = one why; Part I spine; ban term catalogs |
-| [chapter-shape.md](../principles/chapter-shape.md) | секции + fundamental why |
+| [chapter-shape.md](../principles/chapter-shape.md) | секции |
 | [language.md](../principles/language.md) | RU explain · EN terms |
-| [campus/TOPIC_TEMPLATE.md](../../campus/TOPIC_TEMPLATE.md) | header / passport / Levels |
+| [campus/TOPIC_TEMPLATE.md](../../campus/TOPIC_TEMPLATE.md) | Markdown chrome |
 | [constitution.md](../constitution.md) | 10 правил |
 
 Если prompt и principle расходятся - **побеждает principle**; потом поправь prompt.
@@ -31,30 +36,25 @@ reviews/                          ← журнал ревью (как code revie
 
 ## Паттерн (запомни форму)
 
+Полный SDLC: [content-lifecycle.md](../principles/content-lifecycle.md). Кратко:
+
 ```text
-1. Выбрать тему + fundamental why
+1. Idea — тема + fundamental why (+ Part slot)
 2. Architect (если новый path / дубль) → approve create
-3. Phase A — DESIGN only
-      скопировать prompts/design-chapter.md
-      заменить ТОЛЬКО блок «# Тема»
-      роль: методист (не Author полного текста)
-4. **Design Review** (Owner + Reviewer) — checklists/chapter-design.md
-      без Approve структура расползётся к 20–30-й главе
-5. Owner явный **Approve design** («пиши главу»)
-6. Phase B — WRITE
-      скопировать prompts/write-chapter.md
-      на вход: путь к DESIGN.md
-7. Dual-pass Reviewer
-      topic.md (структура) + chapter-review.md (педагогика)
-      сохранить `reviews/NNNN-slug.md` (шаблон reviews/_TEMPLATE.md)
-      для внешнего ревьюера — blob/raw GitHub, не только Pages `#/`
-8. Owner decision на review → Author fixes → новый Reviewer pass
-9. Evidence / Path log при учёбе
-10. Stop — не плодить handbook-деревья
+3. Design — DESIGN only (prompts/design-chapter.md)
+4. Design Review — checklists/chapter-design.md
+5. Owner Approve («пиши главу»)
+6. Draft — write-chapter.md → README (+ Interview-Pack)
+7. Engineering Review — dual-pass · review-criteria · reviews/NNNN
+8. Revision → новый Reviewer pass
+9. Publish (merge / Pages)
+10. Evidence — Path log при учёбе
+11. Stop — не плодить handbook-деревья · не стартовать следующую главу без lifecycle
 ```
 
-**Запрет:** писать тело главы, пропустив Design Review / Approve.  
-**Запрет:** Accept главы без Four gates + scored chapter-review (или явный Owner override в `reviews/`).
+**Запрет:** Draft без Design Review / Owner Approve.  
+**Запрет:** Accept без Four gates + scored review ([review-criteria](../principles/review-criteria.md)) или Owner override в `reviews/`.  
+**Глава = продукт:** DESIGN · README · Interview-Pack · reviews · version · Next.
 
 **Improve existing:** если страница уже есть и нужна правка одной дыры - [improve-topic.md](improve-topic.md), не полный chapter-fill.
 

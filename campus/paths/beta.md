@@ -23,5 +23,5 @@ Rule: chapters answer **why**, not term dictionaries.
 
 | Date | Topic | Status | Confidence | Evidence |
 |------|-------|--------|------------|----------|
-| 2026-07-24 | Part I / 0 — Почему существует программирование? | learning | — | v1.1; fundamental why: компьютеру нужны программы; [0001b](../../reviews/0001b-what-is-programming.md) |
+| 2026-07-24 | Part I / 0 — Почему существует программирование? | learning | — | **Publish v1.2**; [0001b](../../reviews/0001b-what-is-programming.md) |
 | — | — | — | — | (earlier rows) |

@@ -8,6 +8,8 @@
   - [Operating modes](/campus/OPERATING_MODES.md)
   - [Chapter fill (AI)](/.ai/workflows/chapter-fill.md)
   - [Teaching model](/.ai/principles/teaching-model.md)
+  - [Review criteria](/.ai/principles/review-criteria.md)
+  - [Content lifecycle](/.ai/principles/content-lifecycle.md)
   - [Part I · Foundations](/fundamentals/PART_I.md)
   - [Content reviews](/reviews/)
   - [Why programming exists? (I/0)](/fundamentals/what-is-programming/)

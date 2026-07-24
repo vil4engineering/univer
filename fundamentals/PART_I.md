@@ -16,13 +16,20 @@
 
 Строгое «что такое программирование?» как словарное определение — **после** исполнителя, инструкции, алгоритма и программы (не единственная работа главы 0).
 
+**Master spine** (повторять в главах, подсвечивая текущий уровень):
+
+```text
+Реальная задача → Человек → Алгоритм → Программа
+  → Compiler → Machine Code → CPU → Действие в мире
+```
+
 ---
 
 ## Sequence
 
 | # | Title (reader) | Fundamental why | Topic | Status |
 |---|----------------|-----------------|-------|--------|
-| 0 | [Почему существует программирование?](what-is-programming/) | Почему компьютеру вообще нужны программы? | `fundamentals/what-is-programming` | **v1.1** · [0001](../reviews/0001-what-is-programming.md) · [0001b](../reviews/0001b-what-is-programming.md) |
+| 0 | [Почему существует программирование?](what-is-programming/) | Почему компьютеру вообще нужны программы? | `fundamentals/what-is-programming` | **v1.2 Publish** |
 | 1 | Что такое компьютер? | Почему нам нужен буквальный исполнитель? | `fundamentals/what-is-a-computer` | planned |
 | 2 | Как компьютер исполняет программу? | Почему инструкция превращается в действие? | `fundamentals/how-computer-runs-a-program` | planned |
 | 3 | Binary | Почему компьютеры понимают только Binary? | `fundamentals/binary` | planned |
@@ -33,7 +40,7 @@
 | 8 | Языки программирования | Почему языков много, а идея одна? | `fundamentals/programming-languages` | planned |
 | 9 | Что значит быть Software Engineer? | Почему «написать код» недостаточно? | `fundamentals/what-is-a-software-engineer` | planned |
 
-Пустые папки **не** создавать пачкой. Следующая глава — только через [chapter-fill](../.ai/workflows/chapter-fill.md) (DESIGN → Review → Approve → write).
+Пустые папки **не** создавать пачкой. Следующая глава — только через [content-lifecycle](../.ai/principles/content-lifecycle.md) + [chapter-fill](../.ai/workflows/chapter-fill.md).
 
 ---
 

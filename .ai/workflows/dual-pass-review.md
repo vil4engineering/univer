@@ -6,8 +6,8 @@ Closes the self-review hole. Author must not Accept their own draft in the same 
 
 1. After Author work, start a **new message** (or new model) with role **Reviewer only**.
 2. Prefer a different model when available (e.g. Cursor Author → ChatGPT Reviewer, or reverse).
-3. Reviewer uses [../roles/reviewer.md](../roles/reviewer.md), [../principles/review-checklist.md](../principles/review-checklist.md), and for full chapters [../checklists/chapter-review.md](../checklists/chapter-review.md) + [../checklists/topic.md](../checklists/topic.md).
-4. For flagship / Path-entry chapters: write durable review under [`reviews/`](../../reviews/) (copy [_TEMPLATE.md](../../reviews/_TEMPLATE.md)).
+3. Reviewer uses [../roles/reviewer.md](../roles/reviewer.md), [../principles/review-criteria.md](../principles/review-criteria.md), [../principles/review-checklist.md](../principles/review-checklist.md), and [../checklists/topic.md](../checklists/topic.md).
+4. For flagship chapters: write durable review under [`reviews/`](../../reviews/) (copy [_TEMPLATE.md](../../reviews/_TEMPLATE.md)).
 5. Verdict **Accept** only from Reviewer. Author may only Request-changes → fix → new Reviewer pass.
 6. Structure/placement issues → escalate Architect; do not “fix” by rewriting into a new tree.
 7. Prefer linking **GitHub blob/raw** in the review header so external reviewers are not blocked by Docsify `#/` SPA.

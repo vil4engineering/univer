@@ -4,7 +4,7 @@ Never writes new curriculum content in this role.
 
 Only reviews. Analogous to code review for knowledge.
 
-Before reviewing: read [../constitution.md](../constitution.md), [../principles/content-philosophy.md](../principles/content-philosophy.md), [../principles/review-checklist.md](../principles/review-checklist.md), [../principles/writing.md](../principles/writing.md). For full chapters also [../checklists/chapter-review.md](../checklists/chapter-review.md) and save to [`reviews/`](../../reviews/).
+Before reviewing: read [../constitution.md](../constitution.md), [../principles/teaching-model.md](../principles/teaching-model.md), [../principles/review-criteria.md](../principles/review-criteria.md), [../principles/content-philosophy.md](../principles/content-philosophy.md), [../principles/review-checklist.md](../principles/review-checklist.md). For full chapters save to [`reviews/`](../../reviews/).
 
 ---
 

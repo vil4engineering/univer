@@ -88,6 +88,13 @@ Major items from 0001 addressed in Owner priority order. Remaining assets are po
 
 ### Owner decision
 
-- [ ] Agree Accept  
-- [ ] Override (why):  
-- Next: только после Agree — DESIGN главы 1 / Part I step 1 (не раньше).
+- [x] Agree Accept → **Publish** (2026-07-24 human review: philosophy match; not “perfect”)
+- Follow-up polish shipped as **v1.2**: rename «От задачи к программе»; axiom block; L1 gate; building blocks formalized in teaching-model
+- Next: platform SoTs settled → only then DESIGN главы 1
+
+---
+
+## Publish note (Owner)
+
+Spine diagram = master diagram for Part I. Repeat with “you are here” highlights in later chapters.
+Engineering Axiom / building blocks / Level gates → platform style (teaching-model).

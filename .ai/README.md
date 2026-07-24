@@ -34,7 +34,13 @@ Campus OS (Paths, Skills, Evidence) stays in `campus/`. Private career stays out
 
 Do not skip the constitution. Do not load every role at once. Pick one role per task.
 
-**Content quality gate:** [principles/content-philosophy.md](principles/content-philosophy.md) and [principles/teaching-model.md](principles/teaching-model.md) are **key SoTs** (with Charter/philosophy). Stack: teaching-model → chapter-shape → `campus/TOPIC_TEMPLATE.md`.
+**Platform SoTs (read before new chapters):**
+
+1. [principles/teaching-model.md](principles/teaching-model.md) — why we teach this way  
+2. [principles/review-criteria.md](principles/review-criteria.md) — how we score  
+3. [principles/content-lifecycle.md](principles/content-lifecycle.md) — content SDLC · chapter = product  
+
+Also: [principles/content-philosophy.md](principles/content-philosophy.md). Stack: teaching-model → chapter-shape → `campus/TOPIC_TEMPLATE.md`.
 
 ---
 

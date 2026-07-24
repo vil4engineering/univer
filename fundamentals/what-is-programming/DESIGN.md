@@ -1,6 +1,6 @@
 # DESIGN — Почему существует программирование? (Part I / 0)
 
-**Статус:** Owner **Approve** · Phase B **v1.1** · Review [0001b](../../reviews/0001b-what-is-programming.md) → **Accept** (ждёт Owner Agree) · slug unchanged
+**Статус:** **Publish** v1.2 · Owner Agree on [0001b](../../reviews/0001b-what-is-programming.md) · spine = Part I master diagram
 **Глава:** текст **v1.1**; скелет не менять без нового Design Review  
 **Topic id:** `fundamentals/what-is-programming`  
 **Faculty:** Computer Science (вход) · мост в Software Engineering  

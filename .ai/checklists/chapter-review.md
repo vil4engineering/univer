@@ -1,23 +1,24 @@
 # Checklist: Chapter content review
 
-Use **after** Phase B write and **before** Accept. Complements [topic.md](topic.md) (SoT / template) with a **pedagogy bar**.
+**SoT for scores and gates:** [../principles/review-criteria.md](../principles/review-criteria.md).  
+This file is the **operational paste shape** for Reviewer output.
 
-Save a durable copy under repo root [`reviews/`](../../reviews/) — see [reviews/README.md](../../reviews/README.md).
+Use after Draft and before Accept. Also run [topic.md](topic.md) (structure).  
+Save durable copy: [`reviews/`](../../reviews/).  
+Lifecycle: [../principles/content-lifecycle.md](../principles/content-lifecycle.md).
 
-Source for external reviewers (SPA does not index): GitHub blob or raw `.md`, not only GitHub Pages `#/` URLs.
+External reviewers: GitHub blob/raw — not only Pages `#/`.
 
 ---
 
-## Four gates (must all pass)
+## Four gates
 
-| Gate | Question | Pass? |
-|------|----------|-------|
-| Beginner | Поймёт ли новичок (и сын через годы)? | |
-| Engineer | Полезно ли в реальной работе? | |
-| Interview | Поможет ли ответить интервьюеру? | |
-| University | Останется ли актуальным через ~10 лет? | |
-
-**Rule:** fail any gate → **Request changes** (or Reject). Do not Accept on style alone.
+| Gate | Pass? | Note |
+|------|-------|------|
+| Beginner | | |
+| Engineer | | |
+| Interview | | |
+| University | | |
 
 ---
 
@@ -25,45 +26,37 @@ Source for external reviewers (SPA does not index): GitHub blob or raw `.md`, no
 
 | # | Criterion | /10 | Notes |
 |---|-----------|-----|-------|
-| 1 | Главная идея (mental-model shift, not “good prose”) | | |
-| 2 | Логика повествования (Problem → History → Idea → Solution → Practice) | | |
-| 3 | Исторический контекст (why this idea existed) | | |
-| 4 | Глубина объяснения (без перегруза «учат вместо вывода») | | |
-| 5 | Диаграммы (каждая отвечает: что стало понятнее?) | | |
-| 6 | Практические примеры | | |
-| 7 | Production perspective (идея → инженерия → Swift / platform) | | |
-| 8 | Interview value | | |
-| 9 | Beginner friendliness | | |
-| 10 | Долговечность (idea-level; survives API churn) | | |
-
-**Average** = mean of scored rows. Optional band:
-
-| Band | Meaning |
-|------|---------|
-| 9–10 | Textbook chapter |
-| 7–8 | Ship after small fixes |
-| 5–6 | Major rewrite of spine |
-| <5 | Reject / redesign |
+| 1 | Main idea | | |
+| 2 | Narrative | | |
+| 3 | Technical accuracy | | |
+| 4 | Mental model shift | | |
+| 5 | Production relevance | | |
+| 6 | Interview value | | |
+| 7 | Exercises | | |
+| 8 | Cross-links | | |
+| 9 | Longevity | | |
+| 10 | Diagrams / visuals | | |
+| | **Average** | | |
 
 ---
 
 ## Qualitative blocks (required in `reviews/NNNN-….md`)
 
-1. **Сильные стороны**
-2. **Что убрать**
-3. **Что переписать**
-4. **Что добавить**
-5. **Связать с главами** (graph)
-6. **Диаграммы** — по каждой: вопрос «что понятнее?» или cut
-7. **Verdict:** Accept | Request changes | Reject
-8. **Owner decision** (fill after human read)
+1. Сильные стороны  
+2. Что убрать  
+3. Что переписать  
+4. Что добавить  
+5. Связать с главами  
+6. Диаграммы — «что понятнее?» или cut  
+7. Verdict: Accept | Request changes | Reject  
+8. Owner decision  
 
 ---
 
 ## Related
 
-- [topic.md](topic.md) — structural Accept gate
-- [chapter-design.md](chapter-design.md) — Phase A only
+- [../principles/review-criteria.md](../principles/review-criteria.md)
+- [topic.md](topic.md)
+- [chapter-design.md](chapter-design.md)
 - [../workflows/chapter-fill.md](../workflows/chapter-fill.md)
 - [../workflows/dual-pass-review.md](../workflows/dual-pass-review.md)
-- [../principles/content-philosophy.md](../principles/content-philosophy.md)

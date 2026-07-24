@@ -24,9 +24,10 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 **Learning now:**
 
 - Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
-- Student B entry: **Part I / 0 v1.1** — [глава](fundamentals/what-is-programming/) · why: *Почему компьютеру нужны программы?* · [0001b Accept?](reviews/0001b-what-is-programming.md) · [Part I](fundamentals/PART_I.md) · [teaching-model](.ai/principles/teaching-model.md)  
-- Key pedagogy SoT: [teaching-model](.ai/principles/teaching-model.md) ↔ [content-philosophy](.ai/principles/content-philosophy.md) · shape → template stack  
-- **Architecture:** one chapter = one why · knowledge when needed · ban term catalogs
+- **Stage:** educational **platform** (not single-chapter craft) — next work = SoTs, not mass chapters  
+- Platform trio: [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md)  
+- Student B: Part I / 0 **Publish v1.2** — [глава](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md)  
+- Chapter = product (DESIGN · README · Interview-Pack · reviews · version)
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -64,9 +65,10 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Handbook / Decision / Playbook trees | Blocked until Design (Architect cut) |
 | Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 | Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
-| Entry chapter `what-is-programming` | **v1.1** · H1 B · fundamental why *нужны программы?* · [0001b](reviews/0001b-what-is-programming.md) Accept pending Owner |
-| Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md); ch.0 Reader Header live |
-| Content review journal | **Started** — [`reviews/`](reviews/) · checklist [chapter-review](.ai/checklists/chapter-review.md) |
+| Entry chapter `what-is-programming` | **Publish v1.2** · Owner Agree [0001b](reviews/0001b-what-is-programming.md) |
+| Platform SoT trio | **Live** — [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md) |
+| Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
+| Content review journal | **Started** — [`reviews/`](reviews/) |
 
 
 
@@ -90,9 +92,12 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md) | Storage decisions (still valid) |
 | [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) | Chat → repo map + gaps |
 | [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) | Core World intent (pick later) |
-| [.ai/workflows/chapter-fill.md](.ai/workflows/chapter-fill.md) | Single entry: design → write chapters |
+| [.ai/principles/teaching-model.md](.ai/principles/teaching-model.md) | Platform SoT — why we teach |
+| [.ai/principles/review-criteria.md](.ai/principles/review-criteria.md) | Official chapter score bar |
+| [.ai/principles/content-lifecycle.md](.ai/principles/content-lifecycle.md) | Content SDLC · chapter = product |
+| [.ai/workflows/chapter-fill.md](.ai/workflows/chapter-fill.md) | Playbook: design → publish |
 | [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
 | [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |
-| [fundamentals/what-is-programming/DESIGN.md](fundamentals/what-is-programming/DESIGN.md) | First-chapter page design |
-| [reviews/0001-what-is-programming.md](reviews/0001-what-is-programming.md) | First content review (pedagogy bar) |
+| [fundamentals/PART_I.md](fundamentals/PART_I.md) | Part I Foundations map |
+| [reviews/0001b-what-is-programming.md](reviews/0001b-what-is-programming.md) | Chapter 0 Publish v1.2 |
 

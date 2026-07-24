@@ -48,6 +48,21 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 
 Aligns with ROADMAP lesson spine (Problem → … → References) without a second encyclopedia.
 
+**Building blocks** (Cold open · Axiom · Spine · New model · History · Production · Interview · Level gate): see [teaching-model.md](teaching-model.md) — recognizable style, not a second outline.
+
+---
+
+## Levels (depth on one page)
+
+| Level | Role in chapter |
+|-------|-----------------|
+| **1** | Интуиция (+ tiny practice) · **may stop at Level gate** |
+| **2** | Как это работает · Пример · Production defaults |
+| **3** | Внутри · deep trade-offs |
+
+Default study exit: Level 2. Do not invent Level 4–6 headings.  
+One multi-layer page > separate beginner/senior courses — [teaching-model.md](teaching-model.md).
+
 ---
 
 ## Incremental fill
