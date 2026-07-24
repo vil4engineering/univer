@@ -25,7 +25,7 @@ A flat bullet list of Topic id / Status / Confidence / Fundamental question at t
 Answers only: *What am I studying right now?*
 
 ```markdown
-<p class="chapter-kicker">Computer Science · Foundations · Part I</p>
+<p class="chapter-kicker">Computer Science · Foundations · Execution Spine</p>
 
 # Почему существует программирование?
 
@@ -55,9 +55,9 @@ Rules:
 | | |
 |--|--|
 | **Faculty** | Computer Science |
-| **Path** | Beta · Step 1 · Part I / 0 |
+| **Path** | Beta · Step 1 · Execution Spine / 0 |
 | **Prerequisites** | — |
-| **Next** | [Что такое компьютер?](../PART_I.md) (planned) |
+| **Next** | [Execution Spine](../PART_I.md) (module map) |
 | **Interview** | ★★★ |
 | **Difficulty** | Easy |
 | **Time** | ≈ 20 min |

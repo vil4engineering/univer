@@ -1,6 +1,6 @@
-# Part I — Foundations
+# Execution Spine
 
-Первый модуль университета.
+Первый модуль траектории [Foundations](../campus/paths/beta.md) (Computer Science).
 
 Он отвечает на главный вопрос:
 
@@ -8,11 +8,7 @@
 
 В этом модуле каждая глава отвечает на **один вопрос**, а не определяет термин.
 
----
-
-## Execution Spine
-
-Каноническая модель Part I. Дальше главы говорят: «мы на уровне *Compiler* Execution Spine».
+Каноническая модель модуля — вертикаль ниже. Дальше главы говорят: «мы на уровне *Compiler* Execution Spine».
 
 ```text
 Реальная задача
@@ -52,7 +48,7 @@
 
 ## Дальше
 
-- Траектория: [Foundations](../campus/paths/beta.md) (Learning Path Beta)  
-- Карта слоёв: [Траектории](../campus/paths/) — Alpha и Gamma *поверх* этого фундамента, не вместо него  
+- Траектория: [Foundations](../campus/paths/beta.md)  
+- Слои поверх фундамента: [Траектории](../campus/paths/)  
 
-Следующий модуль — после закрытия Part I.
+Следующий модуль Foundations — после закрытия этого.

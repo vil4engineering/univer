@@ -8,7 +8,7 @@ Swift — не «ещё один синтаксис».
 </p>
 
 <p class="chapter-meta">
-≈ 12 мин · Interview ★★ · после главы 0 Part I
+≈ 12 мин · Interview ★★ · после главы 0 Execution Spine
 </p>
 
 | | |
@@ -20,7 +20,7 @@ Swift — не «ещё один синтаксис».
 
 ## Интуиция
 
-В главе 0 Part I ты увидел цепочку:
+В главе 0 модуля Execution Spine ты увидел цепочку:
 
 > задача → алгоритм → программа → Compiler → Machine Code → CPU
 
@@ -60,7 +60,7 @@ C → Objective-C → Swift
 | Легко промахнуться с памятью / типами | Жёстче контракты на этапе компиляции |
 | Сложно онбордить людей | Ближе к «обычному» инженерному языку |
 
-Глубже про Compiler и Machine Code — в Part I, не здесь.
+Глубже про Compiler и Machine Code — в модуле Execution Spine, не здесь.
 
 ---
 
@@ -96,9 +96,9 @@ C → Objective-C → Swift
 
 | Упомянуто | Куда |
 |-----------|------|
-| Зачем вообще нужны программы | [Глава 0 · Part I](../../fundamentals/what-is-programming/) |
+| Зачем вообще нужны программы | [Глава 0 · Execution Spine](../../fundamentals/what-is-programming/) |
 | Официальный вход в синтаксис | [The Swift Programming Language — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/) |
 | Склад синтаксиса в репо (позже, сырой) | [swift/syntax](../syntax/) |
-| Карта Part I | [Part I](../../fundamentals/PART_I.md) |
+| Карта модуля | [Execution Spine](../../fundamentals/PART_I.md) |
 
-Следующий осмысленный шаг — не утонуть в API, а вернуться в Part I и закрыть «компьютер / исполнение / Binary».
+Следующий осмысленный шаг — не утонуть в API, а вернуться в Execution Spine и закрыть «компьютер / исполнение / Binary».

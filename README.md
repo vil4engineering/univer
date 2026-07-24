@@ -10,13 +10,11 @@
 
 ## С чего начать
 
-Начни с **фундамента** — Computer Science, слой Foundations ([Part I](fundamentals/PART_I.md)).
-
-Это не «один курс из трёх». Это база, на которую потом лягут Software Engineering и AI — по одному графу знаний.
+Начни с **фундамента** — траектория Foundations и первый модуль [Execution Spine](fundamentals/PART_I.md): как задача человека становится действием машины.
 
 **[Начать с Foundations →](campus/paths/beta.md)**
 
-Как устроены слои и траектории обхода: [Траектории](campus/paths/).
+Как устроены слои: [Траектории](campus/paths/).
 
 ---
 

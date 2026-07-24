@@ -10,6 +10,6 @@ Creator Portal = [`.author/`](../.author/) — **not** in sidebar.
 | Learning | Yes |
 | Authoring / Engineering | No (repo / deep link only) |
 
-Sidebar: Home · Start · Paths · Part I · Faculties · Labs · About.
+Sidebar: Home · Start · Trajectories · Execution Spine · Faculties · Labs · About.
 
 Topic pages: Student Mode Reader Header; Engineering metadata stays collapsed for authors who open raw files.

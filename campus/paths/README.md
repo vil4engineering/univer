@@ -27,7 +27,7 @@
 <small>Learning Path Beta</small>
 
 Computer Science с первых принципов: как задача человека становится действием машины.  
-Модуль: [Part I](../../fundamentals/PART_I.md).
+Первый модуль: [Execution Spine](../../fundamentals/PART_I.md).
 
 Без этого слоя Alpha и Gamma не «другие курсы» — они висят в воздухе.
 
@@ -41,7 +41,7 @@ Computer Science с первых принципов: как задача чел�
 <small>Learning Path Alpha</small>
 
 Маршрут опытного инженера по тому же графу: concurrency, architecture, quality, ownership.  
-Если непонятен Actor — ссылка вниз, к памяти, CPU, Part I. Alpha **не заменяет** Foundations.
+Если непонятен Actor — ссылка вниз, к памяти, CPU, Execution Spine. Alpha **не заменяет** Foundations.
 
 ---
 
@@ -61,7 +61,7 @@ Gamma — траектория *через* фундамент и инженер
 
 | Слой | Что изучаешь | Внутреннее имя |
 |------|----------------|----------------|
-| Foundations | Computer Science · Part I | Path Beta |
+| Foundations | Computer Science · модуль Execution Spine | Path Beta |
 | Software Engineering | SE + Mobile depth | Path Alpha |
 | AI Engineering | AI как инструмент и как система | Path Gamma |
 

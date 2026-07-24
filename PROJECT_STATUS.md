@@ -27,7 +27,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 - **Epic:** [IA 1.0](campus/IA_1.0.md) — Learn (site) ↔ Creator Portal ([`.author/`](.author/)) ↔ Engine ([`.ai/`](.ai/))  
 - Public Docsify = **Learning only** (no review-criteria / teaching-model in sidebar)  
 - Platform trio (authors): via [`.author/`](.author/) → `.ai/principles/`  
-- Student B: Part I / 0 Publish v1.2  
+- Student B: Execution Spine / 0 Publish v1.2  
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -100,6 +100,6 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [.ai/workflows/chapter-fill.md](.ai/workflows/chapter-fill.md) | Playbook: design → publish |
 | [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
 | [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |
-| [fundamentals/PART_I.md](fundamentals/PART_I.md) | Part I Foundations map |
+| [fundamentals/PART_I.md](fundamentals/PART_I.md) | Execution Spine module map (legacy filename PART_I) |
 | [reviews/0001b-what-is-programming.md](reviews/0001b-what-is-programming.md) | Chapter 0 Publish v1.2 |
 

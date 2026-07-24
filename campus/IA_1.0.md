@@ -65,7 +65,7 @@ Files may still exist in the git repo / deep URLs (GitHub Pages hosts the tree).
 | Role | Surface |
 |------|---------|
 | **Visitor** | [Home](../README.md) |
-| **Student** | Paths · Part I · chapters · Campus |
+| **Student** | Paths · Execution Spine · chapters · Campus |
 | **Author** | [`.author/`](../.author/) (repo) |
 | **AI** | [AGENTS.md](../AGENTS.md) · [`.ai/`](../.ai/) |
 
@@ -97,7 +97,7 @@ No Author / AI / review-criteria / teaching-model.
 Home
 Начать обучение   → Foundations (Learning Path Beta) — base layer
 Траектории        → one knowledge graph; paths = traversal order (not 3 courses)
-Part I
+Execution Spine   → first Foundations module (file: fundamentals/PART_I.md — legacy id)
 Faculties         → where topics live in the graph
 Labs
 About             → product story later; README is temporary
@@ -105,6 +105,9 @@ About             → product story later; README is temporary
 
 **Paths model:** Beta / Alpha / Gamma are **trajectories** through one universe, not competing curricula.  
 Student page titles: Foundations · Software Engineering · AI Engineering (internal ids: Path Beta / Alpha / Gamma).
+
+**Module naming:** do **not** use “Part I / Part II” on student chrome until a real multi-part series exists.  
+First CS module = **Execution Spine** (answers: how a human task becomes machine action).
 
 **No** Author hub. **No** Creator Portal. **No** `.ai` docs.
 

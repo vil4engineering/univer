@@ -18,7 +18,7 @@ Software Engineering (Alpha)  ←→  Mobile …
 Computer Science / Foundations (Beta)
 ```
 
-- **Foundations (Beta)** — base layer (e.g. Part I Execution Spine).  
+- **Foundations (Beta)** — base layer (first module: **Execution Spine**).  
 - **Software Engineering (Alpha)** — deeper traversal; links *down* when a concept needs CS/runtime.  
 - **AI Engineering (Gamma)** — specialization that still rests on Binary / Memory / Compiler / GPU.
 

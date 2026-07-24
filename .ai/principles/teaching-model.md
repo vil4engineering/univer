@@ -55,7 +55,7 @@ It does **not** “cover a topic” or “define a term.”
 **Why chapters start from a problem:** definitions without pain become dictionaries. Pain creates the need to read the next sentence.
 
 **H1** invites; **fundamental why** (Learning Metadata) may be the sharper problem form.  
-Example — Part I / 0: H1 *Почему существует программирование?* · why *Почему компьютеру вообще нужны программы?*
+Example — Execution Spine / 0: H1 *Почему существует программирование?* · why *Почему компьютеру вообще нужны программы?*
 
 If prose answers *why* but H1 says dictionary *what*, rename (Owner) — do not leave the mismatch.
 
@@ -184,9 +184,10 @@ Here, each idea appears as an **answer to a problem** previous pages made painfu
 
 ---
 
-## Part I — Foundations (first module)
+## Execution Spine (first Foundations module)
 
-Human map (student cover): [`fundamentals/PART_I.md`](../../fundamentals/PART_I.md).
+Human map (student cover): [`fundamentals/PART_I.md`](../../fundamentals/PART_I.md).  
+Legacy filename / id: `PART_I` — **do not** show “Part I” on student chrome (part of what?). Student title: **Execution Spine**.
 
 **Canonical model name:** **Execution Spine** (Problem → Human → Algorithm → Program → Compiler → Machine Code → CPU → World).  
 Later chapters say: “we are at the *Compiler* step of the Execution Spine.”
@@ -203,7 +204,7 @@ Name → Why this module exists → Execution Spine
 **Student-facing rule (one line on the module cover):**  
 In this module each chapter answers one question — it does not define a term.
 
-**Author-facing anti-patterns** (do not put on student Part I page):
+**Author-facing anti-patterns** (do not put on the student module cover):
 
 | ❌ | ✅ |
 |----|----|
@@ -215,7 +216,7 @@ In this module each chapter answers one question — it does not define a term.
 | # | Working title (H1) | Fundamental why | Topic id | Status |
 |---|--------------------|-----------------|----------|--------|
 | 0 | Почему существует программирование? | Почему компьютеру вообще нужны программы? | `fundamentals/what-is-programming` | **v1.2 Publish** |
-| 1–9 | (see Part I student cover) | one why each | planned ids | planned |
+| 1–9 | (see Execution Spine student cover) | one why each | planned ids | planned |
 
 Strict dictionary “what is programming?” comes **after** executor, instruction, algorithm, program. Chapter 0 creates the *need*.
 

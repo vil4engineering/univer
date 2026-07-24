@@ -12,7 +12,7 @@ Constitution rule 5: **Answer Why before How.**
 
 Every chapter answers **one fundamental engineering question** — usually a **why**, not a dictionary **what**.
 
-**Binding expansion:** [teaching-model.md](teaching-model.md) — one chapter = one question; ban term-catalog curricula; Part I Foundations spine.
+**Binding expansion:** [teaching-model.md](teaching-model.md) — one chapter = one question; ban term-catalog curricula; Execution Spine Foundations module.
 
 | Weak opener | Strong opener |
 |-------------|----------------|
@@ -57,9 +57,9 @@ Body + Конспект  →  prose only (names of topics OK, no markdown links)
 Упомянуто / footer →  all links live here
 ```
 
-Do **not** sprinkle `[Swift](…)`, `[Part I](…)`, «первый урок» mid-paragraph.  
+Do **not** sprinkle `[Swift](…)`, `[Execution Spine](…)`, «первый урок» mid-paragraph.  
 That turns the chapter into a blue underline wiki and breaks reading flow.  
-Header chrome (Path / Part I once at top) is allowed; body stays readable.
+Header chrome (trajectory / module link once at top) is allowed; body stays readable.
 
 **Building blocks** (Cold open · Axiom · Spine · New model · History · Production · Interview · Level gate): see [teaching-model.md](teaching-model.md) — recognizable style, not a second outline.
 

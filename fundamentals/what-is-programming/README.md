@@ -1,4 +1,4 @@
-<p class="chapter-kicker">Computer Science · Foundations · Part I</p>
+<p class="chapter-kicker">Computer Science · Foundations · Execution Spine</p>
 
 # Почему существует программирование?
 
@@ -13,7 +13,7 @@
 
 | | |
 |--|--|
-| **Дальше** | [Part I](../PART_I.md) · глава 1 (скоро) |
+| **Дальше** | [Execution Spine](../PART_I.md) · глава 1 (скоро) |
 | **Путь** | [Foundations](../../campus/paths/beta.md) |
 
 ---
@@ -63,7 +63,7 @@
 
 ## Карта главы (Execution Spine)
 
-Одна вертикаль — её ты ещё не раз встретишь в Part I.
+Одна вертикаль — её ты ещё не раз встретишь в этом модуле.
 
 ```mermaid
 flowchart TB
@@ -78,7 +78,7 @@ flowchart TB
 
 Что становится понятнее: программирование — не «файл со Swift», а путь от задачи в мире до действия в мире. Язык и Compiler — ступени пути, не его смысл.
 
-Это **Execution Spine** Part I. В следующих главах будем подсвечивать текущий уровень.
+Это **Execution Spine**. В следующих главах будем подсвечивать текущий уровень.
 
 ---
 
@@ -186,7 +186,7 @@ flowchart LR
 | **Machine Code** | Инструкции, готовые к исполнению |
 | **CPU** | Считает и исполняет (Hardware) |
 
-Compiler здесь появляется как ответ на боль «человек не хочет писать сырые команды», а не как словарная статья. Глубже — в главах Binary → Machine Code → Compiler (Part I).
+Compiler здесь появляется как ответ на боль «человек не хочет писать сырые команды», а не как словарная статья. Глубже — в главах Binary → Machine Code → Compiler (этот модуль).
 
 ---
 
@@ -317,13 +317,13 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 | Упомянуто | Что это здесь | Куда дальше |
 |-----------|---------------|-------------|
 | **Swift** | Язык в примерах и в линии истории | [Почему появился Swift?](../../swift/what-is-swift/) — первый урок |
-| **Objective-C / C** | Предшественники на линии «язык общения» | В уроке про Swift · глубже позже в Part I (языки) |
-| **Compiler** | Переводчик с языка человека к Machine Code | [Part I](../PART_I.md) · глава Compiler (скоро) |
-| **Machine Code** | То, что реально исполняет CPU | [Part I](../PART_I.md) · глава Machine Code (скоро) |
-| **Assembly** | Язык ближе к железу, чем Swift | [Part I](../PART_I.md) · глава Assembly (скоро) |
-| **Binary** | Почему машина понимает «нули и единицы» | [Part I](../PART_I.md) · глава Binary (скоро) |
-| **Алгоритм** | Однозначные шаги до кода | [Part I](../PART_I.md) · глава Алгоритмы (скоро) |
-| **Hardware / Software** | Машина и инструкция | След. глава Part I: компьютер как исполнитель (скоро) |
+| **Objective-C / C** | Предшественники на линии «язык общения» | В уроке про Swift · глубже позже в модуле (языки) |
+| **Compiler** | Переводчик с языка человека к Machine Code | [Execution Spine](../PART_I.md) · глава Compiler (скоро) |
+| **Machine Code** | То, что реально исполняет CPU | [Execution Spine](../PART_I.md) · глава Machine Code (скоро) |
+| **Assembly** | Язык ближе к железу, чем Swift | [Execution Spine](../PART_I.md) · глава Assembly (скоро) |
+| **Binary** | Почему машина понимает «нули и единицы» | [Execution Spine](../PART_I.md) · глава Binary (скоро) |
+| **Алгоритм** | Однозначные шаги до кода | [Execution Spine](../PART_I.md) · глава Алгоритмы (скоро) |
+| **Hardware / Software** | Машина и инструкция | След. глава модуля: компьютер как исполнитель (скоро) |
 | **SwiftUI** | Верхний этаж абстракций в примере | Позже · Mobile Systems / iOS |
 | **Operating System** | Почему программы редко говорят с железом «напрямую» | Позже · отдельная тема |
 | **Software Engineering** | Программа vs система на годы | [Faculties · Software Engineering](../../campus/faculties/software-engineering.md) |
@@ -331,7 +331,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 **Первоисточники (если хочешь вне университета):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
-**Дальше по модулю:** [Part I](../PART_I.md) — ближайшие якоря: компьютер → исполнение программы → Binary.
+**Дальше по модулю:** [Execution Spine](../PART_I.md) — ближайшие якоря: компьютер → исполнение программы → Binary.
 
 ---
 

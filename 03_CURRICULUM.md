@@ -36,7 +36,7 @@ Computer Science → Programming → Software Engineering
   → Swift → Apple Platforms → iOS Development → AI Engineering
 ```
 
-**Part I — Foundations** (первый модуль, why-spine):  
+**Part I — Foundations** → student title **Execution Spine** (первый модуль Foundations):  
 [`fundamentals/PART_I.md`](fundamentals/PART_I.md) · [teaching-model](.ai/principles/teaching-model.md)
 
 ```text

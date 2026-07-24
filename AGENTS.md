@@ -23,7 +23,7 @@
 | Mode | Entry |
 |------|--------|
 | Student A prep (now) | Path Alpha · M03 `swift/concurrency` · Evidence write-back |
-| Student B foundations | Path Beta · Part I · ch.0 [why programming exists](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md) |
+| Student B foundations | Foundations · Execution Spine · ch.0 [why programming exists](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md) |
 | Author a chapter | [`.author/`](.author/) Creator Portal · `chapter-fill` |
 | Tiny fix on existing page | [`.ai/workflows/improve-topic.md`](.ai/workflows/improve-topic.md) |
 

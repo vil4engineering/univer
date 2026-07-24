@@ -47,7 +47,7 @@ Idea
 
 | Stage | What happens | Exit gate |
 |-------|--------------|-----------|
-| **Idea** | Why-question + module slot (e.g. Part I / n) | Architect if new path / duplicate |
+| **Idea** | Why-question + module slot (e.g. Execution Spine / n) | Architect if new path / duplicate |
 | **Design** | `DESIGN.md` only — page architecture, not full prose | [chapter-design](../checklists/chapter-design.md) |
 | **Design Review** | Owner + Reviewer stress-test structure | Issues logged on DESIGN |
 | **Owner Approve** | Explicit «пиши главу» / approve design | Required — no skip |
