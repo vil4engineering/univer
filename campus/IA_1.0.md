@@ -95,12 +95,12 @@ No Author / AI / review-criteria / teaching-model.
 
 ```text
 Home
-Начать обучение
-Learning Paths
+Начать обучение   → one recommended start (Path Beta)
+Все пути          → browse / choose a path
 Part I
 Faculties
 Labs
-About
+About             → product story later; README is temporary
 ```
 
 **No** Author hub. **No** Creator Portal. **No** `.ai` docs.
