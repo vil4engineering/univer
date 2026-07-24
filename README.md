@@ -18,7 +18,7 @@ IT как конструктор: кубики продуктов (Mobile, Backe
 | [Mobile Systems](campus/faculties/mobile-systems.md) | Глубокая ветка (iOS) · наполняем |
 | [AI](campus/faculties/ai.md) | Этаж + [AI Dictionary](ai-engineering/dictionary/) |
 
-Остальные этажи в сайдбаре видны сразу — «скоро» значит слот под кубик, не ошибка.
+Остальные этажи в сайдбаре — топик с главой **Обзор**; пустые главы появятся в дереве по мере наполнения.
 
 **[Открыть Computer Science →](fundamentals/PART_I.md)**
 

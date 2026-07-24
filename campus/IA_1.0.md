@@ -91,16 +91,25 @@ No Author / AI / review-criteria / teaching-model.
 
 ---
 
-## Default sidebar (Learn only)
+## Default sidebar (Learn only — book TOC)
 
 ```text
 Home
-Computer Science → Mathematics → Software Engineering
-  → Backend → Frontend → Mobile → AI → Leadership
+Computer Science
+  Обзор · Зачем программы · (planned spine chapters as labels)
+Mathematics · Software Engineering · Backend · Frontend
+  (each: Обзор; chapters when they exist)
+Mobile Systems
+  Обзор · Зачем Swift · Concurrency · …
+AI
+  Обзор · Как инструмент · Как технология · Словарь AI · Материалы/…
+Engineering Leadership
+  Обзор
 Glossary
 Labs
 ```
 
+**Nested Docsify tree** — Topic → short chapter labels (see [DISPLAY_0.1.md](DISPLAY_0.1.md)).  
 Order: foundation → broader SE → product floors → specialty → dictionary → practice.  
 **No** Path / Траектории / About / «Начать обучение» in chrome. `campus/paths/` = author archive. Product story lives on **Home** only (`campus/about.md` may remain as deep URL, not nav).
 

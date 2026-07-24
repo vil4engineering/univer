@@ -10,4 +10,4 @@
 
 **Useful?** values: `pending` · `yes` · `partial` · `no`
 
-Не в student sidebar. Вход: [AI Engineering](../README.md) · faculty [AI-assisted](../../campus/faculties/ai-assisted.md).
+В student sidebar: **AI → Материалы → AI Native** (короткое имя). Вход также: faculty [AI](../../campus/faculties/ai.md) · [AI-assisted](../../campus/faculties/ai-assisted.md).

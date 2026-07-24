@@ -1,11 +1,36 @@
 - [Home](/)
-- [Computer Science](/fundamentals/PART_I.md)
-- [Mathematics](/campus/faculties/mathematics.md)
-- [Software Engineering](/campus/faculties/software-engineering.md)
-- [Backend](/campus/faculties/backend.md)
-- [Frontend](/campus/faculties/frontend.md)
-- [Mobile Systems](/campus/faculties/mobile-systems.md)
-- [AI](/campus/faculties/ai.md)
-- [Engineering Leadership](/campus/faculties/engineering-leadership.md)
+- Computer Science
+  - [Обзор](/fundamentals/PART_I.md)
+  - [Зачем программы](/fundamentals/what-is-programming/)
+  - Исполнитель
+  - Исполнение
+  - Binary
+  - Machine Code
+  - Assembly
+  - Compiler
+  - Алгоритмы
+  - Языки
+  - Инженер
+- Mathematics
+  - [Обзор](/campus/faculties/mathematics.md)
+- Software Engineering
+  - [Обзор](/campus/faculties/software-engineering.md)
+- Backend
+  - [Обзор](/campus/faculties/backend.md)
+- Frontend
+  - [Обзор](/campus/faculties/frontend.md)
+- Mobile Systems
+  - [Обзор](/campus/faculties/mobile-systems.md)
+  - [Зачем Swift](/swift/what-is-swift/)
+  - [Concurrency](/swift/concurrency/)
+- AI
+  - [Обзор](/campus/faculties/ai.md)
+  - [Как инструмент](/campus/faculties/ai-assisted.md)
+  - [Как технология](/campus/faculties/ai-technology.md)
+  - [Словарь AI](/ai-engineering/dictionary/)
+  - Материалы
+    - [AI Native](/ai-engineering/materials/2026-06-24-ai-native-engineer-roadmap/)
+- Engineering Leadership
+  - [Обзор](/campus/faculties/engineering-leadership.md)
 - [Glossary](/glossary/)
 - [Labs](/campus/labs/)
