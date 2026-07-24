@@ -177,9 +177,9 @@ flowchart LR
 | Уровень | Роль |
 |---------|------|
 | **Swift** | Язык, удобный человеку-инженеру |
-| **Compiler** | Переводчик в форму, понятную машине |
-| **Machine Code** | Инструкции, готовые к исполнению |
-| **CPU** | Считает и исполняет (Hardware) |
+| <a class="eu-term" href="../../glossary/#glossary-compiler">Compiler</a> | Переводчик в форму, понятную машине |
+| <a class="eu-term" href="../../glossary/#glossary-machine-code">Machine Code</a> | Инструкции, готовые к исполнению |
+| <a class="eu-term" href="../../glossary/#glossary-cpu">CPU</a> | Считает и исполняет (Hardware) |
 
 Compiler здесь появляется как ответ на боль «человек не хочет писать сырые команды», а не как словарная статья. Глубже — в главах Binary → Machine Code → Compiler (этот модуль).
 
@@ -290,7 +290,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 ## Конспект
 
-Читабельная выжимка главы — сплошной текст, без ссылок. Указатели — только в блоке ниже.
+Сплошной текст, без ссылок. Термины смотри в [Glossary](../../glossary/) (оттенок в главах ведёт туда же).
 
 1. **Программирование** существует, потому что машине нужны точные инструкции. Язык — удобная форма, не причина.  
 2. **Компьютер не «глючит» сам по себе** — он исполняет сказанное. Ошибается человек (задача, шаги, допущения).  
@@ -302,29 +302,6 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 8. **Swift / Compiler** — ступени удобства и перевода, не смысл программирования.  
 9. **Абстракции** прячут низ; иногда нужно спускаться.  
 10. **Software Engineering** — система, которая живёт годами, а не один удачный запуск.
-
----
-
-## Упомянуто в главе
-
-Темы, которые здесь мелькнули — куда идти, если зацепило.
-
-| Упомянуто | Что это здесь | Куда дальше |
-|-----------|---------------|-------------|
-| **Swift** | Язык в примерах и в линии истории | [Почему появился Swift?](../../swift/what-is-swift/) — первый урок |
-| **Objective-C / C** | Предшественники на линии «язык общения» | В уроке про Swift · глубже позже в модуле (языки) |
-| **Compiler** | Переводчик с языка человека к Machine Code | [Computer Science](../PART_I.md) · глава Compiler (скоро) |
-| **Machine Code** | То, что реально исполняет CPU | [Computer Science](../PART_I.md) · глава Machine Code (скоро) |
-| **Assembly** | Язык ближе к железу, чем Swift | [Computer Science](../PART_I.md) · глава Assembly (скоро) |
-| **Binary** | Почему машина понимает «нули и единицы» | [Computer Science](../PART_I.md) · глава Binary (скоро) |
-| **Алгоритм** | Однозначные шаги до кода | [Computer Science](../PART_I.md) · глава Алгоритмы (скоро) |
-| **Hardware / Software** | Машина и инструкция | След. глава модуля: компьютер как исполнитель (скоро) |
-| **SwiftUI** | Верхний этаж абстракций в примере | Позже · Mobile Systems / iOS |
-| **Operating System** | Почему программы редко говорят с железом «напрямую» | Позже · отдельная тема |
-| **Software Engineering** | Программа vs система на годы | [Faculties · Software Engineering](../../campus/faculties/software-engineering.md) |
-| **Interview pack** | Короткие ответы к этой главе | [notes/Interview-Pack.md](notes/Interview-Pack.md) |
-
-**Первоисточники (если хочешь вне Engineering Builder):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
 ---
 
@@ -344,7 +321,8 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 | | |
 |--|--|
 | **Topic id** | `fundamentals/what-is-programming` |
-| **Version** | v1.4 |
+| **Version** | v1.5 |
+| **Interview pack** | [notes/Interview-Pack.md](notes/Interview-Pack.md) |
 | **Design** | [DESIGN.md](DESIGN.md) |
 | **Reviews** | [0001](../../reviews/0001-what-is-programming.md) · [0001b](../../reviews/0001b-what-is-programming.md) |
 | **Creator Portal** | [`.author/`](../../.author/) |

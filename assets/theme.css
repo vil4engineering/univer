@@ -455,3 +455,19 @@ html[data-theme="dark"] .markdown-section details {
 html[data-theme="dark"] .markdown-section .eu-axiom {
   background: rgba(255, 255, 255, 0.04);
 }
+
+.markdown-section a.eu-term {
+  color: #6e7781;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.18em;
+  font-weight: 500;
+}
+
+html[data-theme="dark"] .markdown-section a.eu-term {
+  color: #9a9a9a;
+}
+
+.markdown-section a.eu-term:hover {
+  color: var(--gh-link);
+}

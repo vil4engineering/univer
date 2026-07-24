@@ -4,30 +4,18 @@ The repository is organized around **concepts**, not around documents.
 
 A concept may appear in many views. Explanations are not copied between views.
 
-## Paths are trajectories, not curricula
+## Engineering Builder = constructor floors
 
-Learning Paths (Beta / Alpha / Gamma) are **recommended orders** through the same concept graph.
-
-They are **not** three separate courses and not a permanent “pick one” choice.
+Student chrome: **faculties** (floors) on a CS + Mathematics foundation — not Path menus.
 
 ```text
-AI Engineering (Gamma)
-        ▲
-Software Engineering (Alpha)  ←→  Mobile …
-        ▲
-Computer Science / Foundations (Beta)
+Mathematics · Computer Science   ← foundation
+Mobile · Backend · Frontend · AI · Leadership   ← product floors
+Glossary   ← short “why this term” (A–Z + Domain)
 ```
 
-- **Foundations (Beta)** — base layer (first module: **Execution Spine**).  
-- **Software Engineering (Alpha)** — deeper traversal; links *down* when a concept needs CS/runtime.  
-- **AI Engineering (Gamma)** — specialization that still rests on Binary / Memory / Compiler / GPU.
-
-Student-facing titles prefer **what you study** (Foundations, Software Engineering, AI Engineering).  
-“Path Beta” etc. stay as internal ids / small labels.
-
-Cross-links from AI → CS or Swift → Memory are **normal graph motion**, not “going back to another course.”
-
-Human map: [`campus/paths/README.md`](../../campus/paths/README.md).
+Short term digressions → [`glossary/`](../../glossary/). Deep lessons → faculty chapters.  
+Cross-links to foundation are normal. Paths in `campus/paths/` are author-only, not Learn nav.
 
 ---
 

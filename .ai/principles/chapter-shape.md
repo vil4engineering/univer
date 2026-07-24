@@ -44,24 +44,23 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 | **Production** | Real use · failure modes · decisions | What breaks · Decisions |
 | **Интервью** | Likely questions · follow-ups · common mistakes | Interview projection |
 | **Лабораторная** | Try yourself | Lab / playground / `projects/` link |
-| **Конспект** | Plain readable takeaways — **text only, no links inside**. Student re-reads the idea without a wiki of blue underlines. | After practice / before pointers |
-| **Упомянуто в главе** | **All** topic pointers live here (and optional первоисточники) — not sprinkled through the body | Related · Next |
-| **Что читать дальше** | May merge into Упомянуто; same rule: links only in the footer block | References |
-| **Дальше** | **Next chapter only** — not Path Beta/Alpha, faculty, or «часть курса» | Student footer |
+| **Конспект** | Plain readable takeaways — **text only, no markdown links** | After practice |
+| **Дальше** | **Next chapter only** | Student footer |
 
-Aligns with ROADMAP lesson spine (Problem → … → References) without a second encyclopedia.
+No «Упомянуто» dump at chapter end. Dictionary terms → **Glossary**.
 
-### Pointers rule (readability)
+### Term → Glossary rule
 
 ```text
-Body + Конспект  →  prose only (names of topics OK, no markdown links)
-Упомянуто / footer →  all links live here
+Body prose stays readable.
+Term needs a digression → <a class="eu-term" href="…/glossary/#glossary-rest">REST</a>
+  (subtle shade; tap goes straight to Glossary — same hub as sidebar)
+Конспект → no links
+Footer → only «Дальше: next chapter»
 ```
 
-Do **not** sprinkle `[Swift](…)`, `[Execution Spine](…)`, «первый урок» mid-paragraph.  
-That turns the chapter into a blue underline wiki and breaks reading flow.  
-Header chrome (trajectory / module link once at top) is allowed; body stays readable.
-
+Do **not** sprinkle ordinary blue wiki links. Do **not** park a glossary dump at the bottom of every chapter.  
+Canonical short defs: [`glossary/README.md`](../../glossary/README.md) (A–Z + Domain).
 **Building blocks** (Cold open · Axiom · Spine · New model · History · Production · Interview · Level gate): see [teaching-model.md](teaching-model.md) — recognizable style, not a second outline.
 
 ---

@@ -166,16 +166,12 @@ Mission + playground / `projects/` / lab id.
 
 ### Конспект
 
-Plain text takeaways — **no links inside**. Reading flow first.
+Plain text takeaways — **no links inside**.
 
-### Упомянуто в главе
+### Термины
 
-**All** topic pointers and первоисточники — here only, not mid-body.  
-Do not sprinkle blue links through paragraphs (makes the page unreadable).
-
-### Что читать дальше
-
-Optional; may merge into Упомянуто. Same rule: links only in this footer zone.
+In body: `<a class="eu-term" href="…/glossary/#glossary-…">Term</a>` → straight to Glossary.  
+No «Упомянуто» dump at the bottom.
 
 ### Рефлексия (обязательно, когда глава не stub)
 
@@ -249,5 +245,5 @@ Leave **unanswered** on the page. Forge answers in chat / mock interview, then w
 
 ## Next (student footer)
 
-One line: **Дальше:** link (or title + «скоро») to the **next chapter**.  
-No Path Beta / Path Alpha / «фундамент для Alpha» / faculty map — that is author/IA noise.
+One line: **Дальше:** next chapter only.  
+Terms → Glossary. No Path chrome.

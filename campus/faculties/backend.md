@@ -1,11 +1,13 @@
-# Faculty of Backend
+# Backend
 
-REST · GraphQL · FastAPI · Databases · Caching · Authentication · Workers · Queues · Background Jobs.
+**Этаж:** сервисы, данные, auth, фоновые задачи — «кухня» большого продукта.
 
-| Area | Notes / hooks |
-|------|----------------|
-| Networking fundamentals | [fundamentals/os-and-networks](../../fundamentals/os-and-networks/) · [data-and-network/networking](../../data-and-network/networking/) |
-| Sync / offline server concerns | [system-design/sync-engine](../../system-design/sync-engine/) · [offline-first](../../system-design/offline-first/) |
-| Labs (future) | Backend Playground candidate |
+| Area | Notes |
+|------|--------|
+| Networking / API | REST, GraphQL — см. [Glossary · REST](../../glossary/#glossary-rest) |
+| Data | Databases, caching |
+| Jobs | Workers, queues |
 
-Warehouse пока thin — subjects grow via Skills / Path practice.
+Warehouse hooks: [os-and-networks](../../fundamentals/os-and-networks/) · [networking](../../data-and-network/networking/).
+
+База наполняется. Фундамент: [Computer Science](../../fundamentals/PART_I.md).

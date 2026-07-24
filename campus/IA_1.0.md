@@ -94,25 +94,27 @@ No Author / AI / review-criteria / teaching-model.
 ## Default sidebar (Learn only)
 
 ```text
-Home              → addressed to Timur; About lives here (no separate About nav)
-Начать обучение   → Foundations (Learning Path Beta) — base layer
-Траектории        → one knowledge graph; paths = traversal order (not 3 courses)
-Computer Science   → first Foundations module cover (`fundamentals/PART_I.md`); model inside = Execution Spine
-Faculties         → where topics live in the graph
+Home
+Computer Science          ← foundation module
+Mathematics               ← foundation stub OK
+Mobile Systems
+Backend
+Frontend                  ← stub OK
+AI
+Engineering Leadership
 Labs
+Glossary                  ← A–Z + Domain; terms from chapters link here
+About                     ← constructor metaphor + how to read
 ```
 
-**No About in sidebar.** Product story / why this university = Home only.
+**No** «Начать обучение» / Траектории / Path in chrome.  
+Paths may remain in repo for authors — not student nav.
 
-**Paths model:** Beta / Alpha / Gamma are **trajectories** through one universe, not competing curricula.  
-Student page titles: Foundations · Software Engineering · AI Engineering (internal ids: Path Beta / Alpha / Gamma).
+**Product model:** Engineering Builder = IT constructor on CS+Math foundation; faculties = floors; co-filled by father + Timur.  
+**Terms:** `a.eu-term` → Glossary anchor (not chapter footer dump).  
+**Module naming:** Computer Science cover; Execution Spine = model inside. No “Part I” on chrome.
 
-**Module naming:** first CS module student title = **Computer Science**.  
-**Execution Spine** = named model *inside* that module (not a competing nav brand).  
-Do **not** use “Part I / Part II” on student chrome.
-
-**No** Author hub. **No** Creator Portal. **No** `.ai` docs.
-
+**No** Author hub / Creator Portal / `.ai` in sidebar. Contribute guide: `campus/HOW_TO_ADD_WITH_AI.md` (linked from Home/About only).
 ---
 
 ## Creator Portal entry

@@ -1,23 +1,105 @@
 # Glossary
 
-Engineering Builder terminology hub — short definitions for quick recall before interviews, reviews, and AI product work.
+Словарь **Engineering Builder** — короткие ответы «зачем этот термин», не учебник на час.
 
-## Domains
+В главах термин с оттенком ведёт **сразу сюда** (тот же Glossary, что в сайдбаре).  
+Глубокий урок — на факультете; толстые AI-карточки — в [AI Dictionary](../ai-engineering/dictionary/).
 
-| Domain | What | Where |
-|--------|------|--------|
-| **iOS / Swift** | Platform, concurrency, architecture, tooling | [#ios-swift](#ios-swift) below |
-| **AI Engineering** | LLM, RAG, agents, evals, infra (page per term) | [AI Dictionary](../ai-engineering/dictionary/) |
+| Поле | Смысл |
+|------|--------|
+| **Term** | Имя as-is (обычно English) |
+| **Domain** | К какому этажу относится (Backend, Mobile · Memory/ARC, Architecture…) |
+| **Def** | 1–3 предложения: зачем / чем отличается |
 
-Канон по домену: полные AI-карточки живут в Dictionary, не дублируются здесь. iOS-якоря `#glossary-*` сохраняются для входящих ссылок.
-
-## Theme
-
-### Q1
-- **Question:** What should this folder contain?
-- **Answer:** A multi-domain glossary portal: iOS/Swift digests here, AI Engineering terms in the [AI Dictionary](../ai-engineering/dictionary/).
+Сортировка для поиска — **алфавит**. Смысл — колонка Domain.
 
 ---
+
+## A–Z (индекс)
+
+| Term | Domain | Коротко |
+|------|--------|---------|
+| [ADR](#glossary-adr) | Architecture | Запись архитектурного решения |
+| [Actor](#glossary-actor) | Mobile · Concurrency | Сериализованный доступ к состоянию |
+| [Algorithm](#glossary-algorithm) | Computer Science | Однозначные шаги к результату |
+| [ARC](#glossary-arc) | Mobile · Memory / ARC | Автоподсчёт ссылок |
+| [ATS](#glossary-ats) | Mobile · Networking | Политика безопасного транспорта |
+| [Binary](#glossary-binary) | Computer Science | Представление для машины |
+| [CI/CD](#glossary-ci-cd) | Infrastructure | Автосборка, тесты, доставка |
+| [Compiler](#glossary-compiler) | Computer Science | Перевод языка → machine code |
+| [CPU](#glossary-cpu) | Computer Science | Исполнитель machine code |
+| [JSON](#glossary-json) | Backend · Data | Текстовый обмен данными |
+| [LLM](#glossary-llm) | AI | Языковая модель (см. Dictionary) |
+| [Machine Code](#glossary-machine-code) | Computer Science | Инструкции для CPU |
+| [MCP](#glossary-mcp) | AI | Протокол инструментов для AI |
+| [Optional](#glossary-optional) | Mobile · Swift | `.some` / `.none` |
+| [Program](#glossary-program) | Computer Science | Алгоритм в форме для машины |
+| [RAG](#glossary-rag) | AI | Retrieval + генерация |
+| [REST](#glossary-rest) | Backend · Networking | Стиль HTTP API |
+| [Retain cycle](#glossary-retain-cycle) | Mobile · Memory / ARC | Взаимные strong → утечка |
+| [SOLID](#glossary-solid) | Architecture | Пять принципов дизайна ООП |
+| [SPM](#glossary-spm) | Mobile · Tooling | Swift Package Manager |
+| [Task](#glossary-task) | Mobile · Concurrency | Единица structured concurrency |
+| [URLSession](#glossary-urlsession) | Mobile · Networking | HTTP(S) клиент Apple |
+| [unowned](#glossary-unowned) | Mobile · Memory / ARC | Не-Optional ссылка без retain |
+| [weak](#glossary-weak) | Mobile · Memory / ARC | Optional ссылка без retain |
+
+Домены на витрине: [Computer Science](../fundamentals/PART_I.md) · [Mobile](../campus/faculties/mobile-systems.md) · [Backend](../campus/faculties/backend.md) · [AI Dictionary](../ai-engineering/dictionary/).
+
+---
+
+## Базовые CS / Architecture / AI (seed)
+
+<a id="glossary-algorithm"></a>
+**Algorithm** · *Computer Science*
+
+Конечная, упорядоченная, по возможности однозначная последовательность шагов к результату. Без алгоритма «программа» — только пожелание машине.
+
+<a id="glossary-program"></a>
+**Program** · *Computer Science*
+
+Алгоритм, записанный в форме, которую машина умеет исполнять (Software для Hardware).
+
+<a id="glossary-binary"></a>
+**Binary** · *Computer Science*
+
+Представление данных и инструкций «нулями и единицами», с которым работает цифровая машина. Глубже — главы Computer Science.
+
+<a id="glossary-machine-code"></a>
+**Machine Code** · *Computer Science*
+
+Инструкции в форме, готовой к исполнению CPU (после Compiler / Assembler).
+
+<a id="glossary-compiler"></a>
+**Compiler** · *Computer Science*
+
+Переводчик: язык, удобный человеку (например Swift) → форма ближе к machine code. Не «магия», а ответ на боль писать сырые команды.
+
+<a id="glossary-cpu"></a>
+**CPU** · *Computer Science*
+
+Процессор — Hardware, который исполняет machine code. Буквальный исполнитель на уровне железа.
+
+<a id="glossary-solid"></a>
+**SOLID** · *Architecture · Software Engineering*
+
+Пять принципов проектирования (SRP, OCP, LSP, ISP, DIP): помогают системам жить годами, а не только «завестись в файле».
+
+<a id="glossary-llm"></a>
+**LLM** · *AI*
+
+Large Language Model — модель, обученная предсказывать следующий token. Полная карточка: [AI Dictionary · LLM](../ai-engineering/dictionary/terms/llm.md).
+
+<a id="glossary-rag"></a>
+**RAG** · *AI*
+
+Retrieval-Augmented Generation — сначала достаём факты из базы, потом генерируем ответ. Карточка: [AI Dictionary · RAG](../ai-engineering/dictionary/terms/rag.md).
+
+---
+
+## Подробные карточки (iOS / Swift и соседние)
+
+Якоря `#glossary-*` сохранены для старых ссылок. Где есть Domain — смотри индекс A–Z.
 
 ## iOS / Swift
 
@@ -34,7 +116,9 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **weak** — optional reference (`Optional`); does not retain the object — typical way to break a cycle with a delegate or closure.
 
 <a id="glossary-unowned"></a>
-**unowned** — non-retaining reference; assumes the object outlives the reference; wrong lifecycle can crash on access.
+**unowned** · *Mobile Systems · Memory / ARC*
+
+Зачем: чтобы разорвать retain cycle между объектами, когда срок жизни «другого» объекта **гарантированно** не короче текущего. В отличие от `weak`, ссылка не `Optional` и сама не становится `nil` — при ошибке жизненного цикла возможен crash. Related: [weak](#glossary-weak), [retain cycle](#glossary-retain-cycle), [ARC](#glossary-arc).
 
 <a id="glossary-retain-cycle"></a>
 **Retain cycle** — mutual strong references between objects (or `self` in `@escaping` without `weak`), so memory is never released.
@@ -205,7 +289,9 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **URLSession** — HTTP(S) API: `data(for:)`, upload/download tasks, configurations and cache; typical REST client foundation.
 
 <a id="glossary-rest"></a>
-**REST** — HTTP API style: resources, method verbs, status codes; convention, not a protocol.
+**REST** · *Backend · Networking*
+
+Стиль HTTP API: ресурсы, глаголы методов, коды статуса. Это соглашение, не отдельный протокол. Related: [URLSession](#glossary-urlsession), [JSON](#glossary-json).
 
 <a id="glossary-json"></a>
 **JSON** — text data interchange format; in Swift usually parsed via `Codable`.
@@ -263,3 +349,4 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 
 <a id="glossary-adr"></a>
 **ADR** — *Architecture Decision Record* — short record of an architecture decision with context and consequences.
+
