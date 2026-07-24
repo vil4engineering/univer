@@ -4,7 +4,7 @@
 
 This is the long-term quality gate. Constitution rules 5, 6, 8, 10 expand here for *how chapters feel*.
 
-Campus binding: [`TOPIC_TEMPLATE.md`](../../campus/TOPIC_TEMPLATE.md) · [chapter-shape.md](chapter-shape.md) · [language.md](language.md).
+Campus binding: [`TOPIC_TEMPLATE.md`](../../campus/TOPIC_TEMPLATE.md) · [chapter-shape.md](chapter-shape.md) · [teaching-model.md](teaching-model.md) · [language.md](language.md).
 
 ---
 
@@ -66,35 +66,43 @@ Align headings with [chapter-shape.md](chapter-shape.md). Depth = Levels 1–3.
 
 ## Hard rules (short list)
 
-1. **Start from a problem, not a definition.**  
+1. **One chapter = one fundamental question** (usually *why*).  
+   See [teaching-model.md](teaching-model.md). Title must match the answer the body gives.  
+   Bad: H1 “What is programming?” while the chapter only explains *why programming must exist*.  
+   Bad: chapter series “Variable / Function / Class / Object” as the spine.
+
+2. **Knowledge appears only when the reader needs it.**  
+   Pain / question first, then the noun (Compiler, Actor, OS…). See [teaching-model.md](teaching-model.md).
+
+3. **Start from a problem, not a definition.**  
    Bad: “Actor is a type that…”  
    Good: two threads and a bank balance - why is the total wrong? That pain led to models like Actors.
 
-2. **Explain why before how.**  
-   Matches constitution rule 5. Fundamental question in the topic Header.
+4. **Explain why before how.**  
+   Matches constitution rule 5. Fundamental question in Learning Metadata; H1 invites.
 
-3. **Each chapter must change the reader’s mental model.**  
+5. **Each chapter must change the reader’s mental model.**  
    End with an explicit reflection (see below). Memorizing definitions is not the goal.
 
-4. **Story over encyclopedia.**  
+6. **Story over encyclopedia.**  
    Ban reference-manual chapter bodies. Narrative that makes the next section worth opening. Facts still must be accurate.
 
-5. **History serves the idea.**  
+7. **History serves the idea.**  
    History > dump of dates. Only enough to explain why the modern solution looks this way (~5–10% of the chapter).
 
-6. **Diagrams explain ideas; they do not decorate.**  
+8. **Diagrams explain ideas; they do not decorate.**  
    If removing the diagram loses no understanding, cut it.
 
-7. **Theory → practice → production → interview.**  
+9. **Theory → practice → production → interview.**  
    Incomplete stubs are OK (incremental fill). Faking a full reference section is not.
 
-8. **Do not duplicate - link.**  
-   One concept, one canonical topic. Cross-link the graph.
+10. **Do not duplicate - link.**  
+    One concept, one canonical topic. Cross-link the graph.
 
-9. **Write for ten years.**  
-   Prefer problem/idea language that remains true when Swift N+1 renames an API.
+11. **Write for ten years.**  
+    Prefer problem/idea language that remains true when Swift N+1 renames an API.
 
-10. **Russian explains; English names the craft.**  
+12. **Russian explains; English names the craft.**  
     [language.md](language.md).
 
 ---
@@ -120,7 +128,8 @@ Opening intuition for Computer Science / Student B may be almost philosophical, 
 
 Reject or request rewrite when:
 
-- Chapter is a glossary of APIs with no problem spine  
+- Chapter is a glossary of APIs **or of language terms** (variable/function/class spine) with no problem spine  
+- Title says *what* while body answers *why* (or the reverse) without Owner rename  
 - Opens with definition before stakes  
 - No path from idea → implementation → trade-off  
 - Interview block re-teaches the whole essay  
@@ -132,6 +141,7 @@ Reject or request rewrite when:
 ## Related
 
 - [../constitution.md](../constitution.md)
+- [teaching-model.md](teaching-model.md)
 - [chapter-shape.md](chapter-shape.md)
 - [university.md](university.md)
 - [writing.md](writing.md)

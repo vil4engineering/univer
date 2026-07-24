@@ -34,7 +34,7 @@ Campus OS (Paths, Skills, Evidence) stays in `campus/`. Private career stays out
 
 Do not skip the constitution. Do not load every role at once. Pick one role per task.
 
-**Content quality gate (all roles that write or review prose):** read [principles/content-philosophy.md](principles/content-philosophy.md) - ideas over tech catalogs, story over reference, why before how, end with mental-model reflection.
+**Content quality gate:** [principles/content-philosophy.md](principles/content-philosophy.md) and [principles/teaching-model.md](principles/teaching-model.md) are **key SoTs** (with Charter/philosophy). Stack: teaching-model → chapter-shape → `campus/TOPIC_TEMPLATE.md`.
 
 ---
 
@@ -49,7 +49,9 @@ Do not skip the constitution. Do not load every role at once. Pick one role per 
 ├── roles/
 ├── workflows/
 ├── prompts/
-└── checklists/
+└── checklists/               ← includes chapter-review.md (4 gates + 10 scores)
+
+Repo root also: reviews/      ← durable chapter review journal
 ```
 
 Legacy stub: [university-author.md](university-author.md) → use `roles/author.md` + principles.

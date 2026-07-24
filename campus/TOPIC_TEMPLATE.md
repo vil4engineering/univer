@@ -1,21 +1,101 @@
 # Topic template (v2)
 
-Stable id + passport. Storage path may be Library; shape is academic.  
-Chapter sections + why-first rule: [`.ai/principles/chapter-shape.md`](../.ai/principles/chapter-shape.md).
+Stable id + passport. Storage path may be Library; shape is academic.
+
+**Stack (do not mix):**
+
+```text
+.ai/principles/teaching-model.md  ← why we teach this way
+        ↓
+.ai/principles/chapter-shape.md   ← which parts a chapter has
+        ↓
+campus/TOPIC_TEMPLATE.md          ← how it looks in Markdown (this file)
+```
+
+Also: [DISPLAY_0.1.md](DISPLAY_0.1.md) (**Student Mode** vs **Author Mode**).
 
 ---
 
-## Header
+## Header — three layers (do not mix)
 
-- **Topic id:**
-- **Faculty:**
-- **Path heat:**
-- **Status:** `not_started` | `learning` | `practicing` | `interview_ready` | `mastered`
-- **Confidence:** /5
-- **Interview Heat:** ★…
-- **Levels present:** 1 / 2 / 3
-- **Fundamental question (why):**  
-  e.g. *Why did plain threads / shared mutable state stop scaling safely?* — not only *What is an Actor?*
+A flat bullet list of Topic id / Status / Confidence / Fundamental question at the top reads like a **JIRA card**. Split metadata by audience.
+
+### 1. Reader Header (always visible — Student Mode)
+
+Answers only: *What am I studying right now?*
+
+```markdown
+<p class="chapter-kicker">Computer Science · Foundations · Part I</p>
+
+# Почему существует программирование?
+
+<p class="chapter-deck">
+Программирование — это не написание кода.
+Это способ объяснить машине, как решить задачу.
+</p>
+
+<p class="chapter-meta">
+≈ 20 мин · Interview ★★★ · Beta · Step 1 · Глава 0
+</p>
+```
+
+Rules:
+
+- **H1 = the chapter question** (usually *why*), not a metadata label  
+- One short **deck** (1–2 sentences) — invitation to read  
+- One **meta line**: time · interview heat · path step · chapter number  
+- No Topic id, Status, Confidence, Owner Approve, Design links in this band  
+
+### 2. Learning Metadata (collapsible — still for learners)
+
+```markdown
+<details>
+<summary>Learning · маршрут и связи</summary>
+
+| | |
+|--|--|
+| **Faculty** | Computer Science |
+| **Path** | Beta · Step 1 · Part I / 0 |
+| **Prerequisites** | — |
+| **Next** | [Что такое компьютер?](../PART_I.md) (planned) |
+| **Interview** | ★★★ |
+| **Difficulty** | Easy |
+| **Time** | ≈ 20 min |
+| **Levels** | 1–2 |
+
+</details>
+```
+
+### 3. Engineering Metadata (collapsible — Author Mode)
+
+Internal project fields. Default **collapsed**. Prefer linking `DESIGN.md` rather than dumping the whole contract.
+
+```markdown
+<details>
+<summary>Engineering · авторы</summary>
+
+| | |
+|--|--|
+| **Topic id** | `fundamentals/…` |
+| **Status** | `learning` |
+| **Version** | v1 |
+| **Design** | [DESIGN.md](DESIGN.md) |
+| **Review** | link to `reviews/NNNN-…` |
+| **Confidence** | — /5 |
+| **Assets** | TODO / done |
+| **Last updated** | YYYY-MM-DD |
+
+</details>
+```
+
+Then optional cold-open quote / intuition hook — then `---` — then chapter body.
+
+### Anti-patterns
+
+- Mixing all three layers into one bullet list under H1  
+- Putting **Fundamental question:** as a labeled field when it should *be* the H1  
+- Showing Owner Approve / pipeline in Student Mode  
+- Academic meta-label *Fundamental question:* instead of inviting prose  
 
 ---
 
@@ -32,7 +112,7 @@ Chapter sections + why-first rule: [`.ai/principles/chapter-shape.md`](../.ai/pr
 
 History / lore only if it answers passport 3–5. North-star gate: *Does this help understand the engineering world?* Cut the rest.
 
-Passport must visibly answer the **Fundamental question**.
+Passport must visibly answer the **chapter question (H1)**. Passport detail may live in DESIGN for authors; the published page leads with Reader Header + body.
 
 ---
 

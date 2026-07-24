@@ -26,8 +26,13 @@ This is not a role. For the Reviewer operating mode see [../roles/reviewer.md](.
 - **Do not rewrite** unless necessary; prefer concrete findings.
 - Architecture/structure issues → escalate to Architect role.
 
+## Chapter pedagogy bar
+
+For full chapters after Phase B, also run [../checklists/chapter-review.md](../checklists/chapter-review.md) (Four gates + ten criteria) and file under [`reviews/`](../../reviews/).
+
 ## Related
 
 - [../roles/reviewer.md](../roles/reviewer.md)
 - [../checklists/topic.md](../checklists/topic.md)
+- [../checklists/chapter-review.md](../checklists/chapter-review.md)
 - [writing.md](writing.md)

@@ -382,3 +382,42 @@ html[data-theme="dark"] #theme-toggle .icon-sun {
     right: 16px;
   }
 }
+
+.markdown-section .chapter-kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gh-fg-muted);
+}
+
+.markdown-section .chapter-deck {
+  margin: 0.75rem 0 1rem;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  color: var(--gh-fg);
+}
+
+.markdown-section .chapter-meta {
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+  color: var(--gh-fg-muted);
+}
+
+.markdown-section details {
+  margin: 0.75rem 0 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--gh-border);
+  border-radius: 8px;
+  background: var(--gh-canvas-subtle);
+}
+
+.markdown-section details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--gh-fg-muted);
+}
+
+html[data-theme="dark"] .markdown-section details {
+  background: rgba(255, 255, 255, 0.04);
+}

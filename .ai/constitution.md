@@ -23,6 +23,7 @@ If a contribution violates these, reject or rewrite before merge into the knowle
 
 5. **Answer Why before How.**
    Problem and motivation before API, syntax, or framework recipe.
+   One chapter answers **one fundamental question** (usually *why*) — see [principles/teaching-model.md](principles/teaching-model.md). Do not ship term-catalog chapters.
 
 6. **Engineering over frameworks.**
    Survive technology churn. Frameworks illustrate concepts; they are not the concept.

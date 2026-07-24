@@ -1,7 +1,7 @@
-# DESIGN — Что такое программирование? (Глава 0)
+# DESIGN — Почему существует программирование? (Part I / 0)
 
-**Статус:** Owner **Approve** (2026-07-24) · Phase B **v1** в `README.md` · dual-pass Reviewer + assets I1–I8 — next  
-**Глава:** текст v1 написан; скелет не менять без нового Design Review  
+**Статус:** Owner **Approve** · Phase B **v1.1** · Review [0001b](../../reviews/0001b-what-is-programming.md) → **Accept** (ждёт Owner Agree) · slug unchanged
+**Глава:** текст **v1.1**; скелет не менять без нового Design Review  
 **Topic id:** `fundamentals/what-is-programming`  
 **Faculty:** Computer Science (вход) · мост в Software Engineering  
 **Paths:** Beta Step 1 · Alpha Stage 0 (mental reset)  
@@ -38,7 +38,8 @@
 7. **Next:** Computer → CPU → Binary → Machine Code → Compiler → Algorithms → … → Swift / Apple / iOS / AI.  
 8. **Where used:** весь Path Beta; mental reset для Alpha.
 
-**Fundamental why:** Почему «написание кода» — слишком узкое определение, и зачем тогда вообще нужны языки, Compiler и инженерия?
+**Fundamental why:** Почему компьютеру вообще нужны программы?
+**H1 (invitation):** Почему существует программирование?
 
 **Анти-цель:** справочник синтаксиса / «урок Swift №0».
 
@@ -90,7 +91,7 @@ Swift / iOS — сильная специализация Mobile Systems, не �
 
 | Элемент | Контракт |
 |---------|----------|
-| **H1** | Что такое программирование? |
+| **H1** | Почему существует программирование? |
 | **Подзаголовок** | Не про код. Про способ объяснить машине, как решать задачи. |
 | **Pull quote** | *Компьютеры не думают. Они безупречно выполняют инструкции.* |
 | **Иллюстрация I1** | Человек · компьютер · между ними инструкция (единый минималистичный стиль университета) |
@@ -255,7 +256,7 @@ Senior-строка: абстракции платны — иногда нужн
 
 | Вопрос | Угол ответа |
 |--------|-------------|
-| Что такое программирование? | Формализация для машины, не набор символов |
+| Почему существует программирование? | Машине нужны точные инструкции; язык — форма, не причина |
 | Почему существуют языки? | Абстракции / выразительность / безопасность |
 | Что делает Compiler? | Перевод к Machine Code |
 | Чем инженер отличается от «просто программиста»? | Цикл, ограничения, годы жизни системы |
@@ -343,8 +344,10 @@ Follow-ups: ambiguity в спеках; когда спускаться с SwiftU
 - [x] 8–10 иллюстраций в едином стиле заложены  
 - [x] **Owner Approve** (2026-07-24 — «апрув»)  
 - [x] Phase B v1 (`README.md` + `notes/Interview-Pack.md`)  
-- [ ] Dual-pass Reviewer  
-- [ ] Assets I1–I8  
+- [x] Content review [0001](../../reviews/0001-what-is-programming.md) — **Request changes** (avg 7.5)  
+- [ ] Author fixes per 0001  
+- [ ] Dual-pass Accept  
+- [ ] Assets I1–I8 (or cut must-have in DESIGN)  
 - [ ] Playground для примера заказа (optional)  
 
 ---
@@ -354,4 +357,5 @@ Follow-ups: ambiguity в спеках; когда спускаться с SwiftU
 1. Author v1: `README.md` по карте Review №1.  
 2. Mermaid в тексте; I1–I8 — TODO placeholders.  
 3. Interview pack projection.  
-4. Next: Reviewer dual-pass · Mentor skim · assets.
+4. Review 0001 (2026-07-24): Request changes — история-как-боль; must-have visuals; Beginner note на Swift.  
+5. Next: Author fixes → Reviewer Accept pass.

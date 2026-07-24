@@ -9,7 +9,9 @@
 .ai/prompts/design-chapter.md     ← Phase A: только ДИЗАЙН страницы
 .ai/prompts/write-chapter.md      ← Phase B: текст по утверждённому DESIGN
 .ai/checklists/chapter-design.md  ← приёмка дизайна до написания
-.ai/checklists/topic.md           ← приёмка готовой главы
+.ai/checklists/topic.md           ← SoT / template приёмка
+.ai/checklists/chapter-review.md  ← педагогика: 4 gates + 10 критериев
+reviews/                          ← журнал ревью (как code review для глав)
 ```
 
 Принципы (SoT, не копировать вручную в каждую главу):
@@ -17,6 +19,7 @@
 | Документ | Зачем |
 |----------|--------|
 | [content-philosophy.md](../principles/content-philosophy.md) | идеи > технологии; история; рефлексия |
+| [teaching-model.md](../principles/teaching-model.md) | one chapter = one why; Part I spine; ban term catalogs |
 | [chapter-shape.md](../principles/chapter-shape.md) | секции + fundamental why |
 | [language.md](../principles/language.md) | RU explain · EN terms |
 | [campus/TOPIC_TEMPLATE.md](../../campus/TOPIC_TEMPLATE.md) | header / passport / Levels |
@@ -41,12 +44,17 @@
 6. Phase B — WRITE
       скопировать prompts/write-chapter.md
       на вход: путь к DESIGN.md
-7. Dual-pass Reviewer → topic.md checklist
-8. Evidence / Path log при учёбе
-9. Stop — не плодить handbook-деревья
+7. Dual-pass Reviewer
+      topic.md (структура) + chapter-review.md (педагогика)
+      сохранить `reviews/NNNN-slug.md` (шаблон reviews/_TEMPLATE.md)
+      для внешнего ревьюера — blob/raw GitHub, не только Pages `#/`
+8. Owner decision на review → Author fixes → новый Reviewer pass
+9. Evidence / Path log при учёбе
+10. Stop — не плодить handbook-деревья
 ```
 
-**Запрет:** писать тело главы, пропустив Design Review / Approve.
+**Запрет:** писать тело главы, пропустив Design Review / Approve.  
+**Запрет:** Accept главы без Four gates + scored chapter-review (или явный Owner override в `reviews/`).
 
 **Improve existing:** если страница уже есть и нужна правка одной дыры - [improve-topic.md](improve-topic.md), не полный chapter-fill.
 
@@ -94,6 +102,9 @@
 ## Related
 
 - [improve-topic.md](improve-topic.md) - точечные правки
+- [dual-pass-review.md](dual-pass-review.md)
+- [../checklists/chapter-review.md](../checklists/chapter-review.md)
+- [../../reviews/](../../reviews/) - журнал ревью глав
 - [interview-prep-session.md](interview-prep-session.md) - учёба, не написание главы
 - [../README.md](../README.md)
 - `campus/ASSISTANT_MANUAL.md`

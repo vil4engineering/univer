@@ -36,8 +36,17 @@ Computer Science → Programming → Software Engineering
   → Swift → Apple Platforms → iOS Development → AI Engineering
 ```
 
+**Part I — Foundations** (первый модуль, why-spine):  
+[`fundamentals/PART_I.md`](fundamentals/PART_I.md) · [teaching-model](.ai/principles/teaching-model.md)
+
+```text
+0 Why programming exists → 1 Computer → 2 Execution
+  → Binary → Machine Code → Assembly → Compiler
+  → Algorithms → Languages → Software Engineer
+```
+
 Mobile / Swift — сильная специализация, не нулевая точка университета.  
-Глава 0: [fundamentals/what-is-programming](fundamentals/what-is-programming/) (DESIGN → Review → Approve → write).
+Глава 0: [fundamentals/what-is-programming](fundamentals/what-is-programming/) — **Почему существует программирование?**
 
 ### Границы
 

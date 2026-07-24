@@ -11,8 +11,10 @@ Use before accepting Author work. Reviewer may paste results into their verdict.
 
 ## Template
 
+- [ ] **Reader Header** present (H1 = chapter question · deck · meta line) — not a JIRA bullet strip
+- [ ] Learning / Engineering metadata in `<details>` (or equivalent), Engineering collapsed by default
 - [ ] Header fields present (`campus/TOPIC_TEMPLATE.md`)
-- [ ] **Fundamental question (why)** stated — not only “what is X?”
+- [ ] **Fundamental question (why)** is the H1 (or identical) — not only a labeled field
 - [ ] Passport answers Why / problem / history at least at stub quality
 - [ ] Chapter sections present or honestly stubbed ([../principles/chapter-shape.md](../principles/chapter-shape.md))
 - [ ] Evolution strip present or explicitly N/A

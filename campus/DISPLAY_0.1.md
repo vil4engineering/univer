@@ -88,6 +88,19 @@ Search: Docsify built-in search across pages. Catalog page = browsable map when 
 
 A topic aimed at completeness should read as a **page**, not a wall of text: diagram, analogy (Level 1), code, practice, open questions, official links, Next. Template: [TOPIC_TEMPLATE.md](TOPIC_TEMPLATE.md). Design capture: [DESIGN_CAPTURE_LIVING_UNIVERSITY.md](DESIGN_CAPTURE_LIVING_UNIVERSITY.md).
 
+### Student Mode vs Author Mode
+
+The repo is both a **textbook** and an **engineering project**. Do not show one flat metadata dump to both audiences.
+
+| Mode | Sees | Default |
+|------|------|---------|
+| **Student Mode** | Reader Header (H1 question · deck · time/path/interview) + chapter body; Learning Metadata collapsed | **Default** on GitHub Pages |
+| **Author Mode** | + Engineering Metadata (`details`), DESIGN contract, reviews, assets/TODO, status/confidence | Collapsed `details` · or open `DESIGN.md` / `reviews/` |
+
+Docsify 0.1 has no separate app shell: implement modes as **markdown structure** (visible hero + `<details>`). A future Living Product UI may toggle Author Mode explicitly ([LIVING_PRODUCT.md](LIVING_PRODUCT.md)).
+
+Status vocabulary for Evidence still lives on **Path logs** ([PROGRESS.md](PROGRESS.md)) — not as a JIRA strip under every H1.
+
 ## Explicit non-goals for display 0.1
 
 - Interactive knowledge graph  

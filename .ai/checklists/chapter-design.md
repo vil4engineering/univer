@@ -32,6 +32,8 @@ Use before approving Phase B write. Design file: `…/DESIGN.md`.
 - [ ] Interesting to a 10-year engineer, not only a beginner
 - [ ] Survives API churn (idea-level spine)
 - [ ] Matches content-philosophy + language policy
+- [ ] **One fundamental why** stated; H1 matches the question the body answers ([../principles/teaching-model.md](../principles/teaching-model.md))
+- [ ] Not a term-catalog chapter (variable/function/class spine)
 - [ ] Emotion / before→after mental model stated (not definition-only)
 - [ ] Write plan for Author is actionable
 - [ ] **Design Review** logged on DESIGN (issues addressed)

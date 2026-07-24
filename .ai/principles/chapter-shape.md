@@ -2,6 +2,8 @@
 
 Canonical topic pages share one **chapter shape**. Depth still uses Levels **1–3** (`campus/TOPIC_TEMPLATE.md`) — this principle does **not** invent Level 4–6.
 
+**Stack (do not mix):** [teaching-model.md](teaching-model.md) (*why* we teach) → **this file** (*which sections*) → [`campus/TOPIC_TEMPLATE.md`](../../campus/TOPIC_TEMPLATE.md) (*Markdown chrome*).
+
 Constitution rule 5: **Answer Why before How.**
 
 ---
@@ -10,13 +12,19 @@ Constitution rule 5: **Answer Why before How.**
 
 Every chapter answers **one fundamental engineering question** — usually a **why**, not a dictionary **what**.
 
+**Binding expansion:** [teaching-model.md](teaching-model.md) — one chapter = one question; ban term-catalog curricula; Part I Foundations spine.
+
 | Weak opener | Strong opener |
 |-------------|----------------|
 | What is ARC? | Why did memory management become a problem computers had to solve? |
 | What is an Actor? | Why did plain threads / shared mutable state stop scaling safely? |
 | What is SwiftUI? | Why did Apple move away from primarily imperative UI trees? |
+| What is programming? (as dictionary) | Why did programming have to exist at all? |
 
 Put the question in the topic **Header**. Passport and Intuition must answer it before API tourism.
+
+**Title must match the question the body answers.** If they diverge, rename (Owner) — do not ship the mismatch.  
+On the published page the question is the **H1** (Reader Header) — not a gray “Fundamental question:” label. See [`campus/TOPIC_TEMPLATE.md`](../../campus/TOPIC_TEMPLATE.md).
 
 If you cannot state the why-question, the chapter is not ready to Author beyond a stub.
 
@@ -73,9 +81,11 @@ Fundamental question → Интуиция → Как это работает →
 ## Related
 
 - [../constitution.md](../constitution.md) (rules 5, 8, 10)
+- [teaching-model.md](teaching-model.md)
 - [content-philosophy.md](content-philosophy.md)
 - [university.md](university.md)
 - [writing.md](writing.md)
 - `campus/TOPIC_TEMPLATE.md`
 - `campus/ROADMAP_SENIOR.md` (lesson template)
+- [`../../fundamentals/PART_I.md`](../../fundamentals/PART_I.md)
 - `../prompts/create-topic.md`

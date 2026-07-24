@@ -24,8 +24,9 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 **Learning now:**
 
 - Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
-- Student B entry: **What is programming?** — [глава v1](fundamentals/what-is-programming/) · [DESIGN](fundamentals/what-is-programming/DESIGN.md) (Approve + text; Reviewer/assets pending)  
-- Chapter authoring pattern: [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)
+- Student B entry: **Part I / 0 v1.1** — [глава](fundamentals/what-is-programming/) · why: *Почему компьютеру нужны программы?* · [0001b Accept?](reviews/0001b-what-is-programming.md) · [Part I](fundamentals/PART_I.md) · [teaching-model](.ai/principles/teaching-model.md)  
+- Key pedagogy SoT: [teaching-model](.ai/principles/teaching-model.md) ↔ [content-philosophy](.ai/principles/content-philosophy.md) · shape → template stack  
+- **Architecture:** one chapter = one why · knowledge when needed · ban term catalogs
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -63,7 +64,9 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Handbook / Decision / Playbook trees | Blocked until Design (Architect cut) |
 | Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 | Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
-| Entry chapter `what-is-programming` | **Approve + v1 text** — dual-pass Reviewer + illustration assets pending |
+| Entry chapter `what-is-programming` | **v1.1** · H1 B · fundamental why *нужны программы?* · [0001b](reviews/0001b-what-is-programming.md) Accept pending Owner |
+| Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md); ch.0 Reader Header live |
+| Content review journal | **Started** — [`reviews/`](reviews/) · checklist [chapter-review](.ai/checklists/chapter-review.md) |
 
 
 
@@ -91,4 +94,5 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
 | [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |
 | [fundamentals/what-is-programming/DESIGN.md](fundamentals/what-is-programming/DESIGN.md) | First-chapter page design |
+| [reviews/0001-what-is-programming.md](reviews/0001-what-is-programming.md) | First content review (pedagogy bar) |
 
