@@ -23,6 +23,7 @@ Curated track for **LLM systems on Apple platforms** — from tokens and context
 | 12 | [Apple Intelligence](apple-intelligence/) | Product + app integration patterns |
 | 13 | [Dynamic Profiles](dynamic-profiles/) | Swap model/tools in one session |
 | 14 | [Evaluations](evaluations/) | Golden sets, regression, ToolCallEvaluator |
+| — | [Materials](materials/) | Accompanying slides / digests (dated; usefulness TBD) |
 
 Start at **[Roadmap](roadmap/)**, then **01 · LLM Basics** and **02–03** before RAG and agents.
 

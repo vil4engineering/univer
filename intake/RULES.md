@@ -55,6 +55,8 @@ When triage invents a repeatable pattern, add a bullet here in the same session.
 - Voice notes about interviews → Career vs univer Interview Engineering?
 - Screenshots without OCR → store link/id only vs skip?
 - Duplicate topics already in Library → improve-topic instead of new capture?
+- **Media albums (`grouped_id`):** caption message holds the text; sibling photos with empty text are the same post — after processing, delete the whole group from Saved.
+- **Informative PNGs / infographics in album:** download media into the target doc (often `ai-engineering/materials/<date-slug>/images/`), embed in README, set `Added` date + `Useful? = pending`. Do not leave images only in Telegram.
 
 ## Boundaries
 

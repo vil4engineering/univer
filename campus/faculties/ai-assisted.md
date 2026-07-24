@@ -10,5 +10,6 @@ Topics: Cursor · Codex · Claude Code · Copilot · Coding Agents · Prompt Eng
 | Assistant manual | [../ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md) |
 | Career integration | [../CAREER_INTEGRATION.md](../CAREER_INTEGRATION.md) |
 | AI warehouse (legacy tech pages) | [ai-engineering/](../../ai-engineering/) — prefer Track 2 for “how it works” |
+| Accompanying materials | [ai-engineering/materials/](../../ai-engineering/materials/) — dated; usefulness reviewed later |
 
 Track 1 не заменяет understanding. Copy-paste без Explain/Demonstrate — anti-goal.
