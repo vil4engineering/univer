@@ -1,20 +1,7 @@
-# Path Gamma — AI dual competence
+# Path Gamma — AI
 
-**Goal:** Engineer + AI as **tool** and as **technology**. Not AI instead of engineer.
+**Для кого:** когда основной путь уже зовёт разбираться в AI — и как в инструменте, и как в технологии.
 
-Study paused with university v2 until [V2_CHECKLIST](../V2_CHECKLIST.md) unlocks Study.
+**Сейчас:** путь ещё не открыт для спокойного самостоятельного старта. Сначала [Path Beta](beta.md) или [Path Alpha](alpha.md).
 
-## Strands
-
-| Track | Faculty | Spine hint |
-|-------|---------|------------|
-| 1 Assisted | [ai-assisted](../faculties/ai-assisted.md) | Workflows · Skills · review/ADR/docs automation |
-| 2 Technology | [ai-technology](../faculties/ai-technology.md) | Foundations → integration → RAG/agents → eval/safety |
-
-Interleave with Path Alpha. Use deepdive Skills from [skills/catalog.md](../skills/catalog.md).
-
-## Progress log
-
-| Date | Topic | Status | Confidence | Evidence |
-|------|-------|--------|------------|----------|
-| — | — | — | — | Study paused |
+Когда Gamma откроется, здесь будет два направления: AI как инструмент инженера и AI как система.

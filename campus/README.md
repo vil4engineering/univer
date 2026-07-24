@@ -1,15 +1,14 @@
 # Campus
 
-Место **студента**: пути, прогресс, лаборатории, факультеты.
+Это студенческий портал: пути, модули, факультеты, лаборатории.
 
-| | |
-|--|--|
-| **Основы** | [Path Beta](paths/beta.md) → [Part I](../fundamentals/PART_I.md) |
-| **Углубление** | [Path Alpha](paths/alpha.md) |
-| **Пути** | [paths/](paths/) |
-| **Факультеты** | [faculties/](faculties/) |
-| **Labs · Library** | [labs/](labs/) · [library/](library/) |
-| **Progress** | [PROGRESS.md](PROGRESS.md) |
+**С чего начать:** [Path Beta](paths/beta.md) → [Part I](../fundamentals/PART_I.md).
 
-> Campus = Student Portal.  
-> Производство контента — не здесь: [`.author/`](../.author/) (Creator Portal).
+| Раздел | Зачем |
+|--------|--------|
+| [Все пути](paths/) | Выбрать маршрут |
+| [Part I](../fundamentals/PART_I.md) | Первый модуль |
+| [Faculties](faculties/) | Карта знаний |
+| [Labs](labs/) | Практика |
+
+Производство контента и авторские документы — не здесь.

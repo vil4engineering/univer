@@ -29,6 +29,8 @@ Students must **not** see this in the Docsify sidebar. Authors open it from the 
 
 Playbook: [chapter-fill](../.ai/workflows/chapter-fill.md).
 
+Path Alpha author map: [paths-alpha.md](paths-alpha.md).
+
 ---
 
 ## Ship a chapter

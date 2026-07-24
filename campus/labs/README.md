@@ -1,34 +1,18 @@
-# Lab registry
+# Labs
 
-Experiments inside the university (“what happens if…?”), not orphan tutorials.
+Лаборатории — место практики: не «прочитал главу», а *что будет, если…?*
 
-Status: **index of existing artifacts**. Physical paths unchanged.
+Сейчас основной фокус университета — [Part I](../../fundamentals/PART_I.md) и [Path Beta](../paths/beta.md). Лабы подключаются по мере готовности глав.
 
-## A. Staged project labs (`projects/`)
+## Что уже есть в репозитории
 
-| Lab id | Path | Xcode / SPM | Linked topics |
-|--------|------|-------------|---------------|
-| `lab-netsession` | [projects/netsession-lab](../../projects/netsession-lab/) | `Package.swift` | Networking |
-| `lab-ai-workspace` | [projects/ai-lab-ios](../../projects/ai-lab-ios/) | XcodeGen `project.yml` | AI track |
-| `lab-unit-tests` | [projects/unit-tests-lab](../../projects/unit-tests-lab/) | docs → testing notes | Testing |
-| `lab-groundhog` | [projects/groundhog-day-ios](../../projects/groundhog-day-ios/) | `ios/*.xcodeproj` | Small app / product craft |
-| `lab-flip-english` | [projects/flip-english](../../projects/flip-english/) | docs | FM / SRS case |
+Эксперименты и playground-проекты (для тех, кто уже в коде):
 
-Details: [projects-map.md](../projects-map.md).
+- Networking lab  
+- Concurrency playgrounds  
+- Architecture / testing playgrounds  
+- Небольшие iOS-проекты в `projects/`
 
-## B. Playground labs (first-class ids)
+Полный технический реестр для авторов — в Creator Portal. Студенту достаточно: сначала теория по пути, потом лаба, на которую путь укажет.
 
-| Lab id | Path | Linked topics |
-|--------|------|---------------|
-| `lab-pg-concurrency-primer` | `swift/concurrency/SwiftConcurrencyPrimer.playground` | Concurrency |
-| `lab-pg-structured-concurrency` | `swift/concurrency/StructuredConcurrencyLab.playground` | Concurrency |
-| `lab-pg-architecture-patterns` | `architecture/patterns/architecture_patterns.playground` | MVVM → TCA |
-| `lab-pg-modularization` | `architecture/modularization/modularization_spm_tuist_xcodegen.playground` | Modularization |
-| `lab-pg-networking` | `data-and-network/networking/networking.playground` | Networking |
-| `lab-pg-testing` | `quality/testing/testing.playground` | Testing |
-
-Other co-located playgrounds remain warehouse artifacts until promoted with a `lab-pg-*` id here.
-
-## Completeness
-
-A lab graduates when it has: question · procedure · measurement/observation · reflection link on a topic page.
+Когда закроете главу 0–2 Part I, возвращайтесь сюда — список «открытых» лаб станет короче и понятнее.

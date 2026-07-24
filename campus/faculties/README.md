@@ -1,18 +1,20 @@
-# Faculties (v2)
+# Faculties
 
-Академические владельцы disciplines. Library folders — storage, не копия faculty.
+Факультеты — карта знаний университета. Это не маршрут обучения (маршрут — в [путях](../paths/)), а ответ на вопрос: *где в системе живёт эта тема?*
 
-| Faculty | Role | Index |
-|---------|------|-------|
-| [Software Engineering](software-engineering.md) | Core SE disciplines | Library architecture/quality/… |
-| [Mobile Systems](mobile-systems.md) | Apple / iOS strength | `swift/`, `ios-sdk/` |
-| [Backend](backend.md) | Services, data, auth, jobs | Growing |
-| [Infrastructure](infrastructure.md) | CI/CD, deploy, monitoring | `devops/` |
-| [AI-assisted](ai-assisted.md) | Track 1 — AI as tool | Skills + workflows |
-| [AI Technology](ai-technology.md) | Track 2 — how AI works | `ai-engineering/` |
-| [Engineering Leadership](engineering-leadership.md) | Ownership & judgment | Campus-first |
-| [Career Development](career-development.md) | Interview craft | Not private `career` |
-| [Computer Science](computer-science.md) | Foundations | `fundamentals/`, `algorithms/` |
-| [Product Engineering](product-engineering.md) | Shipping judgment | `system-design/` |
+Пока учитесь по Path Beta / Part I, сюда можно заглядывать из любопытства. Глубоко — когда путь сам подведёт.
 
-Old slugs: [mobile-engineering.md](mobile-engineering.md) · [ai-engineering.md](ai-engineering.md) → redirects.
+| Факультет | О чём |
+|-----------|--------|
+| [Computer Science](computer-science.md) | Основы: компьютер, программы, алгоритмы |
+| [Software Engineering](software-engineering.md) | Как проектировать и поддерживать системы |
+| [Mobile Systems](mobile-systems.md) | Apple / iOS / Swift на глубине |
+| [Backend](backend.md) | Сервисы, данные, auth, фоновые задачи |
+| [Infrastructure](infrastructure.md) | CI/CD, деплой, мониторинг |
+| [AI-assisted](ai-assisted.md) | AI как инструмент инженера |
+| [AI Technology](ai-technology.md) | Как устроены AI-системы |
+| [Engineering Leadership](engineering-leadership.md) | Ownership и инженерное суждение |
+| [Product Engineering](product-engineering.md) | Shipping: продукт и инженерное решение |
+| [Career Development](career-development.md) | Интервью и карьерный craft |
+
+Не выбирайте факультет вместо пути. Сначала путь — потом карта.
