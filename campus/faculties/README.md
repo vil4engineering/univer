@@ -18,4 +18,4 @@
 | [Engineering Leadership](engineering-leadership.md) | Ownership и суждение | База |
 | [Software Engineering](software-engineering.md) | Проектирование систем | База |
 
-Сайдбар показывает ту же структуру. Словарь: [Glossary](../../glossary/). О продукте: [About](../about.md).
+Сайдбар показывает ту же структуру. Словарь: [Glossary](../../glossary/).

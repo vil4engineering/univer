@@ -1,3 +1,3 @@
-Sidebar: Home · faculties (CS → Math → SE → Backend → Frontend → Mobile → AI → Leadership) · Glossary · Labs · About.
+Sidebar: Home · faculties (CS → … → Leadership) · Glossary · Labs.
 
-No Path / Trajectories. Empty floors = stubs.
+No Path / About in nav. Product story = Home.

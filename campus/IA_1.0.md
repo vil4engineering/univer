@@ -99,11 +99,10 @@ Computer Science → Mathematics → Software Engineering
   → Backend → Frontend → Mobile → AI → Leadership
 Glossary
 Labs
-About
 ```
 
-Order: foundation → broader SE → product floors → specialty → dictionary → practice → about.  
-**No** Path / Траектории / «Начать обучение» in chrome. `campus/paths/` = author archive only.
+Order: foundation → broader SE → product floors → specialty → dictionary → practice.  
+**No** Path / Траектории / About / «Начать обучение» in chrome. `campus/paths/` = author archive. Product story lives on **Home** only (`campus/about.md` may remain as deep URL, not nav).
 
 **Product model:** Engineering Builder = IT constructor on CS+Math foundation; faculties = floors; co-filled by father + Timur.  
 **Terms:** `a.eu-term` → Glossary anchor (not chapter footer dump).  

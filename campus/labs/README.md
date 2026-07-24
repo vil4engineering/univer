@@ -12,4 +12,4 @@
 - Небольшие iOS-проекты в `projects/`
 
 Сначала идея на этаже → потом лаба.  
-Витрина: [About](../about.md) · словарь: [Glossary](../../glossary/).
+Витрина: [Home](../../README.md) · словарь: [Glossary](../../glossary/).

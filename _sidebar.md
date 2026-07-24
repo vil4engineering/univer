@@ -9,4 +9,3 @@
 - [Engineering Leadership](/campus/faculties/engineering-leadership.md)
 - [Glossary](/glossary/)
 - [Labs](/campus/labs/)
-- [About](/campus/about.md)
