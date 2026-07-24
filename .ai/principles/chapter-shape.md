@@ -44,7 +44,9 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 | **Production** | Real use · failure modes · decisions | What breaks · Decisions |
 | **Интервью** | Likely questions · follow-ups · common mistakes | Interview projection |
 | **Лабораторная** | Try yourself | Lab / playground / `projects/` link |
-| **Что читать дальше** | Apple · Evolution · WWDC · books · articles | References · Next |
+| **Конспект** | Readable takeaways (student can re-read without the full chapter) | After practice / before links |
+| **Упомянуто в главе** | Mentions → first lessons / Part I anchors (not a wiki dump) | Related · Next |
+| **Что читать дальше** | Apple · Evolution · WWDC · books · articles (may merge into Упомянуто) | References · Next |
 
 Aligns with ROADMAP lesson spine (Problem → … → References) without a second encyclopedia.
 

@@ -4,6 +4,7 @@ Strongest commercial foundation (iOS). Faculty of the university — not the nam
 
 | Area | Library hooks |
 |------|----------------|
+| Swift — вход | [Почему появился Swift?](../../swift/what-is-swift/) |
 | Swift (все) | [swift/](../../swift/) |
 | Concurrency | [swift/concurrency](../../swift/concurrency/) |
 | async/defer cleanup | [swift/async-defer](../../swift/async-defer/) |
