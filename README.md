@@ -1,9 +1,5 @@
 # Engineering University
 
-<p align="center">
-  <img class="eu-logo" src="assets/logo.jpg" alt="Engineering University logo" width="192" height="192">
-</p>
-
 **Научитесь понимать, как устроены компьютеры, программирование и современные инженерные системы — от первых принципов до уровня Senior Engineer.**
 
 Не справочник API и не свалка заметок. Университет вокруг **вопросов и моделей мышления**, а не вокруг списка технологий.
