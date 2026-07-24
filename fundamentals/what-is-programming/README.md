@@ -14,7 +14,7 @@
 | | |
 |--|--|
 | **Дальше** | [Part I](../PART_I.md) · глава 1 (скоро) |
-| **Путь** | [Path Beta](../../campus/paths/beta.md) |
+| **Путь** | [Foundations](../../campus/paths/beta.md) |
 
 ---
 
@@ -341,7 +341,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 > **до:** код → компьютер · «нужен язык» · «машина глючит»  
 > **после:** проблема → алгоритм → программа → Hardware → результат в мире · ошибается человек · язык — форма
 
-Одной фразой — в [Path Beta](../../campus/paths/beta.md).
+Одной фразой — в [Foundations](../../campus/paths/beta.md).
 
 ---
 

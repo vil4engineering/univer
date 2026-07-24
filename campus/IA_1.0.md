@@ -95,13 +95,16 @@ No Author / AI / review-criteria / teaching-model.
 
 ```text
 Home
-Начать обучение   → one recommended start (Path Beta)
-Все пути          → browse / choose a path
+Начать обучение   → Foundations (Learning Path Beta) — base layer
+Траектории        → one knowledge graph; paths = traversal order (not 3 courses)
 Part I
-Faculties
+Faculties         → where topics live in the graph
 Labs
 About             → product story later; README is temporary
 ```
+
+**Paths model:** Beta / Alpha / Gamma are **trajectories** through one universe, not competing curricula.  
+Student page titles: Foundations · Software Engineering · AI Engineering (internal ids: Path Beta / Alpha / Gamma).
 
 **No** Author hub. **No** Creator Portal. **No** `.ai` docs.
 

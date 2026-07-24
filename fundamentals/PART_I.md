@@ -52,7 +52,7 @@
 
 ## Дальше
 
-- Учёба: [Path Beta](../campus/paths/beta.md)  
-- Этот модуль также фундамент для Path Alpha  
+- Траектория: [Foundations](../campus/paths/beta.md) (Learning Path Beta)  
+- Карта слоёв: [Траектории](../campus/paths/) — Alpha и Gamma *поверх* этого фундамента, не вместо него  
 
-Следующий модуль — после закрытия Part I (появится в Paths).
+Следующий модуль — после закрытия Part I.

@@ -1,6 +1,6 @@
 - [Home](/)
 - [Начать обучение](/campus/paths/beta.md)
-- [Все пути](/campus/paths/)
+- [Траектории](/campus/paths/)
 - [Part I · Foundations](/fundamentals/PART_I.md)
 - [Faculties](/campus/faculties/)
 - [Labs](/campus/labs/)
