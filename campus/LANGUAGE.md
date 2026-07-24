@@ -8,10 +8,12 @@ Agent principle (same policy): [../.ai/principles/language.md](../.ai/principles
 | Layer | Language |
 |-------|----------|
 | Explanations, mental models, campus prose | **Russian** (RU-primary) |
+| Address the reader | **ты** — пишем сыну, не «аудитории курса» |
 | Terms, API names, identifiers, Apple/WWDC vocabulary | **English as-is** (`Task`, `Actor`, `ARC`, `Sendable` — not calques) |
 | Interview English | Optional dedicated blocks for spoken answers — not a full page twin |
 
-**Russian** is the explanation language. **English** is the engineering language.
+**Russian** is the explanation language. **English** is the engineering language.  
+**Voice:** warm, direct, second person singular (`ты` / imperative `научись`, `открой`) — not formal `вы` and not marketing plural.
 
 Readers should become comfortable with Apple Documentation, Swift Evolution, WWDC, papers, RFCs, and technical books — without artificial RU translations of standard terms.
 

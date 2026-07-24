@@ -13,14 +13,14 @@ Swift — не «ещё один синтаксис».
 
 | | |
 |--|--|
-| **Откуда вы** | [Почему существует программирование?](../../fundamentals/what-is-programming/) |
+| **Откуда ты** | [Почему существует программирование?](../../fundamentals/what-is-programming/) |
 | **Факультет** | [Mobile Systems](../../campus/faculties/mobile-systems.md) |
 
 ---
 
 ## Интуиция
 
-В [главе 0](../../fundamentals/what-is-programming/) вы увидели цепочку:
+В [главе 0](../../fundamentals/what-is-programming/) ты увидел цепочку:
 
 > задача → алгоритм → программа → Compiler → Machine Code → CPU
 
