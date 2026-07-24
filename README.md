@@ -12,7 +12,7 @@
 
 ## С чего начать
 
-Начни с **фундамента** — траектория Foundations и первый модуль [Execution Spine](fundamentals/PART_I.md): как задача человека становится действием машины.
+Начни с **фундамента** — траектория Foundations и первый модуль [Computer Science](fundamentals/PART_I.md): как задача человека становится действием машины.
 
 **[Начать с Foundations →](campus/paths/beta.md)**
 

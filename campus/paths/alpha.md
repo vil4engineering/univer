@@ -13,7 +13,7 @@
 Concurrency
   → неясен Actor
   → ссылка
-  → Execution Spine / Memory / CPU
+  → Computer Science / Memory / CPU
 ```
 
 То же с сетью, UI, тестами: сначала идея на своём уровне, при дырке в фундаменте — узел Computer Science, не «начни другой Path».
@@ -22,7 +22,7 @@ Concurrency
 
 ## С чего начать на этом слое
 
-1. Закрой дыры в [Foundations](beta.md) / [Execution Spine](../../fundamentals/PART_I.md), если они ещё есть.  
+1. Закрой дыры в [Foundations](beta.md) / [Computer Science](../../fundamentals/PART_I.md), если они ещё есть.  
 2. Вернись сюда за следующим этапом углубления.
 
 Полный spine Alpha ещё упрощается под читаемый маршрут. Сейчас безопасный вход — Foundations и практика на реальном коде.

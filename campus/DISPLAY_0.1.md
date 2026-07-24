@@ -10,7 +10,8 @@ Creator Portal = [`.author/`](../.author/) — **not** in sidebar.
 | Learning | Yes |
 | Authoring / Engineering | No (repo / deep link only) |
 
-Sidebar: Home · Start · Trajectories · Execution Spine · Faculties · Labs.  
-About is not a nav item — it lives on Home (addressed to Timur).
+Sidebar: Home · Start · Trajectories · Computer Science · Faculties · Labs.  
+About is not a nav item — it lives on Home (addressed to Timur).  
+Execution Spine = model name inside the CS module, not a sidebar label.
 
 Topic pages: Student Mode Reader Header; Engineering metadata stays collapsed for authors who open raw files.

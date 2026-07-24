@@ -13,7 +13,7 @@
 
 | | |
 |--|--|
-| **Дальше** | [Execution Spine](../PART_I.md) · глава 1 (скоро) |
+| **Дальше** | [Computer Science](../PART_I.md) · глава 1 (скоро) |
 | **Путь** | [Foundations](../../campus/paths/beta.md) |
 
 ---
@@ -318,11 +318,11 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 |-----------|---------------|-------------|
 | **Swift** | Язык в примерах и в линии истории | [Почему появился Swift?](../../swift/what-is-swift/) — первый урок |
 | **Objective-C / C** | Предшественники на линии «язык общения» | В уроке про Swift · глубже позже в модуле (языки) |
-| **Compiler** | Переводчик с языка человека к Machine Code | [Execution Spine](../PART_I.md) · глава Compiler (скоро) |
-| **Machine Code** | То, что реально исполняет CPU | [Execution Spine](../PART_I.md) · глава Machine Code (скоро) |
-| **Assembly** | Язык ближе к железу, чем Swift | [Execution Spine](../PART_I.md) · глава Assembly (скоро) |
-| **Binary** | Почему машина понимает «нули и единицы» | [Execution Spine](../PART_I.md) · глава Binary (скоро) |
-| **Алгоритм** | Однозначные шаги до кода | [Execution Spine](../PART_I.md) · глава Алгоритмы (скоро) |
+| **Compiler** | Переводчик с языка человека к Machine Code | [Computer Science](../PART_I.md) · глава Compiler (скоро) |
+| **Machine Code** | То, что реально исполняет CPU | [Computer Science](../PART_I.md) · глава Machine Code (скоро) |
+| **Assembly** | Язык ближе к железу, чем Swift | [Computer Science](../PART_I.md) · глава Assembly (скоро) |
+| **Binary** | Почему машина понимает «нули и единицы» | [Computer Science](../PART_I.md) · глава Binary (скоро) |
+| **Алгоритм** | Однозначные шаги до кода | [Computer Science](../PART_I.md) · глава Алгоритмы (скоро) |
 | **Hardware / Software** | Машина и инструкция | След. глава модуля: компьютер как исполнитель (скоро) |
 | **SwiftUI** | Верхний этаж абстракций в примере | Позже · Mobile Systems / iOS |
 | **Operating System** | Почему программы редко говорят с железом «напрямую» | Позже · отдельная тема |
@@ -331,7 +331,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 **Первоисточники (если хочешь вне университета):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
-**Дальше по модулю:** [Execution Spine](../PART_I.md) — ближайшие якоря: компьютер → исполнение программы → Binary.
+**Дальше по модулю:** [Computer Science](../PART_I.md) — ближайшие якоря: компьютер → исполнение программы → Binary.
 
 ---
 

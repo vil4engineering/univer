@@ -184,12 +184,12 @@ Here, each idea appears as an **answer to a problem** previous pages made painfu
 
 ---
 
-## Execution Spine (first Foundations module)
+## Computer Science module (Foundations entry)
 
 Human map (student cover): [`fundamentals/PART_I.md`](../../fundamentals/PART_I.md).  
-Legacy filename / id: `PART_I` — **do not** show “Part I” on student chrome (part of what?). Student title: **Execution Spine**.
+Student title: **Computer Science**. Legacy filename: `PART_I`. Never show “Part I” on chrome.
 
-**Canonical model name:** **Execution Spine** (Problem → Human → Algorithm → Program → Compiler → Machine Code → CPU → World).  
+**Canonical model name (inside the module):** **Execution Spine** (Problem → Human → Algorithm → Program → Compiler → Machine Code → CPU → World).  
 Later chapters say: “we are at the *Compiler* step of the Execution Spine.”
 
 **Module shape (canonical):**
@@ -216,7 +216,7 @@ In this module each chapter answers one question — it does not define a term.
 | # | Working title (H1) | Fundamental why | Topic id | Status |
 |---|--------------------|-----------------|----------|--------|
 | 0 | Почему существует программирование? | Почему компьютеру вообще нужны программы? | `fundamentals/what-is-programming` | **v1.2 Publish** |
-| 1–9 | (see Execution Spine student cover) | one why each | planned ids | planned |
+| 1–9 | (see Computer Science student cover) | one why each | planned ids | planned |
 
 Strict dictionary “what is programming?” comes **after** executor, instruction, algorithm, program. Chapter 0 creates the *need*.
 

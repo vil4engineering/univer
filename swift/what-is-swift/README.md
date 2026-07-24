@@ -99,6 +99,6 @@ C → Objective-C → Swift
 | Зачем вообще нужны программы | [Глава 0 · Execution Spine](../../fundamentals/what-is-programming/) |
 | Официальный вход в синтаксис | [The Swift Programming Language — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/) |
 | Склад синтаксиса в репо (позже, сырой) | [swift/syntax](../syntax/) |
-| Карта модуля | [Execution Spine](../../fundamentals/PART_I.md) |
+| Карта модуля | [Computer Science](../../fundamentals/PART_I.md) |
 
-Следующий осмысленный шаг — не утонуть в API, а вернуться в Execution Spine и закрыть «компьютер / исполнение / Binary».
+Следующий осмысленный шаг — не утонуть в API, а вернуться в Computer Science и закрыть «компьютер / исполнение / Binary».

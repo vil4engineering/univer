@@ -1,6 +1,6 @@
 - [Home](/)
 - [Начать обучение](/campus/paths/beta.md)
 - [Траектории](/campus/paths/)
-- [Execution Spine](/fundamentals/PART_I.md)
+- [Computer Science](/fundamentals/PART_I.md)
 - [Faculties](/campus/faculties/)
 - [Labs](/campus/labs/)

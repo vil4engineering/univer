@@ -97,7 +97,7 @@ No Author / AI / review-criteria / teaching-model.
 Home              → addressed to Timur; About lives here (no separate About nav)
 Начать обучение   → Foundations (Learning Path Beta) — base layer
 Траектории        → one knowledge graph; paths = traversal order (not 3 courses)
-Execution Spine   → first Foundations module (file: fundamentals/PART_I.md — legacy id)
+Computer Science   → first Foundations module cover (`fundamentals/PART_I.md`); model inside = Execution Spine
 Faculties         → where topics live in the graph
 Labs
 ```
@@ -107,8 +107,9 @@ Labs
 **Paths model:** Beta / Alpha / Gamma are **trajectories** through one universe, not competing curricula.  
 Student page titles: Foundations · Software Engineering · AI Engineering (internal ids: Path Beta / Alpha / Gamma).
 
-**Module naming:** do **not** use “Part I / Part II” on student chrome until a real multi-part series exists.  
-First CS module = **Execution Spine** (answers: how a human task becomes machine action).
+**Module naming:** first CS module student title = **Computer Science**.  
+**Execution Spine** = named model *inside* that module (not a competing nav brand).  
+Do **not** use “Part I / Part II” on student chrome.
 
 **No** Author hub. **No** Creator Portal. **No** `.ai` docs.
 
