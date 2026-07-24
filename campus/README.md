@@ -1,14 +1,14 @@
 # Campus
 
-Твой студенческий портал: траектории, модули, факультеты, лаборатории.
+Студенческий портал Engineering Builder.
 
-**С чего начать:** [Foundations](paths/beta.md) → [Computer Science](../fundamentals/PART_I.md).
+**Витрина:** [Home](../README.md) · этажи в сайдбаре · [About](about.md).
 
 | Раздел | Зачем |
 |--------|--------|
-| [Траектории](paths/) | Порядок обхода одного графа (не три курса) |
-| [Computer Science](../fundamentals/PART_I.md) | Первый модуль Foundations · модель Execution Spine |
-| [Faculties](faculties/) | Карта узлов графа |
+| [Computer Science](../fundamentals/PART_I.md) | Фундамент |
+| [Faculties](faculties/) | Легенда этажей |
+| [Glossary](../glossary/) | Словарь A–Z + Domain |
 | [Labs](labs/) | Практика |
 
-Производство контента и авторские документы — не здесь.
+`paths/` — архив авторов, не меню Learn.

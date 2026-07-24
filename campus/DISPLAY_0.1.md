@@ -1,4 +1,3 @@
-Sidebar: Home · Computer Science · Mathematics · Mobile · Backend · Frontend · AI · Leadership · Labs · Glossary · About.
+Sidebar: Home · faculties (CS → Math → SE → Backend → Frontend → Mobile → AI → Leadership) · Glossary · Labs · About.
 
-No Path / Start Learning. Empty floors show as stubs («скоро»).
-About = constructor metaphor. Glossary = A–Z + Domain.
+No Path / Trajectories. Empty floors = stubs.

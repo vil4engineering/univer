@@ -95,20 +95,15 @@ No Author / AI / review-criteria / teaching-model.
 
 ```text
 Home
-Computer Science          ← foundation module
-Mathematics               ← foundation stub OK
-Mobile Systems
-Backend
-Frontend                  ← stub OK
-AI
-Engineering Leadership
+Computer Science → Mathematics → Software Engineering
+  → Backend → Frontend → Mobile → AI → Leadership
+Glossary
 Labs
-Glossary                  ← A–Z + Domain; terms from chapters link here
-About                     ← constructor metaphor + how to read
+About
 ```
 
-**No** «Начать обучение» / Траектории / Path in chrome.  
-Paths may remain in repo for authors — not student nav.
+Order: foundation → broader SE → product floors → specialty → dictionary → practice → about.  
+**No** Path / Траектории / «Начать обучение» in chrome. `campus/paths/` = author archive only.
 
 **Product model:** Engineering Builder = IT constructor on CS+Math foundation; faculties = floors; co-filled by father + Timur.  
 **Terms:** `a.eu-term` → Glossary anchor (not chapter footer dump).  
