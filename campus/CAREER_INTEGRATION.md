@@ -9,7 +9,7 @@ Market
   → Career OS (private: CRM, salary, personal strategy)
   → Skill Gap
   → Learning Plan
-  → Engineering University
+  → Engineering Builder
   → Practice / Labs / Skills
   → Portfolio Evidence
   → Career OS
@@ -32,4 +32,4 @@ Market
 
 ## Assistant rule
 
-Repo learning assistant must refuse to publish private career material into `vil4engineering` / Engineering University. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).
+Repo learning assistant must refuse to publish private career material into `vil4engineering` / Engineering Builder. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).

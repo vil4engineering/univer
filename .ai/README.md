@@ -1,6 +1,6 @@
 # AI Governance Layer
 
-Entry point for every agent working on Engineering University: Cursor, ChatGPT, Claude, Codex, and future tools.
+Entry point for every agent working on Engineering Builder: Cursor, ChatGPT, Claude, Codex, and future tools.
 
 **Committed agent entrypoint:** root [`AGENTS.md`](../AGENTS.md) points here. Open this README before changing knowledge.
 

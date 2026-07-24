@@ -42,7 +42,7 @@ Analogy: MIT students do not see accreditation checklists on the lobby wall. Tho
 
 **Product names:**
 
-- **Engineering University** = Layer 1 (public product)  
+- **Engineering Builder** = Layer 1 (public product; formerly Engineering University)  
 - **Campus OS** = study OS inside Layer 1 (paths, progress, labs)  
 - **Creator Portal / University Engine** = Layer 2 + 3 ([`.author/`](../.author/) + [`.ai/`](../.ai/))
 

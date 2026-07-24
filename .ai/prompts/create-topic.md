@@ -9,7 +9,7 @@ Use this prompt for Architect-approved **small** topic creates or when DESIGN al
 ## Prompt
 
 ```text
-Role: Author (Engineering University)
+Role: Author (Engineering Builder)
 
 Create a new canonical topic ONLY if Architect/Owner agreed it does not duplicate an existing concept.
 

@@ -2,7 +2,7 @@
 
 **Status:** Binding capture of decisions already ratified in Charter / Campus / `.ai/`; remaining items are **pending Design** only where marked.  
 **Date:** 2026-07-24  
-**Source:** Owner + assistant design thread (Interview Bootcamp → Engineering University → Living World → projections).  
+**Source:** Owner + assistant design thread (Interview Bootcamp → Engineering Builder → Living World → projections).  
 **Related:** [01_CHARTER.md](../01_CHARTER.md) · [02_PHILOSOPHY.md](../02_PHILOSOPHY.md) · [METAMODEL.md](METAMODEL.md) · [REFERENCE_WORLDS.md](REFERENCE_WORLDS.md) · [CODE_CONTRACT.md](CODE_CONTRACT.md) · [LIVING_PRODUCT.md](LIVING_PRODUCT.md) · [../.ai/constitution.md](../.ai/constitution.md)
 
 This file is **not** a second constitution. It maps the long conversation to existing SoT and lists what is still open so we do not rediscover the same design.

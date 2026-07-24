@@ -1,6 +1,6 @@
 # Principle: Content philosophy
 
-**Mandatory for every AI** working on Engineering University content (Author, Mentor, Reviewer, Curriculum Designer, Interviewer packs that write prose).
+**Mandatory for every AI** working on Engineering Builder content (Author, Mentor, Reviewer, Curriculum Designer, Interviewer packs that write prose).
 
 This is the long-term quality gate. Constitution rules 5, 6, 8, 10 expand here for *how chapters feel*.
 

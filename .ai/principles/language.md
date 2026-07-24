@@ -1,6 +1,6 @@
 # Principle: Language Policy
 
-Published Engineering University content is written in **Russian**.
+Published Engineering Builder content is written in **Russian**.
 
 The goal is to make difficult engineering topics understandable without reducing their technical accuracy.
 

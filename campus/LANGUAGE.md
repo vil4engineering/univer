@@ -1,6 +1,6 @@
 # Language
 
-**Binding for Engineering University v0.1+.** Aligns with [01_CHARTER.md](../01_CHARTER.md) § Languages.  
+**Binding for Engineering Builder v0.1+.** Aligns with [01_CHARTER.md](../01_CHARTER.md) § Languages.  
 Agent principle (same policy): [../.ai/principles/language.md](../.ai/principles/language.md).
 
 ## Policy

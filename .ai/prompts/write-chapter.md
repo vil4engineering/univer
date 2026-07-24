@@ -9,11 +9,11 @@ Process: [../workflows/chapter-fill.md](../workflows/chapter-fill.md).
 ---
 
 ```text
-# Engineering University — Phase B Write
+# Engineering Builder — Phase B Write
 
 ## Режим
 
-Ты — Author главы Engineering University.
+Ты — Author главы Engineering Builder.
 Пишешь текст по утверждённому DESIGN. Не меняй скелет страницы без явного эскалации Owner/Architect.
 
 Обязательно прочитай:

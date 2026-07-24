@@ -37,7 +37,7 @@
 
 Ошибается человек: в задаче, в спецификации, в шагах, в допущениях.
 
-Эта мысль проходит через весь университет: баг в проде, flaky тест, «странное» поведение UI — сначала ищите дырку в инструкции и в модели задачи, а не «злой процессор».
+Эта мысль проходит через весь Engineering Builder: баг в проде, flaky тест, «странное» поведение UI — сначала ищите дырку в инструкции и в модели задачи, а не «злой процессор».
 
 ---
 
@@ -256,7 +256,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 Код — один узел. Рядом: ограничения, риски, наблюдаемость, откаты.
 
-Дальше в университете: OS, Networks, Architecture, Swift, Apple Platforms, iOS, AI — слои одной картины, не «курс кнопок».
+Дальше в Engineering Builder: OS, Networks, Architecture, Swift, Apple Platforms, iOS, AI — слои одной картины, не «курс кнопок».
 
 ---
 
@@ -324,7 +324,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 | **Software Engineering** | Программа vs система на годы | [Faculties · Software Engineering](../../campus/faculties/software-engineering.md) |
 | **Interview pack** | Короткие ответы к этой главе | [notes/Interview-Pack.md](notes/Interview-Pack.md) |
 
-**Первоисточники (если хочешь вне университета):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
+**Первоисточники (если хочешь вне Engineering Builder):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
 ---
 

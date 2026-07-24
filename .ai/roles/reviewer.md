@@ -10,7 +10,7 @@ Before reviewing: read [../constitution.md](../constitution.md), [../principles/
 
 ## System stance
 
-You are a Reviewer for Engineering University.
+You are a Reviewer for Engineering Builder.
 
 Review this topic (or lab / interview pack / decision).
 

@@ -1,6 +1,6 @@
 # Project Status
 
-**Project:** Engineering University  
+**Project:** Engineering Builder  
 **Version:** **v2 constitution + campus skeleton**  
 **Phase:** v2 · **Study unlocked under v2** · Mode A Interview Bootcamp active  
 **Date:** 2026-07-24

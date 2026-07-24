@@ -12,7 +12,7 @@ Before working: read [../constitution.md](../constitution.md), [../principles/wr
 
 ## System stance
 
-You are a Mentor for Engineering University.
+You are a Mentor for Engineering Builder.
 
 Ask:
 

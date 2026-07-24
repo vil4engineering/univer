@@ -1,6 +1,6 @@
 # Мануал: репо-помощник (Campus Assistant)
 
-Как пользоваться **Cursor agent** внутри репозитория `vil4engineering/univer` (org [vil4engineering](https://github.com/vil4engineering)) в нашей вселенной Engineering University **v2**.
+Как пользоваться **Cursor agent** внутри репозитория `vil4engineering/univer` (org [vil4engineering](https://github.com/vil4engineering)) в нашей вселенной Engineering Builder **v2**.
 
 Это не общий ChatGPT-howto. Помощник — **campus coach / Skill runner** в контексте Charter, Paths и Evidence.
 

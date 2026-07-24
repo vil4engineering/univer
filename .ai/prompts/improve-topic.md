@@ -7,7 +7,7 @@ Use with role **Author**. Prefer this over create-topic whenever a page already 
 ## Prompt
 
 ```text
-Role: Author (Engineering University)
+Role: Author (Engineering Builder)
 
 Improve an existing canonical topic. Do not create a parallel page.
 

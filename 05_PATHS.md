@@ -1,6 +1,6 @@
 # 05 · Paths (v2)
 
-**Project:** Engineering University  
+**Project:** Engineering Builder  
 **Status:** **v2**  
 **Related:** [01_CHARTER.md](01_CHARTER.md) · [03_CURRICULUM.md](03_CURRICULUM.md)
 

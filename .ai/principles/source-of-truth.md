@@ -1,6 +1,6 @@
 # Principle: Source of Truth
 
-Engineering University (this repository) is the canonical Source of Truth for public curriculum knowledge.
+Engineering Builder (this repository) is the canonical Source of Truth for public curriculum knowledge.
 
 ## Rules
 

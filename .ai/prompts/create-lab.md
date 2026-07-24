@@ -7,7 +7,7 @@ Use with role **Author** (lab text) after **Architect** confirms the lab does no
 ## Prompt
 
 ```text
-Role: Author (Engineering University) — Lab
+Role: Author (Engineering Builder) — Lab
 
 Create a lab that practices ONE engineering idea.
 

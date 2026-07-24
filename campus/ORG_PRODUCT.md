@@ -1,6 +1,6 @@
-# Org product — Engineering University (10–20 years)
+# Org product — Engineering Builder (10–20 years)
 
-Как развивать **Engineering University** как продукт, а не как набор репозиториев.
+Как развивать **Engineering Builder** как продукт, а не как набор репозиториев.
 
 Связано: [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) · [faculties/](faculties/) · org [.github](https://github.com/vil4engineering/.github) · [Discussions](https://github.com/vil4engineering/univer/discussions) · [Project](https://github.com/orgs/vil4engineering/projects/1)
 
@@ -9,7 +9,7 @@
 Curriculum first-class. Каждый repo / lab / статья имеет место в учебной структуре.
 
 ```text
-Engineering University
+Engineering Builder
 ├── Foundation — Mathematics · Computer Science · Engineering Thinking
 ├── Software Engineering — Swift · iOS · AI · Architecture
 ├── Laboratories
@@ -28,7 +28,7 @@ Engineering University
 | Curriculum spine | `campus/` + [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) |
 | Default community files | org `.github` (CONTRIBUTING · CoC · SECURITY · templates) |
 | Living labs | `pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` |
-| Org Project | [Engineering University #1](https://github.com/orgs/vil4engineering/projects/1) |
+| Org Project | [Engineering Builder #1](https://github.com/orgs/vil4engineering/projects/1) |
 | Discussions (hub) | Enabled on site repo |
 | Labels · milestones (hub) | Seeded |
 

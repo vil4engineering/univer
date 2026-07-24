@@ -7,7 +7,7 @@ Use with role **Author**. Default landing place: Production / Failure section on
 ## Prompt
 
 ```text
-Role: Author (Engineering University) — Production story
+Role: Author (Engineering Builder) — Production story
 
 Default target: section on canonical topic (not a new playbook root).
 Escalate Architect if a Production Playbook tree is requested.

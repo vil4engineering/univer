@@ -1,6 +1,6 @@
 # Glossary
 
-Engineering University terminology hub — short definitions for quick recall before interviews, reviews, and AI product work.
+Engineering Builder terminology hub — short definitions for quick recall before interviews, reviews, and AI product work.
 
 ## Domains
 

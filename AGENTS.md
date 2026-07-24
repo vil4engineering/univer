@@ -1,6 +1,6 @@
 # univer — notes for AI agents
 
-**Public** Engineering University **v2** · org [vil4engineering](https://github.com/vil4engineering) · site [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · repo `vil4engineering/univer`
+**Public** Engineering Builder **v2** · org [vil4engineering](https://github.com/vil4engineering) · site [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · repo `vil4engineering/univer`
 
 ## Read first (order)
 

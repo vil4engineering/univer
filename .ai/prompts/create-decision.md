@@ -9,7 +9,7 @@ Must reference canonical concept topics; do not re-teach them.
 ## Prompt
 
 ```text
-Role: Author (Engineering University) — Engineering Decision
+Role: Author (Engineering Builder) — Engineering Decision
 
 Default target: section on canonical topic path (not a new warehouse root).
 Escalate Architect if a new Decision Book tree is requested.

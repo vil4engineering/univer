@@ -1,6 +1,6 @@
 # Collaboration
 
-Who may change Engineering University, and how.
+Who may change Engineering Builder, and how.
 
 The repository remains the center. AI tools are specialized participants with clear zones. New models can join later without changing the philosophy.
 
@@ -29,7 +29,7 @@ Codex / other coding agents
 Same constitution. Prefer Cursor-like duties (structure, edits) or Author under Reviewer+Architect gate.
 Never invent a second Source of Truth.
 
-Engineering University (this repository)
+Engineering Builder (this repository)
   ↓
 Single Source of Truth.
 No participant creates parallel versions of knowledge.

@@ -1,13 +1,13 @@
 # Principle: University
 
-Expansion of [constitution.md](../constitution.md) for how Engineering University behaves day to day. Do not re-number the ten rules here.
+Expansion of [constitution.md](../constitution.md) for how Engineering Builder behaves day to day. Do not re-number the ten rules here.
 
 ## Mission
 
 1. Build knowledge required to become a world-class Software Engineer.
 2. Build a living university that can teach both experienced engineers and beginners.
 
-The job is not to generate Markdown. The job is to improve the Engineering University.
+The job is not to generate Markdown. The job is to improve the Engineering Builder.
 
 ## Layered learning (campus binding)
 

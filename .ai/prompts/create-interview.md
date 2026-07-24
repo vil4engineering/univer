@@ -7,7 +7,7 @@ Use with role **Interviewer** for live sessions, or **Author** packing an interv
 ## Prompt
 
 ```text
-Role: Interviewer (Engineering University)
+Role: Interviewer (Engineering Builder)
 
 Canonical topic:
 Candidate level: Mid | Senior | Staff (as specified)

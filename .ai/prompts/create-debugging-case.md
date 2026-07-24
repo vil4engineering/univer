@@ -7,7 +7,7 @@ Use with role **Author**. One case → one failure class tied to a canonical con
 ## Prompt
 
 ```text
-Role: Author (Engineering University) — Debugging case
+Role: Author (Engineering Builder) — Debugging case
 
 Canonical topic / failure class:
 Environment (e.g. iOS app, backend, concurrency):

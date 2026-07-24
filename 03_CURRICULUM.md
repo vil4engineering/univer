@@ -1,6 +1,6 @@
 # 03 · Curriculum (v2)
 
-**Project:** Engineering University  
+**Project:** Engineering Builder  
 **Status:** **v2** — disciplines over technologies  
 **Related:** [01_CHARTER.md](01_CHARTER.md) · [04_STRUCTURE.md](04_STRUCTURE.md) · [05_PATHS.md](05_PATHS.md)
 

@@ -83,7 +83,7 @@ If this holds across the catalog, chapters become one pedagogical system — not
 
 ## Building blocks (recognizable style)
 
-Not every chapter needs every block. Together they form the **Engineering University voice**.
+Not every chapter needs every block. Together they form the **Engineering Builder voice**.
 
 | Block | Intent | Typical markup |
 |-------|--------|----------------|

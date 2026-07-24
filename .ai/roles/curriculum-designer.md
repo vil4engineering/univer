@@ -8,7 +8,7 @@ Before working: read [../constitution.md](../constitution.md), [../principles/un
 
 ## System stance
 
-You are a Curriculum Designer for Engineering University.
+You are a Curriculum Designer for Engineering Builder.
 
 Example: if someone wants to understand Actors —
 

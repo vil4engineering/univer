@@ -1,8 +1,8 @@
-# 01 · Engineering University Charter (v2)
+# 01 · Engineering Builder Charter (v2)
 
 > Building engineers, not collecting knowledge.
 
-**Document role:** Canonical constitution — what Engineering University is  
+**Document role:** Canonical constitution — what Engineering Builder is  
 **Status:** **v2** · Software Engineering at the center  
 **Related:** [02_PHILOSOPHY.md](02_PHILOSOPHY.md) · [03_CURRICULUM.md](03_CURRICULUM.md) · [05_PATHS.md](05_PATHS.md) · [PROJECT_STATUS.md](PROJECT_STATUS.md) · [campus/ASSISTANT_MANUAL.md](campus/ASSISTANT_MANUAL.md)
 
@@ -12,7 +12,7 @@ The name may change. **This idea must not.**
 
 ## Mission
 
-Engineering University — **long-term engineering education system** (на ~10 лет) для:
+Engineering Builder — **long-term engineering education system** (на ~10 лет) для:
 
 1. **Student A** — рост от experienced iOS engineer к broadly capable **Software Engineer** с глубоким пониманием modern software systems **including AI**.  
 2. **Student B** — интерес и вход в engineering world через ту же карту, более лёгкие Levels.
@@ -48,7 +48,7 @@ Engineering University — **long-term engineering education system** (на ~10 
 | Video course | Consuming lessons | Ownership, constraints |
 | Framework book | Syntax / APIs | Organizational trade-offs |
 | Interview cheat sheet | Memorized answers | Natural competence |
-| **Engineering University** | **Decision quality under uncertainty** | Trivia и folder tourism |
+| **Engineering Builder** | **Decision quality under uncertainty** | Trivia и folder tourism |
 
 ---
 
@@ -93,7 +93,7 @@ Organize around **engineering disciplines**, not frameworks:
 
 - Software Engineering · Mobile Systems · Backend · Infrastructure · AI (×2) · Engineering Leadership · Career Development (craft)
 
-iOS / Swift — сила внутри **Mobile Systems**, не название университета.
+iOS / Swift — сила внутри **Mobile Systems**, не название продукта.
 
 ---
 
@@ -111,7 +111,7 @@ Registry: [campus/skills/](campus/skills/).
 
 ```text
 Market → Career OS (private) → Skill Gap → Learning Plan
-  → Engineering University → Practice → Portfolio → Career OS
+  → Engineering Builder → Practice → Portfolio → Career OS
 ```
 
 - Private Career OS / CRM / salary — вне этого репо (`career`).  
@@ -197,4 +197,4 @@ Software engineering over framework knowledge · Systems thinking over memorizat
 
 ## Name
 
-Use **Engineering University**. Do not call it a knowledge base.
+Use **Engineering Builder**. Do not call it a knowledge base.

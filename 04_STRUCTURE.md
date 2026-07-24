@@ -1,6 +1,6 @@
 # 04 · Structure (v2)
 
-**Project:** Engineering University  
+**Project:** Engineering Builder  
 **Status:** **v2**  
 **Related:** [03_CURRICULUM.md](03_CURRICULUM.md) · [PROJECT_STATUS.md](PROJECT_STATUS.md) · [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md)
 
@@ -14,7 +14,7 @@
 ## Academic map (v2)
 
 ```text
-Engineering University
+Engineering Builder
 ├── Governance (01–05, PROJECT_STATUS)
 ├── campus/                      ← student OS
 │   ├── paths/
