@@ -5,6 +5,7 @@ TOPIC_TREE = {
     "fundamentals": {
         "title": "Fundamentals",
         "topics": {
+            "what-is-programming": "What Is Programming?",
             "computer-science": "Computer Science",
             "os-and-networks": "OS & Networks",
             "git": "Git & Code Review",

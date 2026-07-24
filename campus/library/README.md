@@ -11,6 +11,7 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 
 ## Fundamentals
 
+- [What Is Programming?](../../fundamentals/what-is-programming/) — `fundamentals/what-is-programming/`
 - [Computer Science](../../fundamentals/computer-science/) — `fundamentals/computer-science/`
 - [OS & Networks](../../fundamentals/os-and-networks/) — `fundamentals/os-and-networks/`
 - [Git & Code Review](../../fundamentals/git/) — `fundamentals/git/`

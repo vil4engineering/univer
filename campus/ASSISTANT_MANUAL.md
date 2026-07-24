@@ -26,8 +26,9 @@
 
 | Режим | Когда | Пример запроса |
 |-------|--------|----------------|
-| **Path lesson** | Идёшь по stage Alpha/Beta | «Path Alpha Stage N, Level 2: mental model + decision framework + 3 trade-offs + mock» |
-| **Deepdive Skill** | Книга / WWDC / paper / repo | «Запусти Skill `wwdc-deepdive` на …; выходы: article outline, quiz, lab idea» |
+| **Path lesson** | Идёшь по stage Alpha/Beta | «Path Alpha Stage N, Level 2: …» |
+| **Chapter fill** | Новая / эталонная глава | Сначала [`.ai/workflows/chapter-fill.md`](../.ai/workflows/chapter-fill.md) — дизайн, потом текст |
+| **Deepdive Skill** | Книга / WWDC / paper / repo | «Запусти Skill `wwdc-deepdive` на …» |
 | **Review Skill** | PR / architecture / docs | «`architecture-review` для …; ADR stub» |
 | **Governance** | Конституция, faculties, Status | «Обнови V2_CHECKLIST / Status после моего апрува» |
 | **Repo hygiene** | Inventory, sync | «Прогони `check_library_sync` / найди orphan topic» |
@@ -43,11 +44,12 @@ pulse → topic dive → questions → write-back topic (+ code/playground/lab l
 ```
 
 1. Назови **Path + Stage + Level** (1 / 2 / 3) и канонический topic.  
-2. Сначала: что уже есть в University (improve, не дублировать).  
-3. Deep dive decision-first (problem → why → trade-offs), не API dump.  
-4. Вопросы / open gaps (на странице темы ответы можно оставить пустыми до chat/mock).  
-5. **Write-back в topic:** конспект / passport / Levels по факту изучения + код, playground или ссылка на место в `projects/` / lab id — если уже есть или создаёте маленький Sandbox.  
-6. Mock + строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary.
+2. Сформулируй **fundamental why** темы (не только «что такое X») — [chapter-shape](../.ai/principles/chapter-shape.md) · [content-philosophy](../.ai/principles/content-philosophy.md).  
+3. Сначала: что уже есть в University (improve, не дублировать).  
+4. Deep dive как **история проблемы → идея → реализации → trade-offs**, не справочник API.  
+5. Вопросы / open gaps (на странице темы ответы можно оставить пустыми до chat/mock).  
+6. **Write-back в topic:** конспект по секциям главы + код/playground/lab link + блок **Рефлексия** (что сдвинулось в ментальной модели).  
+7. Mock + строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary.
 
 Warehouse не обязан быть «заполнен». Заполняем **недостающее под текущую подготовку**. Incremental fill: [OPERATING_MODES.md](OPERATING_MODES.md).
 

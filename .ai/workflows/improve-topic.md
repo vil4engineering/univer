@@ -17,4 +17,6 @@ Escalate to Architect when: placement unclear, duplicate found, mass rename, or 
 
 Escalate to Curriculum Designer when: the issue is route/order/hours, not page prose.
 
+**New flagship chapter:** prefer [chapter-fill.md](chapter-fill.md) (DESIGN → approve → write), not ad-hoc create-topic alone.
+
 Related: [../roles/author.md](../roles/author.md) · [../roles/architect.md](../roles/architect.md) · [../roles/reviewer.md](../roles/reviewer.md)

@@ -4,60 +4,61 @@
   <img src="assets/logo.jpg" alt="Engineering University logo" width="192" height="192">
 </p>
 
-Engineering University is a long-term engineering initiative created to help two generations become professional engineers.
+Long-term engineering education system (10+ years) for two students: an experienced engineer structuring Senior-level craft, and the next generation learning from first principles.
 
-Its mission is not simply to collect notes or code, but to build a living engineering ecosystem where knowledge is learned, practiced, documented, and shared.
+Not a note dump. A **living university**: ideas over tech catalogs, practice + Evidence, one Source of Truth.
 
-The organization serves two audiences:
+**Org:** [vil4engineering](https://github.com/vil4engineering) · **Repo:** [univer](https://github.com/vil4engineering/univer) · **Site:** [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/)
 
-- an experienced software engineer continuously growing toward software architecture, AI engineering, and technical leadership;
-- a future engineer learning from first principles through curiosity, experiments, and real projects.
+---
 
-**Org:** [vil4engineering](https://github.com/vil4engineering)  
-**Repo:** [vil4engineering/univer](https://github.com/vil4engineering/univer)  
-**Site:** [https://vil4engineering.github.io/univer/](https://vil4engineering.github.io/univer/)
+## Start learning (now)
 
-## Core Principles
+Study is **unlocked**. Mode A (Interview Bootcamp) is active.
 
-- Learn from first principles.
-- Build real software.
-- Teach what you learn.
-- Prefer evidence over opinion.
-- Document knowledge so it can be reused.
-- Connect ideas instead of collecting isolated facts.
-- Practice before theory.
-- Continuously improve engineering craftsmanship.
+| Who | First steps |
+|-----|-------------|
+| **Student A** (Senior iOS prep) | [campus/ASSISTANT_MANUAL.md](campus/ASSISTANT_MANUAL.md) → [Path Alpha](campus/paths/alpha.md) → spine [ROADMAP_SENIOR.md](campus/ROADMAP_SENIOR.md) · deep track **M03 Concurrency** (`swift/concurrency/`) |
+| **Student B** (foundations) | [Path Beta](campus/paths/beta.md) → entry chapter [What is programming?](fundamentals/what-is-programming/) ([DESIGN](fundamentals/what-is-programming/DESIGN.md) ready; body pending) |
+| **Daily rhythm** | [OPERATING_MODES.md](campus/OPERATING_MODES.md) — pulse → dive → questions → write-back → mock → Evidence |
 
-## Areas
+**Fill model:** do not finish the whole catalog. Prep a topic → questions → notes on the canonical page (+ playground / `projects/` link when it exists).
 
-- Computer Science
-- Software Engineering
-- Swift & Apple Platforms
-- Artificial Intelligence
-- Software Architecture
-- Mathematics
-- Engineering Labs
-- Career Development
+---
 
-Every repository should contribute to one or more of these goals:
+## Start writing a chapter
 
-- becoming a better engineer;
-- helping the next generation become one.
+One bookmark for authors and AI:
 
-## Enter
+1. [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)  
+2. Copy [design-chapter](.ai/prompts/design-chapter.md) — change **only** `# Тема`  
+3. Approve DESIGN → [write-chapter](.ai/prompts/write-chapter.md)
 
-| For | Go |
-|-----|-----|
-| How to use the repo assistant | [campus/ASSISTANT_MANUAL.md](campus/ASSISTANT_MANUAL.md) |
-| Campus OS | [campus/](campus/) |
-| v2 checklist (ratify Study) | [campus/V2_CHECKLIST.md](campus/V2_CHECKLIST.md) |
-| Charter | [01_CHARTER.md](01_CHARTER.md) |
-| Path Alpha | [campus/paths/alpha.md](campus/paths/alpha.md) (**Study unlocked** · Mode A) |
-| Skills | [campus/skills/](campus/skills/) |
-| Design capture | [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
-| Status | [PROJECT_STATUS.md](PROJECT_STATUS.md) |
-| AI Governance | [.ai/README.md](.ai/README.md) |
+Philosophy / language / shape live under [`.ai/principles/`](.ai/principles/) (content-philosophy · chapter-shape · language).
 
-## Governance
+---
 
-[PROJECT_STATUS.md](PROJECT_STATUS.md) · [01](01_CHARTER.md) · [02](02_PHILOSOPHY.md) · [03](03_CURRICULUM.md) · [04](04_STRUCTURE.md) · [05](05_PATHS.md)
+## Core ideas
+
+- Why before how; stories over reference manuals  
+- Russian explains; English names the craft ([LANGUAGE](campus/LANGUAGE.md))  
+- Evidence over vibes ([PROGRESS](campus/PROGRESS.md))  
+- SE at the center; Mobile Systems = depth; AI = tool + technology  
+- Interviews are a side effect of competence  
+
+Charter: [01_CHARTER.md](01_CHARTER.md)
+
+---
+
+## Map
+
+| Need | Go |
+|------|-----|
+| Campus OS (students) | [campus/](campus/) |
+| Status / freeze gates | [PROJECT_STATUS.md](PROJECT_STATUS.md) |
+| Library catalog | [campus/library/](campus/library/) |
+| Labs / staged projects | [campus/projects-map.md](campus/projects-map.md) · [projects/](projects/) |
+| AI agents | [AGENTS.md](AGENTS.md) · [`.ai/README.md`](.ai/README.md) |
+| Living University capture | [DESIGN_CAPTURE…](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
+
+Governance specs: [01](01_CHARTER.md) · [02](02_PHILOSOPHY.md) · [03](03_CURRICULUM.md) · [04](04_STRUCTURE.md) · [05](05_PATHS.md)

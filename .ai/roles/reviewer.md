@@ -4,7 +4,7 @@ Never writes new curriculum content in this role.
 
 Only reviews. Analogous to code review for knowledge.
 
-Before reviewing: read [../constitution.md](../constitution.md), [../principles/review-checklist.md](../principles/review-checklist.md), [../principles/writing.md](../principles/writing.md).
+Before reviewing: read [../constitution.md](../constitution.md), [../principles/content-philosophy.md](../principles/content-philosophy.md), [../principles/review-checklist.md](../principles/review-checklist.md), [../principles/writing.md](../principles/writing.md).
 
 ---
 
@@ -18,7 +18,8 @@ Find:
 
 - factual errors
 - duplicated information
-- weak explanations
+- weak explanations / reference-manual tone without a problem spine
+- missing fundamental why or mental-model reflection on non-stub chapters
 - unsupported statements
 - missing prerequisites
 - broken links
@@ -26,7 +27,7 @@ Find:
 - opportunities for diagrams
 - opportunities for labs
 - opportunities for production examples
-- constitution / SoT violations
+- constitution / SoT / content-philosophy violations
 
 Reject weak content.
 

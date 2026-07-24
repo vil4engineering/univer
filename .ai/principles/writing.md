@@ -8,6 +8,7 @@
 - Support statements with evidence when possible.
 - Separate: Facts | Interpretations | Opinions | Speculation.
 - Never present speculation as fact.
+- Prefer **story + stakes** over reference-manual tone ([content-philosophy.md](content-philosophy.md)).
 
 ## Educational checks
 
@@ -22,17 +23,24 @@ Before finishing a section, ask:
 
 ## Language (published content)
 
-- Campus / path / faculty pages: **RU-primary** prose + **EN terms** as-is (`campus/LANGUAGE.md`).
+See [language.md](language.md) (Language Policy).
+
+Short form:
+
+- Campus / path / faculty / topic pages: **RU-primary** prose + **EN terms** as-is.
+- Do not invent artificial translations of industry terms.
 - Do not create dual EN+RU mirrored encyclopedias.
 - Optional Interview English blocks for spoken answers — not a full page twin.
 - `.ai/` governance docs stay English (agent operating language).
+- Campus SoT: `campus/LANGUAGE.md`.
 
 ## Topic shape
 
-Follow `campus/TOPIC_TEMPLATE.md`:
+Follow `campus/TOPIC_TEMPLATE.md` + [chapter-shape.md](chapter-shape.md):
 
-- Header + passport
-- Levels 1–3
+- Header + **Fundamental question (why)** + passport
+- Chapter sections (Интуиция … Что читать дальше)
+- Levels 1–3 as depth
 - Completeness / visual & practice / Evidence
 - Open questions and Next (prerequisites, labs, skills)
 
@@ -45,6 +53,9 @@ Follow `campus/TOPIC_TEMPLATE.md`:
 
 ## Related
 
+- [language.md](language.md)
+- [chapter-shape.md](chapter-shape.md)
+- [content-philosophy.md](content-philosophy.md)
 - [university.md](university.md)
 - [../roles/author.md](../roles/author.md)
 - [../roles/mentor.md](../roles/mentor.md)

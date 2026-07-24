@@ -19,7 +19,13 @@ North star:
 
 Warehouse paths unchanged. Docsify Campus-first remains.
 
-**Study unlocked.** Path Alpha Evidence write-back allowed. Calendar driver: Mode A ([campus/OPERATING_MODES.md](campus/OPERATING_MODES.md)) + spine [campus/ROADMAP_SENIOR.md](campus/ROADMAP_SENIOR.md). First deep track: M03 Concurrency.
+**Study unlocked.** Path Alpha Evidence write-back allowed. Calendar driver: Mode A ([campus/OPERATING_MODES.md](campus/OPERATING_MODES.md)) + spine [campus/ROADMAP_SENIOR.md](campus/ROADMAP_SENIOR.md).
+
+**Learning now:**
+
+- Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
+- Student B entry: **What is programming?** — [DESIGN ready](fundamentals/what-is-programming/DESIGN.md), chapter body pending  
+- Chapter authoring pattern: [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -56,6 +62,9 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Core World / evolving lab choice | Later — intent: [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) |
 | Handbook / Decision / Playbook trees | Blocked until Design (Architect cut) |
 | Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
+| Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
+| Entry chapter DESIGN (`what-is-programming`) | **Ready for Owner approve** — body not written |
+
 
 ## Explicit non-goals (now)
 
@@ -77,5 +86,8 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md) | Storage decisions (still valid) |
 | [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) | Chat → repo map + gaps |
 | [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) | Core World intent (pick later) |
+| [.ai/workflows/chapter-fill.md](.ai/workflows/chapter-fill.md) | Single entry: design → write chapters |
 | [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
 | [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |
+| [fundamentals/what-is-programming/DESIGN.md](fundamentals/what-is-programming/DESIGN.md) | First-chapter page design |
+

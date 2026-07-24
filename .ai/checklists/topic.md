@@ -12,7 +12,9 @@ Use before accepting Author work. Reviewer may paste results into their verdict.
 ## Template
 
 - [ ] Header fields present (`campus/TOPIC_TEMPLATE.md`)
+- [ ] **Fundamental question (why)** stated — not only “what is X?”
 - [ ] Passport answers Why / problem / history at least at stub quality
+- [ ] Chapter sections present or honestly stubbed ([../principles/chapter-shape.md](../principles/chapter-shape.md))
 - [ ] Evolution strip present or explicitly N/A
 - [ ] Levels 1–3 used correctly (no fake Level 3; no Level 4–6 fork)
 - [ ] Visual & practice DoD considered (diagram / analogy / code / practice)
@@ -21,14 +23,18 @@ Use before accepting Author work. Reviewer may paste results into their verdict.
 
 ## Engineering quality
 
-- [ ] Why before How
+- [ ] Why before How (chapter opens on the fundamental question)
+- [ ] **Ideas over tech catalog** - problem → idea → implementations ([../principles/content-philosophy.md](../principles/content-philosophy.md))
+- [ ] Story / stakes before dictionary definition (not reference-manual body)
+- [ ] Closing **mental-model reflection** present if chapter is past stub
 - [ ] Engineering over framework cookbook
 - [ ] Facts vs speculation separated
 - [ ] Failure modes / “what breaks?” noted or TODO’d for important topics
+- [ ] Diagrams explain ideas (or absent) - not decoration
 
 ## Language / boundaries
 
-- [ ] RU-primary + EN terms (published campus content)
+- [ ] RU-primary + EN terms (published campus content); no artificial term translations ([../principles/language.md](../principles/language.md))
 - [ ] No private career facts / invented experience
 - [ ] Constitution respected
 

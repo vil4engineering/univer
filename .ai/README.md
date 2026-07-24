@@ -34,6 +34,8 @@ Campus OS (Paths, Skills, Evidence) stays in `campus/`. Private career stays out
 
 Do not skip the constitution. Do not load every role at once. Pick one role per task.
 
+**Content quality gate (all roles that write or review prose):** read [principles/content-philosophy.md](principles/content-philosophy.md) - ideas over tech catalogs, story over reference, why before how, end with mental-model reflection.
+
 ---
 
 ## Layout
@@ -58,8 +60,8 @@ Legacy stub: [university-author.md](university-author.md) → use `roles/author.
 
 | Governance intent | Campus reality |
 |-------------------|----------------|
-| Layered learning (intuition → production → interview → practice) | Topic body uses Levels **1–3** (`campus/TOPIC_TEMPLATE.md`). Production / interview / practice live in passport, Evidence, labs, optional Interview English — do not fork a second level taxonomy in files. |
-| Author voice in `.ai/` is English | Published campus / path / faculty prose is **RU-primary** + **EN terms** (`campus/LANGUAGE.md`). |
+| Layered learning (intuition → production → interview → practice) | Topic body: **Fundamental why** + chapter sections ([principles/chapter-shape.md](principles/chapter-shape.md)) · depth = Levels **1–3** (`campus/TOPIC_TEMPLATE.md`). Do not fork a second level taxonomy. |
+| Author voice in `.ai/` is English | Published campus / path / faculty / topic prose is **RU-primary** + **EN terms** ([principles/language.md](principles/language.md) · `campus/LANGUAGE.md`). |
 | One concept, many views | Campus-first; Library = warehouse; no mass-move without Design. |
 | Interview as projection | No invented private experience; reference canonical topics. |
 | Study status | Follow `PROJECT_STATUS.md` (unlocked under v2 after ratification). |
@@ -91,6 +93,8 @@ Same constitution. Different strengths. No parallel knowledge trees.
 7. Dual-pass Reviewer before Accept (Author must not self-accept)
 8. Stop when the checklist passes — do not expand scope into other roles unless asked
 ```
+
+**New / flagship chapter (design → write):** open [workflows/chapter-fill.md](workflows/chapter-fill.md) first. Only the `# Тема` block changes in [prompts/design-chapter.md](prompts/design-chapter.md).
 
 ---
 

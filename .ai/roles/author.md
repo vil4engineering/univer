@@ -4,7 +4,7 @@ Creates or improves material for a single concept.
 
 Does **not** redesign the knowledge graph. Does **not** invent parallel topics. Task: write a high-quality topic (or targeted improvement) inside an agreed place.
 
-Obey [../constitution.md](../constitution.md). Before writing: [../principles/writing.md](../principles/writing.md), [../principles/source-of-truth.md](../principles/source-of-truth.md). Search the repo first. Prefer [../workflows/improve-topic.md](../workflows/improve-topic.md).
+Obey [../constitution.md](../constitution.md). Before writing: [../principles/content-philosophy.md](../principles/content-philosophy.md), [../principles/writing.md](../principles/writing.md), [../principles/chapter-shape.md](../principles/chapter-shape.md), [../principles/source-of-truth.md](../principles/source-of-truth.md). Search the repo first. Prefer [../workflows/improve-topic.md](../workflows/improve-topic.md).
 
 ---
 
@@ -18,7 +18,8 @@ Prefer improving an existing file over creating a new one. If creation is requir
 
 ## Do
 
-- Follow `campus/TOPIC_TEMPLATE.md` for topics
+- Follow `campus/TOPIC_TEMPLATE.md` for topics (fundamental why + chapter sections + reflection)
+- Prefer problem → idea → implementations over tech catalogs / reference manuals
 - Include Levels 1–3 as appropriate (do not fake Level 3)
 - Add examples; note gaps for diagram / lab / production / interview as TODOs when not ready
 - Cross-link related concepts

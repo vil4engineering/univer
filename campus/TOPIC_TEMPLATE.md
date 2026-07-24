@@ -1,6 +1,7 @@
 # Topic template (v2)
 
-Stable id + passport. Storage path may be Library; shape is academic.
+Stable id + passport. Storage path may be Library; shape is academic.  
+Chapter sections + why-first rule: [`.ai/principles/chapter-shape.md`](../.ai/principles/chapter-shape.md).
 
 ---
 
@@ -13,6 +14,8 @@ Stable id + passport. Storage path may be Library; shape is academic.
 - **Confidence:** /5
 - **Interview Heat:** ★…
 - **Levels present:** 1 / 2 / 3
+- **Fundamental question (why):**  
+  e.g. *Why did plain threads / shared mutable state stop scaling safely?* — not only *What is an Actor?*
 
 ---
 
@@ -29,6 +32,8 @@ Stable id + passport. Storage path may be Library; shape is academic.
 
 History / lore only if it answers passport 3–5. North-star gate: *Does this help understand the engineering world?* Cut the rest.
 
+Passport must visibly answer the **Fundamental question**.
+
 ---
 
 ## Evolution (then → now)
@@ -41,18 +46,64 @@ Link Sandbox / Evolution files if they exist outside the app target ([CODE_CONTR
 
 ---
 
-## Levels
+## Chapter body
 
-### Level 1 — Student B
-Intuition · life analogies · visuals · tiny practice. Prefer Reference World heroes over `Foo`/`Bar`.
+Stable section order (emoji optional). Stub empty parts honestly — incremental fill ([OPERATING_MODES.md](OPERATING_MODES.md)).
 
-### Level 2 — Engineer
-Professional explanation · examples · default decisions.
+### Интуиция
 
-### Level 3 — Deep Dive
-Implementation · trade-offs · history · research / runtime (optional onion layers 3–5 inside this level only).
+Why this exists · analogy (Level 1).
 
-Default study obligation: Level 2 (+ Level 1 if teaching Student B). Level 3 when earned. Do not force full onion on every topic.
+### История
+
+How people arrived at this solution (short).
+
+### Как это работает
+
+Mechanism (Level 2 default).
+
+### Внутри
+
+Under the hood (Level 3 — earned; may be `deferred`).
+
+### Пример
+
+Minimal working example (code cite).
+
+### Production
+
+Real projects · what breaks · decision rules.
+
+### Интервью
+
+Questions · follow-ups · common mistakes (projection; may link `notes/Interview-Pack.md`).
+
+### Лабораторная
+
+Mission + playground / `projects/` / lab id.
+
+### Что читать дальше
+
+Apple · Swift Evolution · WWDC · books · articles.
+
+### Рефлексия (обязательно, когда глава не stub)
+
+> Что изменилось в твоём понимании после этой главы?  
+> Не «запомнил ли определения», а как сдвинулась ментальная модель.
+
+Philosophy: [`.ai/principles/content-philosophy.md`](../.ai/principles/content-philosophy.md).
+
+---
+
+## Levels (depth, not a second outline)
+
+| Level | Role in chapter |
+|-------|-----------------|
+| **1** | Интуиция (+ tiny practice) |
+| **2** | Как это работает · Пример · Production defaults |
+| **3** | Внутри · deep trade-offs |
+
+Default study exit: Level 2. Do not invent Level 4–6 headings.
 
 ---
 

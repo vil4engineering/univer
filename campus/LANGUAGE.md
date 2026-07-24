@@ -1,14 +1,19 @@
 # Language
 
-**Binding for Engineering University v0.1+.** Aligns with [01_CHARTER.md](../01_CHARTER.md) § Languages.
+**Binding for Engineering University v0.1+.** Aligns with [01_CHARTER.md](../01_CHARTER.md) § Languages.  
+Agent principle (same policy): [../.ai/principles/language.md](../.ai/principles/language.md).
 
 ## Policy
 
 | Layer | Language |
 |-------|----------|
 | Explanations, mental models, campus prose | **Russian** (RU-primary) |
-| Terms, API names, identifiers, Apple/WWDC vocabulary | **English as-is** (`Task`, `flow`, `MVVM` — not calques) |
+| Terms, API names, identifiers, Apple/WWDC vocabulary | **English as-is** (`Task`, `Actor`, `ARC`, `Sendable` — not calques) |
 | Interview English | Optional dedicated blocks for spoken answers — not a full page twin |
+
+**Russian** is the explanation language. **English** is the engineering language.
+
+Readers should become comfortable with Apple Documentation, Swift Evolution, WWDC, papers, RFCs, and technical books — without artificial RU translations of standard terms.
 
 ## Not this university
 

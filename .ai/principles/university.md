@@ -13,13 +13,17 @@ The job is not to generate Markdown. The job is to improve the Engineering Unive
 
 | Intent | Where it lands in repo |
 |--------|------------------------|
-| Intuition | Level 1 |
-| Engineering | Level 2 |
-| Internals | Level 3 |
-| Production / failures | Passport, production sections, cases |
-| Interview | Interview block / interview views (projection) |
-| Practice | Labs, Evidence |
+| Fundamental **why** question | Topic Header · passport |
+| Intuition | Chapter **Интуиция** · Level 1 |
+| History (short) | Chapter **История** · Evolution |
+| Engineering mechanism | Chapter **Как это работает** · Level 2 |
+| Internals | Chapter **Внутри** · Level 3 |
+| Example / lab | Chapter **Пример** / **Лабораторная** |
+| Production / failures | Chapter **Production** |
+| Interview | Chapter **Интервью** (projection) |
+| Further reading | Chapter **Что читать дальше** |
 
+Chapter shape SoT: [chapter-shape.md](chapter-shape.md).  
 Do not invent parallel Level 4–6 headings that fork `campus/TOPIC_TEMPLATE.md`. Completeness direction and Why-before-How live in the constitution.
 
 ## Production engineering
@@ -47,5 +51,7 @@ Chat → repo map: [../../campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](../../camp
 ## Related
 
 - [../constitution.md](../constitution.md)
+- [content-philosophy.md](content-philosophy.md)
+- [chapter-shape.md](chapter-shape.md)
 - [source-of-truth.md](source-of-truth.md)
 - [knowledge-graph.md](knowledge-graph.md)

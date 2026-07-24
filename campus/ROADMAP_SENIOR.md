@@ -29,19 +29,23 @@
 
 ## Шаблон каждого урока (обязателен)
 
-1. Problem  
-2. Intuition  
-3. Mental Model  
-4. Fundamentals  
-5. Practical Example  
-6. Common Mistakes  
-7. Senior Thinking  
-8. Interview Questions  
-9. Deep Dive  
-10. Summary  
-11. References  
+Каноническая форма главы (why-first): [`.ai/principles/chapter-shape.md`](../.ai/principles/chapter-shape.md) · [`TOPIC_TEMPLATE.md`](TOPIC_TEMPLATE.md).
 
-Без лишней теории. Приоритет: production · labs · interview articulation.
+| Урок (ROADMAP) | Глава (topic) |
+|----------------|---------------|
+| Problem | Fundamental question + passport |
+| Intuition | Интуиция |
+| Mental Model / Fundamentals | Как это работает |
+| Practical Example | Пример |
+| Common Mistakes / Senior Thinking | Production |
+| Interview Questions | Интервью |
+| Deep Dive | Внутри (L3 earned) |
+| References | Что читать дальше |
+| (+ practice) | Лабораторная |
+| (+ short history) | История |
+
+Без лишней теории. Приоритет: production · labs · interview articulation.  
+Warehouse не обязан быть полным — incremental fill под текущую подготовку.
 
 ## Глубина
 

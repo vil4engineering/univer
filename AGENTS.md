@@ -1,30 +1,38 @@
 # univer — notes for AI agents
 
-**Public** Engineering University **v2** (curriculum flagship of org **vil4engineering**).  
-**Org:** [vil4engineering](https://github.com/vil4engineering)  
-**Site:** [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/)  
-**Repo:** `vil4engineering/univer`
+**Public** Engineering University **v2** · org [vil4engineering](https://github.com/vil4engineering) · site [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · repo `vil4engineering/univer`
 
-## Read first
+## Read first (order)
 
-**AI Governance Layer:** [`.ai/README.md`](.ai/README.md) — constitution, collaboration, roles, prompts, checklists, workflows.
+1. [`.ai/README.md`](.ai/README.md) — constitution · collaboration · roles  
+2. **New / flagship chapter:** [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)  
+   - design: [`.ai/prompts/design-chapter.md`](.ai/prompts/design-chapter.md) — change **only** `# Тема`  
+   - write: [`.ai/prompts/write-chapter.md`](.ai/prompts/write-chapter.md) after DESIGN approve  
+3. Human coach: [`campus/ASSISTANT_MANUAL.md`](campus/ASSISTANT_MANUAL.md)  
+4. Study spine: [`campus/ROADMAP_SENIOR.md`](campus/ROADMAP_SENIOR.md) · Mode A [`campus/OPERATING_MODES.md`](campus/OPERATING_MODES.md) · Path [`campus/paths/alpha.md`](campus/paths/alpha.md)
 
-Cursor / Claude / Codex / ChatGPT: open `.ai/README.md` before changing knowledge. Do not skip the constitution. Pick **one** role per task.
+Pick **one** role per task. Do not skip the constitution. Dual-pass Reviewer before Accept.
 
-**Human campus coach:** [`campus/ASSISTANT_MANUAL.md`](campus/ASSISTANT_MANUAL.md)  
-**Curriculum spine (Phase 4 / interview prep):** [`campus/ROADMAP_SENIOR.md`](campus/ROADMAP_SENIOR.md) · Mode A: [`campus/OPERATING_MODES.md`](campus/OPERATING_MODES.md)  
-**Private career:** [vil4max/career](https://github.com/vil4max/career) — never absorb private facts into this repo.
+**Private career:** [vil4max/career](https://github.com/vil4max/career) — never absorb private facts here.
+
+## Learning vs authoring
+
+| Mode | Entry |
+|------|--------|
+| Student A prep (now) | Path Alpha · M03 `swift/concurrency` · Evidence write-back |
+| Student B foundations | Path Beta · `fundamentals/what-is-programming` (DESIGN ready) |
+| Author a chapter | `chapter-fill` only — not ad-hoc essays |
+| Tiny fix on existing page | [`.ai/workflows/improve-topic.md`](.ai/workflows/improve-topic.md) |
 
 ## Conventions
 
-- SE at the center; Mobile Systems = foundation faculty; AI = Track 1 assisted + Track 2 technology
-- Campus-first; Library = warehouse; no mass-move without Design revision
-- RU-primary + EN terms (`campus/LANGUAGE.md`)
-- Skills registry: `campus/skills/`
-- Evidence write-back: Path Progress logs + SESSION_PROTOCOL
-- Topic shape: `campus/TOPIC_TEMPLATE.md` (Levels 1–3)
-- Do not invent experience; do not commit/push unless asked
-- Org naming: `vil4engineering` only — never put `university` in org login/name; curriculum repo slug is `univer`
+- SE center; Mobile Systems = depth faculty; AI = assisted + technology  
+- Campus-first; Library = warehouse; no mass-move without Design  
+- RU-primary + EN terms ([`campus/LANGUAGE.md`](campus/LANGUAGE.md) · [`.ai/principles/language.md`](.ai/principles/language.md))  
+- Ideas over tech catalogs ([`.ai/principles/content-philosophy.md`](.ai/principles/content-philosophy.md))  
+- Chapter shape ([`.ai/principles/chapter-shape.md`](.ai/principles/chapter-shape.md) · [`TOPIC_TEMPLATE.md`](campus/TOPIC_TEMPLATE.md))  
+- Evidence on Path logs; no invented experience; commit/push only when asked  
+- Org slug rules: `vil4engineering` · curriculum repo `univer`
 
 ## Catalog tooling
 
