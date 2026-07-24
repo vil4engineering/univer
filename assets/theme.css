@@ -48,6 +48,11 @@ body {
   font-size: inherit !important;
 }
 
+html[data-theme="dark"] .sidebar-nav ul:not(.app-sub-sidebar) > li:not(.file)::before {
+  border-right-color: var(--gh-fg-muted);
+  border-bottom-color: var(--gh-fg-muted);
+}
+
 .sidebar > h1 {
   font-size: 1.35rem !important;
 }

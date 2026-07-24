@@ -22,6 +22,14 @@ Labs
 
 Planned chapters without a page yet: **plain text** in the tree (no link) so the book spine stays visible. Link when the chapter ships.
 
+## Collapse
+
+Topics fold via **docsify-sidebar-collapse** (`index.html`):
+
+- `sidebarDisplayLevel: 1` — open with topics collapsed; expand by click
+- Active path opens so you still see where you are
+- Arrow style CSS from the plugin; dark chevrons tuned in `assets/theme.css`
+
 ## Rules
 
 - Student chrome only — no `.ai/`, `.author/`, intake, DESIGN.
