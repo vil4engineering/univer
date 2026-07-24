@@ -32,7 +32,9 @@ Use before approving Phase B write. Design file: `…/DESIGN.md`.
 - [ ] Interesting to a 10-year engineer, not only a beginner
 - [ ] Survives API churn (idea-level spine)
 - [ ] Matches content-philosophy + language policy
+- [ ] Emotion / before→after mental model stated (not definition-only)
 - [ ] Write plan for Author is actionable
+- [ ] **Design Review** logged on DESIGN (issues addressed)
 - [ ] Owner/Reviewer explicit **Approve design** before write-chapter
 
 ## Reject if
@@ -41,3 +43,4 @@ Use before approving Phase B write. Design file: `…/DESIGN.md`.
 - Tech catalog spine (Swift→syntax list, iOS→framework list)
 - No why-question
 - Diagrams without meaning
+- Author started chapter body without Approve

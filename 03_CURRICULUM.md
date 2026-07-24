@@ -26,6 +26,19 @@
 
 Faculties own **subjects**. Subjects появляются в **paths** и (позже) semesters.
 
+### Big picture (idea spine)
+
+Не «старт со Swift». Естественный порядок идей:
+
+```text
+Computer Science → Programming → Software Engineering
+  → OS → Networks → Architecture
+  → Swift → Apple Platforms → iOS Development → AI Engineering
+```
+
+Mobile / Swift — сильная специализация, не нулевая точка университета.  
+Глава 0: [fundamentals/what-is-programming](fundamentals/what-is-programming/) (DESIGN → Review → Approve → write).
+
 ### Границы
 
 | Faculty | Owns | Не owns |

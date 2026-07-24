@@ -35,16 +35,18 @@
       скопировать prompts/design-chapter.md
       заменить ТОЛЬКО блок «# Тема»
       роль: методист (не Author полного текста)
-4. Owner / Reviewer — апрув DESIGN (checklists/chapter-design.md)
-5. Phase B — WRITE
+4. **Design Review** (Owner + Reviewer) — checklists/chapter-design.md
+      без Approve структура расползётся к 20–30-й главе
+5. Owner явный **Approve design** («пиши главу»)
+6. Phase B — WRITE
       скопировать prompts/write-chapter.md
       на вход: путь к DESIGN.md
-6. Dual-pass Reviewer → topic.md checklist
-7. Evidence / Path log при учёбе
-8. Stop — не плодить handbook-деревья
+7. Dual-pass Reviewer → topic.md checklist
+8. Evidence / Path log при учёбе
+9. Stop — не плодить handbook-деревья
 ```
 
-**Incremental fill:** можно остановиться после DESIGN; можно писать секции главы по одной. Не фейкать полноту.
+**Запрет:** писать тело главы, пропустив Design Review / Approve.
 
 **Improve existing:** если страница уже есть и нужна правка одной дыры - [improve-topic.md](improve-topic.md), не полный chapter-fill.
 

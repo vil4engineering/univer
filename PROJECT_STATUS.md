@@ -24,7 +24,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 **Learning now:**
 
 - Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
-- Student B entry: **What is programming?** — [DESIGN ready](fundamentals/what-is-programming/DESIGN.md), chapter body pending  
+- Student B entry: **What is programming?** — [глава v1](fundamentals/what-is-programming/) · [DESIGN](fundamentals/what-is-programming/DESIGN.md) (Approve + text; Reviewer/assets pending)  
 - Chapter authoring pattern: [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
@@ -63,7 +63,8 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Handbook / Decision / Playbook trees | Blocked until Design (Architect cut) |
 | Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 | Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
-| Entry chapter DESIGN (`what-is-programming`) | **Ready for Owner approve** — body not written |
+| Entry chapter `what-is-programming` | **Approve + v1 text** — dual-pass Reviewer + illustration assets pending |
+
 
 
 ## Explicit non-goals (now)

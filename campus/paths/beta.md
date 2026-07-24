@@ -2,7 +2,7 @@
 
 **Goal:** think and build gradually. Default **Level 1**.
 
-Study paused until [V2_CHECKLIST](../V2_CHECKLIST.md) unlocks Study for the university (Beta can start when Parent unlocks).
+Study **unlocked** under v2. Parent unlocks Beta pace for Student B; content ready to start at Step 1.
 
 | Step | Focus | Hooks |
 |------|--------|-------|
@@ -19,4 +19,6 @@ Coach: ask for Level 1 in [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md).
 
 | Date | Topic | Status | Confidence | Evidence |
 |------|-------|--------|------------|----------|
-| — | — | — | — | Study paused |
+| 2026-07-24 | What is programming? (Глава 0) | learning | — | DESIGN Review №1 + Owner Approve; README v1; практика P1–P5; assets TODO |
+| — | — | — | — | (earlier rows) |
+
