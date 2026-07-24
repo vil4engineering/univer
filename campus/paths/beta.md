@@ -1,27 +1,33 @@
-# Path Beta — Foundations (Student B)
+# Path Beta — Foundations
 
-**Goal:** think and build gradually. Default **Level 1**.  
-**Module spine:** [Part I — Foundations](../../fundamentals/PART_I.md) · pedagogy: [teaching-model](../../.ai/principles/teaching-model.md)
+**Цель:** понять, как устроены компьютеры и программирование — с первых принципов.
 
-Study **unlocked** under v2. Parent unlocks Beta pace for Student B.
+Модуль: [Part I — Foundations](../../fundamentals/PART_I.md).
 
-| Step | Focus | Hooks |
-|------|--------|-------|
-| 0 | Почему существует программирование? | [what-is-programming](../../fundamentals/what-is-programming/) · [DESIGN](../../fundamentals/what-is-programming/DESIGN.md) · [review 0001](../../reviews/0001-what-is-programming.md) |
-| 1 | Компьютер как буквальный исполнитель | planned — `fundamentals/what-is-a-computer` |
-| 2 | Как программа становится действием | planned — `how-computer-runs-a-program` |
-| 3–6 | Binary → Machine Code → Assembly → Compiler | planned — see Part I |
-| 7–8 | Алгоритмы · языки | planned |
-| 9 | Что значит быть Software Engineer? | planned |
-| + | Teaching-back with Student A | Completeness Teach gate |
-| + | Curiosity: gentle AI Level 1 | [ai-technology](../faculties/ai-technology.md) Level 1 only |
+---
 
-Coach: ask for Level 1 in [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md).  
-Rule: chapters answer **why**, not term dictionaries.
+## Маршрут
 
-## Progress log
+| Step | Тема | Действие |
+|------|------|----------|
+| 0 | [Почему существует программирование?](../../fundamentals/what-is-programming/) | Читать → |
+| 1 | Компьютер как буквальный исполнитель | Скоро |
+| 2 | Как программа становится действием | Скоро |
+| 3 | Binary | Скоро |
+| 4 | Machine Code | Скоро |
+| 5 | Assembly | Скоро |
+| 6 | Compiler | Скоро |
+| 7 | Алгоритмы | Скоро |
+| 8 | Языки программирования | Скоро |
+| 9 | Что значит быть Software Engineer? | Скоро |
 
-| Date | Topic | Status | Confidence | Evidence |
-|------|-------|--------|------------|----------|
-| 2026-07-24 | Part I / 0 — Почему существует программирование? | learning | — | **Publish v1.2**; [0001b](../../reviews/0001b-what-is-programming.md) |
-| — | — | — | — | (earlier rows) |
+---
+
+## Прогресс
+
+| Тема | Статус | Заметка |
+|------|--------|---------|
+| 0 · Почему существует программирование? | В процессе | — |
+| 1–9 | Ещё не начато | — |
+
+После главы: одна фраза «что изменилось» — сюда в Заметку.

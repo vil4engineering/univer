@@ -8,42 +8,13 @@
 </p>
 
 <p class="chapter-meta">
-≈ 20 мин · Interview ★★★ · Beta · Step 1 · Глава 0
+≈ 20 мин · Interview ★★★ · Path Beta · Глава 0
 </p>
 
-<details>
-<summary>Learning · маршрут и связи</summary>
-
 | | |
 |--|--|
-| **Chapter question (H1)** | Почему существует программирование? |
-| **Fundamental why** | Почему компьютеру вообще нужны программы? |
-| **Faculty** | Computer Science |
-| **Path** | Beta · Step 1 · Part I / 0 · Alpha Stage 0 (mental reset) |
-| **Prerequisites** | — |
-| **Next** | Что такое компьютер? (planned) — [Part I](../PART_I.md) |
-| **Interview** | ★★★ |
-| **Difficulty** | Easy |
-| **Time** | ≈ 20 min |
-| **Levels** | 1–2 |
-
-</details>
-
-<details>
-<summary>Engineering · авторы</summary>
-
-| | |
-|--|--|
-| **Topic id** | `fundamentals/what-is-programming` |
-| **Status** | `learning` |
-| **Version** | v1.2 (Publish) |
-| **Design** | [DESIGN.md](DESIGN.md) |
-| **Review** | [0001](../../reviews/0001-what-is-programming.md) · [0001b](../../reviews/0001b-what-is-programming.md) · Owner **Publish** |
-| **Confidence** | — /5 |
-| **Assets** | Spine Mermaid = Part I master diagram; polish I1–I8 optional |
-| **Last updated** | 2026-07-24 |
-
-</details>
+| **Дальше** | [Part I](../PART_I.md) · глава 1 (скоро) |
+| **Путь** | [Path Beta](../../campus/paths/beta.md) |
 
 ---
 
@@ -344,14 +315,21 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 > **до:** код → компьютер · «нужен язык» · «машина глючит»  
 > **после:** проблема → алгоритм → программа → Hardware → результат в мире · ошибается человек · язык — форма
 
-Одной фразой — в Progress Path (Beta / Alpha Stage 0).
+Одной фразой — в [Progress Path Beta](../../campus/paths/beta.md).
 
-Дальше: [Part I](../PART_I.md) → глава 1.
+Дальше: [Part I](../PART_I.md) → глава 1 (скоро).
 
 ---
 
-## Evidence (шаблон)
+<details>
+<summary>For contributors</summary>
 
-| Date | Status | Confidence | Notes |
-|------|--------|------------|-------|
-| 2026-07-24 | learning | — | v1.2 Publish: axiom block, «От задачи к программе», L1 gate; [0001b](../../reviews/0001b-what-is-programming.md) |
+| | |
+|--|--|
+| **Topic id** | `fundamentals/what-is-programming` |
+| **Version** | v1.2 |
+| **Design** | [DESIGN.md](DESIGN.md) |
+| **Reviews** | [0001](../../reviews/0001-what-is-programming.md) · [0001b](../../reviews/0001b-what-is-programming.md) |
+| **Creator Portal** | [`.author/`](../../.author/) |
+
+</details>

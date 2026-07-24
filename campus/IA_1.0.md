@@ -8,11 +8,33 @@ Related: [DISPLAY_0.1.md](DISPLAY_0.1.md) · [`.author/`](../.author/) · [LAYOU
 
 ---
 
+## Campus = Student Portal
+
+`campus/` is where the **student** lives: paths, progress, labs, faculties.
+
+It is **not** the Authoring kitchen (that is [`.author/`](../.author/)).  
+Rename to `learn/` / `student/` is optional later — role is fixed now.
+
+---
+
+## Student UI principle
+
+**If an element does not help the student choose the next learning action, it does not belong in Student UI.**
+
+| Element | Student UI |
+|---------|------------|
+| Chapter · next chapter · lab · exercise · progress | Yes |
+| DESIGN · review NNNN · chapter-fill · teaching-model · review-criteria | **No** |
+
+Author artifacts may sit at the **bottom** of a chapter under `For contributors` (`<details>`), or only in Creator Portal — never in Path tables as “Hooks”.
+
+---
+
 ## Three layers (official)
 
 | Layer | Name | Audience | Lives where | On public Learn chrome? |
 |-------|------|----------|-------------|-------------------------|
-| **1** | **Learning** | Visitor, student | Home · Paths · Chapters · Labs · Faculties · Campus (study) | **Yes** |
+| **1** | **Learning** | Visitor, student | Home · Paths · Chapters · Labs · **Campus (Student Portal)** | **Yes** |
 | **2** | **Authoring** | Authors, teachers | [`.author/`](../.author/) · reviews · TOPIC_TEMPLATE | **No** |
 | **3** | **Engineering** | Owner, AI agents | [`.ai/`](../.ai/) · AGENTS · status · metamodel | **No** |
 

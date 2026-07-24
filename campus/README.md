@@ -1,6 +1,6 @@
 # Campus
 
-Учебная ОС **Learning** (после «Начать обучение»).
+Место **студента**: пути, прогресс, лаборатории, факультеты.
 
 | | |
 |--|--|
@@ -11,4 +11,5 @@
 | **Labs · Library** | [labs/](labs/) · [library/](library/) |
 | **Progress** | [PROGRESS.md](PROGRESS.md) |
 
-Авторская инфраструктура (Teaching Model, Review Criteria, chapter-fill…) **не здесь** — см. репозиторий [`.author/`](../.author/) (Creator Portal). Не публикуется в учебном сайдбаре.
+> Campus = Student Portal.  
+> Производство контента — не здесь: [`.author/`](../.author/) (Creator Portal).
