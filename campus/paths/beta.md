@@ -2,7 +2,7 @@
 
 **Цель:** понять, как устроены компьютеры и программирование — с первых принципов.
 
-Модуль: [Part I — Foundations](../../fundamentals/PART_I.md).
+**Модуль:** [Part I — Foundations](../../fundamentals/PART_I.md) · модель: **Execution Spine**.
 
 ---
 
