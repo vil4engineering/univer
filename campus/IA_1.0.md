@@ -104,7 +104,7 @@ Labs
 Order: foundation → broader SE → product floors → specialty → dictionary → practice.  
 **No** Path / Траектории / About / «Начать обучение» in chrome. `campus/paths/` = author archive. Product story lives on **Home** only (`campus/about.md` may remain as deep URL, not nav).
 
-**Product model:** Engineering Builder = IT constructor on CS+Math foundation; faculties = floors; co-filled by father + Timur.  
+**Product model:** Engineering Builder = IT constructor on CS+Math foundation; faculties = floors; Maxim = Owner (architecture); Timur = learner + may add shelf content (see root `AGENTS.md` Identity gate).  
 **Terms:** `a.eu-term` → Glossary anchor (not chapter footer dump).  
 **Module naming:** Computer Science cover; Execution Spine = model inside. No “Part I” on chrome.
 

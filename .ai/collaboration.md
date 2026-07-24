@@ -6,12 +6,26 @@ The repository remains the center. AI tools are specialized participants with cl
 
 ---
 
+## Human speakers (before AI roles)
+
+Root [`AGENTS.md`](../AGENTS.md) **Identity gate** is mandatory: ask **Maxim or Timur** before repo-changing work.
+
+| Human | Power |
+|-------|--------|
+| **Maxim** | Owner — strategy, IA, nav, `.ai/`, Approve, full edits |
+| **Timur** | Learner + content — may add Glossary/chapters/labs on **existing** shelves; **must not** change architecture/nav/governance |
+
+Agents refuse architecture changes in Timur mode. Details and allowlists live only in `AGENTS.md` (do not fork a second matrix here).
+
+---
+
 ## Participants
 
 ```text
-Owner
+Owner (Maxim)
   ↓
 Defines strategy and makes final decisions.
+
 
 Cursor
   ↓
@@ -40,15 +54,17 @@ Every change improves the existing system.
 
 ## Responsibility matrix
 
-| Concern | Owner | Cursor | ChatGPT-class | Any agent |
-|---------|-------|--------|---------------|-----------|
+| Concern | Owner (Maxim) | Cursor | ChatGPT-class | Any agent |
+|---------|---------------|--------|---------------|-----------|
 | Strategy / ratification | decide | advise | advise | — |
-| File create / move / bulk edit | approve | **do** | propose text | follow Owner |
+| Architecture / IA / sidebar | **decide** | apply only if Maxim | propose | refuse in Timur mode |
+| File create / move / bulk edit | approve | **do** (Maxim); content-only if Timur | propose text | follow human role |
 | Deep explanation / trade-offs | approve | draft if asked | **prefer** | Author role |
-| Graph / merge / SoT | approve | apply | Architect analysis | Architect role |
+| Graph / merge / SoT | approve | apply | Architect analysis | Architect role; Timur → refuse graph moves |
 | Path lesson / Evidence write-back | accountable | **coach** (`campus/`) | support | no fake Evidence |
 | Commit / push | ask explicitly | only when asked | never assume | never assume |
 | Private career facts | keep private | exclude | exclude | exclude |
+| Glossary / shelf content add | yes | yes | draft | Timur **may**; Maxim may |
 
 ---
 

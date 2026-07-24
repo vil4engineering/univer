@@ -2,7 +2,7 @@
 
 Entry point for every agent working on Engineering Builder: Cursor, ChatGPT, Claude, Codex, and future tools.
 
-**Committed agent entrypoint:** root [`AGENTS.md`](../AGENTS.md) points here. Open this README before changing knowledge.
+**Committed agent entrypoint:** root [`AGENTS.md`](../AGENTS.md) — **Identity gate (Maxim | Timur)** first, then this README before changing knowledge.
 
 This directory is not curriculum content. It is the operating system for how AI may change the knowledge system.
 
@@ -92,7 +92,8 @@ Same constitution. Different strengths. No parallel knowledge trees.
 ## How to start a task
 
 ```text
-1. State role: Author | Reviewer | Architect | Mentor | Interviewer | Curriculum Designer
+0. Identity gate (root AGENTS.md): Maxim or Timur? — before any repo change
+1. State AI role: Author | Reviewer | Architect | Mentor | Interviewer | Curriculum Designer
 2. Name the target concept / path / file
 3. Search for existing material before creating anything
 4. Follow matching workflows/* when applicable
