@@ -67,6 +67,14 @@ When unsure whether a request is “content” vs “architecture” → treat a
 
 **Intake (Saved triage workspace):** [`intake/`](intake/) · living rules [`intake/RULES.md`](intake/RULES.md) · dumps [`intake/captures/`](intake/captures/) · workflow [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md). Not Library. Not sidebar. Shelve later → delete capture. **Timur mode:** do not run intake architecture; Maxim only.
 
+## Human commands
+
+Trigger phrases (any close variant counts — including RU-layout typos like `штищч` → `inbox`):
+
+| Human says (examples) | Agent does |
+|-----------------------|------------|
+| `/saved` · `inbox` · `штищч` · «переберём инбокс в тг» · «перебери Saved» · «TG inbox» · «inbox zero Saved» | **Maxim only.** Open [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md) + [`intake/RULES.md`](intake/RULES.md). Triage Saved **one item at a time** (analyze → options → wait → act). Do not auto-start on every chat. |
+
 ## Learning vs authoring
 
 | Mode | Entry | Who |

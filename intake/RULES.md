@@ -37,14 +37,19 @@ For each Saved item:
 - No Design, no chapter shape, no sidebar links from intake.
 - After univer agent shelves or discards → **delete** the capture file (inbox tends to empty).
 
+## Command
+
+Any agent in this repo: if Maxim says `/saved`, `inbox`, `штищч`, «переберём инбокс в тг», «перебери Saved», etc. → run [`.ai/workflows/tg-saved-triage.md`](../.ai/workflows/tg-saved-triage.md). See also [`AGENTS.md` Human commands](../AGENTS.md).
+
 ## Session flow
 
 ```text
-human: «давай переберём Saved»
-  → tg_saved_list (newest or oldest batch)
-  → present item like mail
-  → human: A intake / B career / C discard / D open link / E skip
+human: «давай переберём инбокс в тг»  (or /saved · inbox · штищч)
+  → workflow tg-saved-triage
+  → one item: analyze → options → wait
+  → human: A shelf/intake / B career / C discard / D open link / E skip
   → execute; delete from Saved only when human confirms clean-up
+  → next item only after that
   → append lessons to this RULES.md when a new pattern appears
 ```
 

@@ -8,6 +8,7 @@ Working directory for Telegram Saved → university Idea staging.
 | File / folder | What |
 |---------------|------|
 | [`RULES.md`](RULES.md) | Living triage rules (grow while exporting) |
+| Command | Maxim: `/saved` · `inbox` · «переберём инбокс в тг» → [workflow](../.ai/workflows/tg-saved-triage.md) |
 | [`captures/`](captures/) | Raw `.md` dumps waiting to be shelved |
 | [`_TEMPLATE.md`](_TEMPLATE.md) | Capture skeleton |
 | [`../scripts/tg_saved_list.py`](../scripts/tg_saved_list.py) | Fetch Saved list |
