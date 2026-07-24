@@ -1,7 +1,8 @@
 # Author hub
 
 Кухня Engineering University: как **писать и ревьюить** главы.  
-Не учебный маршрут для студента — студент стартует с [Home](../../README.md) и [Campus](../).
+Публичный вход: [Home](../../README.md). Учёба: [Campus](../).  
+**IA:** [IA 1.0](../IA_1.0.md) — Author SDK ≠ Public Home.
 
 ---
 

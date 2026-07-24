@@ -24,11 +24,11 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 **Learning now:**
 
 - Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
-- **Stage:** educational **platform** — Home = Visitor; kitchen = [Author hub](campus/author/)  
+- **Epic now:** [IA 1.0](campus/IA_1.0.md) — Visitor/Student/Author/AI visibility (priority over new chapters)  
+- Home = Public University only · kitchen = [Author hub](campus/author/)  
 - Platform trio: [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md)  
-- Student B: Part I / 0 **Publish v1.2** — [глава](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md)  
-- Chapter = product (DESIGN · README · Interview-Pack · reviews · version)  
-- **IA:** Visitor / Student / Author split — [DISPLAY_0.1](campus/DISPLAY_0.1.md)
+- Student B: Part I / 0 **Publish v1.2** — [глава](fundamentals/what-is-programming/)  
+- Chapter = product  
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -68,7 +68,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
 | Entry chapter `what-is-programming` | **Publish v1.2** · Owner Agree [0001b](reviews/0001b-what-is-programming.md) |
 | Platform SoT trio | **Live** — teaching-model · review-criteria · content-lifecycle |
-| Home IA (Visitor / Student / Author) | **Done** — thin sidebar · [author hub](campus/author/) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
+| Home IA (Visitor / Student / Author) | **Epic IA 1.0** — [campus/IA_1.0.md](campus/IA_1.0.md) · ruthless Home/sidebar pass |
 | Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
 | Content review journal | **Started** — [`reviews/`](reviews/) |
 
@@ -93,7 +93,8 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [campus/paths/alpha.md](campus/paths/alpha.md) | Path Alpha (unlocked) |
 | [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md) | Storage decisions (still valid) |
 | [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) | Chat → repo map + gaps |
-| [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) | Core World intent (pick later) |
+| [campus/IA_1.0.md](campus/IA_1.0.md) | Information Architecture epic — who sees what |
+| [campus/author/](campus/author/) | Author SDK / kitchen hub |
 | [.ai/principles/teaching-model.md](.ai/principles/teaching-model.md) | Platform SoT — why we teach |
 | [.ai/principles/review-criteria.md](.ai/principles/review-criteria.md) | Official chapter score bar |
 | [.ai/principles/content-lifecycle.md](.ai/principles/content-lifecycle.md) | Content SDLC · chapter = product |
