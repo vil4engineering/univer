@@ -52,9 +52,11 @@ Every repository should contribute to one or more of these goals:
 | Campus OS | [campus/](campus/) |
 | v2 checklist (ratify Study) | [campus/V2_CHECKLIST.md](campus/V2_CHECKLIST.md) |
 | Charter | [01_CHARTER.md](01_CHARTER.md) |
-| Path Alpha | [campus/paths/alpha.md](campus/paths/alpha.md) (**Study paused**) |
+| Path Alpha | [campus/paths/alpha.md](campus/paths/alpha.md) (**Study unlocked** · Mode A) |
 | Skills | [campus/skills/](campus/skills/) |
+| Design capture | [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 | Status | [PROJECT_STATUS.md](PROJECT_STATUS.md) |
+| AI Governance | [.ai/README.md](.ai/README.md) |
 
 ## Governance
 

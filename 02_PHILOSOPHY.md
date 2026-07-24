@@ -105,7 +105,8 @@ Mastered ≠ «прочитал».
 ## Labs
 
 Один evolving engineering application предпочтительнее десятков demo zoo.  
-Sandbox ≠ Lab ≠ Core quality bars — [CODE_CONTRACT.md](campus/CODE_CONTRACT.md).
+Sandbox ≠ Lab ≠ Core quality bars — [CODE_CONTRACT.md](campus/CODE_CONTRACT.md).  
+Core World intent (product pick later) — [LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md).
 
 ## What we refuse
 

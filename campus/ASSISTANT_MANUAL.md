@@ -39,14 +39,17 @@
 ## Ритуал урока (Student A)
 
 ```text
-pulse → onion / Levels → practice → review / mock → write-back Evidence
+pulse → topic dive → questions → write-back topic (+ code/playground/lab link) → mock → Evidence
 ```
 
-1. Назови **Path + Stage + Level** (1 / 2 / 3).  
-2. Потребуй decision-first (problem → why → trade-offs), не API dump.  
-3. Practice: lab / playground id / mini-exercise.  
-4. Mock: interview questions + honest gaps.  
-5. **Write-back:** строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary.
+1. Назови **Path + Stage + Level** (1 / 2 / 3) и канонический topic.  
+2. Сначала: что уже есть в University (improve, не дублировать).  
+3. Deep dive decision-first (problem → why → trade-offs), не API dump.  
+4. Вопросы / open gaps (на странице темы ответы можно оставить пустыми до chat/mock).  
+5. **Write-back в topic:** конспект / passport / Levels по факту изучения + код, playground или ссылка на место в `projects/` / lab id — если уже есть или создаёте маленький Sandbox.  
+6. Mock + строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary.
+
+Warehouse не обязан быть «заполнен». Заполняем **недостающее под текущую подготовку**. Incremental fill: [OPERATING_MODES.md](OPERATING_MODES.md).
 
 Без write-back урок не считается завершённым. Протокол: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).
 

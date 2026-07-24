@@ -16,7 +16,7 @@ Example skeleton (adjust, keep the shapes):
 
 Do not start the next competency until Evidence/`interview_ready` rules say so ([PROGRESS.md](PROGRESS.md)).
 
-Open questions stay on the topic page; answers get forged in chat/mocks, then written back.
+Open questions stay on the topic page **without full answers**; answers get forged in chat/mocks, then written back as Evidence.
 
 ## Mode B — Employed maintenance (later)
 
@@ -38,6 +38,32 @@ Monthly: WWDC/ecosystem delta pass.
 4. Relevant sources / runtime when needed  
 5. Strong external explanations (including paid Boosty-style materials) as **ideas**, never copy-paste  
 
+Before drafting a topic: skim what already exists in University + the sources above. Prefer improve-existing ([`.ai/constitution.md`](../.ai/constitution.md)).
+
+## Incremental fill (binding)
+
+University is **not** a completeness project. Warehouse stubs and thin READMEs are normal.
+
+Goal of Mode A: **gradually fill what the current prep session needs** — not “finish every faculty.”
+
+Default loop for one study unit:
+
+```text
+Start prep (Path / heat / topic)
+  → Read what already exists in University
+  → Deep dive (chat / sources)
+  → Interview questions / open gaps
+  → Write-back into the canonical topic:
+       notes · passport slices · Levels as earned
+       + code | playground | link into projects/ lab
+         (only if it exists or you create a small Sandbox artifact)
+  → Evidence row on the Path
+```
+
+Do **not** invent a second handbook page. Improve the topic. Leave unfinished sections as honest stubs / open questions.
+
 ## Write-back
 
 Every day ends with repo updates: status, Evidence, open questions, next step — [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).
+
+Design map of the Living University thread: [DESIGN_CAPTURE_LIVING_UNIVERSITY.md](DESIGN_CAPTURE_LIVING_UNIVERSITY.md).

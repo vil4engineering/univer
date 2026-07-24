@@ -29,4 +29,12 @@ School subjects (math, physics, geometry) appear as **doors** (“why the ball f
 
 ## Guardrail
 
-Entertainment serves learning. If an example does not clarify an engineering idea, cut it (Charter north-star gate).
+Entertainment serves learning. If an example does not clarify an engineering idea, cut it.
+
+North-star gate (same as Charter intent):
+
+> Does this help better understand the engineering world?
+
+Football is one Reference World pack — not a mandatory brand. Automotive (PitStop-inspired), Banking, Mobile, Games remain available. Cross-links between worlds (Player owns Cars → PitStop ideas) are encouraged when they teach relations, state machines, or composition vs inheritance.
+
+Living Core product rules (when chosen): [LIVING_PRODUCT.md](LIVING_PRODUCT.md).

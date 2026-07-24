@@ -81,7 +81,12 @@ Search: Docsify built-in search across pages. Catalog page = browsable map when 
 
 - Registry: [labs/](labs/) with stable `lab-*` / `lab-pg-*` ids  
 - Path stage rows cite lab ids and Library paths  
-- [projects-map.md](projects-map.md) for Xcode/SPM entry — not a demo zoo homepage
+- [projects-map.md](projects-map.md) for Xcode/SPM entry — not a demo zoo homepage  
+- Living Product intent (when Core World is chosen): [LIVING_PRODUCT.md](LIVING_PRODUCT.md)
+
+## Topic page expectations (browser)
+
+A topic aimed at completeness should read as a **page**, not a wall of text: diagram, analogy (Level 1), code, practice, open questions, official links, Next. Template: [TOPIC_TEMPLATE.md](TOPIC_TEMPLATE.md). Design capture: [DESIGN_CAPTURE_LIVING_UNIVERSITY.md](DESIGN_CAPTURE_LIVING_UNIVERSITY.md).
 
 ## Explicit non-goals for display 0.1
 

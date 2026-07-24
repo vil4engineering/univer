@@ -190,6 +190,8 @@ Software engineering over framework knowledge · Systems thinking over memorizat
 - «Стать AI Engineer» как identity  
 - Поглощение private `career` в public repo  
 - Mass folder symmetry as success metric  
+- History / lore that fails the gate: *Does this help understand the engineering world?*  
+- Handbook trees before Architect Design revision  
 
 ---
 

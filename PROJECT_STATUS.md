@@ -21,6 +21,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 
 **Study unlocked.** Path Alpha Evidence write-back allowed. Calendar driver: Mode A ([campus/OPERATING_MODES.md](campus/OPERATING_MODES.md)) + spine [campus/ROADMAP_SENIOR.md](campus/ROADMAP_SENIOR.md). First deep track: M03 Concurrency.
 
+**Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
 
 | Decision | Status |

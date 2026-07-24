@@ -16,6 +16,8 @@
   - [Progress / Evidence](/campus/PROGRESS.md)
   - [Operating modes](/campus/OPERATING_MODES.md)
   - [Topic template](/campus/TOPIC_TEMPLATE.md)
+  - [Design capture](/campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md)
+  - [Living Product](/campus/LIVING_PRODUCT.md)
   - [Reference worlds](/campus/REFERENCE_WORLDS.md)
   - [Code contract](/campus/CODE_CONTRACT.md)
   - [Linking](/campus/LINKING.md)

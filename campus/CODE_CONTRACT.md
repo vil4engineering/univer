@@ -33,3 +33,9 @@ Apple Sample Code, Point-Free, Hacking with Swift, WWDC samples: **study, adapt,
 ## Staged projects today
 
 Mapped in [projects-map.md](projects-map.md). Migration rule: delete / archive / integrate by educational role — not by nostalgia.
+
+Living Product design intent: [LIVING_PRODUCT.md](LIVING_PRODUCT.md).
+
+## Git as curriculum
+
+Issues · branches · PR types · review · CI are part of learning culture, not only tooling. Sandbox PRs stay light; Core PRs train production quality.
