@@ -182,12 +182,38 @@ Here, each idea appears as an **answer to a problem** previous pages made painfu
 
 ## Part I — Foundations (first module)
 
-Example of the model applied — not a second SoT. Human map: [`fundamentals/PART_I.md`](../../fundamentals/PART_I.md).
+Human map (student cover): [`fundamentals/PART_I.md`](../../fundamentals/PART_I.md).
+
+**Canonical model name:** **Execution Spine** (Problem → Human → Algorithm → Program → Compiler → Machine Code → CPU → World).  
+Later chapters say: “we are at the *Compiler* step of the Execution Spine.”
+
+**Module shape (canonical):**
+
+```text
+Name → Why this module exists → Execution Spine
+  → Chapter sequence (one why each)
+  → What you can do after
+  → Next module
+```
+
+**Student-facing rule (one line on the module cover):**  
+In this module each chapter answers one question — it does not define a term.
+
+**Author-facing anti-patterns** (do not put on student Part I page):
+
+| ❌ | ✅ |
+|----|----|
+| Chapter “Variables / Functions / Classes” | Chapter as answer to a problem |
+| Title *What is X?* while body answers *Why X?* | Title matches the question |
+| API catalog as spine | Idea → implementations (Swift/iOS later) |
+| Status / SoT / review ids on the cover | Those live in Creator Portal / DESIGN |
 
 | # | Working title (H1) | Fundamental why | Topic id | Status |
 |---|--------------------|-----------------|----------|--------|
 | 0 | Почему существует программирование? | Почему компьютеру вообще нужны программы? | `fundamentals/what-is-programming` | **v1.2 Publish** |
-| 1–9 | (see Part I map) | one why each | planned ids | planned |
+| 1–9 | (see Part I student cover) | one why each | planned ids | planned |
+
+Strict dictionary “what is programming?” comes **after** executor, instruction, algorithm, program. Chapter 0 creates the *need*.
 
 Do **not** mass-create empty topics — [content-lifecycle.md](content-lifecycle.md) + [chapter-fill](../workflows/chapter-fill.md).
 
