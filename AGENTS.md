@@ -18,6 +18,8 @@
 
 **Private career:** [vil4max/career](https://github.com/vil4max/career) — never absorb private facts here.
 
+**Intake (Saved triage workspace):** [`intake/`](intake/) · living rules [`intake/RULES.md`](intake/RULES.md) · dumps [`intake/captures/`](intake/captures/) · workflow [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md). Not Library. Not sidebar. Shelve later → delete capture.
+
 ## Learning vs authoring
 
 | Mode | Entry |
@@ -26,6 +28,8 @@
 | Student B foundations | Foundations · Execution Spine · ch.0 [why programming exists](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md) |
 | Author a chapter | [`.author/`](.author/) Creator Portal · `chapter-fill` |
 | Tiny fix on existing page | [`.ai/workflows/improve-topic.md`](.ai/workflows/improve-topic.md) |
+| TG Saved inbox-zero | [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md) · [`intake/RULES.md`](intake/RULES.md) |
+| Shelve intake dumps | [`intake/captures/`](intake/captures/) → topic / glossary / discard → remove file |
 
 ## Conventions
 

@@ -3,3 +3,10 @@
 
 # Machine-local Cursor config (do not commit)
 .cursor/
+
+# Telegram / local secrets (never commit)
+.env
+.env.*
+*.session
+.tg-login-pending.json
+intake/.tg-saved.json
