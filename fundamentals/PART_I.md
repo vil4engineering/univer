@@ -50,5 +50,4 @@
 
 Ты сможешь провести идею по всей **Execution Spine**: от задачи в мире до действия машины — и объяснить, зачем на пути нужны алгоритм, программа, Compiler и инженер.
 
-Дальше по карте факультета: [Computer Science](../campus/faculties/computer-science.md).  
-Траектория: [Foundations](../campus/paths/beta.md) · слои: [Траектории](../campus/paths/).
+**Дальше:** [Почему существует программирование?](what-is-programming/)

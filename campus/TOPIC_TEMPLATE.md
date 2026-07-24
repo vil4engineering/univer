@@ -57,7 +57,7 @@ Rules:
 | **Faculty** | Computer Science |
 | **Path** | Beta · Step 1 · Execution Spine / 0 |
 | **Prerequisites** | — |
-| **Next** | [Execution Spine](../PART_I.md) (module map) |
+| **Next** | Next *chapter* title only (student footer) — not Path Alpha / module map / faculty |
 | **Interview** | ★★★ |
 | **Difficulty** | Easy |
 | **Time** | ≈ 20 min |
@@ -247,6 +247,7 @@ Spoken answer sketch (EN): …
 
 Leave **unanswered** on the page. Forge answers in chat / mock interview, then write Evidence back ([OPERATING_MODES.md](OPERATING_MODES.md)).
 
-## Next
+## Next (student footer)
 
-Prerequisites · follow-ups · Lab ids · related Skills · related Engineering Patterns / symptoms (if any)
+One line: **Дальше:** link (or title + «скоро») to the **next chapter**.  
+No Path Beta / Path Alpha / «фундамент для Alpha» / faculty map — that is author/IA noise.

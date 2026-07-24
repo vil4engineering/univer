@@ -8,13 +8,8 @@
 </p>
 
 <p class="chapter-meta">
-≈ 20 мин · Interview ★★★ · Path Beta · Глава 0
+≈ 20 мин · Computer Science · Глава 0
 </p>
-
-| | |
-|--|--|
-| **Дальше** | [Computer Science](../PART_I.md) · глава 1 (скоро) |
-| **Путь** | [Foundations](../../campus/paths/beta.md) |
 
 ---
 
@@ -331,8 +326,6 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 **Первоисточники (если хочешь вне университета):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
-**Дальше по модулю:** [Computer Science](../PART_I.md) — ближайшие якоря: компьютер → исполнение программы → Binary.
-
 ---
 
 ## Рефлексия
@@ -341,7 +334,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 > **до:** код → компьютер · «нужен язык» · «машина глючит»  
 > **после:** проблема → алгоритм → программа → Hardware → результат в мире · ошибается человек · язык — форма
 
-Одной фразой — в [Foundations](../../campus/paths/beta.md).
+**Дальше:** Почему нам нужен буквальный исполнитель? (компьютер) — скоро.
 
 ---
 
