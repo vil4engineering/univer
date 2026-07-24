@@ -1,9 +1,22 @@
-# DISPLAY 0.1 — how the student sees the university
+# DISPLAY 0.1 — how people see the university
 
-**Status:** Binding for University **0.1**  
-**Related:** [LAYOUT_0.1.md](LAYOUT_0.1.md) · [LANGUAGE.md](LANGUAGE.md) · [OPERATING_MODES.md](OPERATING_MODES.md)
+**Status:** Binding · IA refresh 2026-07-24 (Visitor / Student / Author)  
+**Related:** [LAYOUT_0.1.md](LAYOUT_0.1.md) · [LANGUAGE.md](LANGUAGE.md) · [OPERATING_MODES.md](OPERATING_MODES.md) · [author/](author/)
 
-Спека отвечает: *что видит студент в браузере* и *как ходит по универу*.
+---
+
+## Three audiences (do not mix on Home)
+
+| Role | Question in 30s | Sees |
+|------|-----------------|------|
+| **Visitor** | What is this? What do I click? | [Home](../README.md) — value prop + **Начать обучение** |
+| **Student** | Where is my path / progress / lab? | Thin sidebar · [Campus](./) · Paths · Part I · chapters |
+| **Author** | How do I ship a chapter? | [Author hub](author/) — fill, reviews, SoTs, governance |
+| **AI** | How may I change the graph? | [`AGENTS.md`](../AGENTS.md) · [`.ai/`](../.ai/) — **not** in student sidebar |
+
+Home must **not** be the Operating System dump (metamodel, chapter-fill, Living Product, session protocol…).
+
+---
 
 ## Product UI
 
@@ -11,100 +24,67 @@
 |---------|------|
 | GitHub Pages + Docsify | First product UI through **0.1** |
 | Repo markdown | Source of truth |
-| Leave Docsify | **v0.2 trigger** only: need interactive graph, heatmap board, or OS that markdown cannot carry |
+| Leave Docsify | **v0.2 trigger** only: interactive graph / OS chrome markdown cannot carry |
 
 No second shell in 0.1.
 
 ## Information architecture
 
 ```text
-Home
- └─ Campus
-     ├─ Path Alpha / Beta / Gamma     ← primary learning routes
-     ├─ Faculties                    ← competency owners
-     ├─ Labs · Projects map
-     ├─ Library catalog              ← full topic list (Goal 1 search aid)
-     ├─ Progress · Language · OS specs
-     └─ Governance (Charter …)
+Home (Visitor)
+ ├─ Начать обучение → Path Beta / Alpha
+ └─ Campus (Student)
+      ├─ Paths · Part I · chapters
+      ├─ Progress · Labs · Library · Faculties
+      └─ Author hub (kitchen — one nav link)
+           └─ .ai / reviews / governance (linked, not on Home)
 ```
 
-- Auto-TOC в сайдбаре (`subMaxLevel`) — **выкл** в 0.1 (`subMaxLevel: 0`); заголовки страницы не дублируются в nav
+- Auto-TOC в сайдбаре (`subMaxLevel`) — **выкл** (`subMaxLevel: 0`)
 
-## Sidebar contract (0.1)
+## Sidebar contract (student-first)
 
 Must stay thin:
 
-1. Campus (home + key OS links)  
-2. Paths  
-3. Faculties  
-4. Governance  
-5. Warehouse & projects (catalog + projects only)
+1. Home · Начать обучение  
+2. Учёба (Campus, Part I, Paths, Progress, Labs, Library)  
+3. Факультеты (short list)  
+4. **Author** → single hub link  
 
-Search: Docsify built-in search across pages. Catalog page = browsable map when search is not enough.
+Governance, AI workflows, metamodel, design capture — **inside Author hub**, not root Campus mega-list.
+
+Search: Docsify built-in. Catalog: [library/](library/).
 
 ## Student journeys
 
-### Path A (Senior+/Lead bootcamp)
-
-1. Open [paths/alpha.md](paths/alpha.md)  
-2. Take current Stage (start **1** after 0.1 unlock)  
-3. Follow Library hooks → onion / labs  
-4. Write Evidence into Progress log on the same path page  
-5. Advance only with Evidence + mock gate ([PROGRESS.md](PROGRESS.md))
-
 ### Path B (foundations)
 
-1. [paths/beta.md](paths/beta.md)  
-2. Layer 0–2; same Evidence discipline when a stage is active  
+1. Home → Path Beta  
+2. [Part I](../fundamentals/PART_I.md) · chapter 0…  
+3. Evidence on path Progress log ([PROGRESS.md](PROGRESS.md))
 
-### Goal 1 — find a topic fast
+### Path A (Senior prep)
 
-1. Docsify Search **or** [library/](library/) catalog  
-2. Deep link still works: `/swift/concurrency/` etc. (warehouse URLs stable)
+1. [paths/alpha.md](paths/alpha.md)  
+2. ROADMAP / deep track  
+3. Evidence + mock gate  
 
-## Language on screen
-
-- Campus / path / faculty **new or touched** pages: RU-primary + EN terms ([LANGUAGE.md](LANGUAGE.md))  
-- Legacy Library pages may remain EN-heavy until Path rewrite  
-- No bilingual dual chrome; no EN-only product voice
-
-## Progress without a custom app
-
-| Need | 0.1 mechanism |
-|------|----------------|
-| Status / confidence | Tables on path pages + PROGRESS vocabulary |
-| Evidence | Session write-back → path Progress log ([SESSION_PROTOCOL.md](SESSION_PROTOCOL.md)) |
-| Interview Heat | Marked on topics / stages in prose or table columns |
-| Completeness | Onion + lab graduation notes — markdown checklists |
-
-## Labs & projects display
-
-- Registry: [labs/](labs/) with stable `lab-*` / `lab-pg-*` ids  
-- Path stage rows cite lab ids and Library paths  
-- [projects-map.md](projects-map.md) for Xcode/SPM entry — not a demo zoo homepage  
-- Living Product intent (when Core World is chosen): [LIVING_PRODUCT.md](LIVING_PRODUCT.md)
-
-## Topic page expectations (browser)
-
-A topic aimed at completeness should read as a **page**, not a wall of text: diagram, analogy (Level 1), code, practice, open questions, official links, Next. Template: [TOPIC_TEMPLATE.md](TOPIC_TEMPLATE.md). Design capture: [DESIGN_CAPTURE_LIVING_UNIVERSITY.md](DESIGN_CAPTURE_LIVING_UNIVERSITY.md).
-
-### Student Mode vs Author Mode
-
-The repo is both a **textbook** and an **engineering project**. Do not show one flat metadata dump to both audiences.
+## Topic page: Student Mode vs Author Mode
 
 | Mode | Sees | Default |
 |------|------|---------|
-| **Student Mode** | Reader Header (H1 question · deck · time/path/interview) + chapter body; Learning Metadata collapsed | **Default** on GitHub Pages |
-| **Author Mode** | + Engineering Metadata (`details`), DESIGN contract, reviews, assets/TODO, status/confidence | Collapsed `details` · or open `DESIGN.md` / `reviews/` |
+| **Student Mode** | Reader Header + body; Learning `<details>` | Pages default |
+| **Author Mode** | Engineering `<details>`, DESIGN, reviews | Collapsed / Author hub |
 
-Docsify 0.1 has no separate app shell: implement modes as **markdown structure** (visible hero + `<details>`). A future Living Product UI may toggle Author Mode explicitly ([LIVING_PRODUCT.md](LIVING_PRODUCT.md)).
+## Language on screen
 
-Status vocabulary for Evidence still lives on **Path logs** ([PROGRESS.md](PROGRESS.md)) — not as a JIRA strip under every H1.
+- Home / Campus / Paths: **RU-primary** + EN terms ([LANGUAGE.md](LANGUAGE.md))  
+- `.ai/` governance: English (agents)  
+- Legacy Library may stay EN-heavy until Path rewrite  
 
 ## Explicit non-goals for display 0.1
 
 - Interactive knowledge graph  
-- SPA / custom React campus  
-- Restoring mega-sidebar Library lists  
-- Living Application dashboard  
-- Forcing every warehouse page to RU on day one
+- Custom React campus  
+- Mega-sidebar of every OS doc on Home  
+- Forcing every warehouse page to RU on day one  

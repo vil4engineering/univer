@@ -24,10 +24,11 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 **Learning now:**
 
 - Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
-- **Stage:** educational **platform** (not single-chapter craft) — next work = SoTs, not mass chapters  
+- **Stage:** educational **platform** — Home = Visitor; kitchen = [Author hub](campus/author/)  
 - Platform trio: [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md)  
 - Student B: Part I / 0 **Publish v1.2** — [глава](fundamentals/what-is-programming/) · [0001b](reviews/0001b-what-is-programming.md)  
-- Chapter = product (DESIGN · README · Interview-Pack · reviews · version)
+- Chapter = product (DESIGN · README · Interview-Pack · reviews · version)  
+- **IA:** Visitor / Student / Author split — [DISPLAY_0.1](campus/DISPLAY_0.1.md)
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions
@@ -66,7 +67,8 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 | Chapter-fill workflow (design → write) | **Done** — [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md) |
 | Entry chapter `what-is-programming` | **Publish v1.2** · Owner Agree [0001b](reviews/0001b-what-is-programming.md) |
-| Platform SoT trio | **Live** — [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md) |
+| Platform SoT trio | **Live** — teaching-model · review-criteria · content-lifecycle |
+| Home IA (Visitor / Student / Author) | **Done** — thin sidebar · [author hub](campus/author/) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
 | Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
 | Content review journal | **Started** — [`reviews/`](reviews/) |
 
