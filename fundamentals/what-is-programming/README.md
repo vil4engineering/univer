@@ -78,7 +78,7 @@ flowchart TB
 
 Что становится понятнее: программирование — не «файл со Swift», а путь от задачи в мире до действия в мире. Язык и Compiler — ступени пути, не его смысл.
 
-Это **Execution Spine** Part I. В следующих главах будем подсвечивать текущий уровень ([Part I](../PART_I.md)).
+Это **Execution Spine** Part I. В следующих главах будем подсвечивать текущий уровень.
 
 ---
 
@@ -156,7 +156,7 @@ flowchart TB
 
 Менялся **язык общения** с исполнителем.
 
-Инструкции сначала жили только в голове мастера. Потом их вынесли наружу — карты, числа, мнемоники, языки вроде C и [Swift](../../swift/what-is-swift/) — чтобы передавать шаги быстрее и безопаснее. Боль была одна: *как сказать машине однозначно*.
+Инструкции сначала жили только в голове мастера. Потом их вынесли наружу — карты, числа, мнемоники, языки вроде C и Swift — чтобы передавать шаги быстрее и безопаснее. Боль была одна: *как сказать машине однозначно*.
 
 ```text
 Карты / ранние машины → Machine Code → Assembly → C → Objective-C → Swift
@@ -181,12 +181,12 @@ flowchart LR
 
 | Уровень | Роль |
 |---------|------|
-| **Swift** | Язык, удобный человеку-инженеру · [первый урок](../../swift/what-is-swift/) |
+| **Swift** | Язык, удобный человеку-инженеру |
 | **Compiler** | Переводчик в форму, понятную машине |
 | **Machine Code** | Инструкции, готовые к исполнению |
 | **CPU** | Считает и исполняет (Hardware) |
 
-Compiler здесь появляется как ответ на боль «человек не хочет писать сырые команды», а не как словарная статья. Глубже — в главах Binary → Machine Code → Compiler ([Part I](../PART_I.md)).
+Compiler здесь появляется как ответ на боль «человек не хочет писать сырые команды», а не как словарная статья. Глубже — в главах Binary → Machine Code → Compiler (Part I).
 
 ---
 
@@ -279,8 +279,6 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 **Типичные ошибки:** программирование = синтаксис; «модель сама догадается»; винить Hardware без проверки инструкции.
 
-Короткие ответы: [notes/Interview-Pack.md](notes/Interview-Pack.md).
-
 ---
 
 ## Практика
@@ -297,7 +295,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 ## Конспект
 
-Читабельная выжимка главы — можно вернуться сюда без перечитывания всего текста.
+Читабельная выжимка главы — сплошной текст, без ссылок. Указатели — только в блоке ниже.
 
 1. **Программирование** существует, потому что машине нужны точные инструкции. Язык — удобная форма, не причина.  
 2. **Компьютер не «глючит» сам по себе** — он исполняет сказанное. Ошибается человек (задача, шаги, допущения).  
@@ -329,6 +327,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 | **SwiftUI** | Верхний этаж абстракций в примере | Позже · Mobile Systems / iOS |
 | **Operating System** | Почему программы редко говорят с железом «напрямую» | Позже · отдельная тема |
 | **Software Engineering** | Программа vs система на годы | [Faculties · Software Engineering](../../campus/faculties/software-engineering.md) |
+| **Interview pack** | Короткие ответы к этой главе | [notes/Interview-Pack.md](notes/Interview-Pack.md) |
 
 **Первоисточники (если хочешь вне университета):** Nand2Tetris · Petzold *Code* · CSAPP · SICP · [Swift Book — The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
@@ -343,6 +342,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 > **после:** проблема → алгоритм → программа → Hardware → результат в мире · ошибается человек · язык — форма
 
 Одной фразой — в [Path Beta](../../campus/paths/beta.md).
+
 ---
 
 <details>
@@ -351,7 +351,7 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 | | |
 |--|--|
 | **Topic id** | `fundamentals/what-is-programming` |
-| **Version** | v1.3 |
+| **Version** | v1.4 |
 | **Design** | [DESIGN.md](DESIGN.md) |
 | **Reviews** | [0001](../../reviews/0001-what-is-programming.md) · [0001b](../../reviews/0001b-what-is-programming.md) |
 | **Creator Portal** | [`.author/`](../../.author/) |

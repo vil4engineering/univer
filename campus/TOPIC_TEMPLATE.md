@@ -164,9 +164,18 @@ Questions · follow-ups · common mistakes (projection; may link `notes/Intervie
 
 Mission + playground / `projects/` / lab id.
 
+### Конспект
+
+Plain text takeaways — **no links inside**. Reading flow first.
+
+### Упомянуто в главе
+
+**All** topic pointers and первоисточники — here only, not mid-body.  
+Do not sprinkle blue links through paragraphs (makes the page unreadable).
+
 ### Что читать дальше
 
-Apple · Swift Evolution · WWDC · books · articles.
+Optional; may merge into Упомянуто. Same rule: links only in this footer zone.
 
 ### Рефлексия (обязательно, когда глава не stub)
 

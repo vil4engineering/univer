@@ -95,8 +95,12 @@ Not every chapter needs every block. Together they form the **Engineering Univer
 | **Production bridge** | Spec hole, failure, constraint in the real world | Paragraph / vignette |
 | **Interview bridge** | Projection Q / mistakes | Section or `Interview-Pack` |
 | **Level gate** | Where L1 may stop | `<p class="eu-level-gate">` |
+| **Конспект** | Re-readable idea — **text only** | After practice |
+| **Упомянуто** | All pointers at the bottom | Footer table — not mid-paragraph links |
 
 **Engineering Axiom** is scarce on purpose. Do not label every tip as an axiom.
+
+**Pointers:** body + Конспект stay readable prose (topic *names* OK). Links live in **Упомянуто** / footer only — see [chapter-shape.md](chapter-shape.md) Pointers rule.
 
 ---
 

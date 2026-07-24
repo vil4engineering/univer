@@ -44,11 +44,22 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 | **Production** | Real use · failure modes · decisions | What breaks · Decisions |
 | **Интервью** | Likely questions · follow-ups · common mistakes | Interview projection |
 | **Лабораторная** | Try yourself | Lab / playground / `projects/` link |
-| **Конспект** | Readable takeaways (student can re-read without the full chapter) | After practice / before links |
-| **Упомянуто в главе** | Mentions → first lessons / Part I anchors (not a wiki dump) | Related · Next |
-| **Что читать дальше** | Apple · Evolution · WWDC · books · articles (may merge into Упомянуто) | References · Next |
+| **Конспект** | Plain readable takeaways — **text only, no links inside**. Student re-reads the idea without a wiki of blue underlines. | After practice / before pointers |
+| **Упомянуто в главе** | **All** topic pointers live here (and optional первоисточники) — not sprinkled through the body | Related · Next |
+| **Что читать дальше** | May merge into Упомянуто; same rule: links only in the footer block | References · Next |
 
 Aligns with ROADMAP lesson spine (Problem → … → References) without a second encyclopedia.
+
+### Pointers rule (readability)
+
+```text
+Body + Конспект  →  prose only (names of topics OK, no markdown links)
+Упомянуто / footer →  all links live here
+```
+
+Do **not** sprinkle `[Swift](…)`, `[Part I](…)`, «первый урок» mid-paragraph.  
+That turns the chapter into a blue underline wiki and breaks reading flow.  
+Header chrome (Path / Part I once at top) is allowed; body stays readable.
 
 **Building blocks** (Cold open · Axiom · Spine · New model · History · Production · Interview · Level gate): see [teaching-model.md](teaching-model.md) — recognizable style, not a second outline.
 
