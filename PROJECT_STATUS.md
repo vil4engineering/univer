@@ -2,12 +2,12 @@
 
 **Project:** Engineering University  
 **Version:** **v2 constitution + campus skeleton**  
-**Phase:** v2 shipped to repo · **Study paused** until human ratification of [V2_CHECKLIST](campus/V2_CHECKLIST.md)  
-**Date:** 2026-07-15
+**Phase:** v2 · **Study unlocked under v2** · Mode A Interview Bootcamp active  
+**Date:** 2026-07-24
 
 ## Current state
 
-North star shifted:
+North star:
 
 - Center = **Software Engineering** (not framework tourism branded as “iOS university”)  
 - Home = org **vil4engineering** · flagship repo `univer` · site `vil4engineering.github.io/univer/`  
@@ -15,10 +15,11 @@ North star shifted:
 - AI = **two tracks** (Assisted · Technology)  
 - Skill Factory + Career OS hybrid contract  
 - Assistant manual for repo learning coach  
+- AI Governance Layer: [`.ai/README.md`](.ai/README.md)
 
 Warehouse paths unchanged. Docsify Campus-first remains.
 
-**Do not start Path Alpha lessons** until V2_CHECKLIST reviewed and Status flips Study → unlocked.
+**Study unlocked.** Path Alpha Evidence write-back allowed. Calendar driver: Mode A ([campus/OPERATING_MODES.md](campus/OPERATING_MODES.md)) + spine [campus/ROADMAP_SENIOR.md](campus/ROADMAP_SENIOR.md). First deep track: M03 Concurrency.
 
 ## Binding decisions
 
@@ -35,29 +36,32 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Language RU-primary + EN terms | Binding |
 | No mass-move without Design revision | Binding |
 | Docsify shell for now | Binding |
-| Living Application | Intentionally undecided |
+| Living Application | Intentionally undecided — see [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) |
 | career / ios-hunter / `pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` (org) | Independent |
 | Word "knowledge base" | Retired |
-| Study during v2 ratification | **Paused** |
+| Study under v2 | **Unlocked** (2026-07-24) |
+| Mode A Interview Bootcamp | **Active** |
 
 ## Phase map
 
 | Phase | Status |
 |-------|--------|
 | University 0.1 | Done (historical) |
-| v2 constitution + campus skeleton | **Done (this ship)** |
-| Human ratification (V2_CHECKLIST) | **Next** |
-| Study under v2 Path Alpha | Locked until ratification |
+| v2 constitution + campus skeleton | **Done** |
+| Human ratification (V2_CHECKLIST) | **Done** (2026-07-24) |
+| Study under v2 Path Alpha | **Unlocked** — Stage 0 pulse → M03 Concurrency deep track |
 | Skill runners / deepdive pilots | Later |
 | Progressive Library remap | Later |
-| Core World / evolving lab choice | Later |
+| Core World / evolving lab choice | Later — intent: [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) |
+| Handbook / Decision / Playbook trees | Blocked until Design (Architect cut) |
+| Design capture (Living University chat) | **Done** — [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) |
 
 ## Explicit non-goals (now)
 
 - Mass folder migration  
 - Absorbing private `career`  
 - Implementing all Cursor skill runners in this ship  
-- Path Alpha Evidence before ratification  
+- Creating Handbook warehouse roots  
 
 ## Governance index
 
@@ -68,5 +72,9 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [campus/V2_CHECKLIST.md](campus/V2_CHECKLIST.md) | Ratification gate |
 | [campus/skills/](campus/skills/) | Skill Factory registry |
 | [campus/CAREER_INTEGRATION.md](campus/CAREER_INTEGRATION.md) | Career OS hybrid |
-| [campus/paths/alpha.md](campus/paths/alpha.md) | Path Alpha (paused) |
+| [campus/paths/alpha.md](campus/paths/alpha.md) | Path Alpha (unlocked) |
 | [campus/LAYOUT_0.1.md](campus/LAYOUT_0.1.md) | Storage decisions (still valid) |
+| [campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md) | Chat → repo map + gaps |
+| [campus/LIVING_PRODUCT.md](campus/LIVING_PRODUCT.md) | Core World intent (pick later) |
+| [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
+| [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |

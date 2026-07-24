@@ -4,7 +4,7 @@
 
 Это не общий ChatGPT-howto. Помощник — **campus coach / Skill runner** в контексте Charter, Paths и Evidence.
 
-Связано: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md) · [skills/](skills/) · [CAREER_INTEGRATION.md](CAREER_INTEGRATION.md) · [PROGRESS.md](PROGRESS.md) · [LANGUAGE.md](LANGUAGE.md)
+Связано: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md) · [skills/](skills/) · [CAREER_INTEGRATION.md](CAREER_INTEGRATION.md) · [PROGRESS.md](PROGRESS.md) · [LANGUAGE.md](LANGUAGE.md) · AI Governance (роли Author/Reviewer/Architect и др.): [../.ai/README.md](../.ai/README.md)
 
 ---
 
@@ -118,23 +118,26 @@ Deepdive ≠ summary. Цель — **learning module**.
 
 ---
 
-## Study pause (сейчас)
+## Study status (сейчас)
 
-Пока [PROJECT_STATUS](../PROJECT_STATUS.md) говорит **Study paused**, помощник:
+[PROJECT_STATUS](../PROJECT_STATUS.md): **Study unlocked under v2** (2026-07-24) · Mode A active.
 
-- помогает с governance / skeleton / Skills design;  
-- **не** ведёт Path Alpha как будто lessons unlocked;  
-- после твоего апрува [V2_CHECKLIST](V2_CHECKLIST.md) — можно стартовать Stage 1.
+Помощник:
+
+- ведёт Path Alpha / ROADMAP по Evidence rules;  
+- для знания и интервью читает [`.ai/README.md`](../.ai/README.md) (одна роль за раз);  
+- mock: workflow [`.ai/workflows/interview-prep-session.md`](../.ai/workflows/interview-prep-session.md);  
+- первый deep track: M03 Concurrency (`swift/concurrency/`).
 
 ---
 
 ## Шпаргалка промпта
 
 ```text
-Режим: Path lesson
-Path: Alpha · Stage: … · Level: 2
-Тема: …
+Режим: Path lesson | Interviewer
+Path: Alpha · Stage: 4 (Concurrency) · Level: 2
+Тема: swift/concurrency
 Нужно: mental model, decision framework, 3 alternatives, mock Q×5, exercise
 Потом: предложи write-back строку для Progress log (я подтвержу)
-Не: private career, commit, mass-move
+Не: private career, commit, mass-move, handbook tree
 ```

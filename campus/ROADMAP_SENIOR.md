@@ -1,10 +1,10 @@
 # Roadmap — Senior iOS + постоянная база знаний
 
-**Статус:** curriculum spine (статьи ещё не писать)  
+**Статус:** curriculum spine · Study **unlocked** under v2 (2026-07-24) · Mode A active  
 **Горизонт:** 14–16 недель · 5–6 дней/нед · ~1.5–2.5 ч/день · ~140–180 ч  
 **Аудитория:** Student A (Senior iOS) · побочный эффект - интервью · Level 1 на ключевых темах - для Student B  
 **Path:** [Alpha](paths/alpha.md) · Evidence: [PROGRESS.md](PROGRESS.md)  
-**Study execution:** по-прежнему **paused** до ратификации [V2_CHECKLIST](V2_CHECKLIST.md) - этот файл можно читать и уточнять уже сейчас  
+**Study execution:** **unlocked** — Phase 4 / Mode A; первый deep track M03 Concurrency. Статьи массово не писать; улучшать канонические темы.  
 
 ## Решения (зафиксировано)
 

@@ -8,17 +8,18 @@ Coach: [ASSISTANT_MANUAL.md](../ASSISTANT_MANUAL.md).
 
 ## Study status
 
-**PAUSED** until [V2_CHECKLIST.md](../V2_CHECKLIST.md) ratified and [PROJECT_STATUS](../../PROJECT_STATUS.md) unlocks Study.
+**UNLOCKED** under v2 (2026-07-24). Mode A: [OPERATING_MODES.md](../OPERATING_MODES.md). Spine: [ROADMAP_SENIOR.md](../ROADMAP_SENIOR.md). AI OS: [../../.ai/README.md](../../.ai/README.md).
 
-Не начинай Stage 1 Evidence до unlock.
+Current focus: Stage 0 pulse complete on unlock → **M03 Concurrency** deep track (`swift/concurrency/`).
 
-## How to study (когда unlocked)
+## How to study
 
 1. Текущий stage + Level (обычно 2).  
 2. Library hooks + Skills.  
 3. Practice / lab.  
 4. Progress log row (Evidence).  
-5. Advance только с Evidence + mock gate.
+5. Advance только с Evidence + mock gate.  
+6. Interview sessions: [../../.ai/workflows/interview-prep-session.md](../../.ai/workflows/interview-prep-session.md).
 
 Language: [LANGUAGE.md](../LANGUAGE.md).
 
@@ -47,5 +48,7 @@ Daily: pulse → Levels → practice → mock → write-back.
 | Date | Topic | Status | Confidence | Evidence summary |
 |------|-------|--------|------------|------------------|
 | 2026-07-15 | University v2 constitution | — | — | Study paused — awaiting ratification |
+| 2026-07-24 | V2 ratification + Mode A unlock | learning | 4/5 | Human gate checked; Study unlocked; `.ai/` governance hardened |
+| 2026-07-24 | M03 Swift Concurrency (canonical) | learning | 3/5 | Architect keep `swift/concurrency`; Author passport+L1/L2+interview pack; dual-pass Reviewer; labs already in playgrounds |
 
 Mastery gate: Evidence + mock, not vibes.

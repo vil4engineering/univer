@@ -1,66 +1,102 @@
 # Concurrency
 
+- **Topic id:** `swift/concurrency`
+- **Faculty:** Mobile Systems
+- **Path heat:** Path Alpha Stage 4 · ROADMAP **M03**
+- **Status:** `learning`
+- **Confidence:** 3/5
+- **Interview Heat:** ★★★★★
+- **Levels present:** 1 / 2 (3 partial in notes)
+
+## Passport
+
+1. **What:** модель параллелизма Swift: `Task`, structured concurrency, actors, isolation, `Sendable`, cooperative cancellation.
+2. **Problem:** data races и непредсказуемый shared mutable state на многоядерных устройствах; callback hell и GCD без компиляторных гарантий.
+3. **Why it appeared:** ручные очереди/локи не масштабируются для безопасного async API и UI boundaries.
+4. **Before:** threads, GCD, OperationQueue, locks — работают, но гонки ловятся поздно.
+5. **Why not enough:** нет единой модели cancellation/lifetime; легко «потерять» работу или заблокировать main.
+6. **Modern approach:** Swift Concurrency — isolation + structured tasks; compiler assistance (strict concurrency).
+7. **Where next:** async testing, SwiftUI observation borders, networking pipelines; AI streaming — отдельные топики.
+8. **Where used:** почти любой iOS networking/UI update path, кэши, sync engines.
+
+## Level 1 — Intuition
+
+Один поток правды на кусок состояния (actor / MainActor). Дочерние задачи живут в иерархии родителя (structured). Отмена — кооперативная: проверяй `Task.isCancelled` / `try Task.checkCancellation()`.
+
+Аналогия: ресторан — официант (MainActor) не готовит на плите часами; кухня (background tasks) возвращает блюдо, когда готово.
+
+## Level 2 — Engineering
+
+- **Structured concurrency:** дочерние `Task` / `async let` привязаны к scope; ошибки и cancellation распространяются осмысленно.
+- **Unstructured:** `Task { }` с места sync — нужен явный lifetime; `Task.detached` не наследует isolation/`TaskLocal`.
+- **Actor:** сериализует доступ к своему состоянию; reentrancy — `await` может «впустить» другую работу.
+- **MainActor:** граница UI; тяжёлую синхронную работу туда не класть.
+- **Sendable:** разрешение пересекать границы изоляции без data race (не магия immutability для любого `class`).
+
+Default decision: shared mutable state → actor (или immutable value types); UI state → MainActor; long work → off MainActor, hop back.
+
+## What breaks (production)
+
+| Symptom | Check first |
+|---------|-------------|
+| UI freeze | sync work on MainActor; lock held across await |
+| Random crashes / TSan | non-Sendable crossing; unprotected class shared |
+| Duplicate requests | unstructured Task without coalescing/cancellation |
+| Leak / zombie work | detached or escaped Task after screen dismiss |
+| “Impossible” race on actor | reentrancy after await |
+
+Tools: Thread Sanitizer, Instruments (Time Profiler / Points of Interest), `os_signpost`, strict concurrency build settings.
+
+## Interview projection
+
+См. [notes/Interview-Pack.md](notes/Interview-Pack.md) — короткие ответы + ссылки сюда. Не дублировать полное объяснение в bank.
+
 ## Materials
 
-- Intro digest (social, URL TBD): [notes/Swift-Concurrency-Intro-Social.md](notes/Swift-Concurrency-Intro-Social.md) — playground [SwiftConcurrencyPrimer.playground](SwiftConcurrencyPrimer.playground)
-- Structured concurrency: [notes/Structured-Concurrency-What-Structured-Means.md](notes/Structured-Concurrency-What-Structured-Means.md) — [macguru.dev](https://macguru.dev/whats-that-structured-in-structured-concurrency/); playground [StructuredConcurrencyLab.playground](StructuredConcurrencyLab.playground)
+- Interview pack: [notes/Interview-Pack.md](notes/Interview-Pack.md)
+- Intro digest: [notes/Swift-Concurrency-Intro-Social.md](notes/Swift-Concurrency-Intro-Social.md) — [SwiftConcurrencyPrimer.playground](SwiftConcurrencyPrimer.playground)
+- Structured concurrency: [notes/Structured-Concurrency-What-Structured-Means.md](notes/Structured-Concurrency-What-Structured-Means.md) — [StructuredConcurrencyLab.playground](StructuredConcurrencyLab.playground)
+- Image loading lab: [ImageLoadingConcurrencyLab.playground](ImageLoadingConcurrencyLab.playground)
+- Actors vs queues: [ActorsQueuesLocksInterview.playground](ActorsQueuesLocksInterview.playground)
+- Related: [../async-defer/](../async-defer/) · ROADMAP [M03](../../campus/ROADMAP_SENIOR.md)
 
-- Playground: [ImageLoadingConcurrencyLab.playground](ImageLoadingConcurrencyLab.playground/Contents.swift)
+## Next
 
-### Actors vs Queues vs Locks (shared state)
+- Prerequisites: M02 Swift (value/ref, ARC mental model)
+- Labs: Primer · StructuredConcurrencyLab · ActorsQueuesLocks · ImageLoading
+- Follow-ups: async testing · MainActor VM boundaries · GCD migration notes in warehouse below
+- Skills: `interview-preparation` · workflow [`.ai/workflows/interview-prep-session.md`](../../.ai/workflows/interview-prep-session.md)
 
-## Topic structure
+## Open questions
 
-- `notes/` — Q&A + links to Apple docs
-- `exercises/` — exercises with expected outcome
-- `playgrounds/` — runnable examples
-- `assets/` — files and PDFs for this topic
+- [ ] Сжать/вычистить legacy warehouse секции ниже (пустые JUNIOR/MIDDLE stubs)
+- [ ] Добавить Level 3 onion: executors / priority (earned)
+- [ ] Evidence: failing race → fixed в playground (personal run)
+
+## Reviewer pass (2026-07-24)
+
+Verdict: **Request changes addressed in passport/L1/L2; Accept for learning bootstrap.**  
+Majors fixed: empty level stubs at top replaced with SoT passport.  
+Notes: legacy TL;DR blocks below still noisy — do not treat as second SoT; prefer notes/ + playgrounds. Architect: **keep** `swift/concurrency` (no merge/split this pass).
 
 ---
 
-## 🎯 Focus vs Defer
+## Warehouse notes (legacy inventory)
 
-### Defer
+Keep until progressive cleanup. Prefer passport + notes/ + playgrounds as SoT for study.
 
-## 📚 What to learn by level
+### Actors vs Queues vs Locks (shared state)
 
-### JUNIOR
+See playground [ActorsQueuesLocksInterview.playground](ActorsQueuesLocksInterview.playground).
 
-### MIDDLE
+## Exercises (pointers)
 
-### SENIOR
-
-### TECH LEAD
-
-### STAFF/PRINCIPAL
-
-## 🌟 Strategic (Senior+/Tech Lead)
-
-### Strict concurrency migration plan (large project)
-
-### Architecture patterns: `@MainActor-only` vs domain actors
-
-### Team enablement
-
-## 🏋️ Exercises (10) — required practice
-
-    Docs: `https://developer.apple.com/documentation/swift/withcheckedcontinuation(function:_:)`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Actors`
-
-    Docs (TSan/Xcode): `https://developer.apple.com/documentation/xcode/diagnosing-memory-thread-and-crash-issues-early`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Task-Cancellation`
-
-    Docs: `https://developer.apple.com/documentation/swift/asyncstream`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Actors`
-
-    Docs: `https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/`
+- Continuations: https://developer.apple.com/documentation/swift/withcheckedcontinuation(function:_:)
+- Swift Book Concurrency: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/
+- Actors: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Actors
+- TSan: https://developer.apple.com/documentation/xcode/diagnosing-memory-thread-and-crash-issues-early
+- Cancellation: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Task-Cancellation
+- AsyncStream: https://developer.apple.com/documentation/swift/asyncstream
 
 ---
 

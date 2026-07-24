@@ -20,8 +20,8 @@
 
 ## Human gate (you)
 
-- [ ] Прочитал Charter + ASSISTANT_MANUAL  
-- [ ] Согласен с SE center + dual AI  
-- [ ] Готов unlock Study → Path Alpha Stage 1 under v2  
+- [x] Прочитал Charter + ASSISTANT_MANUAL  
+- [x] Согласен с SE center + dual AI  
+- [x] Готов unlock Study → Path Alpha Stage 1 under v2  
 
-When checked: update PROJECT_STATUS «Study unlocked under v2» and start Evidence write-back.
+**Ratified:** 2026-07-24 — PROJECT_STATUS → Study unlocked under v2 · Mode A active. Evidence write-back started on Path Alpha.
