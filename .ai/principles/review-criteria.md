@@ -1,10 +1,13 @@
 # Principle: Review criteria
 
-**Official scoring bar for every chapter** (and flagship topic pages).
+**Official scoring bar for every chapter.**
+
+**Audience:** authors and Reviewers — **not students**.  
+Do not link this page from public Learn chrome (Home / student sidebar). Entry: [`.author/`](../../.author/).
 
 This is the SoT. Chat discussions are not the bar.  
-Operational checklist / paste shape: [../checklists/chapter-review.md](../checklists/chapter-review.md).  
-Durable journal: [`reviews/`](../../reviews/).  
+Operational checklist: [../checklists/chapter-review.md](../checklists/chapter-review.md).  
+Journal: [`reviews/`](../../reviews/).  
 Pedagogy: [teaching-model.md](teaching-model.md).  
 Lifecycle: [content-lifecycle.md](content-lifecycle.md).
 

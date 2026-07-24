@@ -5,5 +5,3 @@
 - [Faculties](/campus/faculties/)
 - [Labs](/campus/labs/)
 - [About](/README.md)
-
-- [Author hub](/campus/author/)

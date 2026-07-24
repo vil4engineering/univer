@@ -1,8 +1,8 @@
 # Principle: Teaching model
 
-**Primary pedagogy SoT of Engineering University** — the document that should still govern chapter 100.
+**Primary pedagogy SoT** — for **authors**, not a student lesson.
 
-This is not a style guide. It answers *why chapters are built this way*.
+Do not advertise this page on public Learn chrome. Human entry: [`.author/`](../../.author/).
 
 Sibling key SoTs:
 

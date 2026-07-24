@@ -26,11 +26,7 @@
 
 ---
 
-## Кто вы
+## Дальше
 
-| | |
-|--|--|
-| **Студент** | [Начать обучение](campus/paths/beta.md) · [Campus](campus/) |
-| **Автор** | [Author hub](campus/author/) — писать и ревьюить главы |
-
-Engineering University powered by [Campus OS](campus/) · [IA 1.0](campus/IA_1.0.md).
+[Campus](campus/) — пути, прогресс, лаборатории.  
+Engineering University powered by Campus OS.

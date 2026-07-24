@@ -1,37 +1,51 @@
 # IA 1.0 — Information Architecture
 
-**Status:** Binding epic · 2026-07-24  
-**Goal:** Make the public site answer in **10 seconds**: Where am I? Is this for me? What do I do next?  
-**Not the goal:** Write five more chapters before this is true.
+**Status:** Binding epic · updated 2026-07-24 (Creator Portal / Learn split)  
+**Goal:** 10-second Visitor test + **physical separation of Learn vs Engine**.  
+**Priority:** Above new chapters.
 
-Related: [DISPLAY_0.1.md](DISPLAY_0.1.md) · [LAYOUT_0.1.md](LAYOUT_0.1.md) · [author/](author/)
-
----
-
-## Diagnosis
-
-We mixed **three products** on one Home:
-
-| Product | Audience | Job |
-|---------|----------|-----|
-| **A. Public University** | Visitor, student, external engineer | Learn; trust; start |
-| **B. Campus OS** | Enrolled student, future teachers | Progress, Evidence, modes, labs rhythm |
-| **C. Author SDK** | Owner, authors, AI agents | teaching-model, lifecycle, chapter-fill, reviews |
-
-Publishing B+C as Home is like opening Apple.com on Design System + Release Workflow.
-
-**Main risk:** not “too many links” — **mixed levels of abstraction** on one screen (philosophy + path + AI SDK + project ops + catalog + lesson).
+Related: [DISPLAY_0.1.md](DISPLAY_0.1.md) · [`.author/`](../.author/) · [LAYOUT_0.1.md](LAYOUT_0.1.md)
 
 ---
 
-## Roles (official)
+## Three layers (official)
 
-| Role | 10-second need | Primary surface |
-|------|----------------|-----------------|
-| **Visitor** | What is this? Start? | [Public Home](../README.md) |
-| **Student** | My path, next chapter, practice | Paths · Part I · chapters · thin Campus |
-| **Author** | Ship / review a chapter | [Author hub](author/) |
-| **AI** | How to change the graph safely | [`AGENTS.md`](../AGENTS.md) · [`.ai/`](../.ai/) — **never** student nav |
+| Layer | Name | Audience | Lives where | On public Learn chrome? |
+|-------|------|----------|-------------|-------------------------|
+| **1** | **Learning** | Visitor, student | Home · Paths · Chapters · Labs · Faculties · Campus (study) | **Yes** |
+| **2** | **Authoring** | Authors, teachers | [`.author/`](../.author/) · reviews · TOPIC_TEMPLATE | **No** |
+| **3** | **Engineering** | Owner, AI agents | [`.ai/`](../.ai/) · AGENTS · status · metamodel | **No** |
+
+Analogy: MIT students do not see accreditation checklists on the lobby wall. Those exist backstage.
+
+**Product names:**
+
+- **Engineering University** = Layer 1 (public product)  
+- **Campus OS** = study OS inside Layer 1 (paths, progress, labs)  
+- **Creator Portal / University Engine** = Layer 2 + 3 ([`.author/`](../.author/) + [`.ai/`](../.ai/))
+
+---
+
+## Why review-criteria must not be “on the web” for students
+
+`review-criteria`, `teaching-model`, `content-lifecycle`, chapter-fill, prompts — are **Authoring**, not lessons.
+
+If they appear in the student sidebar or Home, the visitor asks: *Do I need to read this?*  
+Answer: **no** → they must not compete with chapters.
+
+Files may still exist in the git repo / deep URLs (GitHub Pages hosts the tree).  
+**Publication rule:** not linked from Learn chrome (Home, student sidebar, Campus study map).
+
+---
+
+## Roles
+
+| Role | Surface |
+|------|---------|
+| **Visitor** | [Home](../README.md) |
+| **Student** | Paths · Part I · chapters · Campus |
+| **Author** | [`.author/`](../.author/) (repo) |
+| **AI** | [AGENTS.md](../AGENTS.md) · [`.ai/`](../.ai/) |
 
 ---
 
@@ -39,154 +53,59 @@ Publishing B+C as Home is like opening Apple.com on Design System + Release Work
 
 | Surface | Visitor | Student | Author | AI |
 |---------|---------|---------|--------|-----|
-| Public Home (`README`) | **Primary** | Entry | Link only (footer) | No |
-| Sidebar (default) | ≤7 learning links | Same | One “Author” link | No |
-| Campus (student) | Optional | **Primary OS** | Link to Author hub | No |
-| Author hub | No | No | **Primary** | Linked |
-| `.ai/`, AGENTS | No | No | Via hub | **Primary** |
-| PROJECT_STATUS, metamodel, session protocol | No | No | Hub | Hub |
-| Chapter Reader Header | — | **Primary** | Engineering `<details>` | — |
-
-**Rule:** if a doc helps *build* the university, it is Author/AI — not Visitor Home.
+| Public Home | Primary | Entry | **No** | No |
+| Docsify sidebar | Learn only | Learn only | **No** | No |
+| Campus (study) | Optional | Primary | No kitchen links | No |
+| `.author/` Creator Portal | No | No | **Primary** | Linked |
+| `.ai/` · AGENTS | No | No | Via portal | **Primary** |
+| teaching-model · review-criteria · lifecycle | No | No | Yes | Yes |
 
 ---
 
-## Public Home contract (product A)
+## Public Home contract
 
-Must answer only:
-
-1. **Where am I?** — Engineering University (learning product)  
-2. **Is this for me?** — CS / SE / systems from first principles → Senior  
-3. **What next?** — one obvious **Начать обучение**
-
-Allowed blocks:
-
-- Value proposition (outcome for the learner — not author biography)  
-- Start Learning (Beta / Alpha)  
-- Why different (≤4 bullets)  
-- Optional: About (short)  
-- Footer: site / org · tiny Author link  
-
-**Forbidden on Home:**
-
-- Chapter-fill, teaching-model, review criteria, content lifecycle  
-- Operating modes, Evidence vocabulary, Skill Factory, metamodel  
-- DESIGN capture, Living Product, Code contract, Session protocol  
-- “Long-term system for two students…” as hero (author intent ≠ visitor value)  
-- File-index Campus with 20+ peer links  
-
-**Copy test:** hero must answer *what I get*, not *how the author designed the repo*.
-
-Preferred tone (RU live Home):
-
-- Soft promise: principles → level needed by a modern Software Engineer (not a guaranteed “Senior” title).  
-- Anti-catalog + **mental model / картина мира**.  
-- Manifesto line: chapters answer *why*, not “what is the term.”  
-- Product split: **Engineering University** (public) powered by **Campus OS** (study OS) · Author SDK behind Author hub.
+Only Layer 1. Soft promise · mental model · manifesto · Start Learning.  
+No Author / AI / review-criteria / teaching-model.
 
 ---
 
-## Campus OS contract (product B)
-
-Student after entry. Thin map:
-
-- Paths · Part I · Faculties · Labs · Library · Progress  
-- Coach manual / roadmap only as *study* aids  
-- One door to Author hub — not a dump of OS internals  
-
-Operating modes, session protocol, linking rules, code contract → **Author hub** (or linked from Progress when student needs them), not Home.
-
----
-
-## Author SDK contract (product C)
-
-[Author hub](author/) aggregates:
-
-- Platform SoTs (teaching-model · review-criteria · content-lifecycle)  
-- chapter-fill · prompts · reviews  
-- PROJECT_STATUS · governance · display/layout  
-- AGENTS / `.ai/` pointer  
-
-AI does not get a human sidebar section.
-
----
-
-## Default sidebar (IA 1.0 target)
-
-≤7 learning items + Author:
+## Default sidebar (Learn only)
 
 ```text
 Home
 Начать обучение
 Learning Paths
-Part I · Foundations
+Part I
 Faculties
 Labs
-About (short / Home anchor)
-──
-Author hub
+About
 ```
 
-No Progress / Library / Gamma / single chapter / AI docs in the default rail (reachable from Path / Campus).
+**No** Author hub. **No** Creator Portal. **No** `.ai` docs.
 
 ---
 
-## Journeys
+## Creator Portal entry
 
-### Visitor → Student (Beta)
+Repo path: [`.author/README.md`](../.author/README.md)
 
-1. Home → Начать обучение  
-2. Path Beta → Part I / 0  
-3. Read chapter (Student Mode header)  
-4. Practice · optional Progress log  
+Canonical SoTs remain under `.ai/principles/` (agents). Portal **indexes** them for humans — no duplicate essays.
 
-### Visitor → Student (Alpha)
-
-1. Home → Path Alpha  
-2. ROADMAP / deep track  
-3. Evidence on path  
-
-### Author
-
-1. Author hub → SoTs → chapter-fill → DESIGN → review → Publish  
-
-### AI
-
-1. AGENTS → `.ai/` constitution → one role → lifecycle  
+Future (optional): physical move of author-facing copies into `.author/` when links are batch-updated — not required to fix Learn pollution.
 
 ---
 
-## Acceptance (IA 1.0 Done)
+## Acceptance
 
-- [ ] Stranger can state product + next click in 10s (Owner or external smoke)  
-- [ ] Home has **no** Author SDK / Campus OS internals  
-- [ ] Default sidebar ≤7 learning links + Author  
-- [ ] Author hub is the only kitchen index  
-- [ ] `.ai/` not advertised on Home  
-- [ ] DISPLAY + this file agree; no third competing IA story  
-
----
-
-## Non-goals (this epic)
-
-- New curriculum chapters  
-- Custom React shell  
-- Hiding Author hub from the repo (only from Visitor primary chrome)  
-- Deleting Campus OS docs — **relocate visibility**, don’t destroy  
+- [x] Author / review-criteria **removed** from student sidebar  
+- [x] Home has **no** Author/AI CTA  
+- [x] `.author/` Creator Portal exists  
+- [ ] Owner 10s smoke on Pages (Learn only)  
+- [ ] Owner Agree below  
 
 ---
 
-## Delivery order
+### Owner decision
 
-1. This epic doc (binding)  
-2. Ruthless Home + sidebar (aligned to matrix)  
-3. Campus student page stays thin; kitchen only in Author hub  
-4. Smoke: hard-refresh Pages · 10-second test  
-5. Only then — next Part I chapter  
-
----
-
-## Owner decision
-
-- [ ] Agree IA 1.0 as current product priority over new chapters  
+- [ ] Agree Learn ↔ Engine split (Creator Portal)  
 - [ ] Override (why):
