@@ -77,10 +77,12 @@ Allowed blocks:
 
 **Copy test:** hero must answer *what I get*, not *how the author designed the repo*.
 
-Good direction:
+Preferred tone (RU live Home):
 
-> Learn Computer Science and Software Engineering from first principles — from beginner intuition to Senior engineering.  
-> (RU equivalent on the live Home.)
+- Soft promise: principles → level needed by a modern Software Engineer (not a guaranteed “Senior” title).  
+- Anti-catalog + **mental model / картина мира**.  
+- Manifesto line: chapters answer *why*, not “what is the term.”  
+- Product split: **Engineering University** (public) powered by **Campus OS** (study OS) · Author SDK behind Author hub.
 
 ---
 
