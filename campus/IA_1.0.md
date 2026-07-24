@@ -94,14 +94,15 @@ No Author / AI / review-criteria / teaching-model.
 ## Default sidebar (Learn only)
 
 ```text
-Home
+Home              → addressed to Timur; About lives here (no separate About nav)
 Начать обучение   → Foundations (Learning Path Beta) — base layer
 Траектории        → one knowledge graph; paths = traversal order (not 3 courses)
 Execution Spine   → first Foundations module (file: fundamentals/PART_I.md — legacy id)
 Faculties         → where topics live in the graph
 Labs
-About             → product story later; README is temporary
 ```
+
+**No About in sidebar.** Product story / why this university = Home only.
 
 **Paths model:** Beta / Alpha / Gamma are **trajectories** through one universe, not competing curricula.  
 Student page titles: Foundations · Software Engineering · AI Engineering (internal ids: Path Beta / Alpha / Gamma).

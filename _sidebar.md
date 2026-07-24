@@ -4,4 +4,3 @@
 - [Execution Spine](/fundamentals/PART_I.md)
 - [Faculties](/campus/faculties/)
 - [Labs](/campus/labs/)
-- [About](/README.md)

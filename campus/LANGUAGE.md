@@ -8,7 +8,7 @@ Agent principle (same policy): [../.ai/principles/language.md](../.ai/principles
 | Layer | Language |
 |-------|----------|
 | Explanations, mental models, campus prose | **Russian** (RU-primary) |
-| Address the reader | **ты** — пишем сыну, не «аудитории курса» |
+| Address the reader | **ты** — пишем сыну (Тимур), не «аудитории курса» |
 | Terms, API names, identifiers, Apple/WWDC vocabulary | **English as-is** (`Task`, `Actor`, `ARC`, `Sendable` — not calques) |
 | Interview English | Optional dedicated blocks for spoken answers — not a full page twin |
 

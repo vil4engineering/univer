@@ -30,7 +30,7 @@ Do **not** invent artificial translations (no calques like «отправщик�
 | Layer | Language |
 |-------|----------|
 | Explanations, mental models, campus / path / faculty / topic prose | Russian |
-| Reader address (Learning layer) | **ты** — written for the owner’s son, not a generic course audience |
+| Reader address (Learning layer) | **ты** — written for Timur (owner’s son), not a generic course audience |
 | Industry terms, APIs, identifiers, WWDC / Apple vocabulary | English as-is |
 | Spoken interview practice | Optional **English for Interview** blocks — not a full-page twin |
 | `.ai/` governance (this directory) | English — agent operating language |
