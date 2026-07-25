@@ -34,7 +34,7 @@ iOS apps persist data in **UserDefaults**, **Keychain**, **files** (Documents / 
 
 - **Persistent store** — SQLite file (or in-memory) behind Core Data stack.
 - **NSManagedObjectContext** — unit of work; queue-confined (`main` or `private`).
-- **NSManagedObjectID** — stable token to re-fetch object on another context/thread.
+- **NSManagedObjectID** — opaque identity: pass across contexts/threads; archive **permanent** ID via `uriRepresentation()` to reopen after relaunch (temporary IDs change on save). See [`notes/NSManagedObjectID-Persistence.md`](notes/NSManagedObjectID-Persistence.md).
 - **Fetch request** — query with predicates, sort descriptors, batching (`fetchBatchSize`).
 - **Fault** — lazy placeholder; firing fault loads data; batch faults reduce round-trips.
 - **Merge policy** — how parent resolves child saves (`NSErrorMergePolicy`, property-level).
@@ -66,6 +66,10 @@ iOS apps persist data in **UserDefaults**, **Keychain**, **files** (Documents / 
 - Playgrounds: `playgrounds/`
 
 ### Recent notes
+
+- [NSManagedObjectID — persist across launches?](notes/NSManagedObjectID-Persistence.md) — URI bookmark, temporary vs permanent, restore with `existingObject(with:)` (**Q54**).
+- [Core Data + Observation](notes/Core-Data-Observation.md) — SwiftUI property-level updates / CDE (**Q50**).
+- [SQLite vs NoSQL vs Core Data vs SwiftData](notes/SQLite-NoSQL-Core-Data-SwiftData.md) — layer choice (**Q49**, **Q51–Q53**).
 
 ---
 
@@ -111,5 +115,10 @@ iOS apps persist data in **UserDefaults**, **Keychain**, **files** (Documents / 
 - **Follow-up:** 30-second interview answer?
 
 - **Follow-up answer:** Copy-paste EN/RU blocks in [`notes/SQLite-NoSQL-Core-Data-SwiftData.md`](notes/SQLite-NoSQL-Core-Data-SwiftData.md#copy-paste-30-second-interview-answer).
+
+### Q54
+- **Question:** What is `NSManagedObjectID`? Can we keep it after the app closes?
+
+- **Answer:** Opaque Core Data identity. Across threads — pass the ID and re-fault on the target context. Across launches — archive a **permanent** ID with `uriRepresentation()`, restore via `managedObjectID(forURIRepresentation:)` + `existingObject(with:)`. Temporary IDs change on save — do not persist them. Detail: [`notes/NSManagedObjectID-Persistence.md`](notes/NSManagedObjectID-Persistence.md).
 
 <!-- knowledge-cards-canonical:end -->
