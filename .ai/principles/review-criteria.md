@@ -19,7 +19,7 @@ Author must not Accept their own draft ([../workflows/dual-pass-review.md](../wo
 
 | Gate | Question |
 |------|----------|
-| **Beginner** | Will a beginner (and a child years from now) understand? |
+| **Beginner** | Will a beginner (and a child years from now) understand? Living short prose — not a dry lecture or unexplained jargon stack ([writing.md](writing.md) § Living chapter prose). |
 | **Engineer** | Is this useful in real work? |
 | **Interview** | Does this help answer an interviewer? |
 | **University** | Will this still matter in ~10 years? |

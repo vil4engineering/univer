@@ -31,6 +31,7 @@ Do **not** invent artificial translations (no calques like «отправщик�
 |-------|----------|
 | Explanations, mental models, campus / path / faculty / topic prose | Russian |
 | Reader address (Learning layer) | **ты** — written for Timur (owner’s son), not a generic course audience |
+| Chapter prose feel | Living, short, concrete — [writing.md](writing.md) § Living chapter prose |
 | Industry terms, APIs, identifiers, WWDC / Apple vocabulary | English as-is |
 | Spoken interview practice | Optional **English for Interview** blocks — not a full-page twin |
 | `.ai/` governance (this directory) | English — agent operating language |

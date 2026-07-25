@@ -21,12 +21,14 @@ Process: [../workflows/chapter-fill.md](../workflows/chapter-fill.md).
 - .ai/principles/content-philosophy.md
 - .ai/principles/chapter-shape.md
 - .ai/principles/language.md
+- .ai/principles/writing.md   ← Living chapter prose
 - campus/TOPIC_TEMPLATE.md
 - .ai/checklists/topic.md
 
 ## Язык
 
 RU-primary. EN terms as-is. Без искусственных переводов терминов.
+Голос: **ты**, живое короткое изложение (см. writing.md § Living chapter prose).
 
 ## Правила
 
@@ -34,6 +36,8 @@ RU-primary. EN terms as-is. Без искусственных переводов
 - Идеи и почему раньше как.
 - История — рассказ, не даты ради дат.
 - Справочник запрещён.
+- Форму секций держи; язык упрощай: короткие абзацы, картинка раньше термина, тяжёлый жаргон — объяснить или отложить.
+- Внутри / Production — лёгкий мост или честный stub; не мини-глава следующей темы и не каталог багов.
 - Короткие блоки · таблицы · callout · диаграммы из DESIGN (вставь Mermaid).
 - Stub честно то, что DESIGN пометил deferred (особенно «Внутри» / L3).
 - Интервью — проекция, не второй учебник (можно вынести pack в notes/).

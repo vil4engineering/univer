@@ -24,6 +24,7 @@ Prefer improving an existing file over creating a new one. If creation is requir
 - Add examples; note gaps for diagram / lab / production / interview as TODOs when not ready
 - Cross-link related concepts
 - Use RU-primary + EN terms for published campus content
+- Keep living short prose inside chapter-shape ([../principles/writing.md](../principles/writing.md) § Living chapter prose)
 - Leave Open questions when unknown
 
 ## Do not

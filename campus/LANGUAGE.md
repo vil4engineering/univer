@@ -13,7 +13,8 @@ Agent principle (same policy): [../.ai/principles/language.md](../.ai/principles
 | Interview English | Optional dedicated blocks for spoken answers — not a full page twin |
 
 **Russian** is the explanation language. **English** is the engineering language.  
-**Voice:** warm, direct, second person singular (`ты` / imperative `научись`, `открой`) — not formal `вы` and not marketing plural.
+**Voice:** warm, direct, second person singular (`ты` / imperative `научись`, `открой`) — not formal `вы` and not marketing plural.  
+**Prose feel:** living and short — concrete images, everyday verbs, heavy terms explained or deferred. Keep chapter-shape sections; lighten the language inside them. Binding detail: [`.ai/principles/writing.md`](../.ai/principles/writing.md) § Living chapter prose.
 
 Readers should become comfortable with Apple Documentation, Swift Evolution, WWDC, papers, RFCs, and technical books — without artificial RU translations of standard terms.
 

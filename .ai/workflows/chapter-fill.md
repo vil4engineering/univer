@@ -27,6 +27,7 @@ reviews/                          ← журнал ревью (глава = пр
 | [content-philosophy.md](../principles/content-philosophy.md) | идеи > технологии; история; рефлексия |
 | [chapter-shape.md](../principles/chapter-shape.md) | секции |
 | [language.md](../principles/language.md) | RU explain · EN terms |
+| [writing.md](../principles/writing.md) | Living chapter prose (short · concrete · light jargon) |
 | [campus/TOPIC_TEMPLATE.md](../../campus/TOPIC_TEMPLATE.md) | Markdown chrome |
 | [constitution.md](../constitution.md) | 10 правил |
 

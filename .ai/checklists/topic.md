@@ -37,6 +37,7 @@ Use before accepting Author work. Reviewer may paste results into their verdict.
 ## Language / boundaries
 
 - [ ] RU-primary + EN terms (published campus content); no artificial term translations ([../principles/language.md](../principles/language.md))
+- [ ] Living chapter prose: short paragraphs, concrete images, heavy terms explained or deferred; Внутри/Production light ([../principles/writing.md](../principles/writing.md) § Living chapter prose)
 - [ ] No private career facts / invented experience
 - [ ] Constitution respected
 

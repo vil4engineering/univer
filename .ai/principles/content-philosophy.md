@@ -85,7 +85,8 @@ Align headings with [chapter-shape.md](chapter-shape.md). Depth = Levels 1–3.
    End with an explicit reflection (see below). Memorizing definitions is not the goal.
 
 6. **Story over encyclopedia.**  
-   Ban reference-manual chapter bodies. Narrative that makes the next section worth opening. Facts still must be accurate.
+   Ban reference-manual chapter bodies. Narrative that makes the next section worth opening. Facts still must be accurate.  
+   Prose must stay **living and short** — [writing.md](writing.md) § Living chapter prose (Owner-ratified).
 
 7. **History serves the idea.**  
    History > dump of dates. Only enough to explain why the modern solution looks this way (~5–10% of the chapter).
@@ -131,6 +132,7 @@ Reject or request rewrite when:
 - Chapter is a glossary of APIs **or of language terms** (variable/function/class spine) with no problem spine  
 - Title says *what* while body answers *why* (or the reverse) without Owner rename  
 - Opens with definition before stakes  
+- Accurate but dry lecture / unexplained jargon stack (fails Beginner; see writing.md Living prose)  
 - No path from idea → implementation → trade-off  
 - Interview block re-teaches the whole essay  
 - Diagram is ornamental  

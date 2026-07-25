@@ -7,6 +7,8 @@
 **Interview Heat:** ★★  
 **Levels:** 1–2 обязательны · 3 = физика двух состояний (мост, не глава Binary)
 
+**Voice (Owner):** живое короткое изложение утверждено как эталон *feel* для Foundations — см. [writing.md](../../.ai/principles/writing.md) § Living chapter prose. При Write предпочитать этот тон (короткие абзацы, картинка раньше термина, Production = «дырка в инструкции»; Внутри — лёгкий мост к Binary).
+
 **Pipeline:** [chapter-fill](../../.ai/workflows/chapter-fill.md) · [chapter-shape](../../.ai/principles/chapter-shape.md)  
 **Предыдущая:** [why programming](../what-is-programming/) · **Следующая (план):** Binary / исполнение (гл. 2–3 — уточнить при Write)
 
