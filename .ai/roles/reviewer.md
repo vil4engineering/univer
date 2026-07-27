@@ -68,6 +68,7 @@ Escalate to Mentor?: yes/no — why
 ```
 
 - Dual-pass required before Accept: [../workflows/dual-pass-review.md](../workflows/dual-pass-review.md)
+- Repo-wide cadence: [../workflows/monthly-audit.md](../workflows/monthly-audit.md) (report only; journal [`reviews/audits/`](../../reviews/audits/))
 - Prefer a different model when available
 - Structure issues → Architect; learnability → Mentor notes OK but not a rewrite
 

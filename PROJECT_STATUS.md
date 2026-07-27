@@ -3,7 +3,7 @@
 **Project:** Engineering Builder  
 **Version:** **v2 constitution + campus skeleton**  
 **Phase:** v2 · **Study unlocked under v2** · Mode A Interview Bootcamp active  
-**Date:** 2026-07-24
+**Date:** 2026-07-26
 
 ## Current state
 
@@ -70,6 +70,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Home IA / Creator Portal | **Learn chrome cut** — [IA 1.0](campus/IA_1.0.md) · [`.author/`](.author/) · no Author in sidebar |
 | Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
 | Content review journal | **Started** — [`reviews/`](reviews/) |
+| Monthly base audit workflow | **Live** — [`.ai/workflows/monthly-audit.md`](.ai/workflows/monthly-audit.md) · last run [2026-07](reviews/audits/2026-07-monthly-audit.md) |
 
 
 
@@ -98,6 +99,8 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | [.ai/principles/review-criteria.md](.ai/principles/review-criteria.md) | Official chapter score bar |
 | [.ai/principles/content-lifecycle.md](.ai/principles/content-lifecycle.md) | Content SDLC · chapter = product |
 | [.ai/workflows/chapter-fill.md](.ai/workflows/chapter-fill.md) | Playbook: design → publish |
+| [.ai/workflows/monthly-audit.md](.ai/workflows/monthly-audit.md) | Reviewer-only monthly / off-cycle base audit |
+| [reviews/audits/](reviews/audits/) | Monthly audit journal |
 | [.ai/README.md](.ai/README.md) | AI Governance Layer (agents read first) |
 | [AGENTS.md](AGENTS.md) | Thin committed agent entrypoint → `.ai/` |
 | [fundamentals/PART_I.md](fundamentals/PART_I.md) | Execution Spine module map (legacy filename PART_I) |

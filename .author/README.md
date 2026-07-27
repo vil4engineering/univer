@@ -27,7 +27,7 @@ Students must **not** see this in the Docsify sidebar. Authors open it from the 
 | [chapter-shape](../.ai/principles/chapter-shape.md) | Section spine |
 | [TOPIC_TEMPLATE](../campus/TOPIC_TEMPLATE.md) | Markdown chrome |
 
-Playbook: [chapter-fill](../.ai/workflows/chapter-fill.md).
+Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [monthly-audit](../.ai/workflows/monthly-audit.md) (Reviewer only).
 
 Path Alpha author map: [paths-alpha.md](paths-alpha.md).
 

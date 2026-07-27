@@ -74,6 +74,7 @@ Trigger phrases (any close variant counts — including RU-layout typos like `ш
 | Human says (examples) | Agent does |
 |-----------------------|------------|
 | `/saved` · `inbox` · `штищч` · «переберём инбокс в тг» · «перебери Saved» · «TG inbox» · «inbox zero Saved» | **Maxim only.** Open [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md) + [`intake/RULES.md`](intake/RULES.md). Triage Saved **one item at a time** (analyze → options → wait → act). Do not auto-start on every chat. |
+| `/audit` · `monthly audit` · «месячный аудит» · «прогони monthly audit» · «аудит базы» | **Maxim only.** Open [`.ai/workflows/monthly-audit.md`](.ai/workflows/monthly-audit.md). Reviewer only — report, do not rewrite. Log run under [`reviews/audits/`](reviews/audits/). |
 
 ## Learning vs authoring
 
@@ -84,6 +85,7 @@ Trigger phrases (any close variant counts — including RU-layout typos like `ш
 | Author a full chapter (Design gate) | [`.author/`](.author/) · `chapter-fill` | **Maxim** (Timur may draft text only into existing slot) |
 | Tiny fix on existing page | [`.ai/workflows/improve-topic.md`](.ai/workflows/improve-topic.md) | Both for prose; Maxim for structure |
 | TG Saved inbox-zero | [`.ai/workflows/tg-saved-triage.md`](.ai/workflows/tg-saved-triage.md) | **Maxim** |
+| Monthly / off-cycle base audit | [`.ai/workflows/monthly-audit.md`](.ai/workflows/monthly-audit.md) | **Maxim** (Reviewer only) |
 | Architecture / IA / sidebar | IA_1.0 · DISPLAY | **Maxim only** |
 
 ## Conventions

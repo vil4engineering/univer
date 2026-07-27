@@ -25,4 +25,4 @@ Escalate Architect/Mentor?: ...
 
 Interviewer must not debrief/explain in the same breath as Author rewrite unless Owner asks for debrief mode. Separate: Interviewer session → later Author fixes → dual-pass Reviewer.
 
-Related: [../collaboration.md](../collaboration.md) · [improve-topic.md](improve-topic.md)
+Related: [../collaboration.md](../collaboration.md) · [improve-topic.md](improve-topic.md) · [monthly-audit.md](monthly-audit.md)

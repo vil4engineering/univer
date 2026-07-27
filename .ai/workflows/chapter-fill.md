@@ -104,6 +104,7 @@ reviews/                          ← журнал ревью (глава = пр
 
 - [improve-topic.md](improve-topic.md) - точечные правки
 - [dual-pass-review.md](dual-pass-review.md)
+- [monthly-audit.md](monthly-audit.md) — repo-wide Reviewer cadence (not a substitute for chapter Accept)
 - [../checklists/chapter-review.md](../checklists/chapter-review.md)
 - [../../reviews/](../../reviews/) - журнал ревью глав
 - [interview-prep-session.md](interview-prep-session.md) - учёба, не написание главы

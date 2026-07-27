@@ -30,7 +30,8 @@ Campus OS (Paths, Skills, Evidence) stays in `campus/`. Private career stays out
 5. Matching [workflows/](workflows/) playbook when improving a topic or running interview prep
 6. Matching prompt from [prompts/](prompts/) if creating or improving an artifact
 7. Matching checklist from [checklists/](checklists/) before claiming done
-8. Dual-pass Reviewer ([workflows/dual-pass-review.md](workflows/dual-pass-review.md)) — Author must not self-accept
+8. Dual-pass Reviewer ([workflows/dual-pass-review.md](workflows/dual-pass-review.md)) — Author must not self-accept  
+9. Monthly / off-cycle base audit ([workflows/monthly-audit.md](workflows/monthly-audit.md)) — Reviewer only; Owner-triggered
 
 Do not skip the constitution. Do not load every role at once. Pick one role per task.
 
