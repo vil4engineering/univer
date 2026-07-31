@@ -22,6 +22,7 @@
 - Mobile Systems
   - [Обзор](/campus/faculties/mobile-systems.md)
   - [Зачем Swift](/swift/what-is-swift/)
+  - [Method Dispatch](/swift/method-dispatch/)
   - [Concurrency](/swift/concurrency/)
 - AI
   - [Обзор](/campus/faculties/ai.md)

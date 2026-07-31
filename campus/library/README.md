@@ -23,6 +23,7 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 - [Syntax & Idioms](../../swift/syntax/) — `swift/syntax/`
 - [Protocols](../../swift/protocols/) — `swift/protocols/`
 - [Types & Generics](../../swift/types-generics/) — `swift/types-generics/`
+- [Method Dispatch](../../swift/method-dispatch/) — `swift/method-dispatch/`
 - [Memory & ARC](../../swift/memory-arc/) — `swift/memory-arc/`
 - [Concurrency](../../swift/concurrency/) — `swift/concurrency/`
 - [Async cleanup with defer](../../swift/async-defer/) — `swift/async-defer/`

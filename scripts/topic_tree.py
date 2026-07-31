@@ -19,6 +19,7 @@ TOPIC_TREE = {
             "syntax": "Syntax & Idioms",
             "protocols": "Protocols",
             "types-generics": "Types & Generics",
+            "method-dispatch": "Method Dispatch",
             "memory-arc": "Memory & ARC",
             "concurrency": "Concurrency",
             "async-defer": "Async cleanup with defer",

@@ -204,7 +204,7 @@ Interview Q&A below.
 ### Q48
 - **Question:** How do stack/heap relate to method dispatch? What are vtable, witness table, static dispatch?
 
-- **Answer:** Stack/heap describe **where** values live; **dispatch** chooses **which function runs**. **Static** = direct call. **Classes** = **vtable** in metadata. **Protocols** = **witness tables** (+ value witnesses for existentials). **Obj-C interop** = `objc_msgSend` / runtime.
+- **Answer:** Stack/heap describe **where** values live; **dispatch** chooses **which function runs**. **Static** = direct call. **Classes** = **vtable** in metadata. **Protocols** = **witness tables** (+ value witnesses for existentials). **Obj-C interop** = `objc_msgSend` / runtime. Full chapter: [Method Dispatch](../method-dispatch/).
 
 ### Q49
 - **Question:** Under the hood: `var b = a` for structs then mutate `b`; passing `struct` by value vs `inout`?

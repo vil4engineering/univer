@@ -28,6 +28,7 @@
 | [CI/CD](#glossary-ci-cd) | Infrastructure | Автосборка, тесты, доставка |
 | [Compiler](#glossary-compiler) | Computer Science | Перевод языка → machine code |
 | [CPU](#glossary-cpu) | Computer Science | Исполнитель machine code |
+| [Dynamic Dispatch](#glossary-dynamic-dispatch) | Mobile · Swift / Runtime | Obj-C message send (`objc_msgSend`) |
 | [JSON](#glossary-json) | Backend · Data | Текстовый обмен данными |
 | [LLM](#glossary-llm) | AI | Языковая модель (см. Dictionary) |
 | [Machine Code](#glossary-machine-code) | Computer Science | Инструкции для CPU |
@@ -39,8 +40,11 @@
 | [Retain cycle](#glossary-retain-cycle) | Mobile · Memory / ARC | Взаимные strong → утечка |
 | [SOLID](#glossary-solid) | Architecture | Пять принципов дизайна ООП |
 | [SPM](#glossary-spm) | Mobile · Tooling | Swift Package Manager |
+| [Static Dispatch](#glossary-static-dispatch) | Mobile · Swift / Runtime | Прямой вызов; адрес на compile time |
 | [Task](#glossary-task) | Mobile · Concurrency | Единица structured concurrency |
 | [URLSession](#glossary-urlsession) | Mobile · Networking | HTTP(S) клиент Apple |
+| [Vtable](#glossary-vtable) | Mobile · Swift / Runtime | Таблица методов class для override |
+| [Witness Table](#glossary-witness-table) | Mobile · Swift / Runtime | Таблица соответствия протоколу |
 | [unowned](#glossary-unowned) | Mobile · Memory / ARC | Не-Optional ссылка без retain |
 | [weak](#glossary-weak) | Mobile · Memory / ARC | Optional ссылка без retain |
 
@@ -171,6 +175,26 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 
 <a id="glossary-existential"></a>
 **Existential** — type `any P`: runtime “box” for any conformance to protocol `P` (existential container / witness table).
+
+<a id="glossary-static-dispatch"></a>
+**Static Dispatch** · *Mobile · Swift / Runtime*
+
+Зачем: вызвать метод по адресу, известному на compile time — без поиска в таблице в runtime. Типично для `struct` / `enum`, `final`, часто после specialization generics. Глубже: [method dispatch](../swift/method-dispatch/).
+
+<a id="glossary-vtable"></a>
+**Vtable** · *Mobile · Swift / Runtime*
+
+Зачем: выбрать реализацию метода class по динамическому типу (в т.ч. `override`), когда переменная объявлена базовым типом. Таблица указателей живёт в metadata объекта. Глубже: [method dispatch](../swift/method-dispatch/).
+
+<a id="glossary-witness-table"></a>
+**Witness Table** · *Mobile · Swift / Runtime*
+
+Зачем: связать existential протокола (`any P`) с конкретной реализацией требований у скрытого типа. Не путать с vtable class и с generic constraint (там часто static). Глубже: [method dispatch](../swift/method-dispatch/).
+
+<a id="glossary-dynamic-dispatch"></a>
+**Dynamic Dispatch** · *Mobile · Swift / Runtime*
+
+Зачем: резолвить метод через Objective-C runtime (`objc_msgSend`) — `@objc`, `dynamic`, KVO, swizzling. Не синоним любого runtime-вызова: vtable и witness тоже runtime, но это механизмы Swift. Глубже: [method dispatch](../swift/method-dispatch/).
 
 <a id="glossary-opaque"></a>
 **Opaque** — type `some P`: concrete type known to the compiler, exposed only as `P` conformance (opaque result type).
