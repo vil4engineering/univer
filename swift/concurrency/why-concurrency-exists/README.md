@@ -172,7 +172,7 @@ Level 3 здесь — дверь, не комната.
 > **до:** «concurrency = async/await / threads»  
 > **после:** сначала боль одной очереди; потом организация; потом механизм
 
-**Дальше:** [Concurrency hub](../) — structured concurrency, actors, labs.
+**Дальше:** [Зачем программе process и thread?](../processes-and-threads/)
 
 ---
 
