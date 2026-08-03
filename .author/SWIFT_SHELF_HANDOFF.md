@@ -74,9 +74,9 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 |---|----------------------|-------------------------|--------|
 | 0 | [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) | Почему одной очереди дел мало? | **Shipped** 2026-08-03 (theory) |
 | 1 | [`processes-and-threads/`](../swift/concurrency/processes-and-threads/) | Зачем OS даёт process/thread — и чем они не равны «concurrency»? | **Shipped** 2026-08-03 (theory) |
-| 2 | `shared-state-and-races/` | Почему общее изменяемое состояние ломается без правил? | **Next** |
-| 3 | `gcd-and-callback-era/` | Что дали очереди/callback — и почему этого мало? | Queued (reuse notes + GCD.playground) |
-| 4 | `structured-concurrency/` | Зачем иерархия задач и отмена сверху вниз? | Queued (notes + StructuredConcurrencyLab) |
+| 2 | [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/) | Почему общее изменяемое состояние ломается без правил? | **Shipped** 2026-08-03 (theory) |
+| 3 | [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/) | Что дали очереди/callback — и почему этого мало? | **Shipped** 2026-08-03 (theory) |
+| 4 | `structured-concurrency/` | Зачем иерархия задач и отмена сверху вниз? | **Next** (notes + StructuredConcurrencyLab) |
 | 5 | `async-await-and-suspension/` | Чем suspension отличается от блокировки потока? | Queued |
 | 6 | `tasks-and-unstructured-work/` | Когда `Task { }` — инструмент, а когда дырка lifetime? | Queued |
 | 7 | `actors-and-isolation/` | Почему isolation, а не «поток на объект»? | Queued |
@@ -91,9 +91,9 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 ## 9. Pointers
 
 - Hub: [`swift/concurrency/README.md`](../swift/concurrency/README.md)  
-- **Shipped:** [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) · [`processes-and-threads/`](../swift/concurrency/processes-and-threads/)  
-- **Next unit:** `shared-state-and-races/` (roadmap §8b row 2)  
-- Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · evolution note [`notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md`](../swift/concurrency/notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md)  
+- **Shipped:** [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) · [`processes-and-threads/`](../swift/concurrency/processes-and-threads/) · [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/) · [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/)  
+- **Next unit:** `structured-concurrency/` (roadmap §8b row 4)  
+- Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · evolution note [`notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md`](../swift/concurrency/notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md) · [GCD.playground](../swift/concurrency/GCD.playground)  
 - Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)
 
 ## 10. Parking lot (snapshot)
