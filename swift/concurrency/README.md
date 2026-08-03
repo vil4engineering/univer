@@ -83,6 +83,7 @@ Owner progress + agent contract: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.autho
 - Interview pack: [notes/Interview-Pack.md](notes/Interview-Pack.md)
 - Intro digest: [notes/Swift-Concurrency-Intro-Social.md](notes/Swift-Concurrency-Intro-Social.md) — [SwiftConcurrencyPrimer.playground](SwiftConcurrencyPrimer.playground)
 - Structured concurrency: [notes/Structured-Concurrency-What-Structured-Means.md](notes/Structured-Concurrency-What-Structured-Means.md) — [StructuredConcurrencyLab.playground](StructuredConcurrencyLab.playground)
+- MainActor deep dive (examples): [notes/MainActor-Avanderlee.md](notes/MainActor-Avanderlee.md)
 - Image loading lab: [ImageLoadingConcurrencyLab.playground](ImageLoadingConcurrencyLab.playground)
 - Actors vs queues: [ActorsQueuesLocksInterview.playground](ActorsQueuesLocksInterview.playground)
 - Related: [../async-defer/](../async-defer/) · ROADMAP [M03](../../campus/ROADMAP_SENIOR.md)

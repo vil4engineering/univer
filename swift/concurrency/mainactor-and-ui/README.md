@@ -163,6 +163,8 @@ SwiftUI часто генерирует MainActor-isolated view code; UIKit — 
 
 Пока теория. Практика: [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) · [TaskVersatility.playground](../TaskVersatility.playground) — hop on/off MainActor. Практика — по желанию.
 
+Warehouse (примеры `@MainActor` / `run` / `assumeIsolated` / Swift 5 pitfall): [MainActor — Avanderlee](../notes/MainActor-Avanderlee.md).
+
 ---
 
 ## Конспект
