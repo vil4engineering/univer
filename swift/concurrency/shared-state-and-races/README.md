@@ -153,7 +153,7 @@ Thread B: counter = counter + 1
 
 ## Лабораторная
 
-Теория покрыта. Практика async: [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) — сравни «общий счётчик» vs сериализация; отметь в Evidence.
+Теория покрыта. Практика async: [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) — сравни «общий счётчик» vs сериализация; при желании попробуй playground.
 
 ---
 
@@ -178,7 +178,7 @@ Thread B: counter = counter + 1
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

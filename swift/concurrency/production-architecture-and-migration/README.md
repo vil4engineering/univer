@@ -192,7 +192,7 @@ Bridge — не финал; финал — Sendable domain types и actor owners
 
 ## Лабораторная
 
-Пока теория. Практика: выбери один legacy GCD module · нарисуй adapter + DoD · [ImageLoadingConcurrencyLab](../ImageLoadingConcurrencyLab.playground). Evidence async.
+Пока теория. Практика: выбери один legacy GCD module · нарисуй adapter + DoD · [ImageLoadingConcurrencyLab](../ImageLoadingConcurrencyLab.playground). Практика — по желанию.
 
 ---
 
@@ -220,7 +220,7 @@ Bridge — не финал; финал — Sendable domain types и actor owners
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

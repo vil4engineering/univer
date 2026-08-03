@@ -44,12 +44,13 @@ Domain (для термина): например Backend · Networking или Mo
 Короткий текст (для термина) или outline главы:
 …
 
-Соблюдай: AGENTS.md роль выше; glossary A–Z + Domain; chapter-shape; голос «ты» для Тимура;
+Соблюдай: AGENTS.md роль выше; glossary A–Z + Domain; chapter-shape; голос «ты» (Living reader);
 термины → glossary/; ссылка на фундамент CS если это не сам фундамент.
+Publish = ссылаемая страница библиотеки; не гейтить Evidence/Path и не выдумывать «следующую» тему.
 Если я Тимур — не меняй сайдбар / IA / .ai.
 ```
 
-Для полноценной главы агент идёт по playbook: [chapter-fill](../.ai/workflows/chapter-fill.md) (Creator Portal / `.author/` — для авторов, не в студенческом меню). Owner gate: **Максим**.
+Для полноценной главы агент идёт по playbook: [chapter-fill](../.ai/workflows/chapter-fill.md) (Creator Portal / `.author/` — для авторов, не в студенческом меню). Owner gate: **Максим**. Контракт полки Swift: [`.author/SWIFT_SHELF_HANDOFF.md`](../.author/SWIFT_SHELF_HANDOFF.md). Как скинуть ссылку: [LINKING](LINKING.md).
 
 ## Пример
 

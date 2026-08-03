@@ -167,7 +167,7 @@ Level 3 — дверь, не комната.
 
 ## Лабораторная
 
-Пока теория. Практика асинхронно: [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) — отметь, где suspension, а где sync держит поток. Evidence async.
+Пока теория. Практика асинхронно: [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) — отметь, где suspension, а где sync держит поток. Практика — по желанию.
 
 ---
 
@@ -194,7 +194,7 @@ Level 3 — дверь, не комната.
 
 ## Evidence
 
-Теория этой главы покрыта (v1.1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1.1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

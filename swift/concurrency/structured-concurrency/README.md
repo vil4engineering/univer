@@ -136,7 +136,7 @@ Level 3 — дверь.
 
 ## Лабораторная
 
-Теория покрыта. Практика: [StructuredConcurrencyLab.playground](../StructuredConcurrencyLab.playground) — отмена вниз; Evidence async.
+Теория покрыта. Практика: [StructuredConcurrencyLab.playground](../StructuredConcurrencyLab.playground) — отмена вниз; Практика — по желанию.
 
 ---
 
@@ -161,7 +161,7 @@ Level 3 — дверь.
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

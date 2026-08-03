@@ -1,11 +1,20 @@
-# Swift shelf — Owner progress plan
+# Swift shelf — Owner progress + agent contract
 
 **Audience:** authors / agents · **Not Learn chrome**  
-**Role:** living **checkbox plan** for Swift shelf + concurrency fill (repo SoT)  
-**Updated:** 2026-08-03 (§D + residuals close)  
-**Cursor note:** this file is the progress UI — not the old remediation-only chat plan.
+**Role:** living checkbox SoT for Swift shelf + **library fill contract**  
+**Updated:** 2026-08-03 (fragile spots closed · library framing)  
 
 External ChatGPT-project prompts = **opinion only**. Decisions live here + `AGENTS` / IA / `.ai`.
+
+---
+
+## Product framing (Owner)
+
+Эта полка — **библиотека глав**, которые можно открыть по ссылке (браузер или агент) и разобраться в теме.  
+
+**Не** учебный план Тимура. **Не** Path Evidence как гейт. Читатель учится когда может; Owner наполняет полку.
+
+Shareable entry: hub Reading route → конкретная глава `README.md` (см. [campus/LINKING.md](../campus/LINKING.md)).
 
 ---
 
@@ -15,122 +24,124 @@ External ChatGPT-project prompts = **opinion only**. Decisions live here + `AGEN
 |-------|--------|
 | A · Audit heal (T1–T6) | Done |
 | B · Concurrency theory 0–9 + §B quality | Done |
-| C · Final polish | Done 2026-08-03 |
-| D · Later books (Sendable / testing / …) | **Done** theory v1 2026-08-03 |
+| C · Final polish | Done |
+| D · Sendable / testing / production | Done (theory v1) |
 
-**Rule (Owner):** A + B before C. C closed. **D** shipped (theory 10–12). Further depth only on new Owner ask.
+**Concurrency Living book 0→12: CLOSED.**  
+Дальше concurrency — **только** если Owner назвал явный topic path / H1. Не выдумывать «том 2».
 
-Closeout report: [`reviews/audits/2026-08-concurrency-shelf-closeout.md`](../reviews/audits/2026-08-concurrency-shelf-closeout.md).  
-Dual-pass journal: [`reviews/0002-concurrency-theory-chain.md`](../reviews/0002-concurrency-theory-chain.md).
-
----
-
-## A. Audit heal (2026-08)
-
-- [x] T1 гл.0 — spine · `ты` · Evidence stub · DESIGN↔0001b
-- [x] T2 `what-is-swift` — Human on spine recall
-- [x] T3 `method-dispatch` — DESIGN Accept · heuristics
-- [x] T4 `syntax` Q42/Q43 — ABI as heuristic
-- [x] T5 `async-defer` — toolchain caveat at sample
-- [x] T6 Image-Caching + Q35 — unsourced WWDC26 removed
-- [x] T7 this progress plan created · audit remediation note
+Closeout: [`reviews/audits/2026-08-concurrency-shelf-closeout.md`](../reviews/audits/2026-08-concurrency-shelf-closeout.md).  
+Accept journal: [`reviews/0002-concurrency-theory-chain.md`](../reviews/0002-concurrency-theory-chain.md).
 
 ---
 
-## B. Concurrency theory units (Living README v1)
+## A–D checkboxes (historical)
 
-Path root: [`swift/concurrency/`](../swift/concurrency/)
+### A. Audit heal
 
-- [x] 0 [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/)
-- [x] 1 [`processes-and-threads/`](../swift/concurrency/processes-and-threads/)
-- [x] 2 [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/)
-- [x] 3 [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/)
-- [x] 4 [`structured-concurrency/`](../swift/concurrency/structured-concurrency/)
-- [x] 5 [`async-await-and-suspension/`](../swift/concurrency/async-await-and-suspension/) · **v1.1 depth**
-- [x] 6 [`tasks-and-unstructured-work/`](../swift/concurrency/tasks-and-unstructured-work/) · **v1.1 depth**
-- [x] 7 [`actors-and-isolation/`](../swift/concurrency/actors-and-isolation/) · **v1.1 depth**
-- [x] 8 [`mainactor-and-ui/`](../swift/concurrency/mainactor-and-ui/) · **v1.1 depth**
-- [x] 9 [`cancellation-and-cooperation/`](../swift/concurrency/cancellation-and-cooperation/) · **v1.1 depth**
+- [x] T1–T7 (гл.0 · what-is-swift · method-dispatch · syntax · async-defer · Image-Caching · this plan)
 
-### B quality (finish before polish C)
+### B. Theory 0–9
 
-- [x] Formal DESIGN Accept for units 0–9 (Owner 2026-08-03 · theory v1)
-- [x] Hub [`README.md`](../swift/concurrency/README.md) **Reading route 0→9** (extended 0→12 in D)
-- [x] Cross-links «Дальше» walked 0→9→hub (now 0→12→hub)
-- [x] Glossary terms for core chain (Concurrency · Parallelism · Process · Thread · Data race · + existing actor/task/…)
-- [x] Evidence stubs honest on all units 0–9
+- [x] Units 0–9 under [`swift/concurrency/`](../swift/concurrency/) · v1.1 depth on 5–9  
+- [x] Hub Reading route · Дальше chain · Glossary · Formal Accept theory
 
-**B gate:** when all above `[x]` → Owner may start **C**.
+### C. Polish
+
+- [x] library sync · syntax anti-encyclopedia · async-defer ↔ cancel · literal-executor Write · hub warehouse archived  
+- [ ] `Library/Swift/` soft-fork — **forbidden** without Owner Design
+
+### D. Depth 10–12
+
+- [x] Sendable · testing · production · Interview-pack · review 0002
 
 ---
 
-## C. Final polish (**done** 2026-08-03)
+## Binding fences (fragile spots — CLOSED)
 
-- [x] `check_library_sync.py` → OK
-- [x] Broader `swift/syntax` Q-card anti-encyclopedia pass
-- [x] `async-defer` ↔ unit 9 cleanup note tightened
-- [x] `literal-executor`: **Write README** + sidebar + PART_I + TOPIC_TREE (residual closed 2026-08-03)
-- [x] гл.0 Evidence Path reminder for Timur
-- [x] Evidence stubs on units 0–9 (done in B)
-- [x] DESIGN Accept 0–9 (done in B)
-- [x] Hub legacy warehouse → [`notes/legacy-warehouse-archive.md`](../swift/concurrency/notes/legacy-warehouse-archive.md)
-- [ ] `Library/Swift/` / IA — Owner Design only (still out)
-
----
-
-## D. Later concurrency depth (**done** theory v1 2026-08-03)
-
-- [x] Sendable / strict concurrency — [`sendable-and-strict-concurrency/`](../swift/concurrency/sendable-and-strict-concurrency/)
-- [x] Testing concurrent systems — [`testing-concurrent-systems/`](../swift/concurrency/testing-concurrent-systems/)
-- [x] Production architecture / migration — [`production-architecture-and-migration/`](../swift/concurrency/production-architecture-and-migration/)
-- [x] Interview-pack projection refresh from units 0–12
-- [x] Dual-pass style journal [`reviews/0002-concurrency-theory-chain.md`](../reviews/0002-concurrency-theory-chain.md)
-
----
-
-## Binding fences (always on)
-
-### Reconciliation
+### 1. No automatic «next chapter»
 
 | | |
 |--|--|
-| **Canon now** | [`swift/`](../swift/) (incl. concurrency) |
-| **Target maps** | Opinion until Owner Design in-repo |
-| **No soft-fork** | Do not create parallel `Library/Swift/` |
+| **Closed book** | Concurrency 0→12 done |
+| **Agent** | Without Owner naming `path` + why → **stop**. Do not invent executors/AsyncStream/«том» |
+| **Parked ideas** | Level 3 executors / priority — claim only, not a queue |
 
-### DoD
+### 2. Accept levels (do not confuse)
 
-**Готово (theory)** = one why · Living `ты` · honest claims · DESIGN when present.  
-**Готово (product)** = theory + Formal Accept + sync OK + polish C checked.  
-Labs / Evidence write-back may stay **async**.
+| Level | Meaning |
+|-------|---------|
+| **Owner Formal Accept (theory)** | DESIGN + Living README ship; risk accepted for library study |
+| **Reviewer dual-pass (`reviews/NNNN`)** | Four gates + ten criteria (эталон: 0001b) |
+| **Batch 0002** | Concurrency chain Accept at library bar — **not** per-unit 0001b |
 
-### Spines
+Do not claim «0001b-level Accept» unless a per-topic review journal exists.
 
-Execution (verbatim):  
-`задача → человек → алгоритм → программа → Compiler → Machine Code → CPU → действие в мире`
+### 3. Hub SoT vs archive
 
-Concurrency spine must not truncate Execution Spine.
+| SoT | Not SoT |
+|-----|---------|
+| Passport · Reading route · Materials | [`notes/legacy-warehouse-archive.md`](../swift/concurrency/notes/legacy-warehouse-archive.md) |
 
-### Anti-encyclopedia · claims · WIP · language
+**Forbidden:** paste TL;DR warehouse back into hub `README.md`.
 
-- Definitions → [`glossary/`](../glossary/)  
-- Claims ledger before each new Draft  
-- One unit in flight  
-- Learn = **RU-primary + EN terms**
+### 4. Library DoD (Publish)
 
-### Rhythm
+**Готово для ссылки** = one why · Living `ты` · honest claims · `README.md` opens on Pages · Дальше/hub wired · DESIGN when used.
+
+**Не гейт:** Path logs · Evidence checkboxes · «Тимур прошёл» · lab runs.
+
+Evidence block on a page = optional self-check for the **reader**, not an agent todo and not a student flag.
+
+### 5. `TOPIC_TREE` / sync
+
+[`scripts/check_library_sync.py`](../scripts/check_library_sync.py) sees only **section / top-level topic** folders with `README.md` (e.g. `swift/concurrency`).  
+
+Nested Living units (`swift/concurrency/sendable-…`) are **not** tree rows.  
+
+New **top-level** topic → add to `scripts/topic_tree.py` before claiming sync OK.
+
+### 6. Architecture fence
+
+«Заполни тему» ≠ менять `_sidebar.md`, IA, `.ai/` constitution, or create `Library/Swift/`.  
+Sidebar/IA only with explicit Owner Design.
+
+### 7. Git remotes
+
+| | |
+|--|--|
+| **This clone `origin`** | often `https://github.com/vil4labs/univer.git` — verify `git remote -v` before push |
+| **Public product names** | org / Pages may stay `vil4engineering` (see AGENTS · LINKING) |
+
+Do not invent push target from AGENTS slug alone.
+
+### 8. Claims honesty
+
+No invented WWDC session IDs, benchmarks, or toolchain guarantees.  
+Definitions → [`glossary/`](../glossary/) with `eu-term`.
+
+---
+
+## Rhythm (fill next topic)
+
+Owner must give: **path** · **H1 / why** · Approve if DESIGN-first.
 
 ```text
-claims ledger → one topic → library glance → atomic commit → update checkboxes here → stop
+claims ledger → DESIGN (if new) → Owner Approve → one README
+  → Дальше / hub / glossary glance
+  → topic_tree + check_library_sync (only if new top-level)
+  → tick this file if shelf progress changed → stop
 ```
+
+**Stop** after one topic. No multi-chapter «plans». No auto-continue.
+
+Playbook: [`.ai/workflows/chapter-fill.md`](../.ai/workflows/chapter-fill.md).
 
 ---
 
 ## How agents use this file
 
-1. Open **Progress dashboard** + unchecked boxes first.  
-2. Do **not** start **C** until **B** is fully `[x]`.  
-3. After each ship: tick the box in this file in the same commit.  
-4. Final polish = section **C** only when Owner says so.  
-
-**Next Owner command:** Timur study route 0→12 + Path Evidence · or new claims (executors / AsyncStream / …).
+1. Read **Product framing** + **dashboard** + **fences**.  
+2. If concurrency unchecked work is gone — shelf closed; ask Owner for the next **named** topic.  
+3. Never use a person (Тимур) as a progress gate.  
+4. Ship linkable library pages; commit/push only when Owner asks.

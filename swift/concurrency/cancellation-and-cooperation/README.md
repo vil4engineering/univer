@@ -182,7 +182,7 @@ Structured (идея):
 
 ## Лабораторная
 
-Пока теория. Практика: [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — cancel вниз по дереву · [async-defer](../../async-defer/) — cleanup vs cancel. Evidence async.
+Пока теория. Практика: [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — cancel вниз по дереву · [async-defer](../../async-defer/) — cleanup vs cancel. Практика — по желанию.
 
 ---
 
@@ -210,7 +210,7 @@ Structured (идея):
 
 ## Evidence
 
-Теория этой главы покрыта (v1.1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1.1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

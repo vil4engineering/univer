@@ -150,7 +150,7 @@ Level 3 здесь — дверь, не комната.
 
 ## Лабораторная
 
-Пока теория. Практика асинхронно: открой [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) в хабе и отметь в Evidence, где «ожидание» отделено от UI.
+Пока теория. Практика асинхронно: открой [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) в хабе и при желании попробуй playground, где «ожидание» отделено от UI.
 
 ---
 
@@ -178,7 +178,7 @@ Level 3 здесь — дверь, не комната.
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

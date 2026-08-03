@@ -148,7 +148,7 @@ loadUser { user in
 
 ## Лабораторная
 
-Теория покрыта. Практика: [GCD.playground](../GCD.playground) — serial vs concurrent; отметь в Evidence.
+Теория покрыта. Практика: [GCD.playground](../GCD.playground) — serial vs concurrent; при желании попробуй playground.
 
 ---
 
@@ -173,7 +173,7 @@ loadUser { user in
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

@@ -193,7 +193,7 @@ Stub «висит» — ты контролируешь момент cancel, б�
 
 ## Лабораторная
 
-Пока теория. Практика: перепиши один существующий тест с `sleep` на stub + `async` · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — cancel propagation. Evidence async.
+Пока теория. Практика: перепиши один существующий тест с `sleep` на stub + `async` · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — cancel propagation. Практика — по желанию.
 
 ---
 
@@ -222,7 +222,7 @@ Stub «висит» — ты контролируешь момент cancel, б�
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

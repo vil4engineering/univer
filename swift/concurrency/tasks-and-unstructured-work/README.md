@@ -172,7 +172,7 @@ Task — не поток. Это единица работы в Swift Concurrenc
 
 ## Лабораторная
 
-Пока теория. Практика: [TaskVersatility.playground](../TaskVersatility.playground) · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — сирота vs scope. Evidence async.
+Пока теория. Практика: [TaskVersatility.playground](../TaskVersatility.playground) · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) — сирота vs scope. Практика — по желанию.
 
 ---
 
@@ -199,7 +199,7 @@ Task — не поток. Это единица работы в Swift Concurrenc
 
 ## Evidence
 
-Теория этой главы покрыта (v1.1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1.1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

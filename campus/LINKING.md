@@ -23,14 +23,30 @@ Competency / Topic (onion page)
 4. Cross-links in markdown use relative Docsify paths.
 5. A topic without a lab may still be Surface/Why incomplete — mark Completeness honestly.
 
-## GitHub
+## GitHub / shareable library links
 
-- Org: `vil4engineering`
-- Repo: `vil4engineering/univer`
-- Site: Docsify via GitHub Pages (`https://vil4engineering.github.io/univer/`)
-- Campus URLs: `/campus/…` (inside the curriculum site)
-- Library URLs: `/swift/concurrency/`, `/architecture/patterns/`, …
+| Role | Value |
+|------|--------|
+| Public product org (naming / Pages) | `vil4engineering` |
+| Pages (share with a reader) | `https://vil4engineering.github.io/univer/` |
+| This machine’s `origin` | often `https://github.com/vil4labs/univer.git` — **always** `git remote -v` before push |
+| Curriculum repo name | `univer` |
 
+**Docsify deep link** (browser or agent):
+
+```text
+https://vil4engineering.github.io/univer/#/<path>/
+```
+
+Examples:
+
+- Hub: `https://vil4engineering.github.io/univer/#/swift/concurrency/`
+- Chapter: `https://vil4engineering.github.io/univer/#/swift/concurrency/sendable-and-strict-concurrency/`
+- Spine гл.1: `https://vil4engineering.github.io/univer/#/fundamentals/literal-executor/`
+
+Local: serve under `/univer/` (see root `AGENTS.md`) then `http://localhost:3000/univer/#/<path>/`.
+
+Campus URLs: `/campus/…` · Library URLs: `/swift/…`, `/fundamentals/…`, …
 ## Xcode / SPM (today)
 
 | Artifact | Open with | Notes |

@@ -161,7 +161,7 @@ SwiftUI часто генерирует MainActor-isolated view code; UIKit — 
 
 ## Лабораторная
 
-Пока теория. Практика: [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) · [TaskVersatility.playground](../TaskVersatility.playground) — hop on/off MainActor. Evidence async.
+Пока теория. Практика: [SwiftConcurrencyPrimer.playground](../SwiftConcurrencyPrimer.playground) · [TaskVersatility.playground](../TaskVersatility.playground) — hop on/off MainActor. Практика — по желанию.
 
 ---
 
@@ -188,7 +188,7 @@ SwiftUI часто генерирует MainActor-isolated view code; UIKit — 
 
 ## Evidence
 
-Теория этой главы покрыта (v1.1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1.1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

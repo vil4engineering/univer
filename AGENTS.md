@@ -1,6 +1,8 @@
 # univer — notes for AI agents
 
-**Public** Engineering Builder **v2** · org [vil4engineering](https://github.com/vil4engineering) · site [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · repo `vil4engineering/univer`
+**Public** Engineering Builder **v2** · product org/site [vil4engineering](https://github.com/vil4engineering) · Pages [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · curriculum repo name `univer`  
+
+**Git push:** verify `git remote -v` on this clone (often `vil4labs/univer`) — do not invent the push URL from the org slug alone. See [`campus/LINKING.md`](campus/LINKING.md).
 
 ## Identity gate (mandatory)
 
@@ -91,13 +93,14 @@ Trigger phrases (any close variant counts — including RU-layout typos like `ш
 ## Conventions
 
 - SE center; Mobile Systems = depth faculty; AI = assisted + technology  
-- Campus-first; Library = warehouse; no mass-move without Design (Maxim)  
+- Campus-first; Library = warehouse of **linkable** Living chapters; no mass-move without Design (Maxim)  
 - RU-primary + EN terms ([`campus/LANGUAGE.md`](campus/LANGUAGE.md) · [`.ai/principles/language.md`](.ai/principles/language.md))  
 - Ideas over tech catalogs ([content-philosophy](.ai/principles/content-philosophy.md))  
 - **Platform trio:** [teaching-model](.ai/principles/teaching-model.md) · [review-criteria](.ai/principles/review-criteria.md) · [content-lifecycle](.ai/principles/content-lifecycle.md)  
 - Chapter shape → Topic template chrome  
-- Evidence on Path logs; no invented experience; commit/push only when asked  
-- Org slug rules: `vil4engineering` · curriculum repo `univer`
+- **Library DoD:** Publish = readable `README` on Pages. Path/Evidence checkboxes are optional reader self-check — **not** an agent fill gate and **not** a named-student flag  
+- Do **not** invent the «next» chapter; Owner names path + why. Commit/push only when asked  
+- Public naming: `vil4engineering` · repo `univer` · always verify `git remote -v` before push  
 
 ## Catalog tooling
 
@@ -106,6 +109,7 @@ python3 scripts/check_library_sync.py
 python3 scripts/write_library_map.py
 ```
 
+`check_library_sync` compares **top-level** topic folders only (`section/topic/README.md`). Nested chapters under a hub (e.g. `swift/concurrency/actors-…`) are not `TOPIC_TREE` rows.
 ## Cursor Cloud specific instructions
 
 The product is a **Docsify** static site (RU-primary curriculum). There is no build step and no package manager: markdown is rendered client-side, and Docsify + its plugins load from the **jsDelivr CDN**, so rendering requires network egress to `cdn.jsdelivr.net`. The Python catalog tooling under `scripts/` uses only the standard library — nothing to `pip install`.
@@ -120,4 +124,4 @@ python3 -m http.server 3000 --directory /tmp/docsify-root
 
 `docsify serve` (docsify-cli) is the upstream dev tool but is not required and global npm install may fail on permissions; the stdlib server above is sufficient and gives the same client-side routing/search.
 
-**Tooling gotchas:** `scripts/check_library_sync.py` currently reports `FAILED` on `main` (pre-existing disk/`TOPIC_TREE` drift, e.g. `ai-engineering/materials`, `swift/what-is-swift`) — not caused by env setup. `scripts/resources_index.py` and `scripts/write_library_map.py` **regenerate tracked files** (`reference/curated/README.md`, `campus/library/README.md`) when run, so `git checkout --` them if you only meant to check, not to commit. Fixing content/IA/`TOPIC_TREE` is Owner-gated (see identity gate above).
+**Tooling gotchas:** New **top-level** topics need a `TOPIC_TREE` row or `check_library_sync.py` fails. Nested hub chapters do not. `scripts/resources_index.py` and `scripts/write_library_map.py` **regenerate tracked files** when run — `git checkout --` them if you only meant to check. Fixing content/IA/`TOPIC_TREE` is Owner-gated (see identity gate above).

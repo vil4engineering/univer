@@ -185,7 +185,7 @@ Task {
 
 ## Лабораторная
 
-Пока теория. Практика: включи strict concurrency на маленьком target · прогон [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) с Sendable errors. Evidence async.
+Пока теория. Практика: включи strict concurrency на маленьком target · прогон [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) с Sendable errors. Практика — по желанию.
 
 ---
 
@@ -213,7 +213,7 @@ Task {
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

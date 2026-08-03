@@ -141,7 +141,7 @@ Process "MyApp"
 
 ## Лабораторная
 
-Теория покрыта. Практика async: в [ConcurrencyEvolutionFromThreads.playground](../ConcurrencyEvolutionFromThreads.playground) найди блок про process/thread и отметь в Evidence.
+Теория покрыта. Практика async: в [ConcurrencyEvolutionFromThreads.playground](../ConcurrencyEvolutionFromThreads.playground) найди блок про process/thread и при желании попробуй playground.
 
 ---
 
@@ -167,7 +167,7 @@ Process "MyApp"
 
 ## Evidence
 
-Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

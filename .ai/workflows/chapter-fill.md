@@ -40,22 +40,24 @@ reviews/                          ← журнал ревью (глава = пр
 Полный SDLC: [content-lifecycle.md](../principles/content-lifecycle.md). Кратко:
 
 ```text
-1. Idea — тема + fundamental why (+ Part slot)
+1. Idea — тема + fundamental why (+ Part slot) — Owner names path; do not invent «next»
 2. Architect (если новый path / дубль) → approve create
 3. Design — DESIGN only (prompts/design-chapter.md)
 4. Design Review — checklists/chapter-design.md
 5. Owner Approve («пиши главу»)
 6. Draft — write-chapter.md → README (+ Interview-Pack)
 7. Engineering Review — dual-pass · review-criteria · reviews/NNNN
+   (Owner may Formal-Accept theory for library ship; do not claim 0001b bar without that journal)
 8. Revision → новый Reviewer pass
-9. Publish (merge / Pages)
-10. Evidence — Path log при учёбе
-11. Stop — не плодить handbook-деревья · не стартовать следующую главу без lifecycle
+9. Publish (merge / Pages) — **library Done for sharing a link**
+10. Optional: reader self-check / lab — never an agent gate; never invent Path Evidence
+11. Stop — one topic per command · no handbook trees · no auto-start next chapter
 ```
 
 **Запрет:** Draft без Design Review / Owner Approve.  
 **Запрет:** Accept без Four gates + scored review ([review-criteria](../principles/review-criteria.md)) или Owner override в `reviews/`.  
-**Глава = продукт:** DESIGN · README · Interview-Pack · reviews · version · Next.
+**Запрет:** «продолжай следующую» без явного path/why от Owner.  
+**Глава = продукт:** DESIGN · README · Interview-Pack · reviews · version · Next — **ссылаемый** Living page.
 
 **Improve existing:** если страница уже есть и нужна правка одной дыры - [improve-topic.md](improve-topic.md), не полный chapter-fill.
 
@@ -85,7 +87,8 @@ reviews/                          ← журнал ревью (глава = пр
 
 Пример эталона процесса: [`fundamentals/what-is-programming/`](../../fundamentals/what-is-programming/).
 
-После create: `topic_tree.py` + `check_library_sync.py` / `write_library_map.py`.
+После create **top-level** topic: `topic_tree.py` + `check_library_sync.py` / `write_library_map.py`.  
+Nested chapters under an existing hub (e.g. `swift/concurrency/…`) do **not** get a new `TOPIC_TREE` row.
 
 ---
 

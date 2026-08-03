@@ -67,7 +67,10 @@
 
 **Accept** for Concurrency M03 theory book bootstrap **including §D depth chapters**.  
 
-Residual (non-blocking): Evidence/Path write-back; Level 3 executors; optional per-unit 0001b if Owner raises bar further.
+Residual (non-blocking): optional labs for any reader; Level 3 executors only on Owner claim; optional per-unit 0001b if Owner raises bar.
+
+Do **not** treat Path/Evidence or a named student as unfinished library work.
+
 
 ---
 

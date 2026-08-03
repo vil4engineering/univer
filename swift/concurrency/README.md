@@ -2,7 +2,7 @@
 
 - **Topic id:** `swift/concurrency`
 - **Faculty:** Mobile Systems
-- **Path heat:** Path Alpha Stage 4 · ROADMAP **M03**
+- **Path heat:** ROADMAP **M03** (library shelf · not a student checklist)
 - **Status:** `learning`
 - **Confidence:** 3/5
 - **Interview Heat:** ★★★★★
@@ -71,7 +71,11 @@ Tools: Thread Sanitizer, Instruments (Time Profiler / Points of Interest), `os_s
 | 11 | [Testing concurrent systems](testing-concurrent-systems/) |
 | 12 | [Production / GCD migration](production-architecture-and-migration/) |
 
-Owner progress checkboxes: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md).
+Owner progress + agent contract: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md).
+
+**Shelf status:** Living route **0→12 CLOSED** as a library book. Next concurrency depth only on explicit Owner path/why — do not invent a volume.
+
+**Share:** `https://vil4engineering.github.io/univer/#/swift/concurrency/` · chapter = same base + folder (see [campus/LINKING.md](../../campus/LINKING.md)).
 
 ## Materials
 
@@ -93,8 +97,8 @@ Owner progress checkboxes: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIF
 ## Open questions
 
 - [x] Legacy warehouse TL;DR removed from hub (archive under notes/)
-- [ ] Добавить Level 3 onion: executors / priority (earned)
-- [ ] Evidence: failing race → fixed в playground (personal run)
+- [ ] Level 3 onion: executors / priority — **only** if Owner names a claim (not a queue)
+- ~~Evidence playground runs~~ — optional for any reader; not a Publish/agent gate
 
 ## Reviewer pass (2026-07-24)
 
@@ -108,6 +112,6 @@ Notes (2026-07-24): legacy TL;DR was noisy. **2026-08-03 Owner:** warehouse move
 
 Legacy TL;DR / migration dumps **removed from this page** so passport + Reading route stay the only SoT.
 
-Archive (optional depth, not second passport): [notes/legacy-warehouse-archive.md](notes/legacy-warehouse-archive.md).
+Archive (optional depth, **not** second passport): [notes/legacy-warehouse-archive.md](notes/legacy-warehouse-archive.md).
 
-Open questions above: Level 3 executors / Evidence lab runs — still async.
+**Forbidden:** restore warehouse TL;DR into this README.

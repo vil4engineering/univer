@@ -175,7 +175,7 @@ Actor не отменяет необходимость думать про **asy
 
 ## Лабораторная
 
-Пока теория. Практика: [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) — actor vs queue vs lock. Evidence async.
+Пока теория. Практика: [ActorsQueuesLocksInterview.playground](../ActorsQueuesLocksInterview.playground) — actor vs queue vs lock. Практика — по желанию.
 
 ---
 
@@ -202,7 +202,7 @@ Actor не отменяет необходимость думать про **asy
 
 ## Evidence
 
-Теория этой главы покрыта (v1.1). Практика / Path write-back — асинхронно.
+Теория этой главы в библиотеке (v1.1). Практика (playground / код) — по желанию читателя; не гейт Publish.
 
 - [ ] Explained  
 - [ ] Mock answers  

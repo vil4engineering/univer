@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Fail if disk topic folders and TOPIC_TREE disagree."""
+"""Fail if disk topic folders and TOPIC_TREE disagree.
+
+Inventory is **top-level only**: `section/topic/README.md` (e.g. `swift/concurrency`).
+Nested Living chapters under a hub (e.g. `swift/concurrency/actors-and-isolation`)
+are intentional and must NOT appear in TOPIC_TREE.
+"""
 
 from __future__ import annotations
 

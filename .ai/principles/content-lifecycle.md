@@ -1,6 +1,6 @@
 # Principle: Content lifecycle
 
-**SDLC for university content** — how a chapter moves from idea to lived Evidence.
+**SDLC for university content** — how a chapter moves from idea to a **linkable library page** (and optional later study notes).
 
 This turns the repo from a document dump into an **engineering product** with a repeatable release process.
 
@@ -24,8 +24,8 @@ Treat it as a **product** with the same seriousness as a software subsystem.
 | API for interviews | `notes/Interview-Pack.md` (projection) |
 | Review history | `reviews/NNNN-….md` |
 | Version | Engineering Metadata (`v1`, `v1.1`, …) |
-| Roadmap | Part map · Next · Path step |
-| Telemetry / learning | Path Progress · Evidence · Confidence |
+| Roadmap | Part map · Next (hub Reading route) |
+| Telemetry / learning | Optional reader self-check · Confidence — **not** a Publish gate |
 
 Authors ship products. Reviewers gate releases. Owner accepts risk.
 
@@ -39,10 +39,10 @@ Idea
   → Design Review
   → Owner Approve
   → Draft (write)
-  → Engineering Review (dual-pass)
+  → Engineering Review (dual-pass)  [or Owner Formal Accept for theory — journal required]
   → Revision
-  → Publish
-  → Evidence (study write-back)
+  → Publish  ← library Done: shareable Pages link
+  → Optional study notes / labs (any reader, any time)
 ```
 
 | Stage | What happens | Exit gate |
@@ -54,12 +54,14 @@ Idea
 | **Draft** | Author writes `README.md` (+ Interview-Pack) from DESIGN | Follow [write-chapter](../prompts/write-chapter.md) |
 | **Engineering Review** | Dual-pass Reviewer; score [review-criteria](review-criteria.md); file `reviews/` | Accept / Request changes / Reject |
 | **Revision** | Author fixes; new review pass if needed | Majors closed |
-| **Publish** | Merge to default branch · Pages | Student Mode readable |
-| **Evidence** | Humans study; Path log / Confidence | Living product loop |
+| **Publish** | Merge to default branch · Pages | **Shareable library page** |
+| **Optional study** | Reader opens link / lab when they can | Never blocks Publish; agents must not invent completed Evidence |
 
 **Forbidden:** Draft without Design Review + Owner Approve.  
 **Forbidden:** Author self-Accept.  
-**Forbidden:** Mass-create empty chapter folders “for later.”
+**Forbidden:** Mass-create empty chapter folders “for later.”  
+**Forbidden:** Treat a named student or Path log as a fill / Publish gate.  
+**Forbidden:** Auto-start the «next» topic without Owner naming path + why.
 
 ---
 
@@ -71,7 +73,7 @@ Idea
 | Author | DESIGN → Draft → Revision |
 | Reviewer | Design Review + Engineering Review |
 | Owner | Approve design · Accept risk · override documented |
-| Mentor / Student | Evidence after Publish |
+| Mentor / Student | May study after Publish — optional; not an agent checklist |
 
 Detail: [../collaboration.md](../collaboration.md) · [../roles/](../roles/).
 
@@ -103,12 +105,15 @@ Bump in Engineering Metadata + review note. Do not silently rewrite Accept chapt
 
 ## After Publish
 
-Lifecycle does **not** end at merge.
+Lifecycle **ships** at merge/Pages: the chapter is a library entry you can link.
 
-1. Study (Path Alpha / Beta)  
-2. Evidence write-back  
-3. Optional improve via [../workflows/improve-topic.md](../workflows/improve-topic.md)  
-4. If the **question** changes → new Design (v2), not a quiet edit  
+Optional later (any reader, any time — not Owner/agent fill work):
+
+1. Open the Pages (or local Docsify) URL · read · try linked lab  
+2. Optional improve via [../workflows/improve-topic.md](../workflows/improve-topic.md)  
+3. If the **question** changes → new Design (v2), not a quiet edit  
+
+Do **not** invent study progress. Do **not** hold the next chapter hostage to unchecked Evidence boxes.
 
 ---
 
