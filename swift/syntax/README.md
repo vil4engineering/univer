@@ -174,12 +174,12 @@ Interview Q&A below.
 ### Q42
 - **Question:** How is `Optional<Wrapped>` implemented in Swift?
 
-- **Answer:** `Optional` is a **generic `enum`** with two cases: **`.none`** and **`.some(Wrapped)`**. `T?` is sugar for `Optional<T>`; **`nil`** is **`.none`**. For class existentials, `Optional` often uses a **nullable pointer** representation; small value types may need an extra tag when no spare bit pattern exists.
+- **Answer:** `Optional` is a **generic `enum`** with two cases: **`.none`** and **`.some(Wrapped)`**. `T?` is sugar for `Optional<T>`; **`nil`** is **`.none`**. Low-level layout (nullable pointer for some class optionals; spare-bit / extra tag for some small values) is an **implementation heuristic**, not an interview absolute — see Swift language / ABI docs for the toolchain you ship.
 
 ### Q43
 - **Question:** Is there a difference between `.none` and `nil`?
 
-- **Answer:** **No semantic difference:** `nil` is sugar for **`.none`** in `Optional` contexts. For class optionals, `.none` is often a null reference; for small value optionals, think “no wrapped value” / tagged empty state—not “no heap object.”
+- **Answer:** **No semantic difference:** `nil` is sugar for **`.none`** in `Optional` contexts. How emptiness is represented in memory (null reference vs tagged empty) is an implementation detail — lead with the enum model, not ABI folklore.
 
 ### Q44
 - **Question:** Ways to unwrap optional variables?
