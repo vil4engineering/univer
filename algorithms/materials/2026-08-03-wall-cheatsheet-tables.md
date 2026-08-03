@@ -1,20 +1,22 @@
-# Five wall cheat-sheet tables (album)
+# Five wall cheat-sheet tables (album) — English grammar
 
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | no |
 | Source | Telegram Saved `503542`–`503546` |
-| Related | algorithms · interview walls |
+| Related | Flip English / language — **not** algorithms CS |
 
 ---
 
-## Caption
+## Verdict (visual review 2026-08-03)
 
-«5 полезных табличек-подсказок» — visual tables from Saved album.
+Album is **ENGLISH GRAMMAR MAP 1–5** (tenses, questions, modals, …) — RU captions + EN examples. High-quality language posters, **not** CS/interview algorithm walls.
 
 ## Images
 
-Downloaded to [`2026-08-03-wall-cheatsheets/images/`](2026-08-03-wall-cheatsheets/images/).
+[`2026-08-03-wall-cheatsheets/images/`](2026-08-03-wall-cheatsheets/images/)
 
-Review visually; keep if CS/interview useful, else delete folder later.
+## Action
+
+Do not promote under `algorithms/`. Options: move to Flip English assets later, or delete folder. Left on disk until you choose.

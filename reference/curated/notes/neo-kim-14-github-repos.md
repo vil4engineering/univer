@@ -1,32 +1,34 @@
-# Neo Kim — 14 GitHub repos listicle (study)
+# Neo Kim — 14 GitHub repos listicle
 
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | Telegram Saved `503685` |
 | Related | [curated](../README.md) |
 | LinkedIn | https://www.linkedin.com/posts/nk-systemdesign-one_14-github-repos-to-boost-your-software-engineering-share-7478431772612042752-zsGs/ |
 
 ---
 
-## List (short links from post)
+## Verified via Safari tabs (2026-08-03)
 
-1. System design — https://lnkd.in/eKATU6QV
-2. Public APIs — https://lnkd.in/epWSyzqs
-3. Tech interview handbook — https://lnkd.in/e7EjsJNF
-4. Coding interview university — https://lnkd.in/evJSNCPE
-5. Engineering leadership — https://lnkd.in/ePCzV3zF
-6. Freecodecamp — https://lnkd.in/e_4pA8xV
-7. Developer roadmaps — https://lnkd.in/e9MuB_Yg
-8. Path to senior engineer handbook — https://lnkd.in/exkJCxVi
-9. Free programming books — https://lnkd.in/eXAzAJ3M
-10. N8n — https://lnkd.in/eNpuHDZD
-11. Open WebUI — https://lnkd.in/eC3aBKAP
-12. Transformers — https://lnkd.in/eii6H26v
-13. AutoGPT — https://lnkd.in/eVkZ9cRE
-14. Tensorflow — https://lnkd.in/eRjpZT4d
+| # | Title | GitHub |
+|---|-------|--------|
+| 1 | System design | https://github.com/systemdesign42/system-design-academy |
+| 2 | Public APIs | https://github.com/public-apis/public-apis |
+| 3 | Tech interview handbook | https://github.com/yangshun/tech-interview-handbook |
+| 4 | Coding interview university | https://github.com/jwasham/coding-interview-university |
+| 5 | Engineering leadership | https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader |
+| 6 | Freecodecamp | https://github.com/freeCodeCamp/freeCodeCamp |
+| 7 | Developer roadmaps | https://github.com/nilbuild/developer-roadmap |
+| 8 | Path to senior engineer handbook | https://github.com/jordan-cutler/path-to-senior-engineer-handbook |
+| 9 | Free programming books | https://github.com/EbookFoundation/free-programming-books |
+| 10 | N8n | https://github.com/n8n-io/n8n |
+| 11 | Open WebUI | https://github.com/open-webui/open-webui |
+| 12 | Transformers | https://github.com/huggingface/transformers |
+| 13 | AutoGPT | https://github.com/Significant-Gravitas/AutoGPT |
+| 14 | Tensorflow | https://github.com/tensorflow/tensorflow |
 
-## Action
+## Curated for univer
 
-Expand short links later; promote only durable SE/iOS-relevant repos into `reference/curated/README.md`. Many are general/AI listicle fluff.
+Strong SE spine candidates: tech-interview-handbook, coding-interview-university, path-to-senior-engineer-handbook, engineering-leader resources, system-design-academy. Roadmap fork is `nilbuild/developer-roadmap` (not kamranahmedse). AI/tooling (n8n, Open WebUI, Transformers, AutoGPT, TF) → optional under ai-engineering materials.

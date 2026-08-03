@@ -3,24 +3,21 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | Telegram Saved `507903` |
 | Related | [Modularization README](../README.md) |
+| URL | https://blog.jacobstechtavern.com/p/modular-ios-architecture · https://jacobbartlett.substack.com/p/modular-architecture-for-apps |
 
 ---
 
-## LinkedIn
-
-https://www.linkedin.com/posts/jacobmartinbartlett_dividing-your-app-into-modules-gives-your-share-7488957496997421056-N
-
-## Preview title (Telethon)
-
-Divide iOS App into Modules for Easier Development and Faster Build Times
-
 ## In 30 seconds
 
-Modularization reduces compile fan-out and clarifies boundaries. Pair with existing SPM/Tuist notes in this folder.
+Modularization limits how much of the dependency graph recompiles after a change: clearer feature/service boundaries, parallel compile, better Xcode caches. Core module first → feature modules; at scale still hit base-layer invalidation → consider Bazel/Buck. Feature API vs Impl (Tuist-style) keeps dependents stable when impl changes.
+
+## LinkedIn
+
+Original Saved short link 404’d as post page; substance matches Bartlett’s modular architecture posts on build times.
 
 ## Try apply
 
-Compare with [spm-common-services-features-cheatsheet](spm-common-services-features-cheatsheet.md).
+Compare with [spm-common-services-features-cheatsheet](spm-common-services-features-cheatsheet.md) and JET five-category note.
