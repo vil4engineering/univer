@@ -62,22 +62,46 @@ Not English-by-default. Interview EN blocks OK. `.ai/` stays English.
 
 ## 8. Sequence (this quarter)
 
-1. **Heal canon** (2026-08 remediation T1–T6) — done when audit remediation note says so.  
-2. **Expand** one concurrency unit under existing `swift/concurrency/` (prefer earliest gap: why concurrency exists).  
+1. **Heal canon** (2026-08 remediation T1–T6) — **done** (see audit remediation).  
+2. **Expand** concurrency under existing `swift/concurrency/` — **one Living chapter per run**.  
 3. No mass-generate of the full concurrency book in one run.
+
+## 8b. Further fill roadmap (in-repo SoT — look here)
+
+Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status updates when a unit ships.
+
+| # | Topic id (repo path) | Fundamental why (short) | Status |
+|---|----------------------|-------------------------|--------|
+| 0 | [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) | Почему одной очереди дел мало? | **Shipped** 2026-08-03 (theory) |
+| 1 | [`processes-and-threads/`](../swift/concurrency/processes-and-threads/) | Зачем OS даёт process/thread — и чем они не равны «concurrency»? | **Shipped** 2026-08-03 (theory) |
+| 2 | `shared-state-and-races/` | Почему общее изменяемое состояние ломается без правил? | **Next** |
+| 3 | `gcd-and-callback-era/` | Что дали очереди/callback — и почему этого мало? | Queued (reuse notes + GCD.playground) |
+| 4 | `structured-concurrency/` | Зачем иерархия задач и отмена сверху вниз? | Queued (notes + StructuredConcurrencyLab) |
+| 5 | `async-await-and-suspension/` | Чем suspension отличается от блокировки потока? | Queued |
+| 6 | `tasks-and-unstructured-work/` | Когда `Task { }` — инструмент, а когда дырка lifetime? | Queued |
+| 7 | `actors-and-isolation/` | Почему isolation, а не «поток на объект»? | Queued |
+| 8 | `mainactor-and-ui/` | Зачем граница UI отдельным миром? | Queued |
+| 9 | `cancellation-and-cooperation/` | Почему отмена кооперативная? (may absorb `async-defer`) | Queued |
+| … | later: sendable, testing, production migration | — | Parking |
+
+**Rhythm (unchanged):** claims ledger → one topic theory (RU-primary) → library glance → atomic commit (+ glossary micro-commit) → stop → Owner confirms next row.
+
+**Do not:** create `Library/Swift/`; skip rows; mass-scaffold empty folders for the whole table.
 
 ## 9. Pointers
 
 - Hub: [`swift/concurrency/README.md`](../swift/concurrency/README.md)  
-- **First Phase B unit (2026-08-03):** [`swift/concurrency/why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/)  
-- Related warehouse note: [`swift/async-defer/`](../swift/async-defer/) (cancellation chapter later)  
+- **Shipped:** [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) · [`processes-and-threads/`](../swift/concurrency/processes-and-threads/)  
+- **Next unit:** `shared-state-and-races/` (roadmap §8b row 2)  
+- Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · evolution note [`notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md`](../swift/concurrency/notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md)  
 - Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)
 
-## 10. Parking lot (snapshot 2026-08-03)
+## 10. Parking lot (snapshot)
 
 - Broader Glossary vs syntax Q-card anti-encyclopedia pass  
-- Promote `async-defer` into a cancellation chapter  
+- Promote `async-defer` into cancellation chapter (roadmap #9)  
 - `check_library_sync.py` FAILED drift on main  
 - `fundamentals/literal-executor` DESIGN-only (no README yet)  
 - Evidence write-back for гл.0 when Timur studies  
-- Any `Library/Swift/` Design proposal — Owner only, later
+- Any `Library/Swift/` Design proposal — Owner only, later  
+- Formal Accept Reviewer pass for `why-concurrency-exists` DESIGN
