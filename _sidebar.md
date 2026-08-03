@@ -2,7 +2,7 @@
 - Computer Science
   - [Обзор](/fundamentals/PART_I.md)
   - [Зачем программы](/fundamentals/what-is-programming/)
-  - Исполнитель
+  - [Исполнитель](/fundamentals/literal-executor/)
   - Исполнение
   - Binary
   - Machine Code

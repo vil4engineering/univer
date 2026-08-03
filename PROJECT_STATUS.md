@@ -23,11 +23,11 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 
 **Learning now:**
 
-- Student A deep track: **M03 Concurrency** (`swift/concurrency/`)  
+- Student A deep track: **M03 Concurrency** Living route **0→12** (`swift/concurrency/`) · progress [`.author/SWIFT_SHELF_HANDOFF.md`](.author/SWIFT_SHELF_HANDOFF.md)  
+- Student B: Execution Spine · гл.0 + [гл.1 literal-executor](fundamentals/literal-executor/) Publish v1  
 - **Epic:** [IA 1.0](campus/IA_1.0.md) — Learn (site) ↔ Creator Portal ([`.author/`](.author/)) ↔ Engine ([`.ai/`](.ai/))  
 - Public Docsify = **Learning only** (no review-criteria / teaching-model in sidebar)  
 - Platform trio (authors): via [`.author/`](.author/) → `.ai/principles/`  
-- Student B: Execution Spine / 0 Publish v1.2  
 
 **Fill model:** not “finish the catalog.” Prep → topic dive → questions → write notes into the canonical topic (+ code / playground / `projects/` link when present). See Incremental fill in OPERATING_MODES.
 ## Binding decisions

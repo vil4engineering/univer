@@ -1,55 +1,64 @@
 # Audit + work report — Swift concurrency shelf (2026-08)
 
-- **Date:** 2026-08-03  
-- **Role:** Author close-out + Reviewer-style critical pass (report only on residual risks)  
+- **Date:** 2026-08-03 (updated same day: residuals + §D)  
+- **Role:** Author close-out + Reviewer-style critical pass  
 - **Progress SoT:** [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md)  
-- **Scope:** Audit heal A · Concurrency theory B 0–9 · Final polish C  
+- **Dual-pass journal:** [`reviews/0002-concurrency-theory-chain.md`](../0002-concurrency-theory-chain.md)  
+- **Scope:** Audit heal A · Concurrency theory B 0–9 · Final polish C · **§D 10–12** · residual fixes  
 
 ## What shipped
 
 ### A — Audit heal
 Execution Spine / `ты` / Evidence stub on гл.0; DESIGN↔0001b; what-is-swift Human; method-dispatch Accept+heuristics; syntax Q42 heuristic; async-defer toolchain caveat; Image-Caching WWDC26 removed.
 
-### B — Concurrency Living chain (theory v1)
-Ten chapters under `swift/concurrency/`: why → process/thread → races → GCD/callback → structured → suspension → unstructured Task → actors → MainActor → cancellation. Hub **Reading route 0→9**. Formal DESIGN Accept (Owner theory v1). Evidence stubs. Glossary: Concurrency, Parallelism, Process, Thread, Data race (+ prior actor/task terms).
+### B — Concurrency Living chain (theory v1 → v1.1 on 5–9)
+Ten chapters under `swift/concurrency/`: why → process/thread → races → GCD/callback → structured → suspension → unstructured Task → actors → MainActor → cancellation. Hub **Reading route** (now **0→12** with §D). Formal DESIGN Accept. Evidence stubs. Glossary core terms.
 
-### C — Final polish (this pass)
-- `check_library_sync.py` **OK** (`what-is-swift`, `ai-engineering/materials` in `TOPIC_TREE`)
-- syntax Q-cards: anti-encyclopedia banner; dispatch card → Glossary/chapter
-- async-defer ↔ cancellation cross-link tightened
-- literal-executor: explicit **Defer** note (DESIGN-only, no silent Write)
-- гл.0 Evidence: Timur/Path Alpha reminder
+### C — Final polish
+- `check_library_sync.py` OK (+ `literal-executor` in `TOPIC_TREE`)
+- syntax Q-cards anti-encyclopedia
+- async-defer ↔ cancellation
+- **literal-executor Write** + sidebar + PART_I «Читать»
+- гл.0 Evidence Path reminder
+- **Hub legacy warehouse** moved to [`notes/legacy-warehouse-archive.md`](../../swift/concurrency/notes/legacy-warehouse-archive.md)
 
-## Critical findings (honest)
+### D — Depth books (theory v1)
+- [`sendable-and-strict-concurrency/`](../../swift/concurrency/sendable-and-strict-concurrency/)
+- [`testing-concurrent-systems/`](../../swift/concurrency/testing-concurrent-systems/)
+- [`production-architecture-and-migration/`](../../swift/concurrency/production-architecture-and-migration/)
+- Interview-pack refresh (Q4/Q6/Q7)
 
-| Sev | Finding | Why it matters |
-|-----|---------|----------------|
-| **blocker residual** | None for declared DoD (theory + C polish checklist) | — |
-| **thread** | Units 5–9 are thinner than 0–4 (shorter Living prose) | Fine for theory spine; interview depth uneven — §D Interview-pack refresh later |
-| **thread** | Owner Formal Accept without separate dual-pass Reviewer journal per unit | Fast path OK for theory v1; not same bar as гл.0 / 0001b |
-| **thread** | Hub still carries large **legacy warehouse** TL;DR below passport | Student can confuse bootstrap hub with Living route — prefer Reading route; cleanup = later |
-| **thread** | No Sendable / testing / production chapters yet (§D) | Intentional; chain stops at cancellation |
-| **thread** | Labs linked but Evidence unchecked | Matches DoD (practice async) |
-| **thread** | `literal-executor` still no README | Honest defer — Spine hole after гл.0 until Owner Write |
-| **note** | Remote may be `vil4labs/univer` vs org `vil4engineering` in AGENTS | Confirm push target when publishing |
+## Critical findings (honest) — after residual pass
+
+| Sev | Finding | Status |
+|-----|---------|--------|
+| **blocker residual** | None for declared DoD | — |
+| **thread** | Units 5–9 thinner than 0–4 | **Closed** — v1.1 depth pass |
+| **thread** | Owner Accept ≠ dual-pass journal | **Mitigated** — [`0002`](../0002-concurrency-theory-chain.md) batch journal (not per-unit 0001b) |
+| **thread** | Hub legacy warehouse noise | **Closed** — archived under notes/ |
+| **thread** | §D not started | **Closed** — theory 10–12 shipped |
+| **thread** | `literal-executor` no README | **Closed** — Living v1 + nav |
+| **thread** | Labs Evidence unchecked | Still async (DoD) |
+| **note** | Level 3 executors / priority still open | Intentional parking |
+| **note** | Remote may be `vil4labs/univer` vs org slug in AGENTS | Confirm push target |
 
 ## Verdict
 
-**Theory product for Concurrency M03 entry path: Accept for study bootstrap.**  
-**Not** a finished “concurrency book” (no Sendable/testing/production; uneven chapter depth; legacy hub noise).
+**Accept** for Concurrency M03 **theory book** including Sendable / testing / production entry chapters.  
+
+Это уже не «обрыв на cancellation»: Living route **0→12**, hub без legacy TL;DR как второго SoT, Spine гл.1 (`literal-executor`) читаема. Не претендует на полный Level-3 onion (executors) и не заменяет Path Evidence Тимура.
 
 ## Recommended next (Owner)
 
-1. Timur walks Reading route 0→9 + Path Evidence  
-2. §D Sendable chapter when interview heat requires it  
-3. Dual-pass Reviewer sample on 2–3 thinnest units (5–7) if raising bar beyond theory v1  
-4. Optional: trim hub legacy warehouse into `notes/` only  
+1. Timur walks Reading route 0→12 + Path Evidence  
+2. Optional: per-unit 0001b only if raising bar further  
+3. New claims only: executors / priority / AsyncStream deep dive  
 
 ## Counts
 
 | Bucket | Count |
 |--------|------:|
-| Theory units shipped | 10 |
-| Final polish C items closed | 6 (+ Accept moved to B) |
-| Open §D later | 4 |
-| Library sync | OK |
+| Theory units (0–9 + §D 10–12) | 13 |
+| Residual threads closed this pass | 4 |
+| Open parking (executors L3, Evidence) | 2 |
+| Library sync | OK (expected) |

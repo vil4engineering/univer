@@ -24,7 +24,7 @@ Skill: `interview-preparation` · Workflow: [`.ai/workflows/interview-prep-sessi
 
 **Short:** Явная иерархия задач: lifetime, cancellation и ошибки не «теряются» в fire-and-forget так же легко, как у detached/unstructured без дисциплины.
 
-**Canonical:** Level 2 Structured · notes/Structured-Concurrency-What-Structured-Means.md  
+**Canonical:** [structured-concurrency](../structured-concurrency/) · notes/Structured-Concurrency-What-Structured-Means.md  
 **Follow-ups:** Когда оправдан `Task.detached`? Что наследует child `Task`?  
 **Common mistakes:** `Task { }` в `View` без отмены при disappear.
 
@@ -48,7 +48,7 @@ Skill: `interview-preparation` · Workflow: [`.ai/workflows/interview-prep-sessi
 
 **Short:** Детерминированные зависимости (clock/protocol), ожидание completion через async тесты / expectations, инъекция suspension points — не wall-clock sleep.
 
-**Canonical:** ROADMAP M03 → Async Testing (follow-up topic TODO)  
+**Canonical:** [testing-concurrent-systems](../testing-concurrent-systems/)  
 **Follow-ups:** Как флапает тест с real network?  
 **Common mistakes:** `sleep(1)` как sync barrier.
 
@@ -60,9 +60,33 @@ Skill: `interview-preparation` · Workflow: [`.ai/workflows/interview-prep-sessi
 
 **Short:** Работа продолжает жечь CPU/сеть после ухода пользователя; возможны update UI после dispose; лишние гонки при повторном входе.
 
-**Canonical:** What breaks · Task Cancellation docs  
+**Canonical:** [cancellation-and-cooperation](../cancellation-and-cooperation/) · hub What breaks  
 **Follow-ups:** Где ставить `checkCancellation`? Как связать с `URLSession` task cancel?  
 **Common mistakes:** только `isCancelled` в конце длинного цикла.
+
+---
+
+## Q6 — Sendable
+
+**Question:** Что такое Sendable и зачем strict concurrency?
+
+**Short:** Sendable — тип безопасен для пересечения isolation domains без data race; не «struct всегда ok». Strict mode делает границы обязательными в сборке.
+
+**Canonical:** [sendable-and-strict-concurrency](../sendable-and-strict-concurrency/)  
+**Follow-ups:** `@unchecked Sendable` когда оправдан? Чем Sendable отличается от actor?  
+**Common mistakes:** Sendable = immutability magic; unchecked без инварианта.
+
+---
+
+## Q7 — Production migration
+
+**Question:** Как мигрировать с GCD на Swift Concurrency в проде?
+
+**Short:** Слои UI/domain/infra; legacy за adapter; модуль за модулем DoD (Sendable boundaries, cancel, tests) — не big bang rewrite.
+
+**Canonical:** [production-architecture-and-migration](../production-architecture-and-migration/) · hub What breaks  
+**Follow-ups:** Где actor vs MainActor? Когда continuation-bridge?  
+**Common mistakes:** «перепишем всё к релизу»; strict на monolith day one.
 
 ---
 

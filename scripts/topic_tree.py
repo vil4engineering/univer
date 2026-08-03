@@ -6,6 +6,7 @@ TOPIC_TREE = {
         "title": "Fundamentals",
         "topics": {
             "what-is-programming": "What Is Programming?",
+            "literal-executor": "Literal Executor",
             "computer-science": "Computer Science",
             "os-and-networks": "OS & Networks",
             "git": "Git & Code Review",

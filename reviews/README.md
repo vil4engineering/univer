@@ -14,6 +14,7 @@ reviews/
   _TEMPLATE.md
   0001-what-is-programming.md
   0001b-what-is-programming.md
+  0002-concurrency-theory-chain.md
   audits/                     ← monthly repo-wide audits
     YYYY-MM-monthly-audit.md
   …

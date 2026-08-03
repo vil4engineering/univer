@@ -1,8 +1,8 @@
 # DESIGN — Почему нам нужен буквальный исполнитель? (Computer Science / 1)
 
-**Статус:** Design draft · **не Publish** · ждём Owner Approve → потом Write `README.md`  
+**Статус:** Design + Draft v1 · Owner Write 2026-08-03 · Formal Accept (theory v1) · Reviewer dual-pass optional later  
 
-**Defer (Owner polish 2026-08-03):** README **не пишем в этом проходе**. Глава остаётся DESIGN-only на Execution Spine после гл.0, пока Owner не скажет «пиши literal-executor». Не считать дырой Publish — это осознанный стоп перед Write.
+**Owner command (2026-08-03):** residual «нет README» закрыт — Write по этому DESIGN.
 
 **Topic id:** `fundamentals/literal-executor`  
 **Faculty:** Computer Science · Execution Spine  
@@ -209,10 +209,10 @@ Swift `isReady` / `nil` — **optional** (Approve): либо одна строк
 
 ## Owner Approve
 
-- [ ] H1 + fundamental why — ок  
-- [ ] Topic id `fundamentals/literal-executor` — ок  
-- [ ] Пример: без Swift в v1 / со Swift одной строкой  
-- [ ] «Дальше» = какая глава (2 или 3)  
-- [ ] Можно Write `README.md`
+- [x] H1 + fundamental why — ок  
+- [x] Topic id `fundamentals/literal-executor` — ок  
+- [x] Пример: без Swift в v1 (одна отсылка «позже в коде»)  
+- [x] «Дальше» = PART_I / следующая Spine (исполнение · Binary — ещё «скоро»)  
+- [x] Write `README.md` — done 2026-08-03
 
-**После Approve:** Write по этому DESIGN · sidebar: связать «Исполнитель» → эта папка · обновить `PART_I.md` статус.
+**После Write:** sidebar «Исполнитель» → эта папка · `PART_I.md` статус «Читать» · `TOPIC_TREE` entry.

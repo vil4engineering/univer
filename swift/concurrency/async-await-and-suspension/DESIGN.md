@@ -1,6 +1,6 @@
 # DESIGN — Чем suspension отличается от блокировки потока?
 
-**Статус:** Design + Draft v1 · 2026-08-03 · Accept pending  
+**Статус:** Design + Draft v1.1 depth pass · 2026-08-03 · Accept pending  
 **Topic id:** `swift/concurrency/async-await-and-suspension`  
 **Prev:** [structured-concurrency](../structured-concurrency/)
 
