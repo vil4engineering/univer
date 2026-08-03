@@ -1,4 +1,4 @@
-# Swift 6.4 concurrency — what’s new (SwiftLee)
+# Swift 6.4 concurrency — what's new (SwiftLee)
 
 | Field | Value |
 |-------|-------|
@@ -9,21 +9,20 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Swift 6.4 concurrency highlights (WWDC 2026 era):
+Главное по concurrency в Swift 6.4 (эра WWDC 2026):
 
-- **Async `defer`** (SE-0493) — `await` cleanup in defer.
-- **Task cancellation shields** (SE-0504) — finish short cleanup while hiding cancel observation.
-- **Warnings** for ignored throwing unstructured `Task { try await … }` (SE-0520).
+- **Async `defer`** (SE-0493) — `await` в cleanup внутри defer.
+- **Task cancellation shields** (SE-0504) — доделать короткий cleanup, скрыв наблюдение cancel.
+- **Warnings** за проигнорированный throwing в unstructured `Task { try await … }` (SE-0520).
 - Typed throwing task initializers; **async `Result { }`** (SE-0530).
-- Related: `weak let` (6.3) for Sendable; `~Sendable` (SE-0518).
+- Рядом: `weak let` (6.3) для Sendable; `~Sendable` (SE-0518).
 
-## Source
+## Источник
 
 https://www.avanderlee.com/concurrency/swift-6-4-whats-new-in-concurrency/
 
 ## Cross-link
 
-Async defer chapter: [swift/async-defer](../../async-defer/README.md).
-
+Глава async defer: [swift/async-defer](../../async-defer/README.md).

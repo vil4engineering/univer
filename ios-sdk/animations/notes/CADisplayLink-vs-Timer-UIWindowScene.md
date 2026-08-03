@@ -9,17 +9,16 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-**Timer** = wall-clock intervals. **CADisplayLink** = vsync / frame boundaries. Prefer DisplayLink for visual smoothness tied to refresh rate; Timer for coarse periodic work (countdown, polling).
+**Timer** — wall-clock интервалы. **CADisplayLink** — vsync / границы кадра. Для визуальной плавности, привязанной к refresh rate, бери DisplayLink; для грубой периодики (countdown, polling) — Timer.
 
-## Pitfalls (from Saved digest)
+## Pitfalls (из Saved digest)
 
-- Invalidating link on dismiss / scene disconnect.
-- Prefer scene-aware APIs when targeting multi-window (`UIWindowScene`).
-- Do not drive UI animation clocks with Timer if you care about ProMotion cadence.
+- Invalidate link при dismiss / disconnect scene.
+- Для multi-window предпочитай scene-aware API (`UIWindowScene`).
+- Не крути UI animation clocks через Timer, если важна cadence ProMotion.
 
-## Related
+## Связано
 
 Graphics / animations chapters; Instruments frame hitch debugging.
-

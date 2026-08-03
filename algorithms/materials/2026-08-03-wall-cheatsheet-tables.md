@@ -9,14 +9,14 @@
 
 ---
 
-## Verdict (visual review 2026-08-03)
+## Вердикт (visual review 2026-08-03)
 
-Album is **ENGLISH GRAMMAR MAP 1–5** (tenses, questions, modals, …) — RU captions + EN examples. High-quality language posters, **not** CS/interview algorithm walls.
+Альбом — **ENGLISH GRAMMAR MAP 1–5** (tenses, questions, modals, …): RU-подписи + EN-примеры. Качественные language posters, **не** CS/interview algorithm walls.
 
-## Images
+## Картинки
 
 [`2026-08-03-wall-cheatsheets/images/`](2026-08-03-wall-cheatsheets/images/)
 
-## Action
+## Что делать
 
-Do not promote under `algorithms/`. Options: move to Flip English assets later, or delete folder. Left on disk until you choose.
+Не продвигай под `algorithms/`. Варианты: перенести в Flip English assets позже или удалить папку. На диске оставлено, пока не выберешь.

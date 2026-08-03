@@ -9,15 +9,14 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Three rejection / runtime risks called out for the iOS 27 train:
+Три риска rejection / runtime, которые выделили для поезда iOS 27:
 
-1. **Scene-based lifecycle** mandatory — migrate off legacy app-delegate-only UI if still there.
-2. **Liquid Glass ignore flag** stops working — adopt glass / UIKit compatibility fixes; breakage likely without work.
-3. **Launch screen Info.plist config** required (ITMS-90870 style) on iOS 27 / iPadOS 27 — declare launch screen configuration in Info.plist.
+1. **Scene-based lifecycle** обязателен — уходи с legacy app-delegate-only UI, если он ещё остался.
+2. **Liquid Glass ignore flag** перестаёт работать — адаптируй glass / UIKit compatibility fixes; без работы, скорее всего, сломается.
+3. **Launch screen Info.plist config** обязателен (ITMS-90870 style) на iOS 27 / iPadOS 27 — объяви launch screen configuration в Info.plist.
 
-## Shelf note
+## К полке
 
-Pair with UIKit Liquid Glass pitfalls note and App Store submission checklist.
-
+Свяжи с заметкой про Liquid Glass pitfalls в UIKit и чеклистом App Store submission.

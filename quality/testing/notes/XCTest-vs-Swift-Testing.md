@@ -10,20 +10,21 @@
 
 ---
 
-## Digest
+## Дайджест
 
-🚀 XCTest vs Swift Testing — Evolution of Testing in Swift
+**XCTest vs Swift Testing** — эволюция тестирования в Swift.
 
-For more than a decade, XCTest has been the foundation of testing across Apple platforms. With Swift Testing (introduced at WWDC 2024), Apple is bringing a more modern, expressive, and Swift-native approach to writing tests.
+Больше десяти лет **XCTest** — фундамент тестов на Apple platforms. **Swift Testing** (WWDC 2024) даёт более современный, выразительный и Swift-native подход:
 
-✅ Less boilerplate
-✅ Built-in parameterized tests
-✅ Better async/await support
-✅ Cleaner and more readable syntax with @Test and #expect
-While XCTest remains essential for many production apps, Swift Testing represents the future direction of testing in the Swift ecosystem.
-Key takeaway: Great testing isn't about the framework you choose—it's about building reliable, maintainable, and high-quality applications.
-#Swift #iOSDevelopment #SwiftTesting #XCTest #AppleDeveloper #MobileDevelopment #SoftwareTesting #iOSDev #SwiftUI #WWDC #Programming #TechLeadership #CodeQuality #UnitTesting
+- Меньше boilerplate
+- Parameterized tests из коробки
+- Лучше async/await
+- Чище синтаксис: `@Test`, `#expect`
 
-## Interview one-liner
+XCTest остаётся must-have для многих production apps; Swift Testing — направление экосистемы. Главное: качество тестов важнее выбора framework.
 
-XCTest = decade of Apple testing foundation; Swift Testing (`@Test`, `#expect`, parameterized, async-native) = Swift-first direction. They can coexist in one bundle — migrate file-by-file.
+Пост: https://www.linkedin.com/posts/vivek-kumar-singh-a81385a8_expect-swift-iosdevelopment-share-7475592601447071744-3pto/
+
+## One-liner на интервью
+
+XCTest = десятилетие Apple testing foundation; Swift Testing (`@Test`, `#expect`, parameterized, async-native) = Swift-first direction. Могут жить в одном bundle — мигрируй file-by-file.

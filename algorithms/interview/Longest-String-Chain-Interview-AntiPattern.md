@@ -9,15 +9,15 @@
 
 ---
 
-## Problem links
+## Ссылки на задачу
 
 - https://leetcode.com/problems/longest-string-chain/description/
 - https://algocode.io/problem/word-transform-chain
 
-## Framing (from Saved)
+## Framing (из Saved)
 
-Company repeatedly asking a hard DP/string-chain problem filters most candidates — critique of interview design, not a full solution dump.
+Компания, которая раз за разом даёт hard DP/string-chain задачу, отсеивает большинство кандидатов — критика **interview design**, не полный разбор решения.
 
-## Univer use
+## Зачем в univer
 
-Know the problem class (DAG / DP on word length); decide consciously whether *your* interview loop needs this difficulty.
+Знай класс задачи (DAG / DP по длине слова); осознанно реши, нужна ли **твоему** interview loop такая сложность.

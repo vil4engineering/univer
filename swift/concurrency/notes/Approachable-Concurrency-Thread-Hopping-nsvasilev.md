@@ -9,30 +9,30 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Swift 6.2 **Approachable Concurrency** (`APPROACHABLE_CONCURRENCY` / `NonisolatedNonsendingByDefault`): ordinary `nonisolated` async methods **inherit the caller’s executor** instead of hopping to the cooperative pool. Opt into pool hops with `@concurrent`.
+Swift 6.2 **Approachable Concurrency** (`APPROACHABLE_CONCURRENCY` / `NonisolatedNonsendingByDefault`): обычные `nonisolated` async-методы **наследуют executor вызывающей стороны**, а не прыгают в cooperative pool. Хочешь явный hop в pool — пометь `@concurrent`.
 
-## Why it matters
+## Почему это важно
 
-Before: `nonisolated async` on a `@MainActor` type often jumped off main “for no obvious reason.” After: stays with caller until you `@concurrent` or `await` another actor.
+Раньше: `nonisolated async` на `@MainActor`-типе часто уносил выполнение с main «без видимой причины». Теперь: остаётся в контексте caller, пока не поставишь `@concurrent` или не сделаешь `await` на другом actor.
 
-## Mental model
+## Ментальная модель
 
-- **nonsending** — not bound to an actor domain, keeps caller context.
-- **`@concurrent`** — explicit global-pool hop (implies nonisolated).
-- Nested `await` on another actor still hops; resume returns to caller context under Approachable Concurrency.
+- **nonsending** — не привязан к домену actor, держит контекст caller.
+- **`@concurrent`** — явный hop в global pool (подразумевает nonisolated).
+- Вложенный `await` на другом actor всё равно прыгает; при resume возвращаешься в контекст caller — под Approachable Concurrency.
 
-## Source
+## Источник
 
-- Article: https://www.nsvasilev.com/posts/approachable_concurrency/
-- TG album captions + images (Saved 507072/073) — same thesis as channel digest.
+- Статья: https://www.nsvasilev.com/posts/approachable_concurrency/
+- TG album captions + images (Saved 507072/073) — та же тезис, что в дайджесте канала.
 
-## Gap vs existing note
+## Пробел vs существующая заметка
 
-Complements [Approachable-Swift-Concurrency-Site.md](Approachable-Swift-Concurrency-Site.md) with concrete thread-hop tables and `@concurrent` examples.
+Дополняет [Approachable-Swift-Concurrency-Site.md](Approachable-Swift-Concurrency-Site.md) конкретными таблицами thread-hop и примерами `@concurrent`.
 
-## Album images
+## Картинки из альбома
 
 - [`images/approachable-2026-07-30/507072.jpg`](images/approachable-2026-07-30/507072.jpg)
 - [`images/approachable-2026-07-30/507073.jpg`](images/approachable-2026-07-30/507073.jpg)

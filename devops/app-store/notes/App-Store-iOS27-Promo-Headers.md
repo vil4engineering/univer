@@ -9,16 +9,15 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-WWDC26 App Store / Connect updates for **promotion creatives**: new **Header** visual on the product page (replacing / sitting where Feature Banner lived), plus creatives management and personalized recommendations changes.
+Обновления App Store / Connect на WWDC26 для **promo creatives**: новый визуал **Header** на странице продукта (заменяет / занимает место Feature Banner), плюс изменения в управлении креативами и персонализированных рекомендациях.
 
 ## Keep
 
-- Store listing is part of release readiness (with binary requirements).
-- Track creatives separately from screenshots when planning marketing.
+- Store listing — часть release readiness (вместе с требованиями к бинарнику).
+- Планируй креативы отдельно от screenshots, когда готовишь маркетинг.
 
 ## Useful?
 
-pending — verify against current App Store Connect Help after betas.
-
+pending — сверь с актуальным App Store Connect Help после betas.

@@ -10,24 +10,19 @@
 
 ---
 
-## Digest
+## Выжимка
 
-🚀 Xcode 27 is here, and it marks a major step forward in the developer experience.
+Xcode 27 — заметный шаг в developer experience. Хайлайты из поста:
 
-Some of the standout enhancements that caught my attention:
-✨ AI-powered Coding Agents integrated directly into the IDE
-✨ Improved planning and documentation workflows with /plan capabilities
-✨ Device Hub for streamlined testing across multiple devices and configurations
-✨ iCloud Sync for Xcode settings across Macs
-✨ Smarter localization workflows
-✨ Extensible plugin system for adding custom tools, skills, and agents
+- AI-powered Coding Agents прямо в IDE
+- `/plan` для planning и documentation workflows
+- Device Hub — тестирование на нескольких устройствах и конфигурациях
+- iCloud Sync настроек Xcode между Mac
+- Умнее localization workflows
+- Extensible plugin system — custom tools, skills, agents
 
-What excites me most is the shift toward agentic development. The IDE is evolving from a code editor into a development partner—helping with planning, implementation, and iteration within a single workflow.
+Главная идея автора: сдвиг к **agentic development** — IDE из редактора кода превращается в development partner (planning, implementation, iteration в одном workflow). Меньше context switching, больше фокуса на продукте.
 
-These advancements have the potential to improve productivity, reduce context switching, and enable developers to focus more on solving problems and building great products.
+## Вывод
 
-#WWDC2026 #Xcode27 #iOSDevelopment #Swift #SwiftUI #MobileDevelopment #DeveloperTools #AppDevelopment
-
-## Takeaway
-
-Xcode 27 DX marketing post — AI Coding Assistant / experience bullets. Cross-check against WWDC26 release notes before promoting to Living chapter.
+Marketing-пост про Xcode 27 DX — AI Coding Assistant и experience bullets. Сверь с WWDC26 release notes, прежде чем тащить в Living chapter.

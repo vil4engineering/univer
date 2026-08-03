@@ -10,59 +10,31 @@
 
 ---
 
-## Digest
+## Выжимка
 
-🚨 𝗢𝗻𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗠𝗼𝘀𝘁 𝗖𝗼𝗺𝗺𝗼𝗻 #𝗶𝗢𝗦 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗧𝗿𝗮𝗽𝘀
+Частая **iOS interview trap**: «Swift любит struct. Почему `UIViewController` — class, а SwiftUI `View` — struct?» Проверяют понимание Swift, не синтаксис.
 
-"Swift loves "struct"s. Then why is "UIViewController" a "class"? And why is SwiftUI's "View" a "struct"?"
+**Почему `UIViewController` — class**
 
-This question tests whether you truly understand Swift—not just syntax.
+Управляет **identity и lifecycle**. View controller:
 
-📌 𝐖𝐡𝐲 "𝐔𝐈𝐕𝐢𝐞𝐰𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫" 𝐢𝐬 𝐚 "𝐜𝐥𝐚𝐬𝐬"
+- держит mutable state;
+- реагирует на lifecycle (`viewDidLoad`, `viewWillAppear`, …);
+- shared между частями UIKit;
+- наследует `NSObject`, работает с Objective-C runtime (delegation, KVO, target-action).
 
-"UIViewController" manages identity and lifecycle.
+Один long-lived объект → reference semantics (`class`).
 
-𝐀 𝐯𝐢𝐞𝐰 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐥𝐞𝐫:
+**Почему SwiftUI `View` — struct**
 
-- Maintains mutable state.
-- Responds to lifecycle events ("viewDidLoad", "viewWillAppear", etc.).
-- Is shared across multiple parts of UIKit.
-- Inherits from "NSObject" and works with Objective-C runtime features like delegation, KVO, and target-action.
+`View` — **описание UI**, не сам UI. При смене state SwiftUI создаёт новое value, сравнивает с предыдущим, обновляет только изменившееся. Struct даёт value semantics, performance, thread safety, простой diff. Реальные UI objects — внутри SwiftUI.
 
-Since it represents a single, long-lived object, reference semantics ("class") are the right choice.
-
----
-
-📌 𝗪𝗵𝘆 𝗦𝘄𝗶𝗳𝘁𝗨𝗜 "𝗩𝗶𝗲𝘄" 𝗶𝘀 𝗮 "𝘀𝘁𝗿𝘂𝗰𝘁"
-
-A SwiftUI "View" is simply a description of the UI, not the UI itself.
-
-Every time state changes:
-
-- SwiftUI creates a new value.
-- Compares it with the previous one.
-- Updates only the parts that changed.
-
-Using "struct" provides:
-✅ Value semantics
-✅ Better performance
-✅ Thread safety
-✅ Easy diffing for UI updates
-
-The actual UI objects are managed internally by SwiftUI.
-
----
-
-🎯 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗔𝗻𝘀𝘄𝗲𝗿 𝗶𝗻 𝗢𝗻𝗲 𝗟𝗶𝗻𝗲
+**Одной фразой на интервью**
 
 «UIKit uses classes because UI components have identity and lifecycle. SwiftUI uses structs because views are immutable value descriptions that SwiftUI recreates and diffs efficiently.»
 
-Understanding identity vs value semantics is what interviewers are really looking for.
+Суть для интервьюера: **identity vs value semantics**.
 
-💬 If this question came up in your interview, how would you explain it?
+## Одной фразой
 
-#iosdevelopment #Swift #SwiftUI #UIKit #MobileDevelopment #SoftwareEngineering #iOSInterview #code #SwiftProgramming #AppleDeveloper #TechnicalInterview #iosjobs #iosdev
-
-## One-liner
-
-UIKit classes = identity + lifecycle; SwiftUI structs = disposable value descriptions that the framework diffs.
+UIKit classes = identity + lifecycle; SwiftUI structs = disposable value descriptions, которые framework diffs.

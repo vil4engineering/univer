@@ -10,14 +10,18 @@
 
 ---
 
-## What it is
+## Выжимка
 
-Parive reads **native iOS + Android** codebases and aligns screens/features/behaviors concept-by-concept with severity. Public preview runs on Wikipedia apps. Workflow: ranked difference → approved plan → agent implements on lagging platform with tests.
+**Parive** читает нативные iOS и Android codebases и выравнивает экраны, фичи и поведение concept-by-concept с severity. Публичный preview — на Wikipedia apps. Знакомые запустили стартап; категория «feature drift» на dual-platform — стоит следить.
 
-## Try apply
+## Что это
 
-Category worth watching for dual-platform products (feature drift). Not a chapter — tool stub. Evaluate design-partner / preview if a personal dual app appears.
+Parive анализирует **native iOS + Android** репозитории и сопоставляет экраны, фичи и поведение по концептам с уровнями severity. Публичный preview работает на Wikipedia apps. Workflow: ranked difference → approved plan → agent внедряет на отстающей платформе с тестами.
 
-## Digest from Saved
+## Попробовать применить
+
+Категория для dual-platform продуктов (feature drift). Не глава — stub инструмента. Оцени design-partner / preview, если появится личный dual-app проект.
+
+## Выжимка из Saved
 
 Знакомые запустили стартап: анализ iOS/Android кодовых баз на расхождение функциональности; пример — Wikipedia apps.

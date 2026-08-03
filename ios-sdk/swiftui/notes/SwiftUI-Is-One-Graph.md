@@ -10,16 +10,16 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-SwiftUI is a **demand-driven attribute graph** (not a naive full-tree diff). View structs are disposable values; persistent state is keyed by **identity**. Dependencies are discovered when a body runs. Dirty cones recompute lazily; equal recomputed values stop propagation. Layers coalesce (not 1:1 UIView→CALayer). Animations jump model to target and interpolate presentation. Patent US 11,042,388 aligns with observed behavior.
+SwiftUI — **demand-driven attribute graph** (не наивный full-tree diff). View structs — disposable values; persistent state привязан к **identity**. Зависимости обнаруживаются, когда body выполняется. Dirty cones пересчитываются лениво; равные recomputed values останавливают propagation. Слои coalesce (не 1:1 UIView→CALayer). Анимации прыгают model к target и интерполируют presentation. Patent US 11,042,388 совпадает с наблюдаемым поведением.
 
 ## Interview hooks
 
-- Identity vs position; why `.id` resets state
+- Identity vs position; зачем `.id` сбрасывает state
 - Cone of invalidation vs rebuild-the-world
-- Model vs presentation in `withAnimation`
+- Model vs presentation в `withAnimation`
 
 ## Useful?
 
-yes-leaning — deep mental model for Living SwiftUI chapter later.
+yes-leaning — глубокий mental model для Living SwiftUI chapter позже.

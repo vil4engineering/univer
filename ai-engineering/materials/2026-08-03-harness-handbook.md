@@ -13,10 +13,10 @@
 
 https://ruhan-wang.github.io/Harness-Handbook/
 
-## In 30 seconds
+## За 30 секунд
 
-Handbook for making agent harnesses understandable, auditable, editable.
+Handbook про то, как сделать agent harness понятным, проверяемым и редактируемым — трёхуровневая карта поведений чужих harness и чеклист слоёв.
 
-## Try apply
+## Попробовать применить
 
-Cross-check with local ios-agent-harness / agents-kit concepts.
+Сверь с локальными концепциями ios-agent-harness и agents-kit.

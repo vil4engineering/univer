@@ -1,6 +1,6 @@
 # Present vs push — who does `dismiss` close?
 
-Notes for **UIKit**. Source: Telegram Saved `507916` (interview-style post). Related: [UIKit README](../README.md), SwiftUI Q9 multilevel dismiss in [swiftui/](../../swiftui/README.md), [architecture/navigation](../../../architecture/navigation/README.md).
+Заметка для **UIKit**. Источник: Telegram Saved `507916` (пост в стиле интервью). Связано: [UIKit README](../README.md), SwiftUI Q9 multilevel dismiss in [swiftui/](../../swiftui/README.md), [architecture/navigation](../../../architecture/navigation/README.md).
 
 | Field | Value |
 |-------|-------|
@@ -9,18 +9,18 @@ Notes for **UIKit**. Source: Telegram Saved `507916` (interview-style post). Rel
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-`dismiss(animated:)` closes a **modal** presentation chain. It does **not** pop a `UINavigationController` stack — that needs `popViewController` / `popToRootViewController`.
+`dismiss(animated:)` закрывает **modal** presentation chain. Он **не** делает pop в `UINavigationController` — для этого нужны `popViewController` / `popToRootViewController`.
 
 ---
 
 ## Modal (`present`)
 
-| Call | Effect |
+| Вызов | Эффект |
 |------|--------|
-| `vc2.dismiss` (top modal) | Closes only `vc2`; returns to `vc1` |
-| `vc1.dismiss` (lower modal that presented `vc2`) | Tears down `vc1` **and** everything presented on top of it |
+| `vc2.dismiss` (top modal) | Закрывает только `vc2`; возврат к `vc1` |
+| `vc1.dismiss` (нижний modal, который present'ил `vc2`) | Сносит `vc1` **и** всё, что present'ено поверх |
 
 ```swift
 let vc1 = UIViewController()
@@ -36,7 +36,7 @@ vc1.dismiss(animated: true) // vc1 + vc2
 
 ## Navigation stack (`push`)
 
-`dismiss` on a pushed VC is the wrong tool (may dismiss an outer modal that contains the nav, or do nothing useful for “go back one screen”).
+`dismiss` на pushed VC — не тот инструмент (может закрыть внешний modal с nav внутри или не дать «назад на один экран»).
 
 ```swift
 navigationController?.pushViewController(vc1, animated: true)
@@ -48,6 +48,6 @@ navigationController?.popToRootViewController(animated: true) // whole stack
 
 ---
 
-## Interview one-liner
+## Одной фразой на интервью
 
-Know **which stack** you are on: presentation stack vs navigation stack — same “go back” intent, different API.
+Пойми, **на каком stack** ты: presentation stack vs navigation stack — один intent «назад», разные API.

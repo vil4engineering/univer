@@ -9,24 +9,22 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Practical UIKit + Liquid Glass (iOS 26/27) issues: navigation buttons, tab bar, `WKWebView`. Custom `UIBarButtonItem` views can distort size/colors — isolate with explicit constraints or replace with SwiftUI/`UIImage` patterns.
+Практические проблемы UIKit + Liquid Glass (iOS 26/27): navigation buttons, tab bar, `WKWebView`. Custom `UIBarButtonItem` views могут искажать size/colors — изолируй explicit constraints или замени на SwiftUI / `UIImage` patterns.
 
-## Digest from Saved
+## Выжимка from Saved
 
 Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls
 
+🖥 Если ещё не мигрировал UIKit на Liquid Glass — статья про практические проблемы адаптации на iOS 26 из реального проекта.
 
-🖥 Если все еще не мигрировали на Liquid Glass на UIKit - статья для вас: практические проблемы адаптации UIKit на iOS 26, замеченные автором в реальном проект. 
+❓ **Главные кейсы** — кнопки навигации, tab bar, `WKWebView`. Для `UIBarButtonItem` с `customView` на iOS 26: искажение размеров и пропадание цветов. Решение — полностью «изолировать» view с explicit constraints (ширина, высота, center) или заменить UIKit view на SwiftUI через `UIHostingController`; в большинстве случаев восстанавливает и размеры, и цвет.
 
-❓ Главные кейсы - кнопки навигации, таббар и взаимодействие с WKWebView. Для UIBarButtonItem с customView на iOS 26 наблюдались искажение размеров и исчезновение цветов: решение - полностью «изолировать» вью с явными constrain (ширина, высота и центр) или заменить UIKit вью на SwiftUI через UIHostingController; это в большинстве случаев восстанавливало и размеры, и цвет. 
+🔍 **Баги нового badge API** — иногда не обновляется; трюк: временно убрать и вернуть `customView`. **Порядок `rightBarButtonItems`** — иногда помогает `DispatchQueue.main.async`, лучше — `trailingItemGroups`.
 
-🔍 Немного про баги с новым API бейджей (иногда не обновляется - простой трюк: временно убрать и вернуть customView) и переносом порядка rightBarButtonItems (иногда помогает DispatchQueue.main.async или лучше - trailingItemGroups).
+⚙️ **`UITabBarController` и `WKWebView`:** динамическая перестройка tab bar во время dismiss модального controller может ломать UI — жди окончания dismiss-анимации. Для `WKWebView` обязательно `viewport-fit=cover` и `env(safe-area-inset-*)` в CSS, иначе контент может оказаться под tab bar (особенно при Liquid Glass tab bar и scroll).
 
-⚙️ Про UITabBarController и WKWebView: если вы динамически перестраиваете таббар во время закрытия модального контроллера, это может ломать интерфейс - ждущая окончания анимации dismiss решает проблему. При встраивании WKWebView стоит обязательно использовать viewport-fit=cover и env(safe-area-inset-*) в CSS, иначе контент может оказаться под таббаром (особенно при 
+## Открыто
 
-## Open
-
-Locate canonical article URL if present in channel; deepen with WWDC Liquid Glass sessions.
-
+Найди canonical URL статьи в канале; углуби WWDC Liquid Glass sessions.

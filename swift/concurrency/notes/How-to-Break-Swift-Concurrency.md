@@ -9,17 +9,16 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Tasks run on a **cooperative thread pool** sized roughly to CPU cores. Blocking calls or tight sync loops steal pool threads → hangs/deadlocks (worse on 1–2 core CI / weak devices).
+`Task` крутятся в **cooperative thread pool**, размером примерно по числу CPU-ядер. Блокирующие вызовы или tight sync-циклы забирают потоки pool → зависания и deadlock (особенно больно на 1–2 ядрах в CI или слабых девайсах).
 
-## Anti-patterns
+## Антипаттерны
 
-- Sync blocking inside `Task` / async functions.
-- Deadlocks across queues / same-queue re-entry.
-- Assuming “more Tasks” = more parallelism when pool is saturated.
+- Синхронная блокировка внутри `Task` / async-функций.
+- Deadlock между очередями / re-entry в ту же очередь.
+- Думать, что «больше Task» = больше параллелизма, когда pool уже перегружен.
 
-## Interview
+## На интервью
 
-Separate **data race** (memory unsafety) from **logical race / starvation** (pool exhaustion).
-
+Разделяй **data race** (небезопасность памяти) и **logical race / starvation** (исчерпание pool).

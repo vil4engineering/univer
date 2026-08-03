@@ -9,18 +9,18 @@
 
 ---
 
-## Source
+## Источник
 
 https://fatbobman.com/en/posts/debugging-notes-on-two-swiftui-animation-bugs/
 
-## Bug 1 — explicit `withAnimation` interrupted by parent rebuild
+## Баг 1 — explicit `withAnimation` прерывается parent rebuild
 
-Rare on iOS 26 (~1–2%), much worse on iOS 27: parent rebuild commits child end-state outside the animation transaction → in-flight animation snaps. Fix direction: move animation closer to the view (`.animation(_:value:)`) + `Animatable` completion observer; prefer `DispatchQueue.main.async` over `Task { @MainActor }` inside `animatableData` setter to avoid “Publishing changes from within view updates”.
+Редко на iOS 26 (~1–2%), сильно хуже на iOS 27: parent rebuild коммитит end-state дочернего view вне animation transaction → in-flight animation «щёлкает». Направление фикса: анимацию ближе к view (`.animation(_:value:)`) + completion observer через `Animatable`; внутри setter `animatableData` предпочитай `DispatchQueue.main.async` вместо `Task { @MainActor }`, чтобы не ловить «Publishing changes from within view updates».
 
-## Bug 2 — ternary `Image` vs `if/else` inside `List`
+## Баг 2 — ternary `Image` vs `if/else` внутри `List`
 
-`Image(systemName: cond ? a : b)` reuses one identity and swaps symbol — can break cell animation on iOS 26 `List`. `if/else` branches → different identities → problem gone. Counterintuitive: sometimes you *want* identity change.
+`Image(systemName: cond ? a : b)` переиспользует одну identity и меняет symbol — может ломать cell animation в iOS 26 `List`. Ветки `if/else` → разные identities → проблема исчезает. Контринтуитивно: иногда identity change как раз нужен.
 
-## Interview takeaway
+## Вывод для интервью
 
-Animation bugs often = identity + transaction boundaries, not “wrong Animation curve”.
+Animation bugs часто = **identity + transaction boundaries**, а не «не тот Animation curve».

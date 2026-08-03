@@ -9,34 +9,27 @@
 
 ---
 
-## Repos / posts
+## Репозитории / посты
 
 - https://github.com/Livsy90/iOS-Performance-Agent-Skills/tree/main
 - LinkedIn Artem Mirzabekian (launch time skill): https://www.linkedin.com/posts/artem-mirzabekian_im-continuing-my-series-about-ai-agent-skills-share-7482296495090806784-fBG7/
 
-## In 30 seconds
+## За 30 секунд
 
-Agent skills for reviewing/diagnosing iOS performance; launch-time skill called out as sensitive path.
+Agent skills для review и диагностики iOS performance; отдельно выделен launch-time skill — чувствительный участок startup.
 
-## Try apply
+## Попробуй применить
 
-Wire selected skills into local agent harness for Instruments-driven reviews.
+Подключи выбранные skills в локальный agent harness для Instruments-driven reviews.
 
-## LinkedIn digest (launch-time skill)
+## Дайджест LinkedIn (launch-time skill)
 
-I’m continuing my series about AI Agent Skills for iOS development.
+Artem Mirzabekian продолжает серию про AI Agent Skills для iOS. Новый skill — **launch time**: один из самых чувствительных участков performance.
 
-Today, I want to share a skill focused on one of the most sensitive parts of an app’s performance: launch time.
+Skill учит агента разбирать startup как **pipeline**, а не выдавать generic «вынеси с main» / «уменьши число frameworks». Агент ищет дорогую фазу, critical path и отделяет work до первого кадра от work, которое можно отложить до первого interaction или позже.
 
-The iOS Launch Performance skill helps an AI agent investigate startup problems without falling back on generic advice such as "move the work off the main thread" or "reduce the number of frameworks."
+References покрывают UIKit/SwiftUI lifecycle, pre-main, launch orchestration, SDK startup, linking strategy, XCTest metrics, Instruments, MetricKit и production monitoring. Цель — классифицировать проблему, привязать рекомендации к evidence и объяснить, как валидировать каждое изменение.
 
-The skill then treats startup as a pipeline. It helps the agent identify the expensive phase, inspect the critical path, and separate work that must happen before the first frame from work that can wait until the first interaction or a later feature.
-
-The included references cover UIKit and SwiftUI lifecycle code, pre-main work, launch orchestration, SDK startup, linking strategy, XCTest metrics, Instruments, MetricKit, and production monitoring.
-
-The goal is to help an agent classify the problem, connect recommendations to evidence, and explain how each change should be validated.
-
-Article: https://lnkd.in/d-WdDCTD
+Статья: https://lnkd.in/d-WdDCTD
 
 ⭐ GitHub: https://lnkd.in/dMB9CmvT
-

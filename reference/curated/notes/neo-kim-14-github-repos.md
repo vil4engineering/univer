@@ -10,7 +10,7 @@
 
 ---
 
-## Verified via Safari tabs (2026-08-03)
+## Проверено через Safari tabs (2026-08-03)
 
 | # | Title | GitHub |
 |---|-------|--------|
@@ -29,6 +29,6 @@
 | 13 | AutoGPT | https://github.com/Significant-Gravitas/AutoGPT |
 | 14 | Tensorflow | https://github.com/tensorflow/tensorflow |
 
-## Curated for univer
+## Curated для univer
 
-Strong SE spine candidates: tech-interview-handbook, coding-interview-university, path-to-senior-engineer-handbook, engineering-leader resources, system-design-academy. Roadmap fork is `nilbuild/developer-roadmap` (not kamranahmedse). AI/tooling (n8n, Open WebUI, Transformers, AutoGPT, TF) → optional under ai-engineering materials.
+Сильные кандидаты SE spine: tech-interview-handbook, coding-interview-university, path-to-senior-engineer-handbook, engineering-leader resources, system-design-academy. Roadmap fork — `nilbuild/developer-roadmap` (не kamranahmedse). AI/tooling (n8n, Open WebUI, Transformers, AutoGPT, TF) → optional под ai-engineering materials.

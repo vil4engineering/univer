@@ -10,14 +10,14 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Modularization limits how much of the dependency graph recompiles after a change: clearer feature/service boundaries, parallel compile, better Xcode caches. Core module first → feature modules; at scale still hit base-layer invalidation → consider Bazel/Buck. Feature API vs Impl (Tuist-style) keeps dependents stable when impl changes.
+Модули ограничивают, сколько dependency graph пересобирается после изменения: чётче границы feature/service, параллельная компиляция, лучше Xcode caches. Сначала core module → feature modules; на масштабе всё равно бьёшься об invalidation базового слоя → смотри Bazel/Buck. Feature API vs Impl (Tuist-style) держит dependents стабильными, когда меняется impl.
 
 ## LinkedIn
 
-Original Saved short link 404’d as post page; substance matches Bartlett’s modular architecture posts on build times.
+Оригинальная короткая ссылка из Saved отдала 404 как post page; суть совпадает с постами Bartlett про modular architecture и build times.
 
-## Try apply
+## Попробуй применить
 
-Compare with [spm-common-services-features-cheatsheet](spm-common-services-features-cheatsheet.md) and JET five-category note.
+Сравни с [spm-common-services-features-cheatsheet](spm-common-services-features-cheatsheet.md) и заметкой JET про пять категорий.

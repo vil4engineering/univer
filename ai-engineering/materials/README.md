@@ -6,7 +6,7 @@
 
 | Material | Added | Useful? | Notes |
 |----------|-------|---------|-------|
-| [AI Native Engineer Roadmap (slides)](2026-06-24-ai-native-engineer-roadmap/) | 2026-07-24 | pending | TG Saved → compare with [roadmap/](../roadmap/) |
+| [AI Native Engineer Roadmap (slides)](2026-06-24-ai-native-engineer-roadmap/) | 2026-07-24 | pending | TG Saved — сверить с [roadmap/](../roadmap/) |
 | [RAG for mobile](2026-08-03-rag-for-mobile-developers.md) | 2026-08-03 | pending | TG `507065` |
 | [Harness for iOS](2026-08-03-what-is-harness-for-ios.md) | 2026-08-03 | pending | TG `506187` |
 | [Harness Handbook](2026-08-03-harness-handbook.md) | 2026-08-03 | pending | TG `506000` |
@@ -22,8 +22,8 @@
 | [OpenSpec / opencode](2026-08-03-openspec-opencode.md) | 2026-08-03 | pending | TG `503196` |
 | [WWDC26 Gemma on-device](2026-08-03-wwdc26-gemma-on-device.md) | 2026-08-03 | pending | TG `503183` |
 | [Jetpacker Android AI](2026-08-03-jetpacker-android-ai-demo.md) | 2026-08-03 | pending | TG album `506112–15` |
-| [rememberDecoratedNavEntries](2026-08-03-remember-decorated-nav-entries.md) | 2026-08-03 | pending | TG `506551` Android idea |
-| [Parive feature parity](2026-08-03-parive-feature-parity.md) | 2026-08-03 | pending | TG `505995` study |
+| [rememberDecoratedNavEntries](2026-08-03-remember-decorated-nav-entries.md) | 2026-08-03 | pending | TG `506551` — Android-идея |
+| [Parive feature parity](2026-08-03-parive-feature-parity.md) | 2026-08-03 | pending | TG `505995` — на изучение |
 
 **Useful?** values: `pending` · `yes` · `partial` · `no`
 

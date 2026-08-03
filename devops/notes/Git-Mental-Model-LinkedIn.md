@@ -10,72 +10,67 @@
 
 ---
 
-## Digest (Narendra K.)
+## Выжимка (Narendra K.)
 
-Most #developers use #Git daily and still don't understand what's actually happening under the hood.
+Большинство разработчиков каждый день пользуются Git и всё равно не понимают, что происходит под капотом.
 
-Here's the problem →
-Git isn't hard. The commands are simple. 
+Проблема не в сложности команд — они простые. Не хватает **mental model**: как данные движутся между четырьмя стадиями:
 
-What's missing is the mental model of how data actually moves between the four stages:
-Working Directory → Staging Area → Local Repo → Remote Repo
+**Working Directory → Staging Area → Local Repo → Remote Repo**
 
-Once you see Git as a pipeline instead of a list of commands, everything clicks.
+Когда видишь Git как pipeline, а не список команд, всё складывается.
 
-𝗪𝗼𝗿𝗸𝗶𝗻𝗴 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆 → 𝗦𝘁𝗮𝗴𝗶𝗻𝗴 𝗔𝗿𝗲𝗮
-→ git add  — moves specific untracked/modified changes into the index
-→ git add . — stages everything in the current directory
-→ git commit -a -m "message" — skips staging and commits all tracked changes directly
+**Working Directory → Staging Area**
 
-𝗦𝘁𝗮𝗴𝗶𝗻𝗴 𝗔𝗿𝗲𝗮 → 𝗟𝗼𝗰𝗮𝗹 𝗥𝗲𝗽𝗼
-→ git commit -m "message" — locks your staged changes into history with a message
-→ git commit --amend — edits the last commit instead of creating a new one
+- `git add` — переносит конкретные untracked/modified изменения в index
+- `git add .` — stage всего в текущей директории
+- `git commit -a -m "message"` — пропускает staging и коммитит все tracked изменения напрямую
 
-𝗟𝗼𝗰𝗮𝗹 𝗥𝗲𝗽𝗼 → 𝗥𝗲𝗺𝗼𝘁𝗲 𝗥𝗲𝗽𝗼
-→ git push — sends your commits upstream to the remote branch
-→ git push -u origin  — pushes and sets the upstream tracking branch
-→ git push --force — overwrites remote history with your local branch (use with caution)
+**Staging Area → Local Repo**
 
-𝗥𝗲𝗺𝗼𝘁𝗲 𝗥𝗲𝗽𝗼 → 𝗟𝗼𝗰𝗮𝗹
-→ git fetch — downloads changes from remote without merging them
-→ git pull — fetches and merges remote changes in one step
-→ git merge  — combines the fetched changes into your current branch
-→ git rebase  — replays your commits on top of another branch's history for a cleaner log
+- `git commit -m "message"` — фиксирует staged изменения в history с сообщением
+- `git commit --amend` — правит последний commit вместо нового
 
-𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝘄𝗵𝗮𝘁 𝗰𝗵𝗮𝗻𝗴𝗲𝗱
-→ git status — shows the current state of working directory and staging area
-→ git diff — shows unstaged changes in the working directory
-→ git diff --staged / --cached — shows staged changes compared to the last commit
-→ git diff HEAD — compares working directory to the last commit
-→ git diff  — compares any two points in history
-→ git log — shows commit history
-→ git log --oneline --graph — shows a compact, visual commit tree
+**Local Repo → Remote Repo**
 
-𝗨𝗻𝗱𝗼𝗶𝗻𝗴 𝗺𝗶𝘀𝘁𝗮𝗸𝗲𝘀
-→ git reset  — unstages a file without losing changes
-→ git reset --hard — discards all local changes and staged files
-→ git checkout --  — reverts a file back to the last commit
-→ git revert  — creates a new commit that undoes a previous one safely
-→ git stash — temporarily shelves uncommitted changes so you can switch context
+- `git push` — отправляет commits на remote branch
+- `git push -u origin` — push + upstream tracking branch
+- `git push --force` — перезаписывает remote history локальной веткой (осторожно)
 
-𝗕𝗿𝗮𝗻𝗰𝗵𝗶𝗻𝗴
-→ git branch — lists all local branches
-→ git branch  — creates a new branch
-→ git checkout -b  — creates and switches to a new branch
-→ git switch  — switches to an existing branch (safer alternative to checkout)
+**Remote Repo → Local**
 
-Once you understand this flow, you stop fearing Git. You start using it with intent.
+- `git fetch` — скачивает изменения с remote без merge
+- `git pull` — fetch + merge за один шаг
+- `git merge` — объединяет fetched изменения в текущую ветку
+- `git rebase` — перепроигрывает твои commits поверх history другой ветки
 
-Save this. You'll need it the next time git throws an error you don't recognize.
+**Checking what changed**
 
- Comment "GIT" and I'll DM you the workflow cheat sheet.
+- `git status` — состояние working directory и staging area
+- `git diff` — unstaged изменения
+- `git diff --staged` / `--cached` — staged vs последний commit
+- `git diff HEAD` — working directory vs последний commit
+- `git log` / `git log --oneline --graph` — history и компактное дерево
 
-Follow Narendra K. for daily #backend, #Java, and #interview prep content that actually makes sense. | 76 comments on LinkedIn
+**Undoing mistakes**
 
-## Companion post
+- `git reset` — unstage без потери изменений
+- `git reset --hard` — сброс всех local изменений
+- `git checkout --` — откат файла к последнему commit
+- `git revert` — новый commit, отменяющий предыдущий
+- `git stash` — временно убирает uncommitted изменения
 
-Also Saved: Jaswindder “50 commands in 5 words” listicle — command-cheatsheet style, lower durability than mental-model framing.
+**Branching**
+
+- `git branch` — список локальных веток
+- `git checkout -b` / `git switch` — создать или переключиться
+
+Когда понимаешь этот flow, перестаёшь бояться Git и начинаешь пользоваться осознанно.
+
+## Соседний пост
+
+Также в Saved: Jaswindder «50 commands in 5 words» — listicle-шпаргалка; ниже durability, чем mental-model framing.
 
 ## Useful?
 
-Promote durable mental-model bits into a fundamentals/devops git note later; keep listicle as pointer only.
+Promote durable mental-model bits в fundamentals/devops git note позже; listicle оставь как pointer only.

@@ -9,6 +9,10 @@
 
 ---
 
-## Artifact
+## Выжимка
+
+Русскоязычный PDF (v0.9) про Claude Code и developer experience — скачанный артефакт, без пересказа в репо. Открой PDF, если нужен полный текст.
+
+## Артефакт
 
 [`2026-08-03-claude-code-for-dx/claude-code-for-dx-v0.9_ru.pdf`](2026-08-03-claude-code-for-dx/claude-code-for-dx-v0.9_ru.pdf)

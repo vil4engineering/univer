@@ -10,10 +10,10 @@
 
 ---
 
-## Status
+## Статус
 
-Public + Safari scrape only yield the title. Safari hit LinkedIn **security verification / authenticator** checkpoint (2026-08-03).
+Публичный доступ и Safari scrape дают только заголовок. Safari упёрся в LinkedIn **security verification / authenticator** (2026-08-03).
 
-## Decision
+## Решение
 
-Treat as **noise / empty substance** until you paste body from a logged-in Safari session. Default: do not promote.
+Считай **noise / empty substance**, пока не вставишь body из залогиненной Safari-сессии. По умолчанию — не promote.

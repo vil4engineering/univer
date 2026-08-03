@@ -113,6 +113,6 @@ A: Resource ownership, cancellation semantics, idempotent cleanup, and keeping d
 
 ## Sources / Saved triage
 
-- TG Saved `505005`, `504527` → SwiftLee https://www.avanderlee.com/swift/defer-usage-swift/ (async defer + await in defer bodies, Swift 6.4).
-- Added 2026-08-03; Useful? pending.
+- TG Saved `505005`, `504527` → SwiftLee https://www.avanderlee.com/swift/defer-usage-swift/ (async defer + `await` в теле defer, Swift 6.4).
+- Добавлено 2026-08-03; Useful? pending.
 

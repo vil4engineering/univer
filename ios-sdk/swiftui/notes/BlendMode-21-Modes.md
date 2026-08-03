@@ -9,16 +9,14 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Channel digest: walkthrough of all **21** `BlendMode` values with code + resulting images. Use when compositing overlays, avatars, glass effects.
+Channel digest: разбор всех **21** значений `BlendMode` с кодом и результирующими картинками. Используй при compositing overlays, avatars, glass effects.
 
-## Action
+## Что делать
 
-Keep as pointer until images downloaded into this note’s `images/` if re-captured; primary learning is visual.
+Оставь как pointer, пока картинки не скачаешь в `images/` этой заметки; основное обучение — визуальное.
 
 ## Source digest
 
-Как работает каждый BlendMode
-
-Разбор всех 21 BlendMode'ов в SwiftUI с примерами кода и получающихся изображений.
+Как работает каждый `BlendMode`: все 21 режим в SwiftUI с примерами кода и получившихся изображений.

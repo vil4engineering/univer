@@ -9,11 +9,11 @@
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Actors serialize access to isolated state (no data race) but **each `await` is a suspension point** — another task can enter and mutate; a stale response can arrive after a newer one.
+Actor сериализует доступ к изолированному состоянию (data race не будет), но **каждый `await` — точка приостановки**: другая задача может зайти и изменить state; устаревший ответ может приехать позже нового.
 
-## Digest
+## Дайджест
 
 Собеседование: почему actor не гарантирует порядок ответов в UI?
 
@@ -36,13 +36,12 @@ actor ImageLoader {
 
 Код безопасен по памяти: словарь не мутируется из двух потоков одновременно. Но если экран запросил картинку A, потом B, ответ A может завершиться позже и перерисовать UI старым состоянием, если caller не проверяет актуальный id.
 
-На интервью хороший вывод звучит так: actor решает проблему изоляции данных, но порядок пользовательских намерений надо моделировать отдельно. Для SwiftUI это часто .task(id:), сравнение requestID перед присваиванием или cancellation старой задачи.
+На интервью хороший вывод звучит так: actor решает проблему изоляции данных, но порядок пользовательских намерений надо моделировать отдельно. Для SwiftUI это часто `.task(id:)`, сравнение requestID перед присваиванием или cancellation старой задачи.
 
 Источник: The Swift Programming Language, Concurrency
 
 #Swift #Concurrency #Interview #iOS #Actors
 
-## One-liner
+## Одной фразой
 
-Data race ≠ logical race. Cancel/supersede in-flight loads; version tokens or ignore outdated results on the UI side.
-
+Data race ≠ logical race. Отменяй или supersede in-flight загрузки; version tokens или игнорируй устаревшие результаты на стороне UI.

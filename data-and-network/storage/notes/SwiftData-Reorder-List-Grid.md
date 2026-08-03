@@ -23,6 +23,6 @@
 
 😃 iOS Dev
 
-## Pattern
+## Паттерн
 
-Local `@Query` + drag/drop (`onDrag`/`onDrop`/`DropDelegate`) → persist sort key in SwiftData.
+Локальный `@Query` + drag/drop (`onDrag`/`onDrop`/`DropDelegate`) → persist sort key в SwiftData.

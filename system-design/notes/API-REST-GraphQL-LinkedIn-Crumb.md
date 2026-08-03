@@ -10,85 +10,28 @@
 
 ---
 
-## Digest
+## Дайджест
 
-My API handled 10,000 requests flawlessly in testing.
+Автор: API выдержал 10 000 запросов в тестах — и упал в production за два часа. Причина — неверный **тип API**, а не «REST для всего».
 
-Crashed in production within 2 hours.
+Краткая карта типов из поста:
 
-The problem? I used the wrong API type.
+| Тип | Когда |
+|-----|-------|
+| **Open API** | Публичный доступ: погода, login, каталоги (Stripe, Google Maps) |
+| **REST API** | HTTP, простой, универсальный — большинство web/mobile |
+| **SOAP API** | XML, формальный — банки, страховые, госсектор |
+| **GraphQL API** | Запрос ровно нужных полей — сложные связи (feed) |
+| **Backend-to-Backend** | Внутренние microservices |
+| **Frontend-to-Backend** | UI → server (login, search, profile) |
+| **Service-to-Database** | Backend → БД |
+| **Partner API** | Доверенные партнёры (affiliate, reseller) |
+| **Data Sharing API** | Чувствительный обмен (медицина, финансы) |
 
-🎁 Lately, I started learning Claude skills from this article: https://lnkd.in/eSgv9QP8
+Framework выбора автора: public access → Open/REST; сложные запросы → GraphQL; enterprise/legacy → SOAP; internal → B2B; partners → Partner API; sensitive → Data Sharing.
 
-APIs aren't one-size-fits-all. Different problems need different types.
+Пост: https://www.linkedin.com/posts/aryan-gupta-81887028a_api-softwareengineering-rest-share-7475982968360943617-_mUO/
 
-𝗢𝗣𝗘𝗡 𝗔𝗣𝗜
-- Public access for anyone.
-- Use for: Weather data, login systems, product catalogs
-- Example: Stripe payments, Google Maps
+## Рамка
 
-𝗥𝗘𝗦𝗧 𝗔𝗣𝗜
-- HTTP-based, simple, universal.
-- Use for: 90% of modern web apps
-- Example: Mobile app fetching user data
-
-𝗦𝗢𝗔𝗣 𝗔𝗣𝗜
-- XML-based, strict, formal.
-- Use for: Banks, insurance, government
-- Example: Processing insurance claims, wire transfers
-
-𝗚𝗿𝗮𝗽𝗵𝗤𝗟 𝗔𝗣𝗜
-- Query exactly what you need.
-- Use for: Complex data with many relationships
-- Example: Facebook feed (only fetch what's needed)
-
-𝗕𝗔𝗖𝗞𝗘𝗡𝗗 𝗧𝗢 𝗕𝗔𝗖𝗞𝗘𝗡𝗗
-- Internal microservices talking.
-- Use for: Your own system architecture
-- Example: Auth service → User service → Payment service
-
-𝗙𝗥𝗢𝗡𝗧𝗘𝗡𝗗 𝗧𝗢 𝗕𝗔𝗖𝗞𝗘𝗡𝗗
-- Your UI requesting server data.
-- Use for: Every web/mobile app interaction
-- Example: Login, search, profile updates
-
-𝗦𝗘𝗥𝗩𝗜𝗖𝗘 𝗧𝗢 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘
-- Backend querying databases.
-- Use for: All data operations
-- Example: Storing users, fetching orders
-B2B INTEGRATION
-
-𝗣𝗔𝗥𝗧𝗡𝗘𝗥 𝗔𝗣𝗜
-- Controlled access for trusted partners.
-- Use for: Affiliate programs, reseller systems
-- Example: Amazon affiliate tracking
-
-𝗗𝗔𝗧𝗔 𝗦𝗛𝗔𝗥𝗜𝗡𝗚 𝗔𝗣𝗜
-- Secure exchange of sensitive data.
-- Use for: Health records, financial data
-- Example: Hospital systems sharing patient info
-
-The pattern:
-❌ Use REST for everything
-✅ Match API type to problem
-
-My decision framework:
-Public access? → Open API or REST
-Complex queries? → GraphQL
-Enterprise/legacy? → SOAP
-Internal services? → Backend to Backend
-Business partners? → Partner API
-Sensitive data? → Data Sharing API
-
-Which API type saves you the most time?
-
-🔁 Repost if this clears up API confusion
-
-➕ Follow Aryan Gupta for more resources 
-
-#API #SoftwareEngineering #REST #GraphQL #Backend #WebDev #TechArchitecture
- | 31 comments on LinkedIn
-
-## Framing
-
-SE crumb on picking API style for load — not Backend faculty depth. Useful as cautionary interview anecdote.
+SE-crumb про выбор API style под нагрузку — не глубина Backend faculty. Полезен как cautionary interview anecdote.

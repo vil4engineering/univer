@@ -14,17 +14,21 @@
 
 https://teletype.in/@easy_dev991/TQsjWIzfHde
 
-## Digest
+## Выжимка
 
-Work-project experience with **openspec** inside **opencode**:
+Опыт на рабочем проекте: **openspec** внутри **opencode** — doc-first flow с артефактами в репо. Плюсы: стандартизированный процесс, легко продолжить сессию. Минусы: агент часто пишет EN-доки и мусор — артефакты всегда перечитывай; качество зависит от модели и `AGENTS.md`.
 
-- `openspec init` → pick tools → commit skills/commands
-- Small feature: `/opsx-ff <slug>` → artifacts → review → `/opsx-apply`
-- Standard feature: `/opsx-new` → `/opsx-continue` through proposal → design → specs → tasks → apply
-- `/opsx-verify` then `/opsx-archive` when done
-- Pros: standardized doc-first flow, artifacts in-repo, easy resume
-- Cons: agent often writes EN docs / occasional garbage; always re-check artifacts; quality depends on model + `AGENTS.md`
+## Выжимка
 
-## Try apply
+Workflow на проекте с **openspec** в **opencode**:
 
-Candidate workflow for agent harness / chapter Design gates — compare with local Creator Portal chapter-fill.
+- `openspec init` → выбор tools → commit skills/commands
+- Малая фича: `/opsx-ff <slug>` → артефакты → review → `/opsx-apply`
+- Стандартная фича: `/opsx-new` → `/opsx-continue` через proposal → design → specs → tasks → apply
+- По готовности: `/opsx-verify`, затем `/opsx-archive`
+- Плюсы: doc-first, артефакты в репо, удобное resume
+- Минусы: EN в доках, иногда мусор — перепроверяй; качество = модель + `AGENTS.md`
+
+## Попробовать применить
+
+Кандидат в workflow для agent harness и Design gates глав — сравни с локальным Creator Portal и chapter-fill.

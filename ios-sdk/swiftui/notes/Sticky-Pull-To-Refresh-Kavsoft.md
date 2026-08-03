@@ -3,16 +3,16 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | partial |
 | Source | Telegram Saved `505415` |
 | Related | [SwiftUI README](../README.md) |
 
 ---
 
-## In 30 seconds
+## За 30 секунд
 
-Pointer to Kavsoft tutorial: sticky PTR loader morphing from Dynamic Island. Video was in Saved — not archived in-repo (size); keep idea + search Kavsoft channel.
+Pointer на туториал Kavsoft: sticky PTR loader, morphing из Dynamic Island. Видео было в Saved — в репо не заархивировано (размер); держи идею + ищи канал Kavsoft.
 
 ## Useful?
 
-partial — link-only until we decide to mirror a minimal playground.
+partial — link-only, пока не решишь зеркалировать minimal playground.
