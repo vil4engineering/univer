@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | Telegram Saved `503061` |
 | Related | [Interview-Pack](Interview-Pack.md) |
 

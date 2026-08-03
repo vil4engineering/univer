@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | partial |
 | Source | Telegram Saved `507901` |
 | Related | [UIKit README](../README.md) |
 

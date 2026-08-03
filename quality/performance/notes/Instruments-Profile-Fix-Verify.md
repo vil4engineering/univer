@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | Telegram Saved `502945, 502946, 502947` |
 | Related | [Performance](../README.md) |
 

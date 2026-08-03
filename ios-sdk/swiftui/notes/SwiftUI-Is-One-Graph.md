@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | Telegram Saved `503668` |
 | Related | [SwiftUI README](../README.md) |
 | URL | https://aleahim.com/blog/swiftui-is-one-graph/ |

@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | yes |
 | Source | [Antoine van der Lee — @MainActor in Swift explained with code examples](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/) |
 | Related | [MainActor / UI chapter](../mainactor-and-ui/) · [Actors](../actors-and-isolation/) · [Approachable Concurrency](Approachable-Concurrency-Thread-Hopping-nsvasilev.md) |
 

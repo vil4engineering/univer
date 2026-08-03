@@ -6,7 +6,7 @@
 | Source | Telegram Saved `502938`–`502943` (album) |
 | Captured from TG | 2026-06-24 |
 | Added to repo | 2026-07-24 |
-| Useful? | pending |
+| Useful? | yes |
 | Related | [ai-engineering/roadmap/](../../roadmap/) · Track 1 [ai-assisted](../../../campus/faculties/ai-assisted.md) |
 
 Короткий текст из поста: AI Native engineer — не vibe-coder, а оркестратор и AIOps; роадмап / модель зрелости для изучения AI-тулкитов.

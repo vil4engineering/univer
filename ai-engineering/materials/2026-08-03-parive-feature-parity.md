@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | partial |
 | Source | Telegram Saved `505995` |
 | Related | [AI materials](README.md) · reference/curated |
 | URL | https://parive.ai/ · preview https://preview.parive.ai/app/home |

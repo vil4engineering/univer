@@ -5,7 +5,7 @@
 | Kind | accompanying material (interview poll) |
 | Source | Telegram Saved `507917` |
 | Added | 2026-08-03 |
-| Useful? | pending |
+| Useful? | partial |
 | Related | [Design Patterns](../) · structural: Proxy |
 
 ## Вопрос
