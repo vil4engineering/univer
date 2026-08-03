@@ -35,3 +35,20 @@
 ## Follow-up
 
 Owner decides order; auditor does not patch in the audit pass.
+
+## Remediation (2026-08-03)
+
+Author pass after Owner OK — theory heal, atomic commits T1–T6:
+
+| T | Topic | Commit intent |
+|---|--------|---------------|
+| T1 | `fundamentals/what-is-programming` | spine · `ты` · Evidence stub · DESIGN↔0001b |
+| T2 | `swift/what-is-swift` | Human step on spine recall |
+| T3 | `swift/method-dispatch` | DESIGN Accept · heuristic cost/WMO |
+| T4 | `swift/syntax` Q42/Q43 | ABI as heuristic |
+| T5 | `swift/async-defer` | await-in-defer toolchain caveat |
+| T6 | Image-Caching + Q35 | unsourced WWDC26 removed |
+
+**Residual / parking:** broader Q-card anti-encyclopedia · `check_library_sync` drift · literal-executor README · Evidence write-back when studied · see [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md).
+
+**WIP:** Phase A content heal closed for listed blockers; next = one concurrency unit under `swift/concurrency/` per handoff.
