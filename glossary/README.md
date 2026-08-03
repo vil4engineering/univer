@@ -37,6 +37,7 @@
 | [Optional](#glossary-optional) | Mobile · Swift | `.some` / `.none` |
 | [Parallelism](#glossary-parallelism) | Mobile · Concurrency | Одновременное исполнение на ядрах |
 | [Program](#glossary-program) | Computer Science | Алгоритм в форме для машины |
+| [Process](#glossary-process) | Mobile · Concurrency | Экземпляр программы в OS (память, ресурсы) |
 | [RAG](#glossary-rag) | AI | Retrieval + генерация |
 | [REST](#glossary-rest) | Backend · Networking | Стиль HTTP API |
 | [Retain cycle](#glossary-retain-cycle) | Mobile · Memory / ARC | Взаимные strong → утечка |
@@ -44,6 +45,7 @@
 | [SPM](#glossary-spm) | Mobile · Tooling | Swift Package Manager |
 | [Static Dispatch](#glossary-static-dispatch) | Mobile · Swift / Runtime | Прямой вызов; адрес на compile time |
 | [Task](#glossary-task) | Mobile · Concurrency | Единица structured concurrency |
+| [Thread](#glossary-thread) | Mobile · Concurrency | Единица планирования CPU внутри process |
 | [URLSession](#glossary-urlsession) | Mobile · Networking | HTTP(S) клиент Apple |
 | [Vtable](#glossary-vtable) | Mobile · Swift / Runtime | Таблица методов class для override |
 | [Witness Table](#glossary-witness-table) | Mobile · Swift / Runtime | Таблица соответствия протоколу |
@@ -155,6 +157,16 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **Parallelism** · *Mobile · Concurrency*
 
 Зачем: одновременно исполнять работу на нескольких ядрах / единицах железа. Можно иметь concurrency без parallelism. Глубже: [why concurrency exists](../swift/concurrency/why-concurrency-exists/).
+
+<a id="glossary-process"></a>
+**Process** · *Mobile · Concurrency*
+
+Зачем: контейнер программы в OS — своё адресное пространство и ресурсы; изоляция от других process. Не путать с thread. Глубже: [processes and threads](../swift/concurrency/processes-and-threads/).
+
+<a id="glossary-thread"></a>
+**Thread** · *Mobile · Concurrency*
+
+Зачем: единица планирования CPU внутри process; threads одного process делят память. Не определение concurrency. Глубже: [processes and threads](../swift/concurrency/processes-and-threads/).
 
 <a id="glossary-actor"></a>
 **actor** — Swift type guaranteeing *serialised access* to its state through isolation on its executor.
