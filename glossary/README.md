@@ -27,6 +27,7 @@
 | [Binary](#glossary-binary) | Computer Science | Представление для машины |
 | [CI/CD](#glossary-ci-cd) | Infrastructure | Автосборка, тесты, доставка |
 | [Compiler](#glossary-compiler) | Computer Science | Перевод языка → machine code |
+| [Concurrency](#glossary-concurrency) | Mobile · Concurrency | Организация нескольких дел во времени |
 | [CPU](#glossary-cpu) | Computer Science | Исполнитель machine code |
 | [Dynamic Dispatch](#glossary-dynamic-dispatch) | Mobile · Swift / Runtime | Obj-C message send (`objc_msgSend`) |
 | [JSON](#glossary-json) | Backend · Data | Текстовый обмен данными |
@@ -34,6 +35,7 @@
 | [Machine Code](#glossary-machine-code) | Computer Science | Инструкции для CPU |
 | [MCP](#glossary-mcp) | AI | Протокол инструментов для AI |
 | [Optional](#glossary-optional) | Mobile · Swift | `.some` / `.none` |
+| [Parallelism](#glossary-parallelism) | Mobile · Concurrency | Одновременное исполнение на ядрах |
 | [Program](#glossary-program) | Computer Science | Алгоритм в форме для машины |
 | [RAG](#glossary-rag) | AI | Retrieval + генерация |
 | [REST](#glossary-rest) | Backend · Networking | Стиль HTTP API |
@@ -143,6 +145,16 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **Deep copy** — copies the data graph “deeply”: nested objects get independent copies as required (often manually or via `Codable`/archiving); Swift has no universal automatic deep copy for classes.
 
 ### Swift Concurrency
+
+<a id="glossary-concurrency"></a>
+**Concurrency** · *Mobile · Concurrency*
+
+Зачем: организовать несколько дел во времени так, чтобы программа продвигалась при ожидании и при нескольких работах — не синоним «много потоков». Глубже: [why concurrency exists](../swift/concurrency/why-concurrency-exists/).
+
+<a id="glossary-parallelism"></a>
+**Parallelism** · *Mobile · Concurrency*
+
+Зачем: одновременно исполнять работу на нескольких ядрах / единицах железа. Можно иметь concurrency без parallelism. Глубже: [why concurrency exists](../swift/concurrency/why-concurrency-exists/).
 
 <a id="glossary-actor"></a>
 **actor** — Swift type guaranteeing *serialised access* to its state through isolation on its executor.
