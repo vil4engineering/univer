@@ -29,6 +29,7 @@
 | [Compiler](#glossary-compiler) | Computer Science | Перевод языка → machine code |
 | [Concurrency](#glossary-concurrency) | Mobile · Concurrency | Организация нескольких дел во времени |
 | [CPU](#glossary-cpu) | Computer Science | Исполнитель machine code |
+| [Data race](#glossary-data-race) | Mobile · Concurrency | Конфликтный доступ к shared mutable state |
 | [Dynamic Dispatch](#glossary-dynamic-dispatch) | Mobile · Swift / Runtime | Obj-C message send (`objc_msgSend`) |
 | [JSON](#glossary-json) | Backend · Data | Текстовый обмен данными |
 | [LLM](#glossary-llm) | AI | Языковая модель (см. Dictionary) |
@@ -167,6 +168,11 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **Thread** · *Mobile · Concurrency*
 
 Зачем: единица планирования CPU внутри process; threads одного process делят память. Не определение concurrency. Глубже: [processes and threads](../swift/concurrency/processes-and-threads/).
+
+<a id="glossary-data-race"></a>
+**Data race** · *Mobile · Concurrency*
+
+Зачем: назвать конфликтный concurrent доступ к shared mutable state без синхронизации — программа перестаёт быть однозначной. Не путать с любым race condition и с deadlock. Глубже: [shared state and races](../swift/concurrency/shared-state-and-races/).
 
 <a id="glossary-actor"></a>
 **actor** — Swift type guaranteeing *serialised access* to its state through isolation on its executor.
