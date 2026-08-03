@@ -66,6 +66,7 @@ When triage invents a repeatable pattern, add a bullet here in the same session.
 - **Triage order this pass:** newest → older. Stop when reaching the gold Telegraph sentinel (`id=494171`, «Путь к 7000…») — that item stays ignored; reaching it = done.
 - **Study-first (Maxim 2026-08-03):** Safari for walls; interesting libs → curated/materials stub + try-apply; cluster duplicates only if new facts.
 - **Design-pattern interview crumbs** → [`algorithms/design-patterns/materials/`](../algorithms/design-patterns/materials/), not intake capture.
+- **Third-party article / long material (Maxim 2026-08-03):** before the body, always put a **Выжимка** — short analysis + a few lines *what the piece is about* and why it sits on this shelf. Do not dump raw long text without a front summary. Same for `notes/` and `materials/` digests (web, blog, PDF, big TG posts).
 
 ## Boundaries
 

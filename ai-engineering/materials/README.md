@@ -27,4 +27,6 @@
 
 **Useful?** values: `pending` · `yes` · `partial` · `no`
 
+**Shelf contract:** any third-party article or long external piece must open with **Выжимка** (analysis + a few lines on what it is about) before the body — see [`intake/RULES.md`](../../intake/RULES.md) · [`campus/HOW_TO_ADD_WITH_AI.md`](../../campus/HOW_TO_ADD_WITH_AI.md).
+
 В student sidebar: **AI → Материалы → AI Native** (короткое имя). Вход также: faculty [AI](../../campus/faculties/ai.md) · [AI-assisted](../../campus/faculties/ai-assisted.md).

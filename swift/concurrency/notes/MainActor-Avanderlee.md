@@ -9,19 +9,17 @@
 
 ---
 
-## In 30 seconds
+## Выжимка (прочитай до тела)
 
-`@MainActor` — **global actor** из stdlib: весь помеченный код сериализуется через один shared instance и на Apple platforms выполняется на **main thread**. Вместо `DispatchQueue.main.async` компилятор сам требует hop на границе isolation. С Swift 6.2 + Default Actor Isolation новый app target часто уже «на MainActor по умолчанию» — тогда вопрос скорее *когда opt-out* (`nonisolated` / `@concurrent`), а не *куда клеить атрибут*.
+**О чём статья.** Практический гайд Antoine van der Lee: что такое `@MainActor`, куда вешать атрибут (тип / свойство / метод / closure), чем заменить `DispatchQueue.main.async`, и как не обмануться «атрибут = всегда main».
 
----
+**Анализ (зачем нам).** Закрывает дыру между Living-главой [mainactor-and-ui](../mainactor-and-ui/) (why / hop) и «как писать руками»: много копируемых примеров + Swift 5 pitfall + Swift 6.2 Default Actor Isolation. Для новичков — карта API; для миграции — когда opt-out, а не «клеить везде».
 
-## Для кого
+**В 30 секунд.** `@MainActor` — global actor на main thread; компилятор требует hop вместо ручного `DispatchQueue.main`. С 6.2 + default isolation новый app часто уже на MainActor — вопрос *когда снимать* (`nonisolated` / `@concurrent`). `MainActor.run` = короткий hop; `Task { @MainActor in }` = весь Task на main; `assumeIsolated` = assert, не dispatch. Sync-вызов `@MainActor` метода с background в Swift 5 может **не** попасть на main.
 
-- Новичок: «почему UI нельзя трогать с background» → язык даёт имя границе.
-- Middle+: property / method / type / closure isolation; `MainActor.run` vs `Task { @MainActor in }`; `assumeIsolated`; ловушка sync-вызова в Swift 5.
-- Senior / migration: связь с Approachable Concurrency и Default Actor Isolation — атрибут не «устарел», правила те же, кто пишет аннотацию — меняется.
+**Для кого.** Новичок → граница UI; middle → API и ловушки; senior → 6.2 default isolation vs явный атрибут.
 
-Живая глава-урок: [Зачем граница UI отдельным миром?](../mainactor-and-ui/). Здесь — склад примеров и нюансов со статьи Antoine.
+Ниже — развёрнутый склад примеров. Living-урок не дублируем.
 
 ---
 
