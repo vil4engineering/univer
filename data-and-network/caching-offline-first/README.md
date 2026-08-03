@@ -66,7 +66,7 @@ Interview Q&A below.
 ### Q35
 - **Question:** How does UIKit image caching work, and why was early `AsyncImage` insufficient?
 
-- **Answer:** `UIImageView` does not cache. Production stacks layer memory (`NSCache` of decoded `UIImage`), optional disk, `URLCache` (HTTP bytes—not `UIImage`), then network. Developers must populate `NSCache`; decode from URLCache still costs CPU. Decoded images dominate RAM; `NSCache` evicts under memory pressure before Jetsam. Early `AsyncImage` lacked real cache policy—third-party loaders remained standard.
+- **Answer:** `UIImageView` does not cache. Production stacks layer memory (`NSCache` of decoded `UIImage`), optional disk, `URLCache` (HTTP bytes—not `UIImage`), then network. Developers must populate `NSCache`; decode from URLCache still costs CPU. Decoded images dominate RAM; `NSCache` evicts under memory pressure before Jetsam. Early `AsyncImage` was largely download-and-show with weak cache policy control—third-party loaders often remained standard for lists.
 
     1. UIImageView doesn't cache—you build or use a loader.
     2. URLCache holds bytes; NSCache holds decoded UIImages.

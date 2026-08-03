@@ -4,13 +4,13 @@ Notes for **22 — Caching** and interviews (UIKit / SwiftUI / memory). Card **Q
 
 ## Background
 
-At WWDC26 Apple finally improved image caching support in SwiftUI's `AsyncImage`.
+Early SwiftUI `AsyncImage` could download and show an image, but gave little control over memory/disk cache policy, prefetch, or invalidation. Teams that already solved caching in UIKit often kept third-party loaders for lists and production apps.
 
-Many developers expected this functionality from the very first release of `AsyncImage` because image caching had already been a solved problem in UIKit for many years.
+**TODO / source:** if a specific WWDC session or Apple doc documents a later `AsyncImage` caching improvement, cite it here — do not invent release claims without a primary source.
 
 ---
 
-# What AsyncImage Did Before WWDC26
+# What Early AsyncImage Could Do
 
 `AsyncImage` could:
 
@@ -220,14 +220,14 @@ All active objects live in RAM:
 
 # Why Images Consume So Much RAM
 
-Example:
+**Heuristic (order-of-magnitude, not a lab measurement):**
 
 ```text
-JPEG file on disk:      2 MB
-Decoded UIImage in RAM: 20–40 MB
+JPEG file on disk:      ~2 MB
+Decoded UIImage in RAM: often many times larger (e.g. tens of MB)
 ```
 
-A decoded image often occupies much more memory than the original file.
+A decoded bitmap often occupies much more memory than the compressed file. Exact ratios depend on dimensions, color format, and decoding path — measure with Instruments when the number matters.
 
 Large image feeds can easily consume hundreds of megabytes.
 
@@ -277,7 +277,7 @@ Benefits:
 
 # What Happens When RAM Runs Out?
 
-iOS follows roughly this sequence:
+iOS recovers memory under pressure. A **simplified / approximate** teaching sequence (not a guaranteed OS timeline — see Apple docs on reducing memory use / Jetsam):
 
 ```text
 1. Clean system caches
