@@ -1,0 +1,26 @@
+# JET modular architecture revision 2026 (five categories)
+
+| Field | Value |
+|-------|-------|
+| Added | 2026-08-03 |
+| Useful? | pending |
+| Source | Telegram Saved `506420` |
+| Related | [Modularization README](../README.md) |
+
+---
+
+Пересмотр модульной архитектуры iOS-приложения компании JET в 2026 году
+
+Незначительная проблема с одним из UI-компонентов выявила проблемы существующей прежде модели и это стало триггером к пересмотру концепта целиком.
+
+В обновленном подходе каждый компонент классифицируется по своей роли, а не по тому, где он находится в графе зависимостей.
+
+Как следствие, в JET ввели пять категорий. Три из них относятся к собственным компонентам (App, Feature, Foundation); две - к сторонним зависимостям (SDK, Utility).
+
+📖 Про то, что у них получилось, и как работает всё вместе - можно почитать в техническом блоге.
+
+😃 iOS Dev
+
+## Takeaway
+
+Classify components by **role** (App / Feature / Foundation / SDK / …), not only by dependency-graph position.

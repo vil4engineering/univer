@@ -56,6 +56,7 @@
 
 ## Artifacts
 
+- Materials: [`materials/`](materials/)
 - Notes: `notes/`
 - Exercises: `exercises/`
 - Assets: `assets/`

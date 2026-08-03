@@ -48,7 +48,7 @@ human: «давай переберём инбокс в тг»  (or /saved · inb
   → workflow tg-saved-triage
   → one item: analyze → options → wait
   → human: A shelf/intake / B career / C discard / D open link / E skip
-  → execute; delete from Saved only when human confirms clean-up
+  → execute; after shelf/discard decision that clears the item → **delete from Saved** (standing order)
   → next item only after that
   → append lessons to this RULES.md when a new pattern appears
 ```
@@ -62,6 +62,10 @@ When triage invents a repeatable pattern, add a bullet here in the same session.
 - Duplicate topics already in Library → improve-topic instead of new capture?
 - **Media albums (`grouped_id`):** caption message holds the text; sibling photos with empty text are the same post — after processing, delete the whole group from Saved.
 - **Informative PNGs / infographics in album:** download media into the target doc (often `ai-engineering/materials/<date-slug>/images/`), embed in README, set `Added` date + `Useful? = pending`. Do not leave images only in Telegram.
+- **After transfer to shelf/materials:** always delete the Saved message (Maxim, 2026-08-03). No second confirm.
+- **Triage order this pass:** newest → older. Stop when reaching the gold Telegraph sentinel (`id=494171`, «Путь к 7000…») — that item stays ignored; reaching it = done.
+- **Study-first (Maxim 2026-08-03):** Safari for walls; interesting libs → curated/materials stub + try-apply; cluster duplicates only if new facts.
+- **Design-pattern interview crumbs** → [`algorithms/design-patterns/materials/`](../algorithms/design-patterns/materials/), not intake capture.
 
 ## Boundaries
 

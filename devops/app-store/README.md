@@ -106,3 +106,9 @@ Feature complete
 - **Question:** What are common App Review rejection reasons?
 
 - **Answer:** Crashes, broken demos, privacy/IAP violations, and misleading metadata dominate—provide test accounts, accurate disclosures, and stable review builds.
+
+## Notes
+
+- [On-Demand Resources → Background Assets](notes/On-Demand-Resources-Deprecated-iOS27.md)
+- [App Store iOS 27 promo headers](notes/App-Store-iOS27-Promo-Headers.md)
+- [Three iOS 27 mandatory requirements](notes/iOS27-Three-Mandatory-Requirements.md)

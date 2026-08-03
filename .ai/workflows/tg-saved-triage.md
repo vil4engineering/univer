@@ -37,7 +37,7 @@ Canonical pointer: [`AGENTS.md` → Human commands](../../AGENTS.md).
    - informative album images → download into the doc; mark `Added` + `Useful? = pending`
    - YouTube / LinkedIn → open on service; human decides there
    - discard / skip as human says  
-6. Delete from Saved (whole `grouped_id` album) only after human confirms clean-up (or explicit «удаляй»).  
+6. After shelf/discard that clears the item → delete from Saved (whole `grouped_id` album). Standing order: no second confirm after transfer (see `intake/RULES.md`).  
 7. Only then take the **next** item. Never dump a 50-item wall.  
 8. New repeatable pattern → append bullet to `intake/RULES.md`.
 

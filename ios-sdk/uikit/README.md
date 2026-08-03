@@ -12,6 +12,11 @@ UIKit is the **imperative** iOS UI framework: **UIView** hierarchy, **UIViewCont
 - [UITableView](https://developer.apple.com/documentation/uikit/uitableview) / [UICollectionView](https://developer.apple.com/documentation/uikit/uicollectionview) — reuse, data source.
 - [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines) — patterns and platform conventions.
 
+## Notes
+
+- [Liquid Glass UIKit pitfalls](notes/Liquid-Glass-UIKit-Compatibility-Pitfalls.md)
+- [Present vs push — who does `dismiss` close?](notes/present-vs-push-dismiss.md)
+
 ## 🎯 Focus vs Defer
 
 ### Defer

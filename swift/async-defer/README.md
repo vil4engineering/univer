@@ -110,3 +110,9 @@ A: Some resources require asynchronous release or close operations; async cleanu
 
 **Q: What is the senior-level concern?**  
 A: Resource ownership, cancellation semantics, idempotent cleanup, and keeping domain mutation out of implicit cleanup paths.
+
+## Sources / Saved triage
+
+- TG Saved `505005`, `504527` → SwiftLee https://www.avanderlee.com/swift/defer-usage-swift/ (async defer + await in defer bodies, Swift 6.4).
+- Added 2026-08-03; Useful? pending.
+
