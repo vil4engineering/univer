@@ -51,4 +51,4 @@ Author pass after Owner OK — theory heal, atomic commits T1–T6:
 
 **Residual / parking:** broader Q-card anti-encyclopedia · `check_library_sync` drift · literal-executor README · Evidence write-back when studied · see [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md).
 
-**WIP:** Phase A content heal closed for listed blockers; next = one concurrency unit under `swift/concurrency/` per handoff.
+**WIP:** Phase A content heal closed for listed blockers. Phase B first unit shipped: [`swift/concurrency/why-concurrency-exists/`](../../swift/concurrency/why-concurrency-exists/). Next unit — Owner pick from parking lot + earliest remaining concurrency gap.

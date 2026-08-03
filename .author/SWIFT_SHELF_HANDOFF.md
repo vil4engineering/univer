@@ -69,6 +69,7 @@ Not English-by-default. Interview EN blocks OK. `.ai/` stays English.
 ## 9. Pointers
 
 - Hub: [`swift/concurrency/README.md`](../swift/concurrency/README.md)  
+- **First Phase B unit (2026-08-03):** [`swift/concurrency/why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/)  
 - Related warehouse note: [`swift/async-defer/`](../swift/async-defer/) (cancellation chapter later)  
 - Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)
 
