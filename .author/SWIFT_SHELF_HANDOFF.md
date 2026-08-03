@@ -76,8 +76,8 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 | 1 | [`processes-and-threads/`](../swift/concurrency/processes-and-threads/) | Зачем OS даёт process/thread — и чем они не равны «concurrency»? | **Shipped** 2026-08-03 (theory) |
 | 2 | [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/) | Почему общее изменяемое состояние ломается без правил? | **Shipped** 2026-08-03 (theory) |
 | 3 | [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/) | Что дали очереди/callback — и почему этого мало? | **Shipped** 2026-08-03 (theory) |
-| 4 | `structured-concurrency/` | Зачем иерархия задач и отмена сверху вниз? | **Next** (notes + StructuredConcurrencyLab) |
-| 5 | `async-await-and-suspension/` | Чем suspension отличается от блокировки потока? | Queued |
+| 4 | [`structured-concurrency/`](../swift/concurrency/structured-concurrency/) | Зачем иерархия задач и отмена сверху вниз? | **Shipped** 2026-08-03 (theory) |
+| 5 | `async-await-and-suspension/` | Чем suspension отличается от блокировки потока? | **Next** |
 | 6 | `tasks-and-unstructured-work/` | Когда `Task { }` — инструмент, а когда дырка lifetime? | Queued |
 | 7 | `actors-and-isolation/` | Почему isolation, а не «поток на объект»? | Queued |
 | 8 | `mainactor-and-ui/` | Зачем граница UI отдельным миром? | Queued |
@@ -96,12 +96,16 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 - Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · evolution note [`notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md`](../swift/concurrency/notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md) · [GCD.playground](../swift/concurrency/GCD.playground)  
 - Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)
 
-## 10. Parking lot (snapshot)
+## 10. Parking lot → Final polish (after concurrency theory chain)
+
+**Do not pull these during unit 4–9 fills.** After roadmap rows 4–9 are theory-shipped, run one **Final polish** pass:
 
 - Broader Glossary vs syntax Q-card anti-encyclopedia pass  
-- Promote `async-defer` into cancellation chapter (roadmap #9)  
+- Promote `async-defer` into cancellation chapter (if not already absorbed in unit 9)  
 - `check_library_sync.py` FAILED drift on main  
-- `fundamentals/literal-executor` DESIGN-only (no README yet)  
-- Evidence write-back for гл.0 when Timur studies  
-- Any `Library/Swift/` Design proposal — Owner only, later  
-- Formal Accept Reviewer pass for `why-concurrency-exists` DESIGN
+- `fundamentals/literal-executor` DESIGN-only → README or explicit defer note  
+- Evidence write-back for гл.0 when Timur studies (or honest reminder)  
+- Formal Accept Reviewer passes for shipped DESIGN checklists (why / processes / races / gcd / …)  
+- Any `Library/Swift/` Design proposal — Owner only, still later than polish  
+
+Phase A “Out of scope” fences (sidebar/IA, mass `Library/Swift/`, etc.) stay forbidden until Owner Design — polish ≠ reopen IA epic.

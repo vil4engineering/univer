@@ -57,6 +57,7 @@ Tools: Thread Sanitizer, Instruments (Time Profiler / Points of Interest), `os_s
 - **Processes and threads:** [processes-and-threads/](processes-and-threads/)
 - **Shared state and races:** [shared-state-and-races/](shared-state-and-races/)
 - **GCD and callback era:** [gcd-and-callback-era/](gcd-and-callback-era/)
+- **Structured concurrency:** [structured-concurrency/](structured-concurrency/)
 - Interview pack: [notes/Interview-Pack.md](notes/Interview-Pack.md)
 - Intro digest: [notes/Swift-Concurrency-Intro-Social.md](notes/Swift-Concurrency-Intro-Social.md) — [SwiftConcurrencyPrimer.playground](SwiftConcurrencyPrimer.playground)
 - Structured concurrency: [notes/Structured-Concurrency-What-Structured-Means.md](notes/Structured-Concurrency-What-Structured-Means.md) — [StructuredConcurrencyLab.playground](StructuredConcurrencyLab.playground)

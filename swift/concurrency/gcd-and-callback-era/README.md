@@ -17,7 +17,7 @@
 |--|--|
 | **Faculty** | Mobile Systems · Swift Concurrency |
 | **Prerequisites** | [Shared state / races](../shared-state-and-races/) · [Process/thread](../processes-and-threads/) |
-| **Next** | structured concurrency (следующий unit) · [hub](../) · [GCD.playground](../GCD.playground) |
+| **Next** | [Structured concurrency](../structured-concurrency/) · [hub](../) · [GCD.playground](../GCD.playground) |
 | **Interview** | ★★★★ |
 | **Difficulty** | Medium |
 | **Time** | ≈ 16 min |
@@ -167,7 +167,7 @@ loadUser { user in
 > **до:** «GCD решил concurrency»  
 > **после:** GCD решил организацию работы; боль composition/lifetime осталась
 
-**Дальше:** structured concurrency (следующий unit на roadmap) · пока [hub](../).
+**Дальше:** [Зачем иерархия задач и отмена сверху вниз?](../structured-concurrency/)
 
 ---
 
