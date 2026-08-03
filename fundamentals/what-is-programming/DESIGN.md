@@ -345,10 +345,10 @@ Follow-ups: ambiguity в спеках; когда спускаться с SwiftU
 - [x] **Owner Approve** (2026-07-24 — «апрув»)  
 - [x] Phase B v1 (`README.md` + `notes/Interview-Pack.md`)  
 - [x] Content review [0001](../../reviews/0001-what-is-programming.md) — **Request changes** (avg 7.5)  
-- [ ] Author fixes per 0001  
-- [ ] Dual-pass Accept  
-- [ ] Assets I1–I8 (or cut must-have in DESIGN)  
-- [ ] Playground для примера заказа (optional)  
+- [x] Author fixes per 0001 (v1.1 → v1.2; 2026-08 remediation spine/voice/Evidence stub)  
+- [x] Dual-pass Accept — [0001b](../../reviews/0001b-what-is-programming.md) (2026-07-24 Owner Agree → Publish)  
+- [x] Assets I1–I8 — **deferred polish** (0001b: не blocker Accept)  
+- [ ] Playground для примера заказа (optional · deferred)  
 
 ---
 
@@ -358,4 +358,5 @@ Follow-ups: ambiguity в спеках; когда спускаться с SwiftU
 2. Mermaid в тексте; I1–I8 — TODO placeholders.  
 3. Interview pack projection.  
 4. Review 0001 (2026-07-24): Request changes — история-как-боль; must-have visuals; Beginner note на Swift.  
-5. Next: Author fixes → Reviewer Accept pass.
+5. Author fixes → dual-pass Accept [0001b](../../reviews/0001b-what-is-programming.md) → Publish.  
+6. 2026-08 remediation: DESIGN checklist sync to Accept; spine/`ты`/Evidence stub in README.
