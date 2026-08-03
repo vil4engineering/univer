@@ -70,7 +70,7 @@ Warehouse paths unchanged. Docsify Campus-first remains.
 | Home IA / Creator Portal | **Learn chrome cut** — [IA 1.0](campus/IA_1.0.md) · [`.author/`](.author/) · no Author in sidebar |
 | Display: Student vs Author header | **Binding** — [TOPIC_TEMPLATE](campus/TOPIC_TEMPLATE.md) · [DISPLAY_0.1](campus/DISPLAY_0.1.md) |
 | Content review journal | **Started** — [`reviews/`](reviews/) |
-| Monthly base audit workflow | **Live** — [`.ai/workflows/monthly-audit.md`](.ai/workflows/monthly-audit.md) · last run [2026-07](reviews/audits/2026-07-monthly-audit.md) |
+| Monthly base audit workflow | **Live** — [`.ai/workflows/monthly-audit.md`](.ai/workflows/monthly-audit.md) · last run [2026-08](reviews/audits/2026-08-monthly-audit.md) |
 
 
 
