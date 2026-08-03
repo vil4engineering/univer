@@ -14,11 +14,14 @@ External ChatGPT-project prompts = **opinion only**. Decisions live here + `AGEN
 | Phase | State |
 |-------|--------|
 | A · Audit heal (T1–T6) | Done |
-| B · Concurrency theory 0–9 + §B quality | **Done** |
-| C · Final polish | **Waiting** (только после B — Owner: «финальная полировка») |
+| B · Concurrency theory 0–9 + §B quality | Done |
+| C · Final polish | **Done** 2026-08-03 |
 | D · Later books (Sendable / testing / …) | Not started |
 
-**Rule (Owner):** сначала **A + B**, потом **C** полировка. Не смешивать.
+**Rule (Owner):** A + B before C. C closed. **D** only on new Owner ask.
+
+Closeout report: [`reviews/audits/2026-08-concurrency-shelf-closeout.md`](../reviews/audits/2026-08-concurrency-shelf-closeout.md).
+
 
 ---
 
@@ -61,20 +64,20 @@ Path root: [`swift/concurrency/`](../swift/concurrency/)
 
 ---
 
-## C. Final polish (only after B — **do not start yet**)
+## C. Final polish (**done** 2026-08-03)
 
-- [ ] `check_library_sync.py` → OK (`what-is-swift` + `ai-engineering/materials` in TOPIC_TREE)
-- [ ] Broader `swift/syntax` Q-card anti-encyclopedia pass
-- [ ] `async-defer` ↔ unit 9 cleanup note (confirm / tighten)
-- [ ] `literal-executor`: defer note on DESIGN **or** Write after Approve
-- [ ] гл.0 Evidence Path reminder when Timur studies
-- [ ] Optional deeper Evidence pattern review
-- [ ] ~~DESIGN Accept 0–9~~ → moved to **B** (done)
-- [ ] `Library/Swift/` / IA — Owner Design only (not this polish)
+- [x] `check_library_sync.py` → OK (`what-is-swift` + `ai-engineering/materials` in TOPIC_TREE)
+- [x] Broader `swift/syntax` Q-card anti-encyclopedia pass (banner + dispatch → Glossary)
+- [x] `async-defer` ↔ unit 9 cleanup note tightened
+- [x] `literal-executor`: explicit Defer note on DESIGN (no Write this pass)
+- [x] гл.0 Evidence Path reminder for Timur
+- [x] Evidence stubs on units 0–9 (done in B)
+- [x] DESIGN Accept 0–9 (done in B)
+- [ ] `Library/Swift/` / IA — Owner Design only (still out)
 
 ---
 
-## D. Later concurrency depth (after C)
+## D. Later concurrency depth (after C — **not started**)
 
 - [ ] Sendable / strict concurrency chapter
 - [ ] Testing concurrent systems

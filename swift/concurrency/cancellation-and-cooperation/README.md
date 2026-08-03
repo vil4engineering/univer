@@ -29,7 +29,7 @@
 
 Хочется «останови всё» при dismiss. Если рантайм просто убьёт исполнение mid-write — порча состояния. Поэтому модель: **cooperative** — проверь `Task.isCancelled` / `checkCancellation`, выйди чисто.
 
-Cleanup (`defer`, close session) — про lifetime ресурса. Cancellation handler — про *реакцию на сигнал*. Не путай: см. [async-defer](../../async-defer/).
+Cleanup (`defer`, close session) — про lifetime ресурса. Cancellation handler — про *реакцию на сигнал*. Не путай: складской паттерн и caveat toolchain — [async-defer](../../async-defer/).
 
 ---
 

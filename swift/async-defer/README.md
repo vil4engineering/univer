@@ -4,6 +4,8 @@
 
 `defer` expresses scope-bound cleanup: register cleanup next to resource acquisition and run it when the scope exits, whether the operation returns normally or throws. In modern Swift, cleanup can cross an async boundary when the language/runtime version supports `await` in the deferred operation.
 
+**Related Living chapter:** [Cancellation & cooperation](../concurrency/cancellation-and-cooperation/) — cleanup (`defer`) ≠ cancellation signal. Read that chapter for cooperative cancel; keep this note for lifetime/cleanup patterns.
+
 The engineering question is not "can I put cleanup at the bottom?" It is "what lifetime owns this resource, and is cleanup guaranteed on every exit path?"
 
 ## Focus vs Defer

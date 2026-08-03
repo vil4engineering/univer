@@ -106,7 +106,7 @@ let sections = [Section] {
 
 ---## Interview Q&A (Knowledge cards)
 
-Interview Q&A below.
+Interview Q&A below. **Anti-encyclopedia:** reusable definitions live in [Glossary](../../glossary/); cards are interview projections. Prefer chapter links ([method-dispatch](../method-dispatch/), [async-defer](../async-defer/)) over ABI folklore. Layout/runtime details = heuristic unless cited.
 
 <!-- knowledge-cards-canonical:start -->
 
@@ -204,7 +204,7 @@ Interview Q&A below.
 ### Q48
 - **Question:** How do stack/heap relate to method dispatch? What are vtable, witness table, static dispatch?
 
-- **Answer:** Stack/heap describe **where** values live; **dispatch** chooses **which function runs**. **Static** = direct call. **Classes** = **vtable** in metadata. **Protocols** = **witness tables** (+ value witnesses for existentials). **Obj-C interop** = `objc_msgSend` / runtime. Full chapter: [Method Dispatch](../method-dispatch/).
+- **Answer:** Stack/heap describe **where** values live; **dispatch** chooses **which function runs**. Lead with the idea, then names: **Static** · **Vtable** · **Witness** · **Obj-C dynamic** — definitions in [Glossary](../../glossary/); full why: [Method Dispatch](../method-dispatch/).
 
 ### Q49
 - **Question:** Under the hood: `var b = a` for structs then mutate `b`; passing `struct` by value vs `inout`?

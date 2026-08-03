@@ -317,7 +317,9 @@ func orderTotal(prices: [Decimal]) -> Decimal {
 
 ## Evidence
 
-Теория этой главы покрыта (Publish). Практика и Path write-back — асинхронно, когда ты пройдёшь главу по-настоящему.
+Теория этой главы покрыта (Publish). Практика и Path write-back — асинхронно.
+
+**Timur / Path Alpha:** когда реально пройдёшь гл.0 — отметь чекбоксы ниже и коротко зафиксируй в Path log (не выдумывай Evidence заранее).
 
 - [ ] Explained  
 - [ ] Mock answers  

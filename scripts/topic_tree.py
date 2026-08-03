@@ -16,6 +16,7 @@ TOPIC_TREE = {
     "swift": {
         "title": "Swift",
         "topics": {
+            "what-is-swift": "Why Swift Exists",
             "syntax": "Syntax & Idioms",
             "protocols": "Protocols",
             "types-generics": "Types & Generics",
@@ -116,6 +117,7 @@ TOPIC_TREE = {
             "apple-intelligence": "12 · Apple Intelligence",
             "dynamic-profiles": "13 · Dynamic Profiles",
             "evaluations": "14 · Evaluations",
+            "materials": "Accompanying materials",
         },
     },
     "reference": {

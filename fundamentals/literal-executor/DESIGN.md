@@ -1,6 +1,9 @@
 # DESIGN — Почему нам нужен буквальный исполнитель? (Computer Science / 1)
 
 **Статус:** Design draft · **не Publish** · ждём Owner Approve → потом Write `README.md`  
+
+**Defer (Owner polish 2026-08-03):** README **не пишем в этом проходе**. Глава остаётся DESIGN-only на Execution Spine после гл.0, пока Owner не скажет «пиши literal-executor». Не считать дырой Publish — это осознанный стоп перед Write.
+
 **Topic id:** `fundamentals/literal-executor`  
 **Faculty:** Computer Science · Execution Spine  
 **Sidebar label:** Исполнитель  
