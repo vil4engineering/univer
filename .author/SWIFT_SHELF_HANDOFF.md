@@ -131,4 +131,4 @@ claims ledger → one topic → library glance → atomic commit → update chec
 3. After each ship: tick the box in this file in the same commit.  
 4. Final polish = section **C** only when Owner says so.  
 
-**Next Owner command:** «финальная полировка» → start section **C**.
+**Next Owner command:** «продолжай §D» (Sendable/testing) · or Timur study route 0→9.
