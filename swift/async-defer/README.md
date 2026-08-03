@@ -36,6 +36,8 @@ func performWork() async throws {
 }
 ```
 
+**Toolchain scope:** `await` inside `defer` is valid only when your Swift language mode / compiler version supports it. Before treating this as the default production pattern, verify the deployment toolchain. If async defer is unavailable, keep acquisition/cleanup structurally close another way (explicit `defer` with sync cleanup, or shared cleanup helper on every exit path).
+
 Read the code as a lifetime contract:
 
 1. acquire the session
