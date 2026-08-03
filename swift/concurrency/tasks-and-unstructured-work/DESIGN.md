@@ -5,4 +5,4 @@
 **Claims:** Unstructured Task can outlive creator (fact); needs explicit ownership/cancel; structured preferred default (recommendation).
 
 - [x] Один why  
-- [ ] Formal Accept
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

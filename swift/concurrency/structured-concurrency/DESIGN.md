@@ -35,4 +35,4 @@
 - [x] Structured vs unstructured до API dump  
 - [x] Cancellation как следствие структуры  
 - [x] Link lab / warehouse note  
-- [ ] Formal Accept (pending)
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

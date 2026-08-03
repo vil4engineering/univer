@@ -35,4 +35,4 @@
 - [x] Queue/callback как ответ на shared work  
 - [x] Честная боль pyramid / lifetime  
 - [x] Не учить structured concurrency API здесь  
-- [ ] Formal Accept (pending)
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

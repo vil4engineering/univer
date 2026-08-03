@@ -36,4 +36,4 @@
 - [x] Связь process/thread  
 - [x] Не учить actors/GCD здесь  
 - [x] Glossary Data race  
-- [ ] Formal Accept (pending)
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

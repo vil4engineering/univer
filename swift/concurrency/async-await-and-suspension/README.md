@@ -132,7 +132,14 @@ Level 3 — дверь. Кто именно resume'ит задачу (executor) 
 
 ## Evidence
 
-- [ ] Explained · Mock · Lab · Exercise  
+Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+
+- [ ] Explained  
+- [ ] Mock answers  
+- [ ] Code / lab  
+- [ ] Level 3 (if agreed)  
+- [ ] Exercise
+
 
 <details><summary>For contributors</summary>
 

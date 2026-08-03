@@ -161,11 +161,14 @@ Level 3 — дверь.
 
 ## Evidence
 
+Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+
 - [ ] Explained  
 - [ ] Mock answers  
 - [ ] Code / lab  
 - [ ] Level 3 (if agreed)  
-- [ ] Exercise  
+- [ ] Exercise
+
 
 ## Open questions
 

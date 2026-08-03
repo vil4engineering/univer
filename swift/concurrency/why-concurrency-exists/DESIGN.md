@@ -49,7 +49,7 @@
 - [x] Execution Spine не урезан  
 - [x] Не pre-explain actors/GCD  
 - [x] Термины → Glossary  
-- [ ] Formal Design Review / Accept (pending Reviewer)
+- [x] Formal Design Review / Accept (2026-08-03 · Owner · theory v1)
 
 ## Phase B log
 

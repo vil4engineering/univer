@@ -73,11 +73,18 @@ child work: check → stop / throw CancellationError → cleanup
 3. Structured несёт отмену вниз.  
 4. Cleanup ≠ cancellation primitive.  
 
-**Дальше:** [Concurrency hub](../) · Final polish (handoff §10) после закрытия theory chain.
+**Дальше:** [Concurrency hub](../) · позже: Sendable / testing (план §D)
 
 ## Evidence
 
-- [ ] Explained · Lab  
+Теория этой главы покрыта (v1). Практика / Path write-back — асинхронно.
+
+- [ ] Explained  
+- [ ] Mock answers  
+- [ ] Code / lab  
+- [ ] Level 3 (if agreed)  
+- [ ] Exercise
+
 
 <details><summary>For contributors</summary>
 

@@ -5,4 +5,4 @@
 **Claims:** UIKit/AppKit expect main-thread UI (fact); @MainActor marks isolation domain (fact); heavy sync on MainActor freezes UI (fact).
 
 - [x] Один why  
-- [ ] Formal Accept
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

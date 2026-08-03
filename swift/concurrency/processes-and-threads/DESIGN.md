@@ -38,4 +38,4 @@
 - [x] Связь с why-concurrency-exists  
 - [x] Не учить GCD/actors здесь  
 - [x] Glossary Process / Thread  
-- [ ] Formal Accept (pending Reviewer)
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

@@ -5,4 +5,4 @@
 **Claims:** Cancellation is cooperative (fact); cancel ≠ kill thread (fact); defer/cleanup ≠ cancellation signal (fact; link async-defer).
 
 - [x] Один why · may point to async-defer  
-- [ ] Formal Accept
+- [x] Formal Accept (2026-08-03 · Owner · theory v1)

@@ -51,18 +51,28 @@ Tools: Thread Sanitizer, Instruments (Time Profiler / Points of Interest), `os_s
 
 См. [notes/Interview-Pack.md](notes/Interview-Pack.md) — короткие ответы + ссылки сюда. Не дублировать полное объяснение в bank.
 
+## Reading route (theory 0→9)
+
+Канонический порядок Living-глав. Начни с 0, иди по «Дальше».
+
+| # | Chapter |
+|---|---------|
+| 0 | [Почему одной очереди дел мало?](why-concurrency-exists/) |
+| 1 | [Process и thread](processes-and-threads/) |
+| 2 | [Shared state и data race](shared-state-and-races/) |
+| 3 | [GCD и callback era](gcd-and-callback-era/) |
+| 4 | [Structured concurrency](structured-concurrency/) |
+| 5 | [Suspension vs блокировка](async-await-and-suspension/) |
+| 6 | [Task / unstructured](tasks-and-unstructured-work/) |
+| 7 | [Actors / isolation](actors-and-isolation/) |
+| 8 | [MainActor / UI](mainactor-and-ui/) |
+| 9 | [Cancellation cooperative](cancellation-and-cooperation/) |
+
+Owner progress checkboxes: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.author/SWIFT_SHELF_HANDOFF.md).
+
 ## Materials
 
-- **Why concurrency exists:** [why-concurrency-exists/](why-concurrency-exists/)
-- **Processes and threads:** [processes-and-threads/](processes-and-threads/)
-- **Shared state and races:** [shared-state-and-races/](shared-state-and-races/)
-- **GCD and callback era:** [gcd-and-callback-era/](gcd-and-callback-era/)
-- **Structured concurrency:** [structured-concurrency/](structured-concurrency/)
-- **Async/await & suspension:** [async-await-and-suspension/](async-await-and-suspension/)
-- **Tasks & unstructured work:** [tasks-and-unstructured-work/](tasks-and-unstructured-work/)
-- **Actors & isolation:** [actors-and-isolation/](actors-and-isolation/)
-- **MainActor & UI:** [mainactor-and-ui/](mainactor-and-ui/)
-- **Cancellation & cooperation:** [cancellation-and-cooperation/](cancellation-and-cooperation/)
+- Reading route above (preferred)
 - Interview pack: [notes/Interview-Pack.md](notes/Interview-Pack.md)
 - Intro digest: [notes/Swift-Concurrency-Intro-Social.md](notes/Swift-Concurrency-Intro-Social.md) — [SwiftConcurrencyPrimer.playground](SwiftConcurrencyPrimer.playground)
 - Structured concurrency: [notes/Structured-Concurrency-What-Structured-Means.md](notes/Structured-Concurrency-What-Structured-Means.md) — [StructuredConcurrencyLab.playground](StructuredConcurrencyLab.playground)
