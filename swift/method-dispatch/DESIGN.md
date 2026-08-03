@@ -1,6 +1,6 @@
 # DESIGN — Почему один вызов метода в Swift может идти разными путями?
 
-**Статус:** Draft v1 · Owner: Maxim · Phase B written with chapter (Owner request 2026-07-31) · Accept pending Reviewer  
+**Статус:** Draft v1 · Owner: Maxim · Phase B written with chapter (Owner request 2026-07-31) · **Accept** 2026-08-03 remediation  
 **Topic id:** `swift/method-dispatch`  
 **Faculty:** Mobile Systems · Swift  
 **Paths:** после входа в Swift · рядом с types / protocols / memory  
@@ -87,7 +87,7 @@
 - [x] Анти-цель ясна  
 - [x] L3 не раздувает главу  
 - [x] Термины → Glossary  
-- [ ] Formal Design Review / Accept (pending)
+- [x] Formal Design Review / Accept (2026-08-03 remediation — Owner Phase B 2026-07-31; chapter shipped; Accept post-hoc)
 
 ---
 
