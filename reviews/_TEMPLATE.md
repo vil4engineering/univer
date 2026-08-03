@@ -6,8 +6,8 @@
 - **DESIGN:** [path/to/DESIGN.md](../path/to/DESIGN.md)
 - **Reviewer:** (role Reviewer; dual-pass — not the Author of this draft)
 - **Sources (non-SPA):**
-  - Blob: `https://github.com/vil4engineering/univer/blob/main/…/README.md`
-  - Raw: `https://raw.githubusercontent.com/vil4engineering/univer/main/…/README.md`
+  - Blob: `https://github.com/vil4labs/univer/blob/main/…/README.md`
+  - Raw: `https://raw.githubusercontent.com/vil4labs/univer/main/…/README.md`
 
 ---
 

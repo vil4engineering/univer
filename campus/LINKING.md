@@ -27,22 +27,22 @@ Competency / Topic (onion page)
 
 | Role | Value |
 |------|--------|
-| Public product org (naming / Pages) | `vil4engineering` |
-| Pages (share with a reader) | `https://vil4engineering.github.io/univer/` |
-| This machine’s `origin` | often `https://github.com/vil4labs/univer.git` — **always** `git remote -v` before push |
+| Public product org (naming / Pages) | `vil4labs` |
+| Pages (share with a reader) | `https://vil4labs.github.io/univer/` |
+| This machine’s `origin` | `https://github.com/vil4labs/univer.git` — still verify `git remote -v` before push |
 | Curriculum repo name | `univer` |
 
 **Docsify deep link** (browser or agent):
 
 ```text
-https://vil4engineering.github.io/univer/#/<path>/
+https://vil4labs.github.io/univer/#/<path>/
 ```
 
 Examples:
 
-- Hub: `https://vil4engineering.github.io/univer/#/swift/concurrency/`
-- Chapter: `https://vil4engineering.github.io/univer/#/swift/concurrency/sendable-and-strict-concurrency/`
-- Spine гл.1: `https://vil4engineering.github.io/univer/#/fundamentals/literal-executor/`
+- Hub: `https://vil4labs.github.io/univer/#/swift/concurrency/`
+- Chapter: `https://vil4labs.github.io/univer/#/swift/concurrency/sendable-and-strict-concurrency/`
+- Spine гл.1: `https://vil4labs.github.io/univer/#/fundamentals/literal-executor/`
 
 Local: serve under `/univer/` (see root `AGENTS.md`) then `http://localhost:3000/univer/#/<path>/`.
 

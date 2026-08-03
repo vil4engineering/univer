@@ -1,8 +1,8 @@
 # univer — notes for AI agents
 
-**Public** Engineering Builder **v2** · product org/site [vil4engineering](https://github.com/vil4engineering) · Pages [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) · curriculum repo name `univer`  
+**Public** Engineering Builder **v2** · product org/site [vil4labs](https://github.com/vil4labs) · Pages [vil4labs.github.io/univer](https://vil4labs.github.io/univer/) · curriculum repo name `univer`  
 
-**Git push:** verify `git remote -v` on this clone (often `vil4labs/univer`) — do not invent the push URL from the org slug alone. See [`campus/LINKING.md`](campus/LINKING.md).
+**Git push:** `origin` should be `https://github.com/vil4labs/univer.git` — still verify `git remote -v` before push. See [`campus/LINKING.md`](campus/LINKING.md).
 
 ## Identity gate (mandatory)
 
@@ -36,13 +36,16 @@ Voice of Learning pages stays **ты** to Timur even when Maxim authors.
 
 Son · primary reader · may **add materials**, must **not break architecture**.
 
+**First open / study with agent:** read [`campus/FOR_TIMUR.md`](campus/FOR_TIMUR.md) (what this library is · how to learn · how to ask · what is forbidden). Then this matrix.
+
 | May (agent helps) | Forbidden for Timur mode — agent must refuse and suggest Maxim |
 |-------------------|----------------------------------------------------------------|
-| Add / extend **Glossary** rows (A–Z + Domain + short why) | Change `_sidebar.md`, Home chrome structure, faculty list/order |
-| Add chapter / lab **content** into **existing** shelves (faculties, fundamentals, swift, labs) following chapter-shape | Edit `campus/IA_*.md`, `DISPLAY_*.md`, `.ai/constitution*`, principles that define the system |
-| Propose a new topic / term; draft text under existing paths | Mass-move, rename product, retire/restore Path chrome, rewire Docsify |
+| Study any Living chapter (explain, quiz, mock) from a path or Pages link | Change `_sidebar.md`, Home chrome structure, faculty list/order |
+| Add / extend **Glossary** rows (A–Z + Domain + short why) | Edit `campus/IA_*.md`, `DISPLAY_*.md`, `.ai/constitution*`, principles that define the system |
+| Add chapter / lab **content** into **existing** shelves following chapter-shape | Mass-move, rename product, retire/restore Path chrome, rewire Docsify |
 | Ask explanations, next-step study help | Delete architecture / Author portal / governance |
 | Follow [`campus/HOW_TO_ADD_WITH_AI.md`](campus/HOW_TO_ADD_WITH_AI.md) prompt | Change this `AGENTS.md` identity/architecture policy |
+| | Run Owner-only workflows (intake triage, monthly audit, shelf Design) |
 
 **Hard rule:** if Timur asks for something that alters **architecture, navigation, IA, or governance**, do **not** do it. Explain briefly and say Maxim must approve. Content additions that fit existing shelves are OK.
 
@@ -53,15 +56,16 @@ When unsure whether a request is “content” vs “architecture” → treat a
 ## Read first (order)
 
 1. **Identity gate** (above) — then Maxim or Timur matrix  
-2. [`.ai/README.md`](.ai/README.md) — constitution · collaboration · AI roles  
-3. **Creator Portal (authors — not Learn site):** [`.author/README.md`](.author/README.md)  
+2. **If Timur:** [`campus/FOR_TIMUR.md`](campus/FOR_TIMUR.md) — library study + ask/work contract — **then stop** unless adding shelf content ([HOW_TO_ADD](campus/HOW_TO_ADD_WITH_AI.md))  
+3. **If Maxim (authors):** [`.ai/README.md`](.ai/README.md) — constitution · collaboration · AI roles  
+4. **Creator Portal (authors — not Learn site):** [`.author/README.md`](.author/README.md)  
    Platform SoTs:  
    - [teaching-model](.ai/principles/teaching-model.md)  
    - [review-criteria](.ai/principles/review-criteria.md)  
    - [content-lifecycle](.ai/principles/content-lifecycle.md)  
-4. **New chapter playbook:** [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)  
-5. Human coach (students): [`campus/ASSISTANT_MANUAL.md`](campus/ASSISTANT_MANUAL.md)  
-6. Study spine: [`campus/ROADMAP_SENIOR.md`](campus/ROADMAP_SENIOR.md) · Mode A [`campus/OPERATING_MODES.md`](campus/OPERATING_MODES.md)
+5. **New chapter playbook (Maxim):** [`.ai/workflows/chapter-fill.md`](.ai/workflows/chapter-fill.md)  
+6. Human coach extras (optional; Mode A ≠ Timur gate): [`campus/ASSISTANT_MANUAL.md`](campus/ASSISTANT_MANUAL.md)  
+7. Study spine maps (optional): [`campus/ROADMAP_SENIOR.md`](campus/ROADMAP_SENIOR.md) · Mode A [`campus/OPERATING_MODES.md`](campus/OPERATING_MODES.md)
 
 **IA:** [campus/IA_1.0.md](campus/IA_1.0.md) — Layer 1 Learn ≠ Layer 2/3 Engine. Do not put Author SDK on public Home/sidebar.
 
@@ -100,7 +104,7 @@ Trigger phrases (any close variant counts — including RU-layout typos like `ш
 - Chapter shape → Topic template chrome  
 - **Library DoD:** Publish = readable `README` on Pages. Path/Evidence checkboxes are optional reader self-check — **not** an agent fill gate and **not** a named-student flag  
 - Do **not** invent the «next» chapter; Owner names path + why. Commit/push only when asked  
-- Public naming: `vil4engineering` · repo `univer` · always verify `git remote -v` before push  
+- Public naming: `vil4labs` · repo `univer` · always verify `git remote -v` before push  
 
 ## Catalog tooling
 

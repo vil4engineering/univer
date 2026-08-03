@@ -1,6 +1,6 @@
 # Мануал: репо-помощник (Campus Assistant)
 
-Как пользоваться **Cursor agent** внутри репозитория `vil4engineering/univer` (org [vil4engineering](https://github.com/vil4engineering)) в нашей вселенной Engineering Builder **v2**.
+Как пользоваться **Cursor agent** внутри репозитория `vil4labs/univer` (org [vil4labs](https://github.com/vil4labs)) в нашей вселенной Engineering Builder **v2**.
 
 Это не общий ChatGPT-howto. Помощник — **campus coach / Skill runner** в контексте Charter, Paths и Evidence.
 
@@ -37,7 +37,9 @@
 
 ---
 
-## Ритуал урока (Student A)
+## Ритуал урока (optional — Maxim Mode A / Path)
+
+Не гейт для библиотеки и не обязательный ритуал Тимура. Если идёшь Path Alpha:
 
 ```text
 pulse → topic dive → questions → write-back topic (+ code/playground/lab link) → mock → Evidence
@@ -53,7 +55,8 @@ pulse → topic dive → questions → write-back topic (+ code/playground/lab l
 
 Warehouse не обязан быть «заполнен». Заполняем **недостающее под текущую подготовку**. Incremental fill: [OPERATING_MODES.md](OPERATING_MODES.md).
 
-Без write-back урок не считается завершённым. Протокол: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).
+Без write-back Path-урок (Mode A) не считается завершённым. Протокол: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).  
+Чтение Living-главы из библиотеки **не** требует Path write-back.
 
 ---
 
@@ -74,7 +77,8 @@ Warehouse не обязан быть «заполнен». Заполняем **
 - «Придумай опыт / кейс с прошлой работы»  
 - Commit / push / force-push без явного «закоммить / запушь»  
 - Mass `git mv` warehouse «чтобы красиво»  
-- «Просто объясни» без practice / Evidence  
+- «Просто объясни» без практики, *если* ты сам просил Path/Evidence-урок (Mode A)  
+- Для Тимура: «просто объясни главу по ссылке» — **нормальный** запрос библиотеки  
 - Стать «AI Engineer identity» вместо SE understanding  
 
 ---
@@ -83,9 +87,9 @@ Warehouse не обязан быть «заполнен». Заполняем **
 
 | Repo | Роль |
 |------|------|
-| `vil4engineering/univer` | Public living curriculum — Skills, Evidence craft |
+| `vil4labs/univer` | Public living curriculum — Skills, Evidence craft |
 | `career` | Private Career OS / facts / CRM |
-| `vil4engineering/pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` / `ios-hunter` | Independent products — cite, don't absorb |
+| `vil4labs/pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` / `ios-hunter` | Independent products — cite, don't absorb |
 
 Помощник в этом workspace по умолчанию пишет только в university (и local gitignored agent files).
 
@@ -125,14 +129,11 @@ Deepdive ≠ summary. Цель — **learning module**.
 
 ## Study status (сейчас)
 
-[PROJECT_STATUS](../PROJECT_STATUS.md): **Study unlocked under v2** (2026-07-24) · Mode A active.
+[PROJECT_STATUS](../PROJECT_STATUS.md): library shelves open under v2.
 
-Помощник:
+Для **Тимура** (ученик): вход [`FOR_TIMUR.md`](FOR_TIMUR.md) — библиотека + как спрашивать. Path/Evidence **не** обязательный ритуал.
 
-- ведёт Path Alpha / ROADMAP по Evidence rules;  
-- для знания и интервью читает [`.ai/README.md`](../.ai/README.md) (одна роль за раз);  
-- mock: workflow [`.ai/workflows/interview-prep-session.md`](../.ai/workflows/interview-prep-session.md);  
-- первый deep track: M03 Concurrency (`swift/concurrency/`).
+Для **Максима** (Owner / Mode A): Path / ROADMAP / Evidence — по желанию интенсив; mock: [`.ai/workflows/interview-prep-session.md`](../.ai/workflows/interview-prep-session.md). Concurrency library: `swift/concurrency/` (Reading route 0→12).
 
 ---
 

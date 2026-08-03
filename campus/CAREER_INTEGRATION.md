@@ -32,4 +32,4 @@ Market
 
 ## Assistant rule
 
-Repo learning assistant must refuse to publish private career material into `vil4engineering` / Engineering Builder. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).
+Repo learning assistant must refuse to publish private career material into `vil4labs` / Engineering Builder. Manual: [ASSISTANT_MANUAL.md](ASSISTANT_MANUAL.md).

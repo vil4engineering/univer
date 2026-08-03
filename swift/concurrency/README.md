@@ -75,7 +75,7 @@ Owner progress + agent contract: [`.author/SWIFT_SHELF_HANDOFF.md`](../../.autho
 
 **Shelf status:** Living route **0→12 CLOSED** as a library book. Next concurrency depth only on explicit Owner path/why — do not invent a volume.
 
-**Share:** `https://vil4engineering.github.io/univer/#/swift/concurrency/` · chapter = same base + folder (see [campus/LINKING.md](../../campus/LINKING.md)).
+**Share:** `https://vil4labs.github.io/univer/#/swift/concurrency/` · chapter = same base + folder (see [campus/LINKING.md](../../campus/LINKING.md)).
 
 ## Materials
 

@@ -110,8 +110,8 @@ Sidebar/IA only with explicit Owner Design.
 
 | | |
 |--|--|
-| **This clone `origin`** | often `https://github.com/vil4labs/univer.git` — verify `git remote -v` before push |
-| **Public product names** | org / Pages may stay `vil4engineering` (see AGENTS · LINKING) |
+| **This clone `origin`** | `https://github.com/vil4labs/univer.git` — verify `git remote -v` before push |
+| **Public product names** | org / Pages = `vil4labs` (see AGENTS · LINKING) |
 
 Do not invent push target from AGENTS slug alone.
 

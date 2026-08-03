@@ -2,7 +2,7 @@
 
 Как развивать **Engineering Builder** как продукт, а не как набор репозиториев.
 
-Связано: [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) · [faculties/](faculties/) · org [.github](https://github.com/vil4engineering/.github) · [Discussions](https://github.com/vil4engineering/univer/discussions) · [Project](https://github.com/orgs/vil4engineering/projects/1)
+Связано: [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) · [faculties/](faculties/) · org [.github](https://github.com/vil4labs/.github) · [Discussions](https://github.com/vil4labs/univer/discussions) · [Project](https://github.com/orgs/vil4labs/projects/1)
 
 ## North star
 
@@ -24,11 +24,11 @@ Engineering Builder
 | Слой | Состояние |
 |------|-----------|
 | Org profile · logo · mission README | Done |
-| Portal Pages | [vil4engineering.github.io/univer](https://vil4engineering.github.io/univer/) |
+| Portal Pages | [vil4labs.github.io/univer](https://vil4labs.github.io/univer/) |
 | Curriculum spine | `campus/` + [ROADMAP_SENIOR.md](ROADMAP_SENIOR.md) |
 | Default community files | org `.github` (CONTRIBUTING · CoC · SECURITY · templates) |
 | Living labs | `pitstop-ios` · `regional-check` · `room-scanner-ios` · `visionkit-lab-ios` |
-| Org Project | [Engineering Builder #1](https://github.com/orgs/vil4engineering/projects/1) |
+| Org Project | [Engineering Builder #1](https://github.com/orgs/vil4labs/projects/1) |
 | Discussions (hub) | Enabled on site repo |
 | Labels · milestones (hub) | Seeded |
 

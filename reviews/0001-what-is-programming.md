@@ -7,9 +7,9 @@
 - **Interview pack:** [notes/Interview-Pack.md](../fundamentals/what-is-programming/notes/Interview-Pack.md)
 - **Reviewer:** dual-pass Reviewer (post Author v1; Author must not self-Accept)
 - **Sources (non-SPA):**
-  - Blob: https://github.com/vil4engineering/univer/blob/main/fundamentals/what-is-programming/README.md
-  - Raw: https://raw.githubusercontent.com/vil4engineering/univer/main/fundamentals/what-is-programming/README.md
-  - DESIGN blob: https://github.com/vil4engineering/univer/blob/main/fundamentals/what-is-programming/DESIGN.md
+  - Blob: https://github.com/vil4labs/univer/blob/main/fundamentals/what-is-programming/README.md
+  - Raw: https://raw.githubusercontent.com/vil4labs/univer/main/fundamentals/what-is-programming/README.md
+  - DESIGN blob: https://github.com/vil4labs/univer/blob/main/fundamentals/what-is-programming/DESIGN.md
 
 ---
 
