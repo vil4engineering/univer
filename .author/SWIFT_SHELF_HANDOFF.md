@@ -77,12 +77,12 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 | 2 | [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/) | Почему общее изменяемое состояние ломается без правил? | **Shipped** 2026-08-03 (theory) |
 | 3 | [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/) | Что дали очереди/callback — и почему этого мало? | **Shipped** 2026-08-03 (theory) |
 | 4 | [`structured-concurrency/`](../swift/concurrency/structured-concurrency/) | Зачем иерархия задач и отмена сверху вниз? | **Shipped** 2026-08-03 (theory) |
-| 5 | `async-await-and-suspension/` | Чем suspension отличается от блокировки потока? | **Next** |
-| 6 | `tasks-and-unstructured-work/` | Когда `Task { }` — инструмент, а когда дырка lifetime? | Queued |
-| 7 | `actors-and-isolation/` | Почему isolation, а не «поток на объект»? | Queued |
-| 8 | `mainactor-and-ui/` | Зачем граница UI отдельным миром? | Queued |
-| 9 | `cancellation-and-cooperation/` | Почему отмена кооперативная? (may absorb `async-defer`) | Queued |
-| … | later: sendable, testing, production migration | — | Parking |
+| 5 | [`async-await-and-suspension/`](../swift/concurrency/async-await-and-suspension/) | Чем suspension отличается от блокировки потока? | **Shipped** 2026-08-03 (theory) |
+| 6 | [`tasks-and-unstructured-work/`](../swift/concurrency/tasks-and-unstructured-work/) | Когда `Task { }` — инструмент, а когда дырка lifetime? | **Shipped** 2026-08-03 (theory) |
+| 7 | [`actors-and-isolation/`](../swift/concurrency/actors-and-isolation/) | Почему isolation, а не «поток на объект»? | **Shipped** 2026-08-03 (theory) |
+| 8 | [`mainactor-and-ui/`](../swift/concurrency/mainactor-and-ui/) | Зачем граница UI отдельным миром? | **Shipped** 2026-08-03 (theory) |
+| 9 | [`cancellation-and-cooperation/`](../swift/concurrency/cancellation-and-cooperation/) | Почему отмена кооперативная? | **Shipped** 2026-08-03 (theory) |
+| … | later: sendable, testing, production migration | — | **Final polish / parking** |
 
 **Rhythm (unchanged):** claims ledger → one topic theory (RU-primary) → library glance → atomic commit (+ glossary micro-commit) → stop → Owner confirms next row.
 
@@ -91,10 +91,11 @@ Ordered theory units under [`swift/concurrency/`](../swift/concurrency/). Status
 ## 9. Pointers
 
 - Hub: [`swift/concurrency/README.md`](../swift/concurrency/README.md)  
-- **Shipped:** [`why-concurrency-exists/`](../swift/concurrency/why-concurrency-exists/) · [`processes-and-threads/`](../swift/concurrency/processes-and-threads/) · [`shared-state-and-races/`](../swift/concurrency/shared-state-and-races/) · [`gcd-and-callback-era/`](../swift/concurrency/gcd-and-callback-era/)  
-- **Next unit:** `structured-concurrency/` (roadmap §8b row 4)  
-- Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · evolution note [`notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md`](../swift/concurrency/notes/Concurrency-Evolution-From-Threads-to-Modern-Swift.md) · [GCD.playground](../swift/concurrency/GCD.playground)  
-- Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)
+- **Shipped (theory chain 0–9):** see §8b table (all rows Shipped)  
+- **Next:** **Final polish** (§10) — Owner says when  
+- Related warehouse: [`swift/async-defer/`](../swift/async-defer/) · labs under [`swift/concurrency/`](../swift/concurrency/)  
+- Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [improve-topic](../.ai/workflows/improve-topic.md)  
+- **Final polish:** unlocked after units 4–9 shipped — see §10
 
 ## 10. Parking lot → Final polish (after concurrency theory chain)
 

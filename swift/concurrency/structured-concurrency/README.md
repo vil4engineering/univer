@@ -17,7 +17,7 @@ Structured concurrency отвечает на боль callback-эры: кто в
 |--|--|
 | **Faculty** | Mobile Systems · Swift Concurrency |
 | **Prerequisites** | [GCD / callback era](../gcd-and-callback-era/) · [Shared state](../shared-state-and-races/) |
-| **Next** | async/await & suspension (следующий unit) · [hub](../) · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) |
+| **Next** | [async/await · suspension](../async-await-and-suspension/) · [hub](../) · [StructuredConcurrencyLab](../StructuredConcurrencyLab.playground) |
 | **Interview** | ★★★★★ |
 | **Difficulty** | Medium |
 | **Time** | ≈ 16 min |
@@ -155,7 +155,7 @@ Level 3 — дверь.
 > **до:** «запустил Task — и ладно»  
 > **после:** сначала кто scope; потом механизм
 
-**Дальше:** async/await и suspension (следующий unit) · пока [hub](../).
+**Дальше:** [Чем suspension отличается от блокировки потока?](../async-await-and-suspension/)
 
 ---
 
