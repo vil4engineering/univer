@@ -17,7 +17,7 @@ Concurrency уже нужна как идея. Process и thread — ответ 
 |--|--|
 | **Faculty** | Mobile Systems · Swift Concurrency |
 | **Prerequisites** | [Почему concurrency](../why-concurrency-exists/) · гл.0 Execution Spine |
-| **Next** | shared state / races (следующий unit) · [hub](../) |
+| **Next** | [Shared state / races](../shared-state-and-races/) · [hub](../) |
 | **Interview** | ★★★★ |
 | **Difficulty** | Medium |
 | **Time** | ≈ 16 min |
@@ -161,7 +161,7 @@ Process "MyApp"
 > **до:** «поток = concurrency»  
 > **после:** process/thread — OS-упаковка; concurrency — организация дел
 
-**Дальше:** почему общее изменяемое состояние ломается без правил (shared state / races) · пока [hub](../).
+**Дальше:** [Почему общее изменяемое состояние ломается без правил?](../shared-state-and-races/)
 
 ---
 
