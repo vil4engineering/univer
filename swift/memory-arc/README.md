@@ -2,6 +2,7 @@
 
 ## Materials
 
+- Notes: [Why-Not-All-Weak](notes/Why-Not-All-Weak.md) — шпаргалка: почему нельзя сделать все ссылки `weak`
 - Playgrounds: [ARCAdvanced.playground](ARCAdvanced.playground) (retain cycles, `Task`, Combine) · [ARCCompileTimeVsRuntime.playground](ARCCompileTimeVsRuntime.playground) · [HHMemoryLayout.playground](HHMemoryLayout.playground)
 
 ## Topic structure
@@ -143,6 +144,11 @@ Interview Q&A below.
 
     1. `weak` is optional and becomes `nil`; it doesn't extend the object's lifetime.
     2. `unowned` is non-optional and needs a guarantee the referenced object outlives this reference.
+
+### Q4b
+- **Question:** What goes wrong if every reference is `weak`?
+
+- **Answer:** Nothing owns the object. With zero strong references ARC deallocates immediately and every `weak` becomes `nil`. `weak` is for non-owning links (delegate, back-reference, `[weak self]`); ownership still needs at least one strong path. Cheat sheet: [Why-Not-All-Weak](notes/Why-Not-All-Weak.md).
 
 ### Q5
 - **Question:** How do you catch retain cycles in closures?

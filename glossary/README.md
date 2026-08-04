@@ -122,7 +122,9 @@ Section **XI · Summary** on the [iosiq roadmap](https://iosiq.ru/roadmap.html):
 **ARC** — *Automatic Reference Counting* — automatic reference counting; an object is freed when it has zero strong references.
 
 <a id="glossary-weak"></a>
-**weak** — optional reference (`Optional`); does not retain the object — typical way to break a cycle with a delegate or closure.
+**weak** · *Mobile Systems · Memory / ARC*
+
+Optional-ссылка без retain: не держит объект в памяти и обнуляется в `nil` после `deinit`. Нужна, чтобы рвать retain cycle (`delegate`, back-link, `[weak self]`), а не чтобы «делать все переменные weak» — без strong-владельца объект сразу умирает. Related: [ARC](#glossary-arc), [retain cycle](#glossary-retain-cycle), [unowned](#glossary-unowned) · шпаргалка [Why-Not-All-Weak](../swift/memory-arc/notes/Why-Not-All-Weak.md).
 
 <a id="glossary-unowned"></a>
 **unowned** · *Mobile Systems · Memory / ARC*
