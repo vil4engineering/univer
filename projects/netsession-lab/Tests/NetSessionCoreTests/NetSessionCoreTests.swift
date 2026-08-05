@@ -53,6 +53,13 @@ import Testing
     #expect(policy.shouldRetry(error: error, attempt: 3) == false)
 }
 
+@Test func retryPolicyAllowsTimedOutTransport() {
+    let policy = RetryPolicy(maxAttempts: 3)
+    let error = NetSessionError.transport(.timedOut)
+    #expect(policy.shouldRetry(error: error, attempt: 1) == true)
+    #expect(policy.shouldRetry(error: error, attempt: 3) == false)
+}
+
 @Test func endpointBuilderEncodesQueryItems() throws {
     let base = URL(string: "https://api.example.com/v3/")!
     let endpoint = AnyEndpoint(
@@ -199,6 +206,95 @@ struct HTTPClientMockTests {
                 return
             }
             #expect(code == 401)
+        } catch {
+            Issue.record("Unexpected error: \(error)")
+        }
+    }
+
+    @Test func retriesAfter429AndReturns200() async throws {
+        let baseURL = URL(string: "https://api.example.com")!
+        final class FailureBudget: @unchecked Sendable {
+            var remaining = 1
+            var hits = 0
+        }
+        let budget = FailureBudget()
+        MockURLProtocol.requestHandler = { request in
+            budget.hits += 1
+            if budget.remaining > 0 {
+                budget.remaining -= 1
+                let response = HTTPURLResponse(
+                    url: request.url!,
+                    statusCode: 429,
+                    httpVersion: nil,
+                    headerFields: nil
+                )!
+                return (response, Data("rate limited".utf8))
+            }
+            let response = HTTPURLResponse(
+                url: request.url!,
+                statusCode: 200,
+                httpVersion: nil,
+                headerFields: ["Content-Type": "application/json"]
+            )!
+            return (response, Data("{\"message\":\"ok\"}".utf8))
+        }
+        defer { MockURLProtocol.requestHandler = nil }
+
+        let configuration = SessionConfigurationFactory.makeForTesting(protocolClasses: [MockURLProtocol.self])
+        let session = URLSession(configuration: configuration)
+        let client = HTTPClient(
+            baseURL: baseURL,
+            session: session,
+            retryPolicy: RetryPolicy(maxAttempts: 2, baseDelaySeconds: 0, jitterRange: 0 ... 0)
+        )
+
+        let greeting: Greeting = try await client.send(
+            AnyEndpoint(baseURL: baseURL, path: "limited"),
+            as: Greeting.self
+        )
+        #expect(greeting.message == "ok")
+        #expect(budget.remaining == 0)
+        #expect(budget.hits == 2)
+    }
+
+    @Test func decodingFailureAfter200DoesNotRetry() async {
+        let baseURL = URL(string: "https://api.example.com")!
+        final class HitCounter: @unchecked Sendable {
+            var hits = 0
+        }
+        let counter = HitCounter()
+        MockURLProtocol.requestHandler = { request in
+            counter.hits += 1
+            let response = HTTPURLResponse(
+                url: request.url!,
+                statusCode: 200,
+                httpVersion: nil,
+                headerFields: ["Content-Type": "application/json"]
+            )!
+            return (response, Data("not-json".utf8))
+        }
+        defer { MockURLProtocol.requestHandler = nil }
+
+        let configuration = SessionConfigurationFactory.makeForTesting(protocolClasses: [MockURLProtocol.self])
+        let session = URLSession(configuration: configuration)
+        let client = HTTPClient(
+            baseURL: baseURL,
+            session: session,
+            retryPolicy: RetryPolicy(maxAttempts: 3, baseDelaySeconds: 0, jitterRange: 0 ... 0)
+        )
+
+        do {
+            _ = try await client.send(
+                AnyEndpoint(baseURL: baseURL, path: "broken"),
+                as: Greeting.self
+            )
+            Issue.record("Expected decoding error")
+        } catch let error as NetSessionError {
+            guard case .decoding = error else {
+                Issue.record("Wrong error: \(error)")
+                return
+            }
+            #expect(counter.hits == 1)
         } catch {
             Issue.record("Unexpected error: \(error)")
         }

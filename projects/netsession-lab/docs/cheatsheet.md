@@ -64,6 +64,8 @@ Retry: 408, 429, 5xx, transient `URLError` (timeout, no network). **No** retry: 
 
 `makeForTesting(protocolClasses: [MockURLProtocol.self])` + handler returning `(HTTPURLResponse, Data)`. Never mutate `URLSession.shared`.
 
+Drill coverage in tests: `retriesAfter429AndReturns200`, `decodingFailureAfter200DoesNotRetry`, `retryPolicyAllowsTimedOutTransport`.
+
 ---
 
 ### What happens on `Task.cancel()`?
