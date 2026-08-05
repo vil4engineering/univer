@@ -27,9 +27,13 @@ Students must **not** see this in the Docsify sidebar. Authors open it from the 
 | [chapter-shape](../.ai/principles/chapter-shape.md) | Section spine |
 | [TOPIC_TEMPLATE](../campus/TOPIC_TEMPLATE.md) | Markdown chrome |
 
-Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [monthly-audit](../.ai/workflows/monthly-audit.md) (Reviewer only) · [Swift shelf progress plan](SWIFT_SHELF_HANDOFF.md) (checkboxes · SoT for Swift / concurrency).
+Playbooks: [chapter-fill](../.ai/workflows/chapter-fill.md) · [persist-learning-session](../.ai/workflows/persist-learning-session.md) (Mode A prep → Library) · [monthly-audit](../.ai/workflows/monthly-audit.md) (Reviewer only) · [Swift shelf progress plan](SWIFT_SHELF_HANDOFF.md) (checkboxes · SoT for Swift / concurrency).
 
 Path Alpha author map: [paths-alpha.md](paths-alpha.md).
+
+**Learning Sessions** (curated prep feedstock, not Learn chrome): [learning-sessions/](learning-sessions/).  
+**Interview Prep Map** (10–15 min blitz draft, not Library DoD): [prep-map.md](prep-map.md).  
+Access planes + write-back sinks: [knowledge-access](../.ai/principles/knowledge-access.md).
 
 ---
 

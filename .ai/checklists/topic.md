@@ -17,6 +17,8 @@ Use before accepting Author work. Reviewer may paste results into their verdict.
 - [ ] **Fundamental question (why)** is the H1 (or identical) — not only a labeled field
 - [ ] Passport answers Why / problem / history at least at stub quality
 - [ ] Chapter sections present or honestly stubbed ([../principles/chapter-shape.md](../principles/chapter-shape.md))
+- [ ] **Ментальная модель** present past stub (analogy + CS model + Swift illustration + why better)
+- [ ] **Ошибочные модели** present past stub (❌ → ✅)
 - [ ] Evolution strip present or explicitly N/A
 - [ ] Levels 1–3 used correctly (no fake Level 3; no Level 4–6 fork)
 - [ ] Visual & practice DoD considered (diagram / analogy / code / practice)

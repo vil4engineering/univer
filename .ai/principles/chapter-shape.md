@@ -36,18 +36,52 @@ Use these headings in published RU prose (emoji optional — Docsify-friendly pl
 
 | Section | Intent | Maps to |
 |---------|--------|---------|
-| **Интуиция** | Why this topic exists; life analogy | Level 1 |
-| **История** | How people arrived here (short; explains modern choice) | Passport 3–5 · Evolution |
+| **Интуиция** | Cold open · stakes · first life image | Level 1 |
+| **История** | Pain → why the idea appeared (short) | Passport · Evolution |
+| **Ментальная модель** | **Required** when past stub — structured model (below) | Level 1–2 bridge |
 | **Как это работает** | Mechanism at engineer depth | Level 2 |
 | **Внутри** | Under the hood / runtime / trade-offs | Level 3 (earned) |
 | **Пример** | Minimal working example | Code / Sandbox |
 | **Production** | Real use · failure modes · decisions | What breaks · Decisions |
-| **Интервью** | Likely questions · follow-ups · common mistakes | Interview projection |
+| **Ошибочные модели** | **Required** when past stub — ❌ wrong vs ✅ right | Interview / Beginner gate |
+| **Интервью** | Likely questions · follow-ups | Interview projection |
 | **Лабораторная** | Try yourself | Lab / playground / `projects/` link |
 | **Конспект** | Plain readable takeaways — **text only, no markdown links** | After practice |
 | **Дальше** | **Next chapter only** | Student footer |
 
 No «Упомянуто» dump at chapter end. Dictionary terms → **Glossary**.
+
+### Ментальная модель (required shape)
+
+Not a second essay. Short structured block after История (or merged into Интуиция only if the chapter is tiny — prefer the named heading).
+
+| Slot | Asks |
+|------|------|
+| Проблема | What pain forced this idea? |
+| Аналогия | Plant · warehouse · post · conveyor · library · city · orchestra… |
+| Инженерная модель | How it looks in Computer Science |
+| Swift / iOS | Illustration only — not the definition |
+| Почему лучше | Why this beat the previous solution |
+
+**Depth test (binding):** if you cannot explain the topic through a life analogy *and* a causal history, the chapter is not ready — you have not understood it deeply enough yet. Analogies outlive API churn (Timur / next decade).
+
+Pedagogy order (anti-catalog):
+
+```text
+Problem → History → Analogy → Architecture → Implementation → Production → Interview
+```
+
+Not: Definition → API → code sample.
+
+### Ошибочные модели (required shape)
+
+Table or short pairs:
+
+| ❌ Wrong | ✅ Right |
+|----------|----------|
+| … | … |
+
+Catch dictionary myths (e.g. “Stack is where structs live”) before Interview.
 
 ### Term → Glossary rule
 
@@ -89,9 +123,10 @@ Do **not** fake empty sections. Allowed:
 Fill order for Mode A prep:
 
 ```text
-Fundamental question → Интуиция → Как это работает → Пример
+Fundamental question → Интуиция → История → Ментальная модель
+  → Как это работает → Ошибочные модели → Пример
   → Интервью (questions) → Лабораторная link
-  → История / Production as needed → Внутри when earned
+  → Production as needed → Внутри when earned
 ```
 
 ---

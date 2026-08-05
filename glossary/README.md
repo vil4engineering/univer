@@ -31,19 +31,27 @@
 | [CPU](#glossary-cpu) | Computer Science | Исполнитель machine code |
 | [Data race](#glossary-data-race) | Mobile · Concurrency | Конфликтный доступ к shared mutable state |
 | [Dynamic Dispatch](#glossary-dynamic-dispatch) | Mobile · Swift / Runtime | Obj-C message send (`objc_msgSend`) |
+| [Heap](#glossary-heap) | Computer Science · Memory | Lifetime независимо от функции |
 | [JSON](#glossary-json) | Backend · Data | Текстовый обмен данными |
 | [LLM](#glossary-llm) | AI | Языковая модель (см. Dictionary) |
+| [Lifetime](#glossary-lifetime) | Computer Science · Memory | Как долго сущность имеет право существовать |
+| [Lifetime Management](#glossary-lifetime-management) | Computer Science · Memory | Кто и как заканчивает lifetime |
 | [Machine Code](#glossary-machine-code) | Computer Science | Инструкции для CPU |
 | [MCP](#glossary-mcp) | AI | Протокол инструментов для AI |
+| [Memory Leak](#glossary-memory-leak) | Mobile · Memory / ARC | Память занята без пользы и без освобождения |
 | [Optional](#glossary-optional) | Mobile · Swift | `.some` / `.none` |
 | [Parallelism](#glossary-parallelism) | Mobile · Concurrency | Одновременное исполнение на ядрах |
 | [Program](#glossary-program) | Computer Science | Алгоритм в форме для машины |
 | [Process](#glossary-process) | Mobile · Concurrency | Экземпляр программы в OS (память, ресурсы) |
 | [RAG](#glossary-rag) | AI | Retrieval + генерация |
+| [Reference](#glossary-reference) | Computer Science · Memory | Ссылка на объект (часто в Heap) |
 | [REST](#glossary-rest) | Backend · Networking | Стиль HTTP API |
 | [Retain cycle](#glossary-retain-cycle) | Mobile · Memory / ARC | Взаимные strong → утечка |
 | [SOLID](#glossary-solid) | Architecture | Пять принципов дизайна ООП |
 | [SPM](#glossary-spm) | Mobile · Tooling | Swift Package Manager |
+| [Stack](#glossary-stack) | Computer Science · Memory | Память потока; lifetime = функция / frame |
+| [Stack (ADT)](#glossary-stack-adt) | Computer Science · Structures | LIFO-структура данных (не memory Stack) |
+| [Stack Frame](#glossary-stack-frame) | Computer Science · Memory | Контекст одного вызова функции |
 | [Static Dispatch](#glossary-static-dispatch) | Mobile · Swift / Runtime | Прямой вызов; адрес на compile time |
 | [Task](#glossary-task) | Mobile · Concurrency | Единица structured concurrency |
 | [Thread](#glossary-thread) | Mobile · Concurrency | Единица планирования CPU внутри process |
@@ -89,6 +97,41 @@
 
 Процессор — Hardware, который исполняет machine code. Буквальный исполнитель на уровне железа.
 
+<a id="glossary-heap"></a>
+**Heap** · *Computer Science · Memory*
+
+Область памяти процесса для объектов, чей <a class="eu-term" href="#glossary-lifetime">lifetime</a> **не привязан** к жизненному циклу конкретной функции. Не определение «про classes». Глава: [Why Heap appeared](../fundamentals/why-heap-appeared/).
+
+<a id="glossary-lifetime"></a>
+**Lifetime** · *Computer Science · Memory*
+
+Как долго сущность имеет право существовать. Stack связывает lifetime с функцией/frame; Heap — нет.
+
+<a id="glossary-lifetime-management"></a>
+**Lifetime Management** · *Computer Science · Memory*
+
+Правила, кто и как заканчивает lifetime (frame reclaim, malloc/free, refcount, ARC…). Heap даёт независимый lifetime; ownership — отдельная задача.
+
+<a id="glossary-reference"></a>
+**Reference** · *Computer Science · Memory*
+
+Ссылка на объект (часто в Heap): в Stack Frame обычно лежит reference, а не сам объект с независимым lifetime. Не путать с [Reference type](#glossary-reference-type) в Swift.
+
+<a id="glossary-stack"></a>
+**Stack** · *Computer Science · Memory*
+
+Область памяти потока для данных, чей lifetime ограничен выполнением функции / <a class="eu-term" href="#glossary-stack-frame">Stack Frame</a>. Быстрый и детерминированный. Не путать с [Stack (ADT)](#glossary-stack-adt). Глава: [Why Heap appeared](../fundamentals/why-heap-appeared/).
+
+<a id="glossary-stack-adt"></a>
+**Stack (ADT)** · *Computer Science · Structures*
+
+Абстрактная LIFO-структура данных (push/pop). Это не memory Stack. Note: [Stack under the hood](../algorithms/structures/notes/Stack-Under-The-Hood.md).
+
+<a id="glossary-stack-frame"></a>
+**Stack Frame** · *Computer Science · Memory*
+
+Контекст одного вызова функции: параметры, локальные переменные, return address, сохранённые регистры, ссылки на Heap-объекты.
+
 <a id="glossary-solid"></a>
 **SOLID** · *Architecture · Software Engineering*
 
@@ -132,7 +175,14 @@ Optional-ссылка без retain: не держит объект в памя�
 Зачем: чтобы разорвать retain cycle между объектами, когда срок жизни «другого» объекта **гарантированно** не короче текущего. В отличие от `weak`, ссылка не `Optional` и сама не становится `nil` — при ошибке жизненного цикла возможен crash. Related: [weak](#glossary-weak), [retain cycle](#glossary-retain-cycle), [ARC](#glossary-arc).
 
 <a id="glossary-retain-cycle"></a>
-**Retain cycle** — mutual strong references between objects (or `self` in `@escaping` without `weak`), so memory is never released.
+**Retain cycle** · *Mobile · Memory / ARC*
+
+Взаимные (или кольцевые) **strong**-ссылки: retain count не падает до нуля → объекты не получают `deinit` → на практике <a class="eu-term" href="#glossary-memory-leak">Memory Leak</a>. Рвут <a class="eu-term" href="#glossary-weak">weak</a> / <a class="eu-term" href="#glossary-unowned">unowned</a> / capture list. Note: [Memory Leak](../swift/memory-arc/notes/Memory-Leak.md).
+
+<a id="glossary-memory-leak"></a>
+**Memory Leak** · *Mobile · Memory / ARC*
+
+Память остаётся выделенной, программой уже не используется и не освобождается. Опасно ростом footprint и jetsam. В ARC частый механизм — [retain cycle](#glossary-retain-cycle); искать: `deinit`, Memory Graph, Instruments — [Debug](../quality/debug/). Глубже: [Memory Leak note](../swift/memory-arc/notes/Memory-Leak.md).
 
 <a id="glossary-value-type"></a>
 **Value type** — `struct` / `enum` (etc.): copy semantics; shared ownership via buffer reference with COW collections.

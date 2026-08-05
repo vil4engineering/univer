@@ -134,11 +134,15 @@ Stable section order (emoji optional). Stub empty parts honestly — incremental
 
 ### Интуиция
 
-Why this exists · analogy (Level 1).
+Why this exists · cold open (Level 1).
 
 ### История
 
-How people arrived at this solution (short).
+How people arrived at this solution (short · pain).
+
+### Ментальная модель
+
+Required past stub: Проблема · Аналогия · Инженерная модель · Swift/iOS · Почему лучше. See [chapter-shape](../.ai/principles/chapter-shape.md).
 
 ### Как это работает
 
@@ -155,6 +159,10 @@ Minimal working example (code cite).
 ### Production
 
 Real projects · what breaks · decision rules.
+
+### Ошибочные модели
+
+Required past stub: ❌ wrong vs ✅ right (dictionary myths).
 
 ### Интервью
 

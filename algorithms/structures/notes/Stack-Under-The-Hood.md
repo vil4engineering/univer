@@ -6,6 +6,7 @@
 | Useful? | yes |
 | Source | Telegram Saved `506750` |
 | Related | [Structures](../README.md) |
+| Disambiguation | This note is **ADT Stack** (LIFO data structure). Memory Stack / Heap why: [Why Heap appeared](../../../fundamentals/why-heap-appeared/). |
 
 ---
 

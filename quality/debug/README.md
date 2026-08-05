@@ -22,7 +22,7 @@
 - **LLDB essentials:** `po`, `p`, `expr`, `bt`, `frame variable`, `memory read`, breakpoint actions.
 - **Breakpoint types:** file/line, symbolic, exception (`objc_exception_throw`), Swift error, conditional, shared scheme for team.
 - **Instruments overview:** Time Profiler, Allocations, Leaks, Energy, Network—when to open which.
-- **Memory Graph:** capture → filter retain cycles → inspect strong refs from closures/delegates.
+- **Memory Graph:** capture → filter retain cycles → inspect strong refs from closures/delegates. Pedagogy: [Memory Leak](../../swift/memory-arc/notes/Memory-Leak.md).
 - **View Hierarchy / Debug View:** constraints, hidden views, SwiftUI identity issues (with Xcode tools).
 - **`os_log` / `Logger`:** subsystems, categories, `.debug` vs `.fault`, privacy `.public`/`.private`.
 

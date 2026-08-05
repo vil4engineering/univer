@@ -27,7 +27,7 @@ Campus OS (Paths, Skills, Evidence) stays in `campus/`. Private career stays out
 2. [collaboration.md](collaboration.md) — who does what
 3. [principles/](principles/) — how knowledge is shaped
 4. One role from [roles/](roles/) — only the role needed for this task
-5. Matching [workflows/](workflows/) playbook when improving a topic or running interview prep
+5. Matching [workflows/](workflows/) playbook when improving a topic, persisting a prep session, or running interview prep
 6. Matching prompt from [prompts/](prompts/) if creating or improving an artifact
 7. Matching checklist from [checklists/](checklists/) before claiming done
 8. Dual-pass Reviewer ([workflows/dual-pass-review.md](workflows/dual-pass-review.md)) — Author must not self-accept  
@@ -40,8 +40,11 @@ Do not skip the constitution. Do not load every role at once. Pick one role per 
 1. [principles/teaching-model.md](principles/teaching-model.md) — why we teach this way  
 2. [principles/review-criteria.md](principles/review-criteria.md) — how we score  
 3. [principles/content-lifecycle.md](principles/content-lifecycle.md) — content SDLC · chapter = product  
+4. [principles/knowledge-access.md](principles/knowledge-access.md) — GitHub · Docsify · RAG intent · write-back sinks  
 
 Also: [principles/content-philosophy.md](principles/content-philosophy.md). Stack: teaching-model → chapter-shape → `campus/TOPIC_TEMPLATE.md`.
+
+**Mode A persist:** [workflows/persist-learning-session.md](workflows/persist-learning-session.md) · [prompts/persist-learning-session.md](prompts/persist-learning-session.md).
 
 ---
 

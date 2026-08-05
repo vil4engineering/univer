@@ -46,6 +46,8 @@ Analogy: MIT students do not see accreditation checklists on the lobby wall. Tho
 - **Campus OS** = study OS inside Layer 1 (paths, progress, labs)  
 - **Creator Portal / University Engine** = Layer 2 + 3 ([`.author/`](../.author/) + [`.ai/`](../.ai/))
 
+**Orthogonal — access planes** (how knowledge is delivered; never rename these as Layer 1/2/3): GitHub SoT · Docsify UI · RAG index (intent). See [`.ai/principles/knowledge-access.md`](../.ai/principles/knowledge-access.md).
+
 ---
 
 ## Why review-criteria must not be “on the web” for students

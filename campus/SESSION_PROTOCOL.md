@@ -6,28 +6,36 @@ How a lesson becomes a university artifact (not only a chat).
 
 Campus map and registries exist. Charter is pushed.
 
-## During a lesson (Path Alpha contract)
+## During a lesson (Path Alpha / Mode A)
 
-1. One competency.
+1. One competency (parallel tracks elsewhere may stay open).
 2. Follow Charter / Curriculum lesson sections (mental model → deep dive).
 3. Prefer whole-picture history when it earns its place.
 4. Honest experience only.
 
-## After a lesson (minimum write-back)
+## After a lesson (write-back)
 
-Create or update **one** of:
+**Primary:** run [persist-learning-session](../.ai/workflows/persist-learning-session.md).
+
+| Kind | Minimum |
+|------|---------|
+| **Topic close** | Curated [learning-session](../.author/learning-sessions/) + all **5 artifacts** (Interview Pack · README · Glossary · Follow-ups · Gaps) |
+| **Pulse** | Session file ± 1–2 Library surfaces |
+
+Optional extras (not a substitute for persist):
 
 | Artifact | Location |
 |----------|----------|
-| Topic page (onion) | Library path or new page linked from campus |
 | Lab entry | [labs/README.md](labs/README.md) + playground/project |
-| Path checkmark / note | [paths/alpha.md](paths/alpha.md) (progress log) |
-| Reflection stub | optional `campus/reflections/` (later) |
+| Path Evidence | [paths/alpha.md](paths/alpha.md) Progress log — telemetry, not Publish gate |
 
-Do not advance Path Alpha to the next competency until mastery gate passes **and** write-back exists.
+Sinks matrix: [knowledge-access](../.ai/principles/knowledge-access.md). Do not invent a fifth prep-log format.
+
+Do not advance Path Alpha to the next competency until mastery gate passes **and** write-back exists (close or honest parked gaps).
 
 ## What we refuse
 
 - Lessons that leave no repo trace
 - Invented career stories in write-backs
 - Mass folder moves “because we studied something”
+- Full chat dumps as SoT

@@ -44,7 +44,7 @@ Before drafting a topic: skim what already exists in University + the sources ab
 
 University is **not** a completeness project. Warehouse stubs and thin READMEs are normal.
 
-Goal of Mode A: **gradually fill what the current prep session needs** — not “finish every faculty.”
+Goal of Mode A: **gradually fill what the current prep session needs** — not “finish every faculty.” **Parallel tracks** (Memory · Concurrency · Testing · …) may stay open at once.
 
 Default loop for one study unit:
 
@@ -52,18 +52,22 @@ Default loop for one study unit:
 Start prep (Path / heat / topic)
   → Read what already exists in University
   → Deep dive (chat / sources)
-  → Interview questions / open gaps
-  → Write-back into the canonical topic:
-       notes · passport slices · Levels as earned
-       + code | playground | link into projects/ lab
-         (only if it exists or you create a small Sandbox artifact)
-  → Evidence row on the Path
+  → Curated learning-session extract (Creator Portal)
+  → Close? → persist-learning-session (5 artifacts)
+     Pulse? → session file ± light write-back
+  → Evidence row on the Path (optional telemetry)
 ```
+
+**Topic close DoD** (Owner): Interview Pack · Engineering Notes on canonical README · Glossary · Follow-ups · Gaps — see [`.ai/workflows/persist-learning-session.md`](../.ai/workflows/persist-learning-session.md).
+
+**Block close:** also refresh [`.author/prep-map.md`](../.author/prep-map.md) (chain · key thoughts · understanding line · interview phrase). Prep Map ≠ Library DoD / Evidence.
 
 Do **not** invent a second handbook page. Improve the topic. Leave unfinished sections as honest stubs / open questions.
 
+Access planes + sinks: [`.ai/principles/knowledge-access.md`](../.ai/principles/knowledge-access.md).
+
 ## Write-back
 
-Every day ends with repo updates: status, Evidence, open questions, next step — [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).
+Mode A lesson exit is **persist-learning-session** (not a fifth ad-hoc log format). Path Evidence remains optional study telemetry — [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).
 
 Design map of the Living University thread: [DESIGN_CAPTURE_LIVING_UNIVERSITY.md](DESIGN_CAPTURE_LIVING_UNIVERSITY.md).

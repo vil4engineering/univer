@@ -26,6 +26,8 @@ The job is not to generate Markdown. The job is to improve the Engineering Build
 Chapter shape SoT: [chapter-shape.md](chapter-shape.md).  
 Do not invent parallel Level 4–6 headings that fork `campus/TOPIC_TEMPLATE.md`. Completeness direction and Why-before-How live in the constitution.
 
+**Durable teaching:** life analogy + causal history are required past stub (**Ментальная модель** · **Ошибочные модели**). If you cannot explain via analogy, the chapter is not ready — [chapter-shape](chapter-shape.md) · [teaching-model](teaching-model.md).
+
 ## Production engineering
 
 Always ask: what breaks?
@@ -48,10 +50,15 @@ Interview pack shape: [../prompts/create-interview.md](../prompts/create-intervi
 Living product / Core World: [../../campus/LIVING_PRODUCT.md](../../campus/LIVING_PRODUCT.md).  
 Chat → repo map: [../../campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md](../../campus/DESIGN_CAPTURE_LIVING_UNIVERSITY.md).
 
+## Born in prep
+
+The warehouse is filled **during** interview prep, not in a separate “write the university later” track. Parallel tracks are normal. Mode A close → [../workflows/persist-learning-session.md](../workflows/persist-learning-session.md). Delivery planes (GitHub · Docsify · RAG intent): [knowledge-access.md](knowledge-access.md).
+
 ## Related
 
 - [../constitution.md](../constitution.md)
 - [content-philosophy.md](content-philosophy.md)
 - [chapter-shape.md](chapter-shape.md)
 - [source-of-truth.md](source-of-truth.md)
+- [knowledge-access.md](knowledge-access.md)
 - [knowledge-graph.md](knowledge-graph.md)

@@ -88,6 +88,8 @@ Not every chapter needs every block. Together they form the **Engineering Builde
 | Block | Intent | Typical markup |
 |-------|--------|----------------|
 | **Cold open** | Intrigue before definition | First section / scene |
+| **Life analogy** | Durable mental model (plant, warehouse, post…) | Inside **Ментальная модель** / Интуиция |
+| **Wrong models** | Explicit ❌ → ✅ myths | Section **Ошибочные модели** |
 | **Engineering Axiom** | Rare, durable principle (~30–40 across the whole university) | `<aside class="eu-axiom">` |
 | **Spine diagram** | One vertical map of the idea; reuse in the module | Mermaid / figure; highlight “you are here” later |
 | **New model** | Explicit before → after | Table or two columns |
@@ -123,16 +125,16 @@ Default study exit for Path Beta: **Level 1–2**. Level 3 is not fake completen
 Local RU headings: [chapter-shape.md](chapter-shape.md). Pedagogy order:
 
 ```text
-Emotional / concrete open
-  → Problem
-  → Why it appeared (history short — pain, not name list)
-  → Idea
-  → How it works
-  → Abstractions (cost of hiding)
+Problem
+  → History (pain)
+  → Analogy (life)
+  → Architecture (CS model)
+  → Implementation (Swift/iOS illustration)
   → Production bridge
+  → Wrong mental models
   → Interview projection
   → Practice
-  → Mental model before → after
+  → Mental-model reflection (before → after)
   → Next chapter (graph)
 ```
 
@@ -141,13 +143,17 @@ Emotional / concrete open
 | Cold open | Create desire to continue |
 | Problem / why | Align title with real question |
 | History | Show the idea is earned, not fashionable |
-| Idea / how | Mechanism without API tourism |
-| Abstractions | Teach cost of hiding |
+| Analogy | Make the model unforgettable; survives API churn |
+| Architecture / how | Mechanism without API tourism |
+| Implementation | Swift/iOS as illustration |
 | Production | Bind to real engineering |
+| Wrong models | Kill dictionary myths early |
 | Interview | Projection, not a second textbook |
 | Practice | Force the model to move |
-| Mental model | Prove the chapter changed thinking |
+| Reflection | Prove the chapter changed thinking |
 | Next | Keep the graph alive |
+
+**Analogy depth test:** no durable life analogy + causal history → chapter not ready ([chapter-shape](chapter-shape.md) § Ментальная модель).
 
 Flagship chapters should also carry:
 

@@ -2,8 +2,11 @@
 
 ## Materials
 
-- Notes: [Why-Not-All-Weak](notes/Why-Not-All-Weak.md) — шпаргалка: почему нельзя сделать все ссылки `weak`
+- Notes: [Why-Not-All-Weak](notes/Why-Not-All-Weak.md) — почему нельзя сделать все ссылки `weak`
+- Notes: [Memory Leak](notes/Memory-Leak.md) — чем опасна утечка · retain cycle · weak/unowned · как искать
 - Playgrounds: [ARCAdvanced.playground](ARCAdvanced.playground) (retain cycles, `Task`, Combine) · [ARCCompileTimeVsRuntime.playground](ARCCompileTimeVsRuntime.playground) · [HHMemoryLayout.playground](HHMemoryLayout.playground)
+- Tools: [Debug & Instruments](../../quality/debug/) — Leaks · Memory Graph
+- Foundation why: [Why Heap appeared](../../fundamentals/why-heap-appeared/)
 
 ## Topic structure
 
@@ -181,7 +184,7 @@ Interview Q&A below.
 ### Q46
 - **Question:** Stack vs heap?
 
-- **Answer:** Stack holds per-call frames; heap holds longer-lived reference types and dynamic buffers—ARC manages class lifetime.
+- **Answer:** Foundation: [Why Heap appeared](../../fundamentals/why-heap-appeared/) — Stack lifetime matches the function/frame; Heap lifetime is independent of the creating function (not “long-lived objects” as a definition). Swift: reference types and many dynamic buffers live on the Heap; ARC manages class lifetime. Value types are often stack-friendly but may use Heap-backed CoW storage.
 
 ### Q47
 - **Question:** Objective-C `weak` vs `assign`—what do they do?

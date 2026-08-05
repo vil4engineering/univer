@@ -42,20 +42,20 @@
 Не гейт для библиотеки и не обязательный ритуал Тимура. Если идёшь Path Alpha:
 
 ```text
-pulse → topic dive → questions → write-back topic (+ code/playground/lab link) → mock → Evidence
+pulse → topic dive → questions → learning-session extract → persist-learning-session → mock → Evidence
 ```
 
 1. Назови **Path + Stage + Level** (1 / 2 / 3) и канонический topic.  
 2. Сформулируй **fundamental why** темы (не только «что такое X») — [chapter-shape](../.ai/principles/chapter-shape.md) · [content-philosophy](../.ai/principles/content-philosophy.md).  
 3. Сначала: что уже есть в University (improve, не дублировать).  
 4. Deep dive как **история проблемы → идея → реализации → trade-offs**, не справочник API.  
-5. Вопросы / open gaps (на странице темы ответы можно оставить пустыми до chat/mock).  
-6. **Write-back в topic:** конспект по секциям главы + код/playground/lab link + блок **Рефлексия** (что сдвинулось в ментальной модели).  
-7. Mock + строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary.
+5. Curated extract в [`.author/learning-sessions/`](../.author/learning-sessions/) (не полный dump чата).  
+6. **Close:** [persist-learning-session](../.ai/workflows/persist-learning-session.md) — 5 артефактов. **Block close:** обновить [Prep Map](../.author/prep-map.md) (chain · мысли · 2 строки). **Pulse:** session ± точечный write-back.  
+7. Mock + строка в Progress log Path ([alpha.md](paths/alpha.md)) — Status, Confidence, Evidence summary (опциональная телеметрия).
 
-Warehouse не обязан быть «заполнен». Заполняем **недостающее под текущую подготовку**. Incremental fill: [OPERATING_MODES.md](OPERATING_MODES.md).
+Warehouse не обязан быть «заполнен». Параллельные треки нормальны. Incremental fill: [OPERATING_MODES.md](OPERATING_MODES.md) · [knowledge-access](../.ai/principles/knowledge-access.md).
 
-Без write-back Path-урок (Mode A) не считается завершённым. Протокол: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).  
+Без persist / write-back Path-урок (Mode A) не считается завершённым. Протокол: [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md).  
 Чтение Living-главы из библиотеки **не** требует Path write-back.
 
 ---

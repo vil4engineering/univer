@@ -82,7 +82,8 @@ Align headings with [chapter-shape.md](chapter-shape.md). Depth = Levels 1–3.
    Matches constitution rule 5. Fundamental question in Learning Metadata; H1 invites.
 
 5. **Each chapter must change the reader’s mental model.**  
-   End with an explicit reflection (see below). Memorizing definitions is not the goal.
+   End with an explicit reflection (see below). Memorizing definitions is not the goal.  
+   Past stub: structured **Ментальная модель** (life analogy + causal history) and **Ошибочные модели** — [chapter-shape.md](chapter-shape.md). If you cannot teach via analogy, you do not understand it deeply enough yet.
 
 6. **Story over encyclopedia.**  
    Ban reference-manual chapter bodies. Narrative that makes the next section worth opening. Facts still must be accurate.  

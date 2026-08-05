@@ -12,7 +12,9 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 ## Fundamentals
 
 - [What Is Programming?](../../fundamentals/what-is-programming/) — `fundamentals/what-is-programming/`
+- [Literal Executor](../../fundamentals/literal-executor/) — `fundamentals/literal-executor/`
 - [Computer Science](../../fundamentals/computer-science/) — `fundamentals/computer-science/`
+- [Why Heap Appeared](../../fundamentals/why-heap-appeared/) — `fundamentals/why-heap-appeared/`
 - [OS & Networks](../../fundamentals/os-and-networks/) — `fundamentals/os-and-networks/`
 - [Git & Code Review](../../fundamentals/git/) — `fundamentals/git/`
 - [CLI & Terminal](../../fundamentals/cli/) — `fundamentals/cli/`
@@ -20,6 +22,7 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 
 ## Swift
 
+- [Why Swift Exists](../../swift/what-is-swift/) — `swift/what-is-swift/`
 - [Syntax & Idioms](../../swift/syntax/) — `swift/syntax/`
 - [Protocols](../../swift/protocols/) — `swift/protocols/`
 - [Types & Generics](../../swift/types-generics/) — `swift/types-generics/`
@@ -104,6 +107,7 @@ Many warehouse pages are still EN-heavy (language debt) until rewritten on the P
 - [12 · Apple Intelligence](../../ai-engineering/apple-intelligence/) — `ai-engineering/apple-intelligence/`
 - [13 · Dynamic Profiles](../../ai-engineering/dynamic-profiles/) — `ai-engineering/dynamic-profiles/`
 - [14 · Evaluations](../../ai-engineering/evaluations/) — `ai-engineering/evaluations/`
+- [Accompanying materials](../../ai-engineering/materials/) — `ai-engineering/materials/`
 
 ## Curated
 

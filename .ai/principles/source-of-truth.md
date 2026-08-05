@@ -43,8 +43,11 @@ If two explanations disagree:
 2. Merge facts into one page; delete or stub the duplicate with a redirect link.
 3. Update all projections to reference the survivor.
 
+Delivery planes and prep write-back sinks: [knowledge-access.md](knowledge-access.md).
+
 ## Related
 
 - [knowledge-graph.md](knowledge-graph.md)
+- [knowledge-access.md](knowledge-access.md)
 - [../constitution.md](../constitution.md)
 - [../roles/architect.md](../roles/architect.md)

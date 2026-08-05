@@ -8,6 +8,7 @@ TOPIC_TREE = {
             "what-is-programming": "What Is Programming?",
             "literal-executor": "Literal Executor",
             "computer-science": "Computer Science",
+            "why-heap-appeared": "Why Heap Appeared",
             "os-and-networks": "OS & Networks",
             "git": "Git & Code Review",
             "cli": "CLI & Terminal",

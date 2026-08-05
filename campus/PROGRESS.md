@@ -46,6 +46,9 @@ Close high-heat gaps first during full-time mode.
 
 Track Path Alpha topics in [paths/alpha.md](paths/alpha.md) progress log.
 
+**Interview Prep Map** (Mode A blitz draft — connectivity, not Evidence): [`.author/prep-map.md`](../.author/prep-map.md).  
+Prep Map ✅ ≠ `interview_ready` / `mastered`. Heat and Evidence rules on this page still win for Path gates.
+
 Later: per-topic YAML/front matter or `campus/registry/` — only when markdown tables hurt.
 
 ## Metric
